@@ -1,14 +1,6 @@
 {
   "pages": [
-    { "id": "start", "name": "Papillon Component Explorer" },
-    { "id": "alerts", "name": "Papillon Alerts Component Explorer" },
-    { "id": "avatars", "name": "Papillon Avatars Component Explorer" },
-    { "id": "blankslate", "name": "Papillon Blankslate Component Explorer" },
-    { "id": "breadcrumb", "name": "Papillon Breadcrumb Component Explorer" },
-    { "id": "buttons", "name": "Papillon Buttons Component Explorer" },
-    { "id": "labels", "name": "Papillon Labels Component Explorer" },
-    { "id": "layout", "name": "Papillon Layout Utilities Explorer" },
-    { "id": "navigation", "name": "Papillon Navigation Component Explorer" },
-    { "id": "not-found", "name": "Papillon Page Not Found" }
+    { "id": "start", "name": "Papillon Ads Holland" },
+    { "id": "not-found", "name": "Papillon Ads Page Not Found" }
   ]
 }
