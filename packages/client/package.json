@@ -1,14 +1,14 @@
 {
-  "name": "papillon-explorer-client",
-  "version": "0.0.8",
-  "description": "Papillon Explorer Client",
+  "name": "papillonads.nl-client",
+  "version": "0.0.0",
+  "description": "Papillon Ads Holland Client",
   "main": "index.js",
   "license": "MIT",
   "files": [
     "build"
   ],
   "keywords": [
-    "papillon explorer client"
+    "papillon ads holland client"
   ],
   "author": {
     "name": "MTS",

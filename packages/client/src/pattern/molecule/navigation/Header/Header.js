@@ -16,7 +16,7 @@ const Header = ({ children }) => (
         <a
           href="https://github.com/mts/papillon-explorer"
           className="border-gray-dark no-underline text-white"
-          aria-label="Papillon Explorer"
+          aria-label="Papillon Ads Holland"
         >
           <svg
             height="28"
