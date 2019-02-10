@@ -1,7 +1,7 @@
 {
-  "name": "papillon-explorer",
-  "description": "Papillon Explorer",
-  "repository": "https://github.com/mts/papillon-explorer",
+  "name": "papillonads",
+  "description": "Papillon Ads",
+  "repository": "https://github.com/papillonads/papillonads.nl",
   "license": "MIT",
   "husky": {
     "hooks": {
