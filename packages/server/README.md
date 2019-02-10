@@ -1,10 +1,10 @@
-# Streams Server
+# papillonads.nl Server
 
-[![version](https://img.shields.io/npm/v/papillon-explorer-server.svg?style=flat-square)](http://npm.im/papillon-explorer-server)
-[![downloads](https://img.shields.io/npm/dm/papillon-explorer-server.svg?style=flat-square)](http://npm-stat.com/charts.html?package=papillon-explorer-server&from=2018-10-13)
-[![MIT License](https://img.shields.io/npm/l/papillon-explorer-server.svg?style=flat-square)](http://opensource.org/licenses/MIT)
+[![version](https://img.shields.io/npm/v/papillonads.nl-server.svg?style=flat-square)](http://npm.im/papillonads.nl-server)
+[![downloads](https://img.shields.io/npm/dm/papillonads.nl-server.svg?style=flat-square)](http://npm-stat.com/charts.html?package=papillonads.nl-server&from=2018-10-13)
+[![MIT License](https://img.shields.io/npm/l/papillonads.nl-server.svg?style=flat-square)](http://opensource.org/licenses/MIT)
 
-> Streams Server implements an Apollo GraphQL Server
+> papillonads.nl Server implements an Apollo GraphQL Server
 
 ## Scripts
 

@@ -1,14 +1,14 @@
 {
-  "name": "papillon-explorer-server",
-  "version": "0.0.8",
-  "description": "Papillon Explorer Server",
+  "name": "papillonads.nl-server",
+  "version": "0.0.0",
+  "description": "Papillon Ads Holland Server",
   "main": "index.js",
   "license": "MIT",
   "files": [
     "src"
   ],
   "keywords": [
-    "papillon explorer server"
+    "papillon ads holland server"
   ],
   "scripts": {
     "start": "nodemon src/index.js",
