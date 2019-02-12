@@ -1,5 +1,7 @@
 <p align="center">
   <img width="300px" src="/logo-papillon.png">
+</p>
+<p align="center">
   <img width="300px" src="/logo-ads.png">
 </p>
 
