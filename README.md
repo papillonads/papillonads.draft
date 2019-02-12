@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="300px" src="/logo-papillon-ads.png">
+  <img width="300px" src="/logo-papillonads.nl.png">
 </p>
 
 <h1 align="center">Papillon Ads Holland</h1>
