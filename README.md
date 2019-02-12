@@ -17,7 +17,3 @@
 ## Server
 
 - Apollo GraphQL Server running at https://papillonads.nl-server.herokuapp.com/
-
-## License
-
-[MIT](./LICENSE) &copy; [MTS](https://github.com/mts)
