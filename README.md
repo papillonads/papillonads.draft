@@ -1,4 +1,5 @@
 <p align="center">
+  <img width="300px" src="/logo-papillon.png">
   <img width="300px" src="/logo-ads.png">
 </p>
 
