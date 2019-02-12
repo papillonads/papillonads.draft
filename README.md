@@ -12,8 +12,12 @@
 
 ## Client
 
-- Apollo GraphQL Client running at https://mts.github.io/papillonads.nl/
+- Apollo GraphQL Client
+  - deployed to and running at https://papillonads.github.io/papillonads.nl/
 
 ## Server
 
-- Apollo GraphQL Server running at https://papillonads.nl-server.herokuapp.com/
+- Apollo GraphQL Server
+  - deployed to https://dashboard.heroku.com/apps/papillonads-nl-server
+  - running at https://papillonads-nl-server.herokuapp.com/
+  - Apollo Engine registers service at https://engine.apollographql.com/service/papillonads-nl-server/
