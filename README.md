@@ -6,10 +6,6 @@
 
 <p align="center">papillonads.nl website</p>
 
-## Status
-
-**⚠️ This project is a work in progress and is not ready for production use yet!**
-
 ## Client
 
 - Apollo GraphQL Client
