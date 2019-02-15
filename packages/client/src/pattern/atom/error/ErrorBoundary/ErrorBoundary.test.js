@@ -1,9 +1,9 @@
-import errorBoundaryDefault from './ErrorBoundary.render'
+import defaultRender from './ErrorBoundary.render'
 
 describe('<ErrorBoundary />', () => {
   describe('Snaphot', () => {
-    test('must match errorBoundaryDefault', () => {
-      expect(global.renderToJSON(errorBoundaryDefault)).toMatchSnapshot()
+    test('must match defaultRender', () => {
+      expect(global.renderToJSON(defaultRender)).toMatchSnapshot()
     })
   })
 })
