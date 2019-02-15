@@ -1,6 +1,6 @@
 import React from 'react'
 import StartPage from './StartPage'
 
-const startPageDefault = <StartPage />
+const defaultRender = <StartPage />
 
-export default startPageDefault
+export { defaultRender }

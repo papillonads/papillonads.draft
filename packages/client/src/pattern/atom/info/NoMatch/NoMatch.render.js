@@ -7,6 +7,6 @@ const props = {
   },
 }
 
-const noMatchDefault = <NoMatch {...props} />
+const defaultRender = <NoMatch {...props} />
 
-export default noMatchDefault
+export { defaultRender }

@@ -24,10 +24,10 @@ const route = {
   ],
 }
 
-const routeWithSubRoutesDefault = (
+const defaultRender = (
   <BrowserRouter>
     <RouteWithSubRoutes {...route} />
   </BrowserRouter>
 )
 
-export default routeWithSubRoutesDefault
+export default defaultRender

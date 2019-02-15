@@ -3,10 +3,10 @@ import ErrorBoundary from './ErrorBoundary'
 
 const SomeComponent = () => <div />
 
-const errorBoundaryDefault = (
+const defaultRender = (
   <ErrorBoundary>
     <SomeComponent />
   </ErrorBoundary>
 )
 
-export default errorBoundaryDefault
+export { defaultRender }
