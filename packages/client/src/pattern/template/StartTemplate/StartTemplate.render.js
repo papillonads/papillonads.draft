@@ -8,6 +8,6 @@ const page = {
   },
 }
 
-const startTemplateDefault = <StartTemplate page={page} />
+const defaultRender = <StartTemplate page={page} />
 
-export { startTemplateDefault }
+export { defaultRender }

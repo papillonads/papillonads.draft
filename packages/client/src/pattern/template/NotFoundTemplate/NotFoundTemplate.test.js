@@ -1,5 +1,5 @@
 import React from 'react'
-import notFoundTemplateDefault from './NotFoundTemplate.render'
+import defaultRender from './NotFoundTemplate.render'
 
 jest.mock('react-router-dom', () => {
   return {
@@ -9,8 +9,8 @@ jest.mock('react-router-dom', () => {
 
 describe('<NotFoundTemplate />', () => {
   describe('Snaphot', () => {
-    test('must match notFoundTemplateDefault', () => {
-      expect(global.renderToJSON(notFoundTemplateDefault)).toMatchSnapshot()
+    test('must match defaultRender', () => {
+      expect(global.renderToJSON(defaultRender)).toMatchSnapshot()
     })
   })
 })

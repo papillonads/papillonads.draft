@@ -1,11 +1,7 @@
 import { storiesOf } from '@storybook/react'
-import { notFoundTemplateDefault } from './NotFoundTemplate.render'
+import { defaultRender } from './NotFoundTemplate.render'
 import { getInfo } from '../../../../../../.storybook/utility'
 
-const notFoundTemplateDefaultInfo = getInfo('default')
+const defaultRenderInfo = getInfo('default')
 
-storiesOf('Patttern/Template/NotFoundTemplate', module).add(
-  notFoundTemplateDefaultInfo.text,
-  () => notFoundTemplateDefault,
-  notFoundTemplateDefaultInfo.parameters,
-)
+storiesOf('Patttern/Template/NotFoundTemplate', module).add(defaultRenderInfo.text, () => defaultRender, defaultRenderInfo.parameters)

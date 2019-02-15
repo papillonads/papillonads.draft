@@ -1,5 +1,5 @@
 import React from 'react'
-import startPageDefault from './StartPage.render'
+import defaultRender from './StartPage.render'
 
 jest.mock('react-apollo', () => {
   return {
@@ -9,8 +9,8 @@ jest.mock('react-apollo', () => {
 
 describe('<StartPage />', () => {
   describe('Snaphot', () => {
-    test('must match startPageDefault', () => {
-      expect(global.renderToJSON(startPageDefault)).toMatchSnapshot()
+    test('must match defaultRender', () => {
+      expect(global.renderToJSON(defaultRender)).toMatchSnapshot()
     })
   })
 })

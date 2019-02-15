@@ -1,11 +1,7 @@
 import { storiesOf } from '@storybook/react'
-import { notFoundPageDefault } from './NotFoundPage.render'
+import { defaultRender } from './NotFoundPage.render'
 import { getInfo } from '../../../../../../.storybook/utility'
 
-const notFoundPageDefaultInfo = getInfo('default')
+const defaultRenderInfo = getInfo('default')
 
-storiesOf('Patttern/Page/NotFoundPage', module).add(
-  notFoundPageDefaultInfo.text,
-  () => notFoundPageDefault,
-  notFoundPageDefaultInfo.parameters,
-)
+storiesOf('Patttern/Page/NotFoundPage', module).add(defaultRenderInfo.text, () => defaultRender, defaultRenderInfo.parameters)

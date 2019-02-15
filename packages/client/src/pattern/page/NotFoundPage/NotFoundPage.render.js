@@ -7,6 +7,6 @@ const props = {
   },
 }
 
-const notFoundPageDefault = <NotFoundPage {...props} />
+const defaultRender = <NotFoundPage {...props} />
 
-export { notFoundPageDefault }
+export { defaultRender }
