@@ -9,4 +9,4 @@ const underConstructionDefault = (
   </UnderConstruction>
 )
 
-export default underConstructionDefault
+export { underConstructionDefault }
