@@ -3,7 +3,7 @@ export const getInfo = text => {
     text,
     parameters: {
       info: text,
-      notes: `Must render ${text}`,
+      notes: `Must render "${text}" flavour`,
     },
   }
 }
