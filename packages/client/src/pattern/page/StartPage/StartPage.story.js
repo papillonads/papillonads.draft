@@ -1,7 +1,7 @@
 import { storiesOf } from '@storybook/react'
-import { startPageDefault } from './StartPage.render'
+import { defaultRender } from './StartPage.render'
 import { getInfo } from '../../../../../../.storybook/utility'
 
-const startPageDefaultInfo = getInfo('StartPage default')
+const defaultRenderInfo = getInfo('default')
 
-storiesOf('Patttern/Page/StartPage', module).add(startPageDefaultInfo.text, () => startPageDefault, startPageDefaultInfo.parameters)
+storiesOf('Patttern/Page/StartPage', module).add(defaultRenderInfo.text, () => defaultRender, defaultRenderInfo.parameters)

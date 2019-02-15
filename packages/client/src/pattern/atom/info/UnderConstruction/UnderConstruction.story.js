@@ -1,11 +1,7 @@
 import { storiesOf } from '@storybook/react'
-import { underConstructionDefault } from './UnderConstruction.render'
+import { defaultRender } from './UnderConstruction.render'
 import { getInfo } from '../../../../../../../.storybook/utility'
 
-const underConstructionDefaultInfo = getInfo('UnderConstruction default')
+const defaultRenderInfo = getInfo('default')
 
-storiesOf('Patttern/Atom/Info/UnderConstruction', module).add(
-  underConstructionDefaultInfo.text,
-  () => underConstructionDefault,
-  underConstructionDefaultInfo.parameters,
-)
+storiesOf('Patttern/Atom/Info/UnderConstruction', module).add(defaultRenderInfo.text, () => defaultRender, defaultRenderInfo.parameters)

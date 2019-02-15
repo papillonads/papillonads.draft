@@ -1,5 +1,5 @@
 import React from 'react'
-import notFoundPageDefault from './NotFoundPage.render'
+import defaultRender from './NotFoundPage.render'
 
 jest.mock('react-apollo', () => {
   return {
@@ -9,8 +9,8 @@ jest.mock('react-apollo', () => {
 
 describe('<NotFoundPage />', () => {
   describe('Snaphot', () => {
-    test('must match notFoundPageDefault', () => {
-      expect(global.renderToJSON(notFoundPageDefault)).toMatchSnapshot()
+    test('must match defaultRender', () => {
+      expect(global.renderToJSON(defaultRender)).toMatchSnapshot()
     })
   })
 })
