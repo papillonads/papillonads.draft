@@ -3,4 +3,4 @@ import StartPage from './StartPage'
 
 const startPageDefault = <StartPage />
 
-export default startPageDefault
+export { startPageDefault }
