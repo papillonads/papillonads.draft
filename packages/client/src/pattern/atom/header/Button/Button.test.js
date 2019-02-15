@@ -1,9 +1,9 @@
-import buttonDefault from './Button.render'
+import defaultRender from './Button.render'
 
 describe('<Button />', () => {
   describe('Snaphot', () => {
-    test('must match buttonDefault', () => {
-      expect(global.renderToJSON(buttonDefault)).toMatchSnapshot()
+    test('must match defaultRender', () => {
+      expect(global.renderToJSON(defaultRender)).toMatchSnapshot()
     })
   })
 })
