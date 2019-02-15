@@ -9,4 +9,4 @@ const props = {
 
 const noMatchDefault = <NoMatch {...props} />
 
-export default noMatchDefault
+export { noMatchDefault }
