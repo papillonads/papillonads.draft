@@ -10,4 +10,4 @@ const page = {
 
 const startTemplateDefault = <StartTemplate page={page} />
 
-export default startTemplateDefault
+export { startTemplateDefault }
