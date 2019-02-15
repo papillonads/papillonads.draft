@@ -9,4 +9,4 @@ const props = {
 
 const notFoundPageDefault = <NotFoundPage {...props} />
 
-export default notFoundPageDefault
+export { notFoundPageDefault }
