@@ -1,6 +1,6 @@
 import React from 'react'
 import Header from './Header'
 
-const headerDefault = <Header />
+const defaultRender = <Header />
 
-export { headerDefault }
+export { defaultRender }

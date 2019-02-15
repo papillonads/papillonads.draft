@@ -1,9 +1,9 @@
-import headerDefault from './Header.render'
+import defaultRender from './Header.render'
 
 describe('<Header />', () => {
   describe('Snaphot', () => {
-    test('must match headerDefault', () => {
-      expect(global.renderToJSON(headerDefault)).toMatchSnapshot()
+    test('must match defaultRender', () => {
+      expect(global.renderToJSON(defaultRender)).toMatchSnapshot()
     })
   })
 })

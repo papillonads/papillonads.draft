@@ -1,9 +1,9 @@
-import navigationBarDefault from './NavigationBar.render'
+import defaultRender from './NavigationBar.render'
 
 describe('<NavigationBar />', () => {
   describe('Snaphot', () => {
-    test('must match navigationBarDefault', () => {
-      expect(global.renderToJSON(navigationBarDefault)).toMatchSnapshot()
+    test('must match defaultRender', () => {
+      expect(global.renderToJSON(defaultRender)).toMatchSnapshot()
     })
   })
 })

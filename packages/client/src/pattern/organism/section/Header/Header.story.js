@@ -1,7 +1,7 @@
 import { storiesOf } from '@storybook/react'
-import { headerDefault } from './Header.render'
+import { defaultRender } from './Header.render'
 import { getInfo } from '../../../../../../../.storybook/utility'
 
-const headerDefaultInfo = getInfo('default')
+const defaultRenderInfo = getInfo('default')
 
-storiesOf('Patttern/Organism/Section/Header', module).add(headerDefaultInfo.text, () => headerDefault, headerDefaultInfo.parameters)
+storiesOf('Patttern/Organism/Section/Header', module).add(defaultRenderInfo.text, () => defaultRender, defaultRenderInfo.parameters)

@@ -1,9 +1,9 @@
-import searchBarDefault from './SearchBar.render'
+import defaultRender from './SearchBar.render'
 
 describe('<SearchBar />', () => {
   describe('Snaphot', () => {
-    test('must match searchBarDefault', () => {
-      expect(global.renderToJSON(searchBarDefault)).toMatchSnapshot()
+    test('must match defaultRender', () => {
+      expect(global.renderToJSON(defaultRender)).toMatchSnapshot()
     })
   })
 })

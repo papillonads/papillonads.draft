@@ -1,6 +1,6 @@
 import React from 'react'
 import NavigationBar from './NavigationBar'
 
-const navigationBarDefault = <NavigationBar />
+const defaultRender = <NavigationBar />
 
-export { navigationBarDefault }
+export { defaultRender }
