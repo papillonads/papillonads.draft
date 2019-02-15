@@ -4,7 +4,7 @@ import { getInfo } from '../../../../../../.storybook/utility'
 
 const notFoundPageDefaultInfo = getInfo('NotFoundPage default')
 
-storiesOf('Patttern/Atom/Info/NotFoundPage', module).add(
+storiesOf('Patttern/Page/NotFoundPage', module).add(
   notFoundPageDefaultInfo.text,
   () => notFoundPageDefault,
   notFoundPageDefaultInfo.parameters,
