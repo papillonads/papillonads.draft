@@ -1,9 +1,9 @@
-import noMatchDefault from './NoMatch.render'
+import defaultRender from './NoMatch.render'
 
 describe('<NoMatch />', () => {
   describe('Snaphot', () => {
-    test('must match noMatchDefault', () => {
-      expect(global.renderToJSON(noMatchDefault)).toMatchSnapshot()
+    test('must match defaultRender', () => {
+      expect(global.renderToJSON(defaultRender)).toMatchSnapshot()
     })
   })
 })

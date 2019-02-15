@@ -1,9 +1,9 @@
-import underConstructionDefault from './UnderConstruction.render'
+import defaultRender from './UnderConstruction.render'
 
 describe('<UnderConstruction />', () => {
   describe('Snaphot', () => {
-    test('must match underConstructionDefault', () => {
-      expect(global.renderToJSON(underConstructionDefault)).toMatchSnapshot()
+    test('must match defaultRender', () => {
+      expect(global.renderToJSON(defaultRender)).toMatchSnapshot()
     })
   })
 })
