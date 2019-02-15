@@ -4,6 +4,8 @@ import { withInfo } from '@storybook/addon-info'
 import { withNotes } from '@storybook/addon-notes'
 import { withOptions } from '@storybook/addon-options'
 import { version } from '../lerna.json'
+import { ApolloProvider } from 'react-apollo'
+import client from '../packages/client/src/graphql/client'
 
 const setup = () => {
   addDecorator(withInfo)
@@ -18,6 +20,8 @@ const setup = () => {
   )
 
   addDecorator(story => <div className="p-4">{story()}</div>)
+
+  addDecorator(story => <ApolloProvider client={client}>{story()}</ApolloProvider>)
 
   const contexts = [require.context('../packages/client/src', true, /story*\.js$/)]
 
