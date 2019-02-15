@@ -1,6 +1,6 @@
-import defaultRender from './Header.render'
+import defaultRender from './Label.render'
 
-describe('<Header />', () => {
+describe('<Label />', () => {
   describe('Snaphot', () => {
     test('must match defaultRender', () => {
       expect(global.renderToJSON(defaultRender)).toMatchSnapshot()
