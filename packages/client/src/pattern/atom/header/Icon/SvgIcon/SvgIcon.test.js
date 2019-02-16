@@ -12,9 +12,9 @@ import {
   userPlusRender,
   userMinusRender,
   userCheckRender,
-} from './Icon.render'
+} from './SvgIcon.render'
 
-describe('<Icon />', () => {
+describe('<SvgIcon />', () => {
   describe('Snaphot', () => {
     test('must match pushpinRender', () => {
       expect(global.renderToJSON(pushpinRender)).toMatchSnapshot()

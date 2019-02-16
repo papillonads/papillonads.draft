@@ -13,8 +13,8 @@ import {
   userPlusRender,
   userMinusRender,
   userCheckRender,
-} from './Icon.render'
-import { getInfo } from '../../../../../../../.storybook/utility'
+} from './SvgIcon.render'
+import { getInfo } from '../../../../../../../../.storybook/utility'
 
 const pushpinRenderInfo = getInfo('pushpin')
 const bellRenderInfo = getInfo('bell')
@@ -30,7 +30,7 @@ const userPlusRenderInfo = getInfo('user-plus')
 const userMinusRenderInfo = getInfo('user-minus')
 const userCheckRenderInfo = getInfo('user-check')
 
-storiesOf('Patttern/Atom/Header/Icon', module)
+storiesOf('Patttern/Atom/Header/Icon/SvgIcon', module)
   .add(pushpinRenderInfo.text, () => pushpinRender, pushpinRenderInfo.parameters)
   .add(bellRenderInfo.text, () => bellRender, bellRenderInfo.parameters)
   .add(bubbleRenderInfo.text, () => bubbleRender, bubbleRenderInfo.parameters)

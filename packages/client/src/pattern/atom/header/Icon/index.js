@@ -1,3 +1,4 @@
-import Icon from './Icon'
+import SvgIcon from './SvgIcon'
+import SvgIconGroup from './SvgIconGroup'
 
-export default Icon
+export { SvgIcon, SvgIconGroup }
