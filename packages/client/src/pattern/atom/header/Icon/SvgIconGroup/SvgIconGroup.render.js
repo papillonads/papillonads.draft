@@ -1,21 +1,17 @@
 import React from 'react'
 import SvgIconGroup from './SvgIconGroup'
+import {
+  logoRenderProps,
+  messagesRenderProps,
+  notificationRenderProps,
+  notificationGreyRenderProps,
+  profileRenderProps,
+  pinRenderProps,
+} from './SvgIconGroup.render.props'
 
-const logoProps = {
-  name: 'logo',
-  width: '528',
-  height: '96',
-  viewBox: '0 0 528 96',
-  pathProps: [{ fill: '#2D3C4D' }, { fill: '#EEA566' }, { fill: '#2D3C4D' }],
-}
-
-const messagesProps = {
-  name: 'messages',
-  width: '96',
-  height: '96',
-  viewBox: '0 0 96 96',
-  pathProps: [],
-}
-
-export const logoRender = <SvgIconGroup {...logoProps} />
-export const messagesRender = <SvgIconGroup {...messagesProps} />
+export const logoRender = <SvgIconGroup {...logoRenderProps} />
+export const messagesRender = <SvgIconGroup {...messagesRenderProps} />
+export const notificationRender = <SvgIconGroup {...notificationRenderProps} />
+export const notificationGreyRender = <SvgIconGroup {...notificationGreyRenderProps} />
+export const profileRender = <SvgIconGroup {...profileRenderProps} />
+export const pinRender = <SvgIconGroup {...pinRenderProps} />
