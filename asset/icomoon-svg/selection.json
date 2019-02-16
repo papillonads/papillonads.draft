@@ -9,7 +9,10 @@
         "attrs": [],
         "isMulticolor": false,
         "isMulticolor2": false,
-        "tags": ["pushpin", "pin"],
+        "tags": [
+          "pushpin",
+          "pin"
+        ],
         "defaultCode": 59718,
         "grid": 16
       },
@@ -33,7 +36,11 @@
         "attrs": [],
         "isMulticolor": false,
         "isMulticolor2": false,
-        "tags": ["bell", "alarm", "notification"],
+        "tags": [
+          "bell",
+          "alarm",
+          "notification"
+        ],
         "defaultCode": 59729,
         "grid": 16
       },
@@ -57,7 +64,12 @@
         "attrs": [],
         "isMulticolor": false,
         "isMulticolor2": false,
-        "tags": ["bubble", "comment", "chat", "talk"],
+        "tags": [
+          "bubble",
+          "comment",
+          "chat",
+          "talk"
+        ],
         "defaultCode": 59755,
         "grid": 16
       },
@@ -82,7 +94,12 @@
         "attrs": [],
         "isMulticolor": false,
         "isMulticolor2": false,
-        "tags": ["bubbles", "comments", "chat", "talk"],
+        "tags": [
+          "bubbles",
+          "comments",
+          "chat",
+          "talk"
+        ],
         "defaultCode": 59756,
         "grid": 16
       },
@@ -107,7 +124,12 @@
         "attrs": [],
         "isMulticolor": false,
         "isMulticolor2": false,
-        "tags": ["bubbles", "comments", "chat", "talk"],
+        "tags": [
+          "bubbles",
+          "comments",
+          "chat",
+          "talk"
+        ],
         "defaultCode": 59757,
         "grid": 16
       },
@@ -131,7 +153,12 @@
         "attrs": [],
         "isMulticolor": false,
         "isMulticolor2": false,
-        "tags": ["bubble", "comment", "chat", "talk"],
+        "tags": [
+          "bubble",
+          "comment",
+          "chat",
+          "talk"
+        ],
         "defaultCode": 59758,
         "grid": 16
       },
@@ -156,7 +183,12 @@
         "attrs": [],
         "isMulticolor": false,
         "isMulticolor2": false,
-        "tags": ["bubbles", "comments", "chat", "talk"],
+        "tags": [
+          "bubbles",
+          "comments",
+          "chat",
+          "talk"
+        ],
         "defaultCode": 59759,
         "grid": 16
       },
@@ -181,7 +213,12 @@
         "attrs": [],
         "isMulticolor": false,
         "isMulticolor2": false,
-        "tags": ["bubbles", "comments", "chat", "talk"],
+        "tags": [
+          "bubbles",
+          "comments",
+          "chat",
+          "talk"
+        ],
         "defaultCode": 59760,
         "grid": 16
       },
@@ -205,7 +242,13 @@
         "attrs": [],
         "isMulticolor": false,
         "isMulticolor2": false,
-        "tags": ["user", "profile", "avatar", "person", "member"],
+        "tags": [
+          "user",
+          "profile",
+          "avatar",
+          "person",
+          "member"
+        ],
         "defaultCode": 59761,
         "grid": 16
       },
@@ -231,7 +274,14 @@
         "attrs": [],
         "isMulticolor": false,
         "isMulticolor2": false,
-        "tags": ["users", "group", "team", "members", "community", "collaborate"],
+        "tags": [
+          "users",
+          "group",
+          "team",
+          "members",
+          "community",
+          "collaborate"
+        ],
         "defaultCode": 59762,
         "grid": 16
       },
@@ -257,7 +307,15 @@
         "attrs": [],
         "isMulticolor": false,
         "isMulticolor2": false,
-        "tags": ["user-plus", "user", "user-add", "profile", "avatar", "person", "member"],
+        "tags": [
+          "user-plus",
+          "user",
+          "user-add",
+          "profile",
+          "avatar",
+          "person",
+          "member"
+        ],
         "defaultCode": 59763,
         "grid": 16
       },
@@ -283,7 +341,15 @@
         "attrs": [],
         "isMulticolor": false,
         "isMulticolor2": false,
-        "tags": ["user-minus", "user", "user-remove", "profile", "avatar", "person", "member"],
+        "tags": [
+          "user-minus",
+          "user",
+          "user-remove",
+          "profile",
+          "avatar",
+          "person",
+          "member"
+        ],
         "defaultCode": 59764,
         "grid": 16
       },
@@ -309,7 +375,15 @@
         "attrs": [],
         "isMulticolor": false,
         "isMulticolor2": false,
-        "tags": ["user-check", "user", "user-tick", "profile", "avatar", "person", "member"],
+        "tags": [
+          "user-check",
+          "user",
+          "user-tick",
+          "profile",
+          "avatar",
+          "person",
+          "member"
+        ],
         "defaultCode": 59765,
         "grid": 16
       },
