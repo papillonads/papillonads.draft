@@ -13,6 +13,7 @@ export const svgIconGroupShape = shape({
   name: string.isRequired,
   width: number.isRequired,
   height: number.isRequired,
+  fill: string,
   viewBox: string.isRequired,
   pathProps: arrayOf(
     shape({
