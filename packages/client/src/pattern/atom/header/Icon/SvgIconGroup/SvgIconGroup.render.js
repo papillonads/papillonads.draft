@@ -1,6 +1,12 @@
 import React from 'react'
 import SvgIconGroup from './SvgIconGroup'
 
-export const mp1Render = <SvgIconGroup name={'mp1'} width={300} height={300} fill="#2D3C4D" />
-export const mp2Render = <SvgIconGroup name={'mp2'} width={300} height={300} fill="#EEA566" />
-export const mp3Render = <SvgIconGroup name={'mp3'} width={300} height={300} fill="#2D3C4D" />
+const props = {
+  name: 'logo',
+  width: '528',
+  height: '96',
+  viewBox: '0 0 528 96',
+  pathProps: [{ fill: '#2D3C4D' }, { fill: '#EEA566' }, { fill: '#2D3C4D' }],
+}
+
+export const logoRender = <SvgIconGroup {...props} />

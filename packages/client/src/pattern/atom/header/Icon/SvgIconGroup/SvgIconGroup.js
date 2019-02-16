@@ -1,18 +1,30 @@
 import React from 'react'
-import { svgIconShape } from '../SvgIcon.shape'
-import { getSvgIconPath } from '../../../../../utility/asset'
+import { svgIconGroupShape } from '../SvgIcon.shape'
+import { getSvgIconGroupPaths } from '../../../../../utility/asset'
+import uuidv1 from 'uuid/v1'
 
-const SvgIconGroup = ({ className, name, width, height, fill }) => (
-  <svg fill={fill} width={width} height={height} className={className} viewBox="0 0 1024 1024">
-    <path d={getSvgIconPath(name)} />
-  </svg>
-)
+const SvgIconGroup = ({ className, name, width, height, viewBox, pathProps }) => {
+  const paths = getSvgIconGroupPaths(name)
+
+  if (!(paths && paths.length > 0)) {
+    return null
+  }
+
+  return (
+    <svg className={className} width={width} height={height} viewBox={viewBox}>
+      <g fill="none" fillRule="evenodd">
+        {paths.map((path, index) => {
+          return <path key={uuidv1()} d={paths[index]} fill={pathProps[index].fill} />
+        })}
+      </g>
+    </svg>
+  )
+}
 
 SvgIconGroup.defaultProps = {
   className: '',
-  fill: '',
 }
 
-SvgIconGroup.propTypes = svgIconShape.isRequired
+SvgIconGroup.propTypes = svgIconGroupShape.isRequired
 
 export default SvgIconGroup
