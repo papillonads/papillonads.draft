@@ -1,7 +1,7 @@
 import React from 'react'
 import SvgIconGroup from './SvgIconGroup'
 
-const props = {
+const logoProps = {
   name: 'logo',
   width: '528',
   height: '96',
@@ -9,4 +9,13 @@ const props = {
   pathProps: [{ fill: '#2D3C4D' }, { fill: '#EEA566' }, { fill: '#2D3C4D' }],
 }
 
-export const logoRender = <SvgIconGroup {...props} />
+const messagesProps = {
+  name: 'messages',
+  width: '96',
+  height: '96',
+  viewBox: '0 0 96 96',
+  pathProps: [],
+}
+
+export const logoRender = <SvgIconGroup {...logoProps} />
+export const messagesRender = <SvgIconGroup {...messagesProps} />
