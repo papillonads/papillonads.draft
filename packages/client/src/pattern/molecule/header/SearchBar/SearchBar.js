@@ -1,5 +1,5 @@
 import React from 'react'
-import { shape, string } from 'prop-types'
+import { string } from 'prop-types'
 import cn from 'classnames'
 import styles from './SearchBar.scss'
 
@@ -13,8 +13,8 @@ SearchBar.defaultProps = {
   className: '',
 }
 
-SearchBar.propTypes = shape({
+SearchBar.propTypes = {
   className: string,
-}).isRequired
+}.isRequired
 
 export default SearchBar

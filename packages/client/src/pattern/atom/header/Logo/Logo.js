@@ -1,7 +1,7 @@
 import React from 'react'
-import { shape, string } from 'prop-types'
+import { string } from 'prop-types'
 import cn from 'classnames'
-import styles from './logo.scss'
+import styles from './Logo.scss'
 
 const Logo = ({ className }) => {
   const logoClassList = cn(className, styles.logo)
@@ -13,8 +13,8 @@ Logo.defaultProps = {
   className: '',
 }
 
-Logo.propTypes = shape({
+Logo.propTypes = {
   className: string,
-}).isRequired
+}.isRequired
 
 export default Logo

@@ -1,5 +1,5 @@
 import React from 'react'
-import { shape, string } from 'prop-types'
+import { string } from 'prop-types'
 import cn from 'classnames'
 import styles from './Header.scss'
 import NavigationBar from '../../../molecule/header/NavigationBar'
@@ -20,8 +20,8 @@ Header.defaultProps = {
   className: '',
 }
 
-Header.propTypes = shape({
+Header.propTypes = {
   className: string,
-}).isRequired
+}.isRequired
 
 export default Header
