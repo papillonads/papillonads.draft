@@ -1,17 +1,19 @@
 import React from 'react'
-import { shape, string } from 'prop-types'
+import { string } from 'prop-types'
 import cn from 'classnames'
 import styles from './NavigationBar.scss'
 import Logo from '../../../atom/header/Logo'
 import Links from '../Links'
 
 const NavigationBar = ({ className }) => {
+  const linkItems = [{ text: 'Help en info' }, { text: 'Voorwaarden' }, { text: 'Veilig handelen' }]
+
   const navigationBarClassList = cn(className, styles.navigationBar)
 
   return (
     <div className={navigationBarClassList}>
       <Logo className={styles.logo} />
-      <Links className={styles.links} />
+      <Links className={styles.links} items={linkItems} />
     </div>
   )
 }
@@ -20,8 +22,8 @@ NavigationBar.defaultProps = {
   className: '',
 }
 
-NavigationBar.propTypes = shape({
+NavigationBar.propTypes = {
   className: string,
-}).isRequired
+}.isRequired
 
 export default NavigationBar
