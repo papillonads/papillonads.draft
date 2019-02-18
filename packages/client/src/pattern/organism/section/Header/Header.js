@@ -2,8 +2,8 @@ import React from 'react'
 import { shape, string } from 'prop-types'
 import cn from 'classnames'
 import styles from './Header.scss'
-import NavigationBar from '../../../molecule/header/NavigationBar/NavigationBar'
-import SearchBar from '../../../molecule/header/SearchBar/SearchBar'
+import NavigationBar from '../../../molecule/header/NavigationBar'
+import SearchBar from '../../../molecule/header/SearchBar'
 
 const Header = ({ className }) => {
   const headerClassList = cn(className, styles.header)
