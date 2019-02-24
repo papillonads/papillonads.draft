@@ -4,6 +4,7 @@ import cn from 'classnames'
 import styles from './NavigationBar.scss'
 import Logo from '../../../atom/header/Logo'
 import Links from '../Links'
+import Menu from '../Menu'
 
 const NavigationBar = ({ className }) => {
   const linkItems = [{ text: 'Help en info' }, { text: 'Voorwaarden' }, { text: 'Veilig handelen' }]
@@ -14,6 +15,7 @@ const NavigationBar = ({ className }) => {
     <div className={navigationBarClassList}>
       <Logo className={styles.logo} />
       <Links className={styles.links} items={linkItems} />
+      <Menu className={styles.menu} />
     </div>
   )
 }
