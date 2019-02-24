@@ -1,6 +1,6 @@
-import defaultRender from './MenuItem.render'
+import defaultRender from './Badge.render'
 
-describe('<MenuItem />', () => {
+describe('<Badge />', () => {
   describe('Snaphot', () => {
     test('must match defaultRender', () => {
       expect(global.renderToJSON(defaultRender)).toMatchSnapshot()
