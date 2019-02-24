@@ -1,7 +1,7 @@
 import React from 'react'
 import { svgIconShape } from '../SvgIcon.shape'
 import cn from 'classnames'
-import styles from './Logo.scss'
+import styles from './SvgIcon.scss'
 import { getSvgIconPath } from '../../../../../utility/asset'
 
 const SvgIcon = ({ className, name, width, height, fill }) => {
