@@ -1,3 +1,3 @@
-import Drowdown from './Drowdown'
+import Dropdown from './Dropdown'
 
-export default Drowdown
+export default Dropdown
