@@ -6,7 +6,7 @@ import styles from './Input.scss'
 const Input = ({ className }) => {
   const inputClassList = cn(className, styles.input)
 
-  return <div className={inputClassList}>Logo</div>
+  return <div className={inputClassList}>Input</div>
 }
 
 Input.defaultProps = {
