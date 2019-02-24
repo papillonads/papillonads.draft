@@ -1,17 +1,26 @@
 import React from 'react'
-import { object } from 'prop-types'
+import { string, object } from 'prop-types'
+import cn from 'classnames'
+import styles from './NoMatch.scss'
 
-const NoMatch = ({ location }) => (
-  <React.Fragment>
-    <div>
+const NoMatch = ({ className, location }) => {
+  const noMatchClassList = cn(className, styles.noMatch)
+
+  return (
+    <div className={noMatchClassList}>
       <h3>
         No match for <code>{location.pathname}</code>
       </h3>
     </div>
-  </React.Fragment>
-)
+  )
+}
+
+NoMatch.defaultProps = {
+  className: '',
+}
 
 NoMatch.propTypes = {
+  className: string,
   location: object.isRequired,
 }
 
