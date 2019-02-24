@@ -1,5 +1,20 @@
 import React from 'react'
+import { string } from 'prop-types'
+import cn from 'classnames'
+import styles from './Input.scss'
 
-const Input = () => <div />
+const Input = ({ className }) => {
+  const inputClassList = cn(className, styles.input)
+
+  return <div className={inputClassList}>Logo</div>
+}
+
+Input.defaultProps = {
+  className: '',
+}
+
+Input.propTypes = {
+  className: string,
+}.isRequired
 
 export default Input
