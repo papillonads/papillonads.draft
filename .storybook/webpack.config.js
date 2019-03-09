@@ -2,8 +2,8 @@ const path = require('path')
 const DotEnvPlugin = require('dotenv-webpack')
 const modulesPath = path.resolve(__dirname, '../packages/client/src')
 
-module.exports = (config, env) => {
-  if (env !== 'development') {
+module.exports = ({ config, mode }) => {
+  if (mode !== 'DEVELOPMENT') {
     config.plugins = config.plugins.filter(plugin => plugin.constructor.name !== 'UglifyJsPlugin')
   }
 
