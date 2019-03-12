@@ -1,11 +1,11 @@
 import React from 'react'
 
-const mockRequireStartPage = () => {
-  const startPagePath = '../pattern/page/StartPage'
-  jest.mock(startPagePath, () => {
-    return <div>StartPage</div>
+const mockRequireHomePage = () => {
+  const homePagePath = '../pattern/page/HomePage'
+  jest.mock(homePagePath, () => {
+    return <div>HomePage</div>
   })
-  return require(startPagePath).default
+  return require(homePagePath).default
 }
 
 const mockRequireNotFoundPage = () => {
@@ -20,21 +20,21 @@ const mockRequirePath = () => {
   const pathPath = './path'
   jest.mock(pathPath, () => {
     return {
-      startPagePath: 'some-start-page-path',
+      homePagePath: 'some-home-page-path',
     }
   })
   return require(pathPath)
 }
 
 describe('index', () => {
-  const startPage = mockRequireStartPage()
+  const homePage = mockRequireHomePage()
   const notFoundPage = mockRequireNotFoundPage()
   const path = mockRequirePath()
 
-  const expectedStartPageRoute = {
-    path: path.startPagePath,
+  const expectedHomePageRoute = {
+    path: path.homePagePath,
     exact: true,
-    component: startPage,
+    component: homePage,
   }
 
   const expectedNotFoundPageRoute = {
@@ -45,10 +45,10 @@ describe('index', () => {
     return require('./index')
   }
 
-  describe('startPageRoute', () => {
-    test('must return start page route object', () => {
-      const startPageRoute = requireIndex().startPageRoute
-      expect(startPageRoute).toEqual(expectedStartPageRoute)
+  describe('homePageRoute', () => {
+    test('must return home page route object', () => {
+      const homePageRoute = requireIndex().homePageRoute
+      expect(homePageRoute).toEqual(expectedHomePageRoute)
     })
   })
 
