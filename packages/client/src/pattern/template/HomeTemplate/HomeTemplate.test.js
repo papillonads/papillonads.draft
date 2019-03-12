@@ -1,5 +1,5 @@
 import React from 'react'
-import defaultRender from './StartTemplate.render'
+import defaultRender from './HomeTemplate.render'
 
 jest.mock('react-router-dom', () => {
   return {
@@ -7,7 +7,7 @@ jest.mock('react-router-dom', () => {
   }
 })
 
-describe('<StartTemplate />', () => {
+describe('<HomeTemplate />', () => {
   describe('Snaphot', () => {
     test('must match defaultRender', () => {
       expect(global.renderToJSON(defaultRender)).toMatchSnapshot()
