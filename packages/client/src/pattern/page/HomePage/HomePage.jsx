@@ -12,9 +12,7 @@ const HomePage = ({ className }) => {
   return (
     <div className={homePageClassList}>
       <Query query={PAGES}>
-        {({ data }) =>
-          data.pages && data.pages.pages ? <HomeTemplate page={data.pages.pages.find(page => page.id === 'home')} /> : null
-        }
+        {({ data }) => (data.pages && data.pages.pages ? <HomeTemplate page={data.pages.pages.find(page => page.id === 'home')} /> : null)}
       </Query>
     </div>
   )
