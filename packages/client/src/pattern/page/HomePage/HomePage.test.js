@@ -1,5 +1,5 @@
 import React from 'react'
-import defaultRender from './StartPage.render'
+import defaultRender from './HomePage.render'
 
 jest.mock('react-apollo', () => {
   return {
@@ -7,7 +7,7 @@ jest.mock('react-apollo', () => {
   }
 })
 
-describe('<StartPage />', () => {
+describe('<HomePage />', () => {
   describe('Snaphot', () => {
     test('must match defaultRender', () => {
       expect(global.renderToJSON(defaultRender)).toMatchSnapshot()
