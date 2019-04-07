@@ -1,8 +1,8 @@
 import React from 'react'
-import { configure, addDecorator } from '@storybook/react'
+import { configure, addDecorator, addParameters } from '@storybook/react'
 import { withInfo } from '@storybook/addon-info'
 import { withNotes } from '@storybook/addon-notes'
-import { withOptions } from '@storybook/addon-options'
+import { create } from '@storybook/theming'
 import { version } from '../lerna.json'
 import { BrowserRouter } from 'react-router-dom'
 import { ApolloProvider } from 'react-apollo'
@@ -11,14 +11,19 @@ import client from '../packages/client/src/graphql/client'
 const setup = () => {
   addDecorator(withInfo)
   addDecorator(withNotes)
-  addDecorator(
-    withOptions({
-      name: `Papillon Ads v${version}`,
-      url: 'https://github.com/papillonads/papillonads.nl',
-      showAddonPanel: true,
-      addonPanelInRight: true,
-    }),
-  )
+  addParameters({
+    options: {
+      theme: create({
+        base: 'light',
+        brandTitle: `Papillon Ads v${version}`,
+        brandUrl: 'https://github.com/papillonads/papillonads.nl',
+      }),
+      isFullscreen: false,
+      showNav: true,
+      showPanel: false,
+      sidebarAnimations: false,
+    },
+  })
 
   addDecorator(story => <div className="p-4">{story()}</div>)
 

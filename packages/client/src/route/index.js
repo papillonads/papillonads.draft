@@ -1,13 +1,13 @@
-import AsyncStartPage from '../pattern/page/StartPage'
-import AsyncNotFoundPage from '../pattern/page/NotFoundPage'
-import { startPagePath } from './path'
+import HomePage from '../pattern/page/HomePage'
+import NotFoundPage from '../pattern/page/NotFoundPage'
+import { homePagePath } from './path'
 
-export const startPageRoute = {
-  path: startPagePath,
+export const homePageRoute = {
+  path: homePagePath,
   exact: true,
-  component: AsyncStartPage,
+  component: HomePage,
 }
 
 export const notFoundPageRoute = {
-  component: AsyncNotFoundPage,
+  component: NotFoundPage,
 }

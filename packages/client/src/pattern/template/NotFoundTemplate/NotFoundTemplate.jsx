@@ -3,7 +3,7 @@ import { string, object } from 'prop-types'
 import cn from 'classnames'
 import styles from './NotFoundTemplate.scss'
 import { Link } from 'react-router-dom'
-import { startPagePath } from '../../../route/path'
+import { homePagePath } from '../../../route/path'
 import NoMatch from '../../atom/info/NoMatch'
 
 const NotFoundTemplate = ({ className, page, location }) => {
@@ -13,7 +13,7 @@ const NotFoundTemplate = ({ className, page, location }) => {
     <div className={notFoundTemplateClassList}>
       <h2>{page.name}</h2>
       <NoMatch location={location} />
-      <Link to={startPagePath}> Back to Home Page</Link>
+      <Link to={homePagePath}> Back to Home Page</Link>
     </div>
   )
 }
