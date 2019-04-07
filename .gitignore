@@ -5,7 +5,6 @@ papillonads.nl.sublime-workspace
 node_modules
 
 packages/client/.DS_Store
-packages/client/package-lock.json
 packages/client/npm-debug.log
 packages/client/.npmrc
 packages/client/.env.develop
@@ -14,7 +13,6 @@ packages/client/build
 packages/client/node_modules
 
 packages/server/.DS_Store
-packages/server/package-lock.json
 packages/server/npm-debug.log
 packages/server/.npmrc
 packages/server/.env
