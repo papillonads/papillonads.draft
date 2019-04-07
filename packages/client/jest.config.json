@@ -4,8 +4,9 @@
   "transform": {
     "^.+\\.jsx?$": "babel-jest"
   },
-  "collectCoverageFrom": ["packages/**/*.js", "!packages/**/*.test.js", "!packages/**/*.story.js", "!packages/**/*.render.js"],
-  "setupTestFrameworkScriptFile": "<rootDir>/jest.config.js",
+  "collectCoverageFrom": ["packages/**/*.js", "packages/**/*.jsx"],
+  "coveragePathIgnorePatterns": ["node_modules", ".storybook", ".storybook-static", "asset", ".test.js", ".story.js", ".render.js"],
+  "setupFilesAfterEnv": ["<rootDir>/jest.config.js"],
   "moduleNameMapper": {
     "\\.(css|less|scss)$": "identity-obj-proxy"
   },

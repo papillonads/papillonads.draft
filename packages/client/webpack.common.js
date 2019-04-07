@@ -33,6 +33,7 @@ const configureBabelLoader = browserList => {
             {
               modules: false,
               useBuiltIns: 'entry',
+              corejs: 3,
               targets: {
                 browsers: browserList,
               },
@@ -43,12 +44,7 @@ const configureBabelLoader = browserList => {
         plugins: [
           '@babel/plugin-proposal-class-properties',
           '@babel/plugin-syntax-dynamic-import',
-          [
-            '@babel/plugin-transform-runtime',
-            {
-              regenerator: true,
-            },
-          ],
+          '@babel/plugin-transform-runtime',
           '@babel/plugin-transform-spread',
         ],
       },
@@ -120,7 +116,7 @@ const baseConfig = {
   module: {
     rules: [configureFontLoader()],
   },
-  plugins: [new CleanWebpackPlugin(settings.paths.build.clean, configureCleanWebpack()), new HtmlWebpackPlugin(configureHtml())],
+  plugins: [new CleanWebpackPlugin(configureCleanWebpack()), new HtmlWebpackPlugin(configureHtml())],
   resolve: {
     extensions: ['.js', '.jsx'],
   },

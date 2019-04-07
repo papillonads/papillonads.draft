@@ -1,1 +1,1 @@
-export const startPagePath = process.env.BASE_URL ? `${process.env.BASE_URL}/` : '/'
+export const homePagePath = process.env.BASE_URL ? `${process.env.BASE_URL}/` : '/'

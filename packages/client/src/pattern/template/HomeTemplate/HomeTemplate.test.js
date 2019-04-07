@@ -1,13 +1,13 @@
 import React from 'react'
-import defaultRender from './StartPage.render'
+import defaultRender from './HomeTemplate.render'
 
-jest.mock('react-apollo', () => {
+jest.mock('react-router-dom', () => {
   return {
-    Query: () => <div />,
+    Link: () => <div />,
   }
 })
 
-describe('<StartPage />', () => {
+describe('<HomeTemplate />', () => {
   describe('Snaphot', () => {
     test('must match defaultRender', () => {
       expect(global.renderToJSON(defaultRender)).toMatchSnapshot()
