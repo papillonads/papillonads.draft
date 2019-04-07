@@ -1,9 +1,11 @@
 {
-  "app.css": "/papillonads.nl/app.b575.css",
-  "app.js": "/papillonads.nl/app-modern.b575.js",
-  "app.css.map": "/papillonads.nl/app.b575.css.map",
-  "app.js.map": "/papillonads.nl/app-modern.b575.js.map",
-  "1-modern.b575.js": "/papillonads.nl/1-modern.b575.js",
-  "1-modern.b575.js.map": "/papillonads.nl/1-modern.b575.js.map",
+  "app.css": "/papillonads.nl/app.f4c4.css",
+  "app.js": "/papillonads.nl/app-modern.f4c4.js",
+  "app.css.map": "/papillonads.nl/app.f4c4.css.map",
+  "app.js.map": "/papillonads.nl/app-modern.f4c4.js.map",
+  "1.f4c4.css": "/papillonads.nl/1.f4c4.css",
+  "1-modern.f4c4.js": "/papillonads.nl/1-modern.f4c4.js",
+  "1.f4c4.css.map": "/papillonads.nl/1.f4c4.css.map",
+  "1-modern.f4c4.js.map": "/papillonads.nl/1-modern.f4c4.js.map",
   "index.html": "/papillonads.nl/index.html"
 }
