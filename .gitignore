@@ -1,6 +1,5 @@
 .DS_Store
 .storybook-static
-package-lock.json
 papillonads.nl.sublime-project
 papillonads.nl.sublime-workspace
 node_modules
