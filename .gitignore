@@ -11,6 +11,7 @@ packages/client/.env.develop
 packages/client/.env.release
 packages/client/build
 packages/client/node_modules
+packages/client/coverage
 
 packages/server/.DS_Store
 packages/server/npm-debug.log
@@ -18,3 +19,6 @@ packages/server/.npmrc
 packages/server/.env
 packages/server/build
 packages/server/node_modules
+
+
+
