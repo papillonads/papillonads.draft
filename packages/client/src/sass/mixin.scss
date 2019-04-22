@@ -1,0 +1,12 @@
+@mixin headerNavigationBarMenuLabel {
+  color: $blue-600;
+  font-size: $h6-size;
+  font-weight: $font-weight-light;
+
+  &:hover {
+    color: $blue-400;
+    background-color: $gray-100;
+    cursor: pointer;
+    border-radius: 3px;
+  }
+}
