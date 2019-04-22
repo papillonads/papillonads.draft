@@ -12,7 +12,7 @@ const Links = ({ className, items }) => {
   return (
     <div className={linksClassList}>
       {items.map(item => (
-        <Link className={ps['px-2']} key={uuidv1()} item={item} />
+        <Link className={cn(ps['px-1'], cs.link)} key={uuidv1()} item={item} />
       ))}
     </div>
   )

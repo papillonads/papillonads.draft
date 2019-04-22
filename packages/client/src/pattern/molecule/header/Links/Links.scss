@@ -1,3 +1,9 @@
+@import '@primer/css/core/index.scss';
+
 .links {
-  background-color: #fff;
+  .link {
+    color: $blue-400;
+    font-size: $h6-size;
+    font-weight: $font-weight-light;
+  }
 }
