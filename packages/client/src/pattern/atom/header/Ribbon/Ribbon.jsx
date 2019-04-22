@@ -1,12 +1,13 @@
 import React from 'react'
 import { string } from 'prop-types'
+import ps from '@primer/css/core/index.scss'
 import cn from 'classnames'
-import styles from './Ribbon.scss'
+import cs from './Ribbon.scss'
 
 const Ribbon = ({ className }) => {
-  const ribbonClassList = cn(className, styles.ribbon)
+  const ribbonClassList = cn(className, cs.ribbon)
 
-  return <div className={ribbonClassList}>Ribbon</div>
+  return <div className={ribbonClassList} />
 }
 
 Ribbon.defaultProps = {
