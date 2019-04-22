@@ -1,15 +1,17 @@
 @import '@primer/css/core/index.scss';
+@import '../../../../sass/mixin.scss';
 
 ._menu {
   &__label {
-    color: $blue-400;
-    font-size: $h6-size;
-    font-weight: $font-weight-light;
+    @include headerNavigationBarMenuLabel;
   }
 
   &__messages {
   }
 
   &__notifications {
+  }
+
+  &__profile {
   }
 }
