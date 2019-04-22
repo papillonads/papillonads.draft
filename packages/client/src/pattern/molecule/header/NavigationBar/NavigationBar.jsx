@@ -15,11 +15,11 @@ const NavigationBar = ({ className }) => {
   return (
     <div className={navigationBarClassList}>
       <div className={cn(ps['d-flex'], ps['p-3'])}>
-        <Logo className={cn(ps['pl-3'], ps['pr-6'], cs.logo)} />
-        <Links className={cn(ps['d-flex'], cs.links)} items={linkItems} />
+        <Logo className={cn(ps['pl-6'], ps['pr-3'], cs.logo)} />
+        <Links className={cn(ps['d-flex'], ps['pt-1'], cs.links)} items={linkItems} />
       </div>
       <div className={ps['p-3']}>
-        <Menu className={cs.menu} />
+        <Menu className={cn(ps['pt-1'], cs.menu)} />
       </div>
     </div>
   )
