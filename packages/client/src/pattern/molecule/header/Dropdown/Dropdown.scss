@@ -1,2 +1,24 @@
+@import '@primer/css/core/index.scss';
+@import '../../../../sass/mixin.scss';
+
 .dropdown {
+  user-select: none;
+  position: relative;
+
+  &__summary {
+    &:focus {
+      background-color: $gray-100;
+      outline: 0 auto;
+    }
+  }
+
+  &__list {
+    list-style: none;
+    position: absolute;
+    padding: $spacer-2 0 $spacer-2 0;
+  }
+
+  &__label {
+    @include headerNavigationBarMenuLabel;
+  }
 }
