@@ -10,17 +10,15 @@ import Menu from '../Menu'
 const NavigationBar = ({ className }) => {
   const linkItems = [{ text: 'Help en info' }, { text: 'Voorwaarden' }, { text: 'Veilig handelen' }]
 
-  const navigationBarClassList = cn(className, ps['d-flex'], ps['flex-justify-between'], cs.navigationBar)
+  const navigationBarClassList = cn(className, ps['d-flex'], ps['flex-justify-between'], ps['p-1'], cs.navigationBar)
 
   return (
     <div className={navigationBarClassList}>
-      <div className={cn(ps['d-flex'], ps['p-3'])}>
-        <Logo className={cn(ps['pl-6'], ps['pr-3'], cs.logo)} />
+      <div className={cn(ps['d-flex'])}>
+        <Logo className={cn(ps['pl-6'], cs.logo)} />
         <Links className={cn(ps['d-flex'], ps['pt-1'], cs.links)} items={linkItems} />
       </div>
-      <div className={ps['p-3']}>
-        <Menu className={cn(ps['pt-1'], cs.menu)} />
-      </div>
+      <Menu className={cn(ps['pt-1'], cs.menu)} />
     </div>
   )
 }
