@@ -1,3 +1,15 @@
-.menu {
-  background-color: #fff;
+@import '@primer/css/core/index.scss';
+
+._menu {
+  &__label {
+    color: $blue-400;
+    font-size: $h6-size;
+    font-weight: $font-weight-light;
+  }
+
+  &__messages {
+  }
+
+  &__notifications {
+  }
 }
