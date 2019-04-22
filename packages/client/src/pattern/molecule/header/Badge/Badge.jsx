@@ -1,10 +1,10 @@
 import React from 'react'
 import { string, node } from 'prop-types'
 import cn from 'classnames'
-import styles from './Badge.scss'
+import cs from './Badge.scss'
 
 const Badge = ({ className, children }) => {
-  const badgeClassList = cn(className, styles.badge)
+  const badgeClassList = cn(className, cs.badge)
 
   return <div className={badgeClassList}>{children}</div>
 }
