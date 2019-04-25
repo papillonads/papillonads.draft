@@ -1,12 +1,19 @@
 import React from 'react'
-import { string, node } from 'prop-types'
+import { shape, arrayOf, string } from 'prop-types'
 import cn from 'classnames'
 import cs from './Select.scss'
+import uuidv1 from 'uuid/v1'
 
-const Select = ({ className, children }) => {
+const Select = ({ className, items }) => {
   const selectClassList = cn(className, cs.button)
 
-  return <div className={selectClassList}>{children}</div>
+  return (
+    <select className={selectClassList}>
+      {items.map(item => (
+        <option key={uuidv1()} text={item.text} />
+      ))}
+    </select>
+  )
 }
 
 Select.defaultProps = {
@@ -15,7 +22,11 @@ Select.defaultProps = {
 
 Select.propTypes = {
   className: string,
-  children: node.isRequired,
+  items: arrayOf(
+    shape({
+      text: string.isRequired,
+    }),
+  ).isRequired,
 }.isRequired
 
 export default Select
