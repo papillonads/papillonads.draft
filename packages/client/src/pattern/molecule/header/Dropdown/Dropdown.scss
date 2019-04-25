@@ -41,4 +41,13 @@
   &__label {
     @include headerNavigationBarMenuLabelBadge;
   }
+
+  &__profileLabel,
+  &__profileSvgIcon {
+    display: none;
+
+    @include breakpoint(lg) {
+      display: block;
+    }
+  }
 }
