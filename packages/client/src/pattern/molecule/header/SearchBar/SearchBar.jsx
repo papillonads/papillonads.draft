@@ -1,10 +1,10 @@
 import React from 'react'
 import { string } from 'prop-types'
 import cn from 'classnames'
-import styles from './SearchBar.scss'
+import cs from './SearchBar.scss'
 
 const SearchBar = ({ className }) => {
-  const searchBarClassList = cn(className, styles.searchBar)
+  const searchBarClassList = cn(className, cs.searchBar)
 
   return <div className={searchBarClassList}>SearchBar</div>
 }
