@@ -1,2 +1,33 @@
+@import '@primer/css/core/index.scss';
+
 .searchFieldsetAdvanced {
+  display: flex;
+
+  padding-left: $spacer-2;
+
+  @include breakpoint(md) {
+    padding-left: 0;
+  }
+
+  &__group {
+    width: 45%;
+
+    &:hover {
+      background-color: $white;
+      cursor: pointer;
+    }
+  }
+
+  &__postcode {
+    width: 20%;
+  }
+
+  &__distance {
+    width: 45%;
+
+    &:hover {
+      background-color: $white;
+      cursor: pointer;
+    }
+  }
 }
