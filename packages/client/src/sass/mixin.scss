@@ -1,12 +1,31 @@
-@mixin headerNavigationBarMenuLabel {
-  color: $blue-600;
+@mixin badge {
   font-size: $h6-size;
   font-weight: $font-weight-light;
+  height: $h1-size;
+  white-space: nowrap;
+  border-radius: 3px;
+
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+@mixin headerNavigationBarMenuLabelBadge {
+  @include badge;
+  color: $blue-600;
 
   &:hover {
     color: $blue-400;
     background-color: $gray-100;
-    cursor: pointer;
-    border-radius: 3px;
+  }
+}
+
+@mixin headerNavigationBarMenuButtonBadge {
+  @include badge;
+  color: $white;
+  background-color: lighten($blue-500, 5);
+
+  &:hover {
+    background-color: $blue-400;
   }
 }
