@@ -1,27 +1,37 @@
 import React from 'react'
 import { shape, arrayOf, string } from 'prop-types'
 import cn from 'classnames'
+import ps from '@primer/css/core/index.scss'
 import cs from './Select.scss'
 import uuidv1 from 'uuid/v1'
 
-const Select = ({ className, items }) => {
-  const selectClassList = cn(className, cs.button)
+const Select = ({ className, placeholder, items }) => {
+  const selectClassList = cn(className, ps['px-2'], cs.select)
 
   return (
-    <select className={selectClassList}>
-      {items.map(item => (
-        <option key={uuidv1()} text={item.text} />
-      ))}
-    </select>
+    <React.Fragment>
+      <select className={selectClassList}>
+        <option className={cs.select__option} key={uuidv1()} value={placeholder}>
+          {placeholder}
+        </option>
+        {items.map(item => (
+          <option key={uuidv1()} value={item.text}>
+            {item.text}
+          </option>
+        ))}
+      </select>
+    </React.Fragment>
   )
 }
 
 Select.defaultProps = {
   className: '',
+  placeholder: '',
 }
 
 Select.propTypes = {
   className: string,
+  placeholder: string,
   items: arrayOf(
     shape({
       text: string.isRequired,
