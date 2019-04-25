@@ -6,7 +6,7 @@
     @include headerNavigationBarMenuLabelBadge;
   }
 
-  &__svgIcon {
+  &__placeAdSvgIcon {
     transform: scaleX(-1);
     filter: FlipH;
     color: $white;

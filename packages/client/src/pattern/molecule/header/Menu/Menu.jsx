@@ -34,7 +34,7 @@ const Menu = ({ className }) => {
       </Badge>
       <Dropdown items={dropdownItems} />
       <Badge className={cn(ps['d-flex'], ps['p-2'], cs._menu__buttonBadge)}>
-        <SvgIcon className={(ps['px-2'], cs._menu__svgIcon)} fill={'white'} name={'pushpin'} width={15} height={15} />
+        <SvgIcon className={(ps['px-2'], cs._menu__placeAdSvgIcon)} fill={'white'} name={'pushpin'} width={15} height={15} />
         <Button className={ps['px-2']}>Plaats Advertentie</Button>
       </Badge>
     </div>
