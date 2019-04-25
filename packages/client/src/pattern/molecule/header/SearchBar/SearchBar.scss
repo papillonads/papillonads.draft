@@ -9,7 +9,7 @@
     flex: 1 0 90%;
 
     @include breakpoint(md) {
-      flex: 1 0 40%;
+      flex: 1 0 35%;
     }
   }
 
@@ -19,7 +19,7 @@
 
     @include breakpoint(md) {
       order: 1;
-      flex: 1 0 50%;
+      flex: 1 0 55%;
     }
   }
 
