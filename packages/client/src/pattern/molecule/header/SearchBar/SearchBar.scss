@@ -4,6 +4,11 @@
   display: flex;
   flex-wrap: wrap;
 
+  line-height: $h1-size;
+
+  padding: $spacer-3 $spacer-1 $spacer-3 $spacer-1;
+  background-color: $gray-100;
+
   &__searchFieldsetStandard {
     order: 0;
     flex: 1 0 90%;
@@ -31,14 +36,23 @@
       order: 2;
       flex: 1 0 10%;
     }
+
+    border-style: solid;
+    border-radius: 3px;
+    border-width: 1px;
+    border-color: $gray-200;
+    text-align: center;
+    background-color: $gray-100;
+    color: $blue-500;
+
+    &:hover {
+      background-color: $white;
+      cursor: pointer;
+    }
   }
 
   &__searchFormOptions {
     order: 3;
     flex: 1 0 100%;
-
-    @include breakpoint(md) {
-      flex: 1 0 100%;
-    }
   }
 }
