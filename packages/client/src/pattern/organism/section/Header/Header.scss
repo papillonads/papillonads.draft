@@ -4,7 +4,11 @@
   width: 100%;
 
   @include breakpoint(lg) {
-    width: (8 / 12 * 100%);
+    width: 90%;
+  }
+
+  @include breakpoint(xl) {
+    width: 60%;
   }
 
   &__navigationBar {
