@@ -2,16 +2,17 @@
 @import '../../../../sass/mixin.scss';
 
 ._menu {
-  &__label {
-    @include headerNavigationBarMenuLabel;
+  &__labelBadge {
+    @include headerNavigationBarMenuLabelBadge;
   }
 
-  &__messages {
+  &__svgIcon {
+    transform: scaleX(-1);
+    filter: FlipH;
+    color: $white;
   }
 
-  &__notifications {
-  }
-
-  &__profile {
+  &__buttonBadge {
+    @include headerNavigationBarMenuButtonBadge;
   }
 }
