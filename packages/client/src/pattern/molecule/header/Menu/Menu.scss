@@ -15,4 +15,14 @@
   &__buttonBadge {
     @include headerNavigationBarMenuButtonBadge;
   }
+
+  &__messagesLabel,
+  &__notificationsLabel,
+  &__placeAdButton {
+    display: none;
+
+    @include breakpoint(lg) {
+      display: block;
+    }
+  }
 }
