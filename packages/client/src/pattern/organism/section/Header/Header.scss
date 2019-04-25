@@ -1,7 +1,15 @@
+@import '@primer/css/core/index.scss';
+
 .header {
-  .navigationBar {
+  width: 100%;
+
+  @include breakpoint(lg) {
+    width: (8 / 12 * 100%);
   }
 
-  .searchBar {
+  &__navigationBar {
+  }
+
+  &__searchBar {
   }
 }
