@@ -1,10 +1,17 @@
+@import '@primer/css/core/index.scss';
+
 .navigationBar {
-  .logo {
+  &__logo {
   }
 
-  .links {
+  &__links {
+    display: none;
+
+    @include breakpoint(md) {
+      display: flex;
+    }
   }
 
-  .menu {
+  &__menu {
   }
 }
