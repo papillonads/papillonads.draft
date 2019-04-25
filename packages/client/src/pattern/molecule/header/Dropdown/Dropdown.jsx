@@ -24,7 +24,7 @@ const Dropdown = ({ className, items }) => {
       <ul className={cn(ps['dropdown-menu'], cs.dropdown__list)}>
         {items.map(item => (
           <li key={uuidv1()}>
-            <Label className={ps['dropdown-item']} key={uuidv1()} text={item.text} />
+            <Label className={cn(ps['dropdown-item'], cs.dropdown__listItem)} key={uuidv1()} text={item.text} />
           </li>
         ))}
       </ul>

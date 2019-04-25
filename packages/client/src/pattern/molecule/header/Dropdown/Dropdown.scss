@@ -15,7 +15,27 @@
   &__list {
     list-style: none;
     position: absolute;
-    padding: $spacer-2 0 $spacer-2 0;
+    padding: 0;
+    border-style: solid;
+    border-color: $gray-100;
+    border-width: 1px;
+    border-radius: 3px;
+    box-shadow: 0 1px 4px 1px;
+
+    &Item {
+      white-space: nowrap;
+      padding: $spacer-2 $spacer-6 * 2 $spacer-2 $spacer-3;
+      color: $blue-600;
+      border-style: solid;
+      border-color: $gray-100;
+      border-width: 0 0 1px 0;
+
+      &:hover {
+        color: $blue-400;
+        background-color: $blue-000;
+        cursor: pointer;
+      }
+    }
   }
 
   &__label {
