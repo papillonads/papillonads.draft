@@ -125,7 +125,7 @@
     "papillon-navigation": "^1.0.48",
     "prop-types": "^15.7.2",
     "react": "^16.8.6",
-    "react-apollo": "^2.5.4",
+    "react-apollo": "^2.5.5",
     "react-dom": "^16.8.6",
     "react-router-dom": "^5.0.0",
     "uuid": "^3.3.2"
