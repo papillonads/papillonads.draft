@@ -1,4 +1,4 @@
-import defaultRender from './Ribbon.render'
+import { defaultRender } from './Ribbon.render'
 
 describe('<Ribbon />', () => {
   describe('Snaphot', () => {
