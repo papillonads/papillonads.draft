@@ -1,4 +1,4 @@
-import defaultRender from './Button.render'
+import { defaultRender } from './Button.render'
 
 describe('<Button />', () => {
   describe('Snaphot', () => {
