@@ -1,4 +1,4 @@
-import defaultRender from './SearchFieldsetAdvanced.render'
+import { defaultRender } from './SearchFieldsetAdvanced.render'
 
 describe('<SearchFieldsetAdvanced />', () => {
   describe('Snaphot', () => {
