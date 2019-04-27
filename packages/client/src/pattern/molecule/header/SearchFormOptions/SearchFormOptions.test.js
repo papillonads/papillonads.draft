@@ -1,4 +1,4 @@
-import defaultRender from './SearchFormOptions.render'
+import { defaultRender } from './SearchFormOptions.render'
 
 describe('<SearchFormOptions />', () => {
   describe('Snaphot', () => {
