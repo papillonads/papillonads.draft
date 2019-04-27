@@ -1,4 +1,4 @@
-import defaultRender from './Query.render'
+import { defaultRender } from './Query.render'
 
 describe('<Query />', () => {
   describe('Snaphot', () => {
