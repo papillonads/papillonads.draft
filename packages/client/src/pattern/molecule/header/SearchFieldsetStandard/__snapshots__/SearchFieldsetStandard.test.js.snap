@@ -1,3 +1,12 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`<SearchFieldsetStandard /> Snaphot must match defaultRender 1`] = `null`;
+exports[`<SearchFieldsetStandard /> Snaphot must match defaultRender 1`] = `
+<div
+  className="searchFieldsetStandard"
+>
+  <input
+    className="searchFieldsetStandard__input input"
+    placeholder=""
+  />
+</div>
+`;

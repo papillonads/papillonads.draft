@@ -1,4 +1,4 @@
-import defaultRender from './SearchFieldsetStandard.render'
+import { defaultRender } from './SearchFieldsetStandard.render'
 
 describe('<SearchFieldsetStandard />', () => {
   describe('Snaphot', () => {
