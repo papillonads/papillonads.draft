@@ -1,3 +1,274 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`<SearchBar /> Snaphot must match defaultRender 1`] = `null`;
+exports[`<SearchBar /> Snaphot must match defaultRender 1`] = `
+<div
+  className="searchBar"
+>
+  <div
+    className="searchBar__searchFieldsetStandard searchFieldsetStandard"
+  >
+    <input
+      className="searchFieldsetStandard__input input"
+      placeholder=""
+    />
+  </div>
+  <div
+    className="searchBar__searchFieldsetAdvanced searchFieldsetAdvanced"
+  >
+    <select
+      className="searchFieldsetAdvanced__group px-2 select"
+    >
+      <option
+        className="select__option"
+        value="Alle groepen..."
+      >
+        Alle groepen...
+      </option>
+      <option
+        value="Alle groepen…"
+      >
+        Alle groepen…
+      </option>
+      <option
+        value="Antiek en Kunst"
+      >
+        Antiek en Kunst
+      </option>
+      <option
+        value="Audio, Tv en Foto"
+      >
+        Audio, Tv en Foto
+      </option>
+      <option
+        value="Auto's"
+      >
+        Auto's
+      </option>
+      <option
+        value="Auto-onderdelen"
+      >
+        Auto-onderdelen
+      </option>
+      <option
+        value="Auto diversen"
+      >
+        Auto diversen
+      </option>
+      <option
+        value="Boeken"
+      >
+        Boeken
+      </option>
+      <option
+        value="Caravans en Kamperen"
+      >
+        Caravans en Kamperen
+      </option>
+      <option
+        value="Cd's en Dvd's"
+      >
+        Cd's en Dvd's
+      </option>
+      <option
+        value="Computers en Software"
+      >
+        Computers en Software
+      </option>
+      <option
+        value="Contacten en Berichten"
+      >
+        Contacten en Berichten
+      </option>
+      <option
+        value="Diensten en Vakmensen"
+      >
+        Diensten en Vakmensen
+      </option>
+      <option
+        value="Dieren en Toebehoren"
+      >
+        Dieren en Toebehoren
+      </option>
+      <option
+        value="Doe-het-zelf en Verbouw"
+      >
+        Doe-het-zelf en Verbouw
+      </option>
+      <option
+        value="Fietsen en Brommers"
+      >
+        Fietsen en Brommers
+      </option>
+      <option
+        value="Hobby en Vrije tijd"
+      >
+        Hobby en Vrije tijd
+      </option>
+      <option
+        value="Huis en Inrichting"
+      >
+        Huis en Inrichting
+      </option>
+      <option
+        value="Huizen en Kamers"
+      >
+        Huizen en Kamers
+      </option>
+      <option
+        value="Kinderen en Baby's"
+      >
+        Kinderen en Baby's
+      </option>
+      <option
+        value="Kleding | Dames"
+      >
+        Kleding | Dames
+      </option>
+      <option
+        value="Kleding | Heren"
+      >
+        Kleding | Heren
+      </option>
+      <option
+        value="Motoren"
+      >
+        Motoren
+      </option>
+      <option
+        value="Muziek en Instrumenten"
+      >
+        Muziek en Instrumenten
+      </option>
+      <option
+        value="Postzegels en Munten"
+      >
+        Postzegels en Munten
+      </option>
+      <option
+        value="Sieraden, Tassen en Uiterlijk"
+      >
+        Sieraden, Tassen en Uiterlijk
+      </option>
+      <option
+        value="Spelcomputers en Games"
+      >
+        Spelcomputers en Games
+      </option>
+      <option
+        value="Sport en Fitness"
+      >
+        Sport en Fitness
+      </option>
+      <option
+        value="Telecommunicatie"
+      >
+        Telecommunicatie
+      </option>
+      <option
+        value="Tickets en Kaartjes"
+      >
+        Tickets en Kaartjes
+      </option>
+      <option
+        value="Tuin en Terras"
+      >
+        Tuin en Terras
+      </option>
+      <option
+        value="Vacatures"
+      >
+        Vacatures
+      </option>
+      <option
+        value="Vakantie"
+      >
+        Vakantie
+      </option>
+      <option
+        value="Verzamelen"
+      >
+        Verzamelen
+      </option>
+      <option
+        value="Watersport en Boten"
+      >
+        Watersport en Boten
+      </option>
+      <option
+        value="Witgoed en Apparatuur"
+      >
+        Witgoed en Apparatuur
+      </option>
+      <option
+        value="Zakelijke goederen"
+      >
+        Zakelijke goederen
+      </option>
+      <option
+        value="Diversen"
+      >
+        Diversen
+      </option>
+    </select>
+    <input
+      className="searchFieldsetAdvanced__postcode input"
+      placeholder="Postcode"
+    />
+    <select
+      className="searchFieldsetAdvanced__distance px-2 select"
+    >
+      <option
+        className="select__option"
+        value="Alle afstanden..."
+      >
+        Alle afstanden...
+      </option>
+      <option
+        value="< 3 km"
+      >
+        &lt; 3 km
+      </option>
+      <option
+        value="< 5 km"
+      >
+        &lt; 5 km
+      </option>
+      <option
+        value="< 10 km"
+      >
+        &lt; 10 km
+      </option>
+      <option
+        value="< 15 km"
+      >
+        &lt; 15 km
+      </option>
+      <option
+        value="< 25 km"
+      >
+        &lt; 25 km
+      </option>
+      <option
+        value="< 50 km"
+      >
+        &lt; 50 km
+      </option>
+      <option
+        value="< 75 km"
+      >
+        &lt; 75 km
+      </option>
+    </select>
+  </div>
+  <div
+    className="searchBar__button button"
+  >
+    Zoek
+  </div>
+  <div
+    className="searchBar__searchFormOptions p-2 searchFormOptions"
+  >
+    SearchFormOptions
+  </div>
+</div>
+`;
