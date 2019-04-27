@@ -1,4 +1,4 @@
-import defaultRender from './Menu.render'
+import { defaultRender } from './Menu.render'
 
 describe('<Menu />', () => {
   describe('Snaphot', () => {
