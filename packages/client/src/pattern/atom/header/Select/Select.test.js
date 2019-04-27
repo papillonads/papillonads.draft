@@ -1,4 +1,4 @@
-import defaultRender from './Select.render'
+import { defaultRender } from './Select.render'
 
 describe('<Select />', () => {
   describe('Snaphot', () => {

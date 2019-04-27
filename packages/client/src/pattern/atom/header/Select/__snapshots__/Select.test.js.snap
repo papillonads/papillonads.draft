@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Select /> Snaphot must match defaultRender 1`] = `
+<select
+  className="px-2 select"
+>
+  <option
+    className="select__option"
+    value=""
+  >
+    
+  </option>
+  <option
+    value="item 1"
+  >
+    item 1
+  </option>
+  <option
+    value="item 2"
+  >
+    item 2
+  </option>
+  <option
+    value="item 3"
+  >
+    item 3
+  </option>
+</select>
+`;
