@@ -5,7 +5,7 @@ import cs from './SearchBar.scss'
 import SearchFieldsetStandard from '../SearchFieldsetStandard'
 import SearchFieldsetAdvanced from '../SearchFieldsetAdvanced'
 import Button from '../../../atom/header/Button'
-import SearchFormOptions from '../SearchFormOptions'
+// import SearchFormOptions from '../SearchFormOptions'
 
 const SearchBar = ({ className }) => {
   const searchBarClassList = cn(className, cs.searchBar)
@@ -15,7 +15,7 @@ const SearchBar = ({ className }) => {
       <SearchFieldsetStandard className={cs.searchBar__searchFieldsetStandard} />
       <SearchFieldsetAdvanced className={cs.searchBar__searchFieldsetAdvanced} />
       <Button className={cs.searchBar__button}>Zoek</Button>
-      <SearchFormOptions className={cs.searchBar__searchFormOptions} />
+      {/* <SearchFormOptions className={cs.searchBar__searchFormOptions} /> */}
     </div>
   )
 }
