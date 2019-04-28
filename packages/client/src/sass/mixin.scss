@@ -1,4 +1,6 @@
 @mixin badge {
+  display: flex;
+  padding: 8px;
   font-size: 12px;
   font-weight: 300;
   height: 32px;
