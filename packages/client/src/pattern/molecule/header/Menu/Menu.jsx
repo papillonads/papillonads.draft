@@ -20,7 +20,7 @@ const Menu = ({ className }) => {
     { text: 'Uitloggen' },
   ]
 
-  const menuClassList = cn(className, ps['d-flex'], ps['flex-justify-between'], cs._menu)
+  const menuClassList = cn(className, cs._menu)
 
   return (
     <div className={menuClassList}>

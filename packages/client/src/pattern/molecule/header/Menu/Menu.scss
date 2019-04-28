@@ -2,6 +2,9 @@
 @import '../../../../sass/mixin.scss';
 
 ._menu {
+  display: flex;
+  justify-content: space-between;
+
   &__labelBadge {
     @include headerNavigationBarMenuLabelBadge;
   }
