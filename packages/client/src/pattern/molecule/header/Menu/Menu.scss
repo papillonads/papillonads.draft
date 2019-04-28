@@ -5,11 +5,12 @@
   justify-content: space-between;
 
   &__messages,
-  &__notifications {
+  &__notifications,
+  &__placeAd {
     @include headerNavigationBarMenuLabelBadge;
 
     &Icon {
-      padding: 0 8px;
+      padding: 0 8px 0 12px;
     }
   }
 
@@ -20,7 +21,12 @@
       transform: scaleX(-1);
       filter: FlipH;
       color: #fff;
-      padding: 0 8px;
+    }
+
+    &Button {
+      font-family: BreeSerif;
+      font-size: 14px;
+      align-self: center;
     }
   }
 
@@ -28,7 +34,6 @@
   &__notificationsLabel,
   &__placeAdButton {
     display: none;
-    padding: 0 4px;
 
     @media (min-width: 992px) {
       display: block;
