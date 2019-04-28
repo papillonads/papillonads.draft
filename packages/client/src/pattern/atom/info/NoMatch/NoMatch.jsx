@@ -1,10 +1,10 @@
 import React from 'react'
 import { string, object } from 'prop-types'
 import cn from 'classnames'
-import styles from './NoMatch.scss'
+import cs from './NoMatch.scss'
 
 const NoMatch = ({ className, location }) => {
-  const noMatchClassList = cn(className, styles.noMatch)
+  const noMatchClassList = cn(className, cs.noMatch)
 
   return (
     <div className={noMatchClassList}>

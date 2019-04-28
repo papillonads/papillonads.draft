@@ -1,10 +1,10 @@
 import React from 'react'
 import { string } from 'prop-types'
 import cn from 'classnames'
-import styles from './Query.scss'
+import cs from './Query.scss'
 
 const Query = ({ className }) => {
-  const queryClassList = cn(className, styles.query)
+  const queryClassList = cn(className, cs.query)
 
   return <div className={queryClassList}>Query</div>
 }
