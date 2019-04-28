@@ -1,6 +1,5 @@
 @mixin badge {
   display: flex;
-  padding: 8px;
   font-size: 12px;
   font-weight: 300;
   height: 32px;
@@ -10,10 +9,15 @@
   &:hover {
     cursor: pointer;
   }
+
+  @media (min-width: 992) {
+    padding: 8px;
+  }
 }
 
 @mixin headerNavigationBarMenuLabelBadge {
   @include badge;
+  padding: 8px;
   color: #116db4;
 
   &:hover {
@@ -24,6 +28,7 @@
 
 @mixin headerNavigationBarMenuButtonBadge {
   @include badge;
+  padding: 8px;
   color: #fff;
   background-color: #137bcb;
 

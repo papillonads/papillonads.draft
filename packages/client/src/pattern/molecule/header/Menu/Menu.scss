@@ -2,15 +2,24 @@
 
 ._menu {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+
+  padding: 0 12px 0 0px;
+
+  @media (min-width: 992px) {
+    padding: 0;
+  }
 
   &__messages,
-  &__notifications,
-  &__placeAd {
+  &__notifications {
     @include headerNavigationBarMenuLabelBadge;
 
     &Icon {
-      padding: 0 8px 0 12px;
+      padding: 0;
+
+      @media (min-width: 992px) {
+        padding: 0 12px 0 0;
+      }
     }
   }
 
@@ -21,6 +30,12 @@
       transform: scaleX(-1);
       filter: FlipH;
       color: #fff;
+
+      padding: 0;
+
+      @media (min-width: 992px) {
+        padding: 0 12px 0 0;
+      }
     }
 
     &Button {
