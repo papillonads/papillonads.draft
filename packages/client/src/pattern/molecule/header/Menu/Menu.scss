@@ -4,24 +4,24 @@
   display: flex;
   justify-content: space-between;
 
-  &__labelBadge {
+  &__messages,
+  &__notifications {
     @include headerNavigationBarMenuLabelBadge;
+
+    &Icon {
+      padding: 0 8px;
+    }
   }
 
-  &__buttonBadge {
+  &__placeAd {
     @include headerNavigationBarMenuButtonBadge;
-  }
 
-  &__placeAdIcon {
-    transform: scaleX(-1);
-    filter: FlipH;
-    color: #fff;
-    padding: 0 8px;
-  }
-
-  &__messagesIcon,
-  &__notificationsIcon {
-    padding: 0 8px;
+    &Icon {
+      transform: scaleX(-1);
+      filter: FlipH;
+      color: #fff;
+      padding: 0 8px;
+    }
   }
 
   &__messagesLabel,
