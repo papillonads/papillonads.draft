@@ -6,7 +6,7 @@
     flex-wrap: wrap;
     align-items: center;
     line-height: 32px;
-    padding: 16px 4px;
+    padding: 16px;
 
     margin: 0 auto;
     max-width: 980px;
@@ -17,13 +17,14 @@
       flex: 1 0 90%;
 
       @media (min-width: 768px) {
-        flex: 1 0 35%;
+        flex: 1 0 33%;
       }
     }
 
     &SearchFieldsetAdvanced {
       order: 2;
       flex: 1 0 100%;
+      margin-left: -8px;
 
       @media (min-width: 768px) {
         order: 1;
@@ -37,7 +38,7 @@
 
       @media (min-width: 768px) {
         order: 2;
-        flex: 1 0 10%;
+        flex: 1 0 12%;
       }
 
       border-style: solid;
