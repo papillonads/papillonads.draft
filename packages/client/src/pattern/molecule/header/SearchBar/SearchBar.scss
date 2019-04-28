@@ -6,7 +6,12 @@
     flex-wrap: wrap;
     align-items: center;
     line-height: 32px;
-    padding: 16px;
+
+    padding: 16px 8px;
+
+    @media (min-width: 992px) {
+      padding: 16px 0;
+    }
 
     margin: 0 auto;
     max-width: 980px;
