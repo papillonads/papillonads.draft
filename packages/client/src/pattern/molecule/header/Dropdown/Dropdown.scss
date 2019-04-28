@@ -12,6 +12,7 @@
 
   &__badge {
     display: flex;
+    align-items: center;
     padding: 4px;
     @include headerNavigationBarMenuLabelBadge;
   }

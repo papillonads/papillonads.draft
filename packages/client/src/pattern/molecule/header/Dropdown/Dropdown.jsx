@@ -15,7 +15,7 @@ const Dropdown = ({ className, items }) => {
     <details className={dropdownClassList}>
       <summary aria-haspopup="true" className={cs.dropdown__summary}>
         <Badge className={cs.dropdown__badge}>
-          <SvgIcon className={cs.dropdown__svgIcon1} fill={'grey'} name={'user'} width={15} height={15} />
+          <SvgIcon className={cs.dropdown__svgIcon1} fill={'grey'} name={'user'} width={20} height={20} />
           <Label className={cs.dropdown__label} text="t" />
           <SvgIcon className={cs.dropdown__svgIcon2} fill={'grey'} name={'ctrl'} width={15} height={15} />
         </Badge>
