@@ -1,19 +1,15 @@
-@import '@primer/css/core/index.scss';
-
 .searchBar {
   display: flex;
   flex-wrap: wrap;
-
-  line-height: $h1-size;
-
-  padding: $spacer-3 $spacer-1 $spacer-3 $spacer-1;
-  background-color: $gray-100;
+  line-height: 32px;
+  padding: 16px 4px;
+  background-color: #f7f7f6;
 
   &__searchFieldsetStandard {
     order: 0;
     flex: 1 0 90%;
 
-    @include breakpoint(md) {
+    @media (min-width: 768px) {
       flex: 1 0 35%;
     }
   }
@@ -22,7 +18,7 @@
     order: 2;
     flex: 1 0 100%;
 
-    @include breakpoint(md) {
+    @media (min-width: 768px) {
       order: 1;
       flex: 1 0 55%;
     }
@@ -32,7 +28,7 @@
     order: 1;
     flex: 1 0 10%;
 
-    @include breakpoint(md) {
+    @media (min-width: 768px) {
       order: 2;
       flex: 1 0 10%;
     }
@@ -40,13 +36,13 @@
     border-style: solid;
     border-radius: 3px;
     border-width: 1px;
-    border-color: $gray-200;
+    border-color: #e6e4e1;
     text-align: center;
-    background-color: $gray-100;
-    color: $blue-500;
+    background-color: #f7f7f6;
+    color: #116db4;
 
     &:hover {
-      background-color: $white;
+      background-color: #fff;
       cursor: pointer;
     }
   }
