@@ -1,53 +1,57 @@
-@import '@primer/css/core/index.scss';
 @import '../../../../sass/mixin.scss';
 
 .dropdown {
   user-select: none;
-  position: relative;
 
   &__summary {
     &:focus {
-      background-color: $gray-100;
+      background-color: #e7f0f7;
       outline: 0 auto;
     }
   }
 
-  &__list {
-    list-style: none;
-    position: absolute;
-    padding: 0;
-    border-style: solid;
-    border-color: $gray-100;
-    border-width: 1px;
-    border-radius: 3px;
-    box-shadow: 0 1px 4px 1px;
-
-    &Item {
-      white-space: nowrap;
-      padding: $spacer-2 $spacer-6 * 2 $spacer-2 $spacer-3;
-      color: $blue-600;
-      border-style: solid;
-      border-color: $gray-100;
-      border-width: 0 0 1px 0;
-
-      &:hover {
-        color: $blue-400;
-        background-color: $blue-000;
-        cursor: pointer;
-      }
-    }
-  }
-
-  &__label {
+  &__badge {
+    display: flex;
+    padding: 4px;
     @include headerNavigationBarMenuLabelBadge;
   }
 
-  &__profileLabel,
-  &__profileSvgIcon {
+  &__svgIcon1,
+  &__label,
+  &__svgIcon2 {
+    padding: 4px;
+  }
+
+  &__label,
+  &__svgIcon2 {
     display: none;
 
-    @include breakpoint(lg) {
+    @media (min-width: 992px) {
       display: block;
+    }
+  }
+
+  &__list {
+    position: absolute;
+    background: #fff;
+    border-radius: 3px;
+    box-shadow: 0 1px 4px 1px rgba(0, 0, 0, 0.14);
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+
+    &Item {
+      white-space: nowrap;
+      padding: 8px 63px 8px 16px;
+      color: #116db4;
+      border-bottom: 1px solid #e7f0f7;
+
+      &:hover {
+        color: #1589e3;
+        background-color: #e7f0f7;
+        cursor: pointer;
+      }
     }
   }
 }

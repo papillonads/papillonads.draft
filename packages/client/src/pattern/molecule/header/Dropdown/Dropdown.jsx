@@ -9,15 +9,15 @@ import uuidv1 from 'uuid/v1'
 import Badge from '../Badge'
 
 const Dropdown = ({ className, items }) => {
-  const dropdownClassList = cn(className, ps['dropdown'], ps['details-reset'], cs.dropdown)
+  const dropdownClassList = cn(className, ps['details-reset'], cs.dropdown)
 
   return (
     <details className={dropdownClassList}>
       <summary aria-haspopup="true" className={cs.dropdown__summary}>
-        <Badge className={cn(ps['d-flex'], ps['p-2'], cs.dropdown__label)}>
-          <SvgIcon className={ps['px-1']} fill={'grey'} name={'user'} width={15} height={15} />
-          <Label className={cn(ps['px-1'], cs.dropdown__profileLabel)} text="t" />
-          <SvgIcon className={cn(ps['px-1'], cs.dropdown__profileSvgIcon)} fill={'grey'} name={'ctrl'} width={15} height={15} />
+        <Badge className={cs.dropdown__badge}>
+          <SvgIcon className={cs.dropdown__svgIcon1} fill={'grey'} name={'user'} width={15} height={15} />
+          <Label className={cs.dropdown__label} text="t" />
+          <SvgIcon className={cs.dropdown__svgIcon2} fill={'grey'} name={'ctrl'} width={15} height={15} />
         </Badge>
       </summary>
 
