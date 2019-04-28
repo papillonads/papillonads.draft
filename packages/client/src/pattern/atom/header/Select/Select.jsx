@@ -1,12 +1,11 @@
 import React from 'react'
 import { shape, arrayOf, string } from 'prop-types'
 import cn from 'classnames'
-import ps from '@primer/css/core/index.scss'
 import cs from './Select.scss'
 import uuidv1 from 'uuid/v1'
 
 const Select = ({ className, placeholder, items }) => {
-  const selectClassList = cn(className, ps['px-2'], cs.select)
+  const selectClassList = cn(className, cs.select)
 
   return (
     <React.Fragment>
