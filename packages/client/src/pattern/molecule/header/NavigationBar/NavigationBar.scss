@@ -1,17 +1,30 @@
 @import '@primer/css/core/index.scss';
 
 .navigationBar {
-  &__logo {
-  }
+  display: flex;
+  justify-content: space-between;
+  padding: 4px;
 
-  &__links {
-    display: none;
+  &__left {
+    display: flex;
 
-    @include breakpoint(md) {
-      display: flex;
+    &Logo {
+      padding-right: 16px;
+    }
+
+    &Links {
+      display: none;
+      padding-top: 4px;
+
+      @include breakpoint(md) {
+        display: flex;
+      }
     }
   }
 
-  &__menu {
+  &_right {
+    &Menu {
+      padding-top: 4px;
+    }
   }
 }
