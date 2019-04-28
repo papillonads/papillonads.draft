@@ -1,6 +1,5 @@
 import React from 'react'
 import { string } from 'prop-types'
-import ps from '@primer/css/core/index.scss'
 import cn from 'classnames'
 import cs from './Ribbon.scss'
 
