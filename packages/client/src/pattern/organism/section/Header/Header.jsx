@@ -11,7 +11,7 @@ const Header = ({ className }) => {
   return (
     <div className={headerClassList}>
       <NavigationBar className={cs.header__navigationBar} />
-      {<SearchBar className={cs.header__searchBar} />}
+      <SearchBar className={cs.header__searchBar} />
     </div>
   )
 }

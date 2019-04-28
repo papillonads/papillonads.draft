@@ -1,17 +1,13 @@
-@import '@primer/css/core/index.scss';
-
 .header {
   width: 100%;
+  margin-right: auto;
+  margin-left: auto;
 
-  // instead of mx-auto
-  margin-right: auto !important;
-  margin-left: auto !important;
-
-  @include breakpoint(lg) {
+  @media (min-width: 992px) {
     width: 90%;
   }
 
-  @include breakpoint(xl) {
+  @media (min-width: 1280px) {
     width: 60%;
   }
 
