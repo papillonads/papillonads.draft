@@ -3,6 +3,10 @@
 .header {
   width: 100%;
 
+  // mx-auto
+  margin-right: auto !important;
+  margin-left: auto !important;
+
   @include breakpoint(lg) {
     width: 90%;
   }
