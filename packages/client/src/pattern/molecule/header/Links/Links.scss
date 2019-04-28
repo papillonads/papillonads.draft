@@ -1,13 +1,13 @@
-@import '@primer/css/core/index.scss';
-
 .links {
   .link {
-    color: $blue-600;
-    font-size: $h6-size;
-    font-weight: $font-weight-light;
+    padding: 8px 4px 8px 4px;
+
+    color: #116db4;
+    font-size: 12px;
+    font-weight: 300;
 
     &:hover {
-      color: $blue-400;
+      color: #1589e3;
       cursor: pointer;
     }
   }

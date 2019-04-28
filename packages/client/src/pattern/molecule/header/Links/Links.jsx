@@ -1,7 +1,6 @@
 import React from 'react'
 import { shape, arrayOf, string } from 'prop-types'
 import cn from 'classnames'
-import ps from '@primer/css/core/index.scss'
 import cs from './Links.scss'
 import Link from '../../../atom/header/Link'
 import uuidv1 from 'uuid/v1'
@@ -12,7 +11,7 @@ const Links = ({ className, items }) => {
   return (
     <div className={linksClassList}>
       {items.map(item => (
-        <Link className={cn(ps['py-2'], ps['px-1'], cs.link)} key={uuidv1()} item={item} />
+        <Link className={cs.link} key={uuidv1()} item={item} />
       ))}
     </div>
   )
