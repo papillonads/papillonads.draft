@@ -1,4 +1,3 @@
-@import '@primer/css/core/index.scss';
 @import '../../../../sass/mixin.scss';
 
 ._menu {
@@ -9,22 +8,29 @@
     @include headerNavigationBarMenuLabelBadge;
   }
 
-  &__placeAdSvgIcon {
-    transform: scaleX(-1);
-    filter: FlipH;
-    color: $white;
-  }
-
   &__buttonBadge {
     @include headerNavigationBarMenuButtonBadge;
+  }
+
+  &__placeAdIcon {
+    transform: scaleX(-1);
+    filter: FlipH;
+    color: #fff;
+    padding: 0 8px;
+  }
+
+  &__messagesIcon,
+  &__notificationsIcon {
+    padding: 0 8px;
   }
 
   &__messagesLabel,
   &__notificationsLabel,
   &__placeAdButton {
     display: none;
+    padding: 0 4px;
 
-    @include breakpoint(lg) {
+    @media (min-width: 992px) {
       display: block;
     }
   }
