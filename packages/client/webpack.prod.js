@@ -173,16 +173,17 @@ const configurePostcssLoader = buildType => {
           },
         },
         {
-          loader: 'sass-loader',
+          loader: 'resolve-url-loader',
         },
         {
-          loader: 'resolve-url-loader',
+          loader: 'sass-loader',
         },
         {
           loader: 'postcss-loader',
           options: {
             sourceMap: true,
             plugins: () => [require('postcss-cssnext')()],
+            parser: 'postcss-scss',
           },
         },
       ],

@@ -1,3 +1,54 @@
-.menu {
-  background-color: #fff;
+@import '../../../../sass/mixin.scss';
+
+._menu {
+  display: flex;
+  justify-content: space-around;
+
+  @media (min-width: 992px) {
+    padding: 0;
+  }
+
+  &__messages,
+  &__notifications {
+    @include headerNavigationBarMenuLabelBadge;
+
+    &Icon {
+      padding: 0;
+
+      @media (min-width: 992px) {
+        padding: 0 12px 0 0;
+      }
+    }
+  }
+
+  &__placeAd {
+    @include headerNavigationBarMenuButtonBadge;
+
+    &Icon {
+      transform: scaleX(-1);
+      filter: FlipH;
+      color: #fff;
+      padding: 0;
+
+      @media (min-width: 992px) {
+        padding: 0 8px;
+      }
+    }
+
+    &Button {
+      font-family: BreeSerif, sans-serif;
+      font-size: 14px;
+      align-self: center;
+    }
+  }
+
+  &__messagesLabel,
+  &__notificationsLabel,
+  &__placeAdButton {
+    display: none;
+
+    @media (min-width: 992px) {
+      display: block;
+    }
+  }
 }

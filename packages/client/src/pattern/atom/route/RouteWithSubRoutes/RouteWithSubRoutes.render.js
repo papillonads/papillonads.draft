@@ -1,9 +1,9 @@
 import React from 'react'
 import RouteWithSubRoutes from './RouteWithSubRoutes'
 
-const SomeComponent = () => <div />
-const SomeOtherComponentOne = () => <div />
-const SomeOtherComponentTwo = () => <div />
+const SomeComponent = <div />
+const SomeOtherComponentOne = <div />
+const SomeOtherComponentTwo = <div />
 
 const route = {
   path: '/some-path',
@@ -23,6 +23,6 @@ const route = {
   ],
 }
 
-const routeWithSubRoutesDefault = <RouteWithSubRoutes route={route} />
+const defaultRender = <RouteWithSubRoutes route={route} />
 
-export default routeWithSubRoutesDefault
+export { defaultRender }

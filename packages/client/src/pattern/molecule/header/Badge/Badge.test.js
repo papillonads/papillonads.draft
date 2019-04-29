@@ -1,4 +1,4 @@
-import defaultRender from './Badge.render'
+import { defaultRender } from './Badge.render'
 
 describe('<Badge />', () => {
   describe('Snaphot', () => {

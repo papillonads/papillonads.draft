@@ -1,13 +1,12 @@
 import React from 'react'
 import { string } from 'prop-types'
 import cn from 'classnames'
-import styles from './HomePage.scss'
 import { Query } from 'react-apollo'
 import { PAGES } from '../../../graphql/query'
 import HomeTemplate from '../../template/HomeTemplate'
 
 const HomePage = ({ className }) => {
-  const homePageClassList = cn(className, styles.homePage)
+  const homePageClassList = cn(className)
 
   return (
     <div className={homePageClassList}>

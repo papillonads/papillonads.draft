@@ -1,36 +1,68 @@
-.icon {
-  display: inline-block;
-  width: 1em;
-  height: 1em;
-  stroke-width: 0;
-  stroke: currentColor;
-  fill: currentColor;
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?5hox58');
+  src:  url('fonts/icomoon.eot?5hox58#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?5hox58') format('truetype'),
+    url('fonts/icomoon.woff?5hox58') format('woff'),
+    url('fonts/icomoon.svg?5hox58#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
 }
 
-/* ==========================================
-Single-colored icons can be modified like so:
-.icon-name {
-  font-size: 32px;
-  color: red;
-}
-========================================== */
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
 
-.icon-bubbles {
-  width: 1.125em;
-}
-
-.icon-bubbles2 {
-  width: 1.125em;
-}
-
-.icon-bubbles3 {
-  width: 1.125em;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-bubbles4 {
-  width: 1.125em;
+.icon-pushpin:before {
+  content: "\e946";
 }
-
-.icon-users {
-  width: 1.125em;
+.icon-bell:before {
+  content: "\e951";
+}
+.icon-bubble:before {
+  content: "\e96b";
+}
+.icon-bubbles:before {
+  content: "\e96c";
+}
+.icon-bubbles2:before {
+  content: "\e96d";
+}
+.icon-bubble2:before {
+  content: "\e96e";
+}
+.icon-bubbles3:before {
+  content: "\e96f";
+}
+.icon-bubbles4:before {
+  content: "\e970";
+}
+.icon-user:before {
+  content: "\e971";
+}
+.icon-users:before {
+  content: "\e972";
+}
+.icon-user-plus:before {
+  content: "\e973";
+}
+.icon-user-minus:before {
+  content: "\e974";
+}
+.icon-user-check:before {
+  content: "\e975";
+}
+.icon-ctrl:before {
+  content: "\ea50";
 }

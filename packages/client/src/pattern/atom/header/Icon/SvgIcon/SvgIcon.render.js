@@ -14,3 +14,4 @@ export const usersRender = <SvgIcon name={'users'} width={25} height={25} />
 export const userPlusRender = <SvgIcon name={'user-plus'} width={25} height={25} />
 export const userMinusRender = <SvgIcon name={'user-minus'} width={25} height={25} />
 export const userCheckRender = <SvgIcon name={'user-check'} width={25} height={25} />
+export const ctrlRender = <SvgIcon name={'ctrl'} width={25} height={25} />

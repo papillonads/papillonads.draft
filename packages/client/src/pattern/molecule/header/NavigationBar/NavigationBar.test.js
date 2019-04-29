@@ -1,4 +1,4 @@
-import defaultRender from './NavigationBar.render'
+import { defaultRender } from './NavigationBar.render'
 
 describe('<NavigationBar />', () => {
   describe('Snaphot', () => {

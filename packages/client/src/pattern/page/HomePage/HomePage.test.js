@@ -1,5 +1,5 @@
 import React from 'react'
-import defaultRender from './HomePage.render'
+import { defaultRender } from './HomePage.render'
 
 jest.mock('react-apollo', () => {
   return {

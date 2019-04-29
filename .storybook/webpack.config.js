@@ -1,6 +1,5 @@
 const path = require('path')
 const DotEnvPlugin = require('dotenv-webpack')
-const modulesPath = path.resolve(__dirname, '../packages/client/src')
 
 module.exports = ({ config, mode }) => {
   if (mode !== 'DEVELOPMENT') {
@@ -11,24 +10,35 @@ module.exports = ({ config, mode }) => {
   const plugins = config.plugins
 
   rules.push({
-    test: /\.scss$/,
-    loaders: [
-      'style-loader',
-      'css-loader',
+    test: /\.(scss|css)$/,
+    use: [
       {
-        loader: 'postcss-loader',
+        loader: 'style-loader',
+      },
+      {
+        loader: 'css-loader',
         options: {
-          plugins: () => [require('postcss-cssnext')()],
+          importLoaders: 1,
+          modules: true,
+          sourceMap: true,
+          localIdentName: '[name]_[local]_[hash:base64:5]',
         },
+      },
+      {
+        loader: 'resolve-url-loader',
       },
       {
         loader: 'sass-loader',
+      },
+      {
+        loader: 'postcss-loader',
         options: {
-          includePaths: [modulesPath],
+          sourceMap: true,
+          plugins: () => [require('postcss-cssnext')()],
+          parser: 'postcss-scss',
         },
       },
     ],
-    include: modulesPath,
   })
 
   plugins.push(
