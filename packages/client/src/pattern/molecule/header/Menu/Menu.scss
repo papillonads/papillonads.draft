@@ -28,7 +28,6 @@
       transform: scaleX(-1);
       filter: FlipH;
       color: #fff;
-
       padding: 0;
 
       @media (min-width: 992px) {
@@ -37,7 +36,7 @@
     }
 
     &Button {
-      font-family: BreeSerif;
+      font-family: BreeSerif, sans-serif;
       font-size: 14px;
       align-self: center;
     }
