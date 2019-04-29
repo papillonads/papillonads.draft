@@ -129,6 +129,7 @@
     "react-autocomplete": "^1.8.1",
     "react-dom": "^16.8.6",
     "react-router-dom": "^5.0.0",
+    "react-select": "^2.4.3",
     "uuid": "^3.3.2"
   }
 }
