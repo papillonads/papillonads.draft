@@ -1,10 +1,9 @@
 import React from 'react'
 import { string } from 'prop-types'
 import cn from 'classnames'
-import cs from './Ribbon.scss'
 
 const Ribbon = ({ className }) => {
-  const ribbonClassList = cn(className, cs.ribbon)
+  const ribbonClassList = cn(className)
 
   return <div className={ribbonClassList} />
 }

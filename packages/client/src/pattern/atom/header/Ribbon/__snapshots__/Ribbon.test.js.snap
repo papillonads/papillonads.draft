@@ -2,6 +2,6 @@
 
 exports[`<Ribbon /> Snaphot must match defaultRender 1`] = `
 <div
-  className="ribbon"
+  className=""
 />
 `;
