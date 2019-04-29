@@ -1,10 +1,9 @@
 import React from 'react'
 import { string } from 'prop-types'
 import cn from 'classnames'
-import styles from './Input.scss'
 
 const Input = ({ className, placeholder }) => {
-  const inputClassList = cn(className, styles.input)
+  const inputClassList = cn(className)
 
   return <input className={inputClassList} placeholder={placeholder} />
 }

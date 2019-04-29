@@ -2,7 +2,7 @@
 
 exports[`<Input /> Snaphot must match defaultRender 1`] = `
 <input
-  className="input"
+  className=""
   placeholder=""
 />
 `;
