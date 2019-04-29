@@ -11,7 +11,7 @@ exports[`<SearchBar /> Snaphot must match defaultRender 1`] = `
       className="searchBar__maxWidthSearchFieldsetStandard searchFieldsetStandard"
     >
       <input
-        className="searchFieldsetStandard__input input"
+        className="searchFieldsetStandard__input"
         placeholder=""
       />
     </div>
@@ -122,7 +122,7 @@ exports[`<SearchBar /> Snaphot must match defaultRender 1`] = `
         </div>
       </div>
       <input
-        className="searchFieldsetAdvanced__postcode input"
+        className="searchFieldsetAdvanced__postcode"
         placeholder="Postcode"
       />
       <div
@@ -230,7 +230,7 @@ exports[`<SearchBar /> Snaphot must match defaultRender 1`] = `
       </div>
     </div>
     <div
-      className="searchBar__maxWidthButton button"
+      className="searchBar__maxWidthButton"
     >
       Zoek
     </div>
