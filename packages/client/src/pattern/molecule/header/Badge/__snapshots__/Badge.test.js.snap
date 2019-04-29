@@ -2,6 +2,6 @@
 
 exports[`<Badge /> Snaphot must match defaultRender 1`] = `
 <div
-  className="badge"
+  className=""
 />
 `;
