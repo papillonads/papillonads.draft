@@ -5,7 +5,7 @@ exports[`<SearchFieldsetAdvanced /> Snaphot must match defaultRender 1`] = `
   className="searchFieldsetAdvanced"
 >
   <select
-    className="searchFieldsetAdvanced__group px-2 select"
+    className="searchFieldsetAdvanced__group select"
   >
     <option
       className="select__option"
@@ -204,7 +204,7 @@ exports[`<SearchFieldsetAdvanced /> Snaphot must match defaultRender 1`] = `
     placeholder="Postcode"
   />
   <select
-    className="searchFieldsetAdvanced__distance px-2 select"
+    className="searchFieldsetAdvanced__distance select"
   >
     <option
       className="select__option"

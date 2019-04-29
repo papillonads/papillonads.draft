@@ -5,17 +5,17 @@ exports[`<Links /> Snaphot must match defaultRender 1`] = `
   className="links"
 >
   <div
-    className="py-2 px-1 link link"
+    className="link link"
   >
     some text
   </div>
   <div
-    className="py-2 px-1 link link"
+    className="link link"
   >
     some other text
   </div>
   <div
-    className="py-2 px-1 link link"
+    className="link link"
   >
     and another text
   </div>

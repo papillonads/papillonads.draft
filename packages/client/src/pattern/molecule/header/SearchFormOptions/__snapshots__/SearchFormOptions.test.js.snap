@@ -2,7 +2,7 @@
 
 exports[`<SearchFormOptions /> Snaphot must match defaultRender 1`] = `
 <div
-  className="p-2 searchFormOptions"
+  className="searchFormOptions"
 >
   SearchFormOptions
 </div>
