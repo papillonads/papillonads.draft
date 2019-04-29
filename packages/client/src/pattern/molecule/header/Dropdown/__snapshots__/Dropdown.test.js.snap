@@ -9,10 +9,10 @@ exports[`<Dropdown /> Snaphot must match defaultRender 1`] = `
     className="dropdown__summary"
   >
     <div
-      className="dropdown__badge badge"
+      className="dropdown__badge"
     >
       <div
-        className="dropdown__svgIcon1 svgIcon"
+        className="dropdown__svgIcon1"
       >
         <svg
           fill="grey"
@@ -26,12 +26,12 @@ exports[`<Dropdown /> Snaphot must match defaultRender 1`] = `
         </svg>
       </div>
       <div
-        className="dropdown__label label"
+        className="dropdown__label"
       >
         t
       </div>
       <div
-        className="dropdown__svgIcon2 svgIcon"
+        className="dropdown__svgIcon2"
       >
         <svg
           fill="grey"
@@ -51,21 +51,21 @@ exports[`<Dropdown /> Snaphot must match defaultRender 1`] = `
   >
     <li>
       <div
-        className="dropdown-item dropdown__listItem label"
+        className="dropdown-item dropdown__listItem"
       >
         item 1
       </div>
     </li>
     <li>
       <div
-        className="dropdown-item dropdown__listItem label"
+        className="dropdown-item dropdown__listItem"
       >
         item 2
       </div>
     </li>
     <li>
       <div
-        className="dropdown-item dropdown__listItem label"
+        className="dropdown-item dropdown__listItem"
       >
         item 3
       </div>
