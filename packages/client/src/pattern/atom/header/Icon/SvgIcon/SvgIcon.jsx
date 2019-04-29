@@ -1,11 +1,10 @@
 import React from 'react'
 import { svgIconShape } from '../SvgIcon.shape'
 import cn from 'classnames'
-import cs from './SvgIcon.scss'
 import { getSvgIconPath } from '../../../../../utility/asset'
 
 const SvgIcon = ({ className, name, width, height, fill }) => {
-  const svgIconClassList = cn(className, cs.svgIcon)
+  const svgIconClassList = cn(className)
 
   return (
     <div className={svgIconClassList}>
