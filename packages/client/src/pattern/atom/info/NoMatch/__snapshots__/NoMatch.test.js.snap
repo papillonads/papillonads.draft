@@ -2,7 +2,7 @@
 
 exports[`<NoMatch /> Snaphot must match defaultRender 1`] = `
 <div
-  className="noMatch"
+  className=""
 >
   <h3>
     No match for 
