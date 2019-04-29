@@ -2,7 +2,7 @@
 
 exports[`<Label /> Snaphot must match defaultRender 1`] = `
 <div
-  className="label"
+  className=""
 >
   some-text
 </div>
