@@ -1,10 +1,9 @@
 import React from 'react'
 import { string, node } from 'prop-types'
 import cn from 'classnames'
-import cs from './Button.scss'
 
 const Button = ({ className, children }) => {
-  const buttonClassList = cn(className, cs.button)
+  const buttonClassList = cn(className)
 
   return <div className={buttonClassList}>{children}</div>
 }
