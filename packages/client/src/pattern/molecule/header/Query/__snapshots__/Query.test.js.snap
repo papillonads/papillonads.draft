@@ -2,7 +2,7 @@
 
 exports[`<Query /> Snaphot must match defaultRender 1`] = `
 <div
-  className="query"
+  className=""
 >
   Query
 </div>
