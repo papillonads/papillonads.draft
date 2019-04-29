@@ -1,10 +1,9 @@
 import React from 'react'
 import { string } from 'prop-types'
 import cn from 'classnames'
-import styles from './UnderConstruction.scss'
 
 const UnderConstruction = ({ className }) => {
-  const underConstructionClassList = cn(className, styles.underConstruction)
+  const underConstructionClassList = cn(className)
 
   return (
     <div className={underConstructionClassList}>

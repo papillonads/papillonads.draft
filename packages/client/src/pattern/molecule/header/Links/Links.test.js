@@ -1,4 +1,4 @@
-import defaultRender from './Links.render'
+import { defaultRender } from './Links.render'
 
 describe('<Links />', () => {
   describe('Snaphot', () => {

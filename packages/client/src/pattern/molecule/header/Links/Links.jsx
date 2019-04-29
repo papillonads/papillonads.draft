@@ -1,17 +1,17 @@
 import React from 'react'
 import { shape, arrayOf, string } from 'prop-types'
 import cn from 'classnames'
-import styles from './Links.scss'
+import cs from './Links.scss'
 import Link from '../../../atom/header/Link'
 import uuidv1 from 'uuid/v1'
 
 const Links = ({ className, items }) => {
-  const linksClassList = cn(className, styles.links)
+  const linksClassList = cn(className, cs.links)
 
   return (
     <div className={linksClassList}>
       {items.map(item => (
-        <Link key={uuidv1()} item={item} />
+        <Link className={cs.link} key={uuidv1()} item={item} />
       ))}
     </div>
   )

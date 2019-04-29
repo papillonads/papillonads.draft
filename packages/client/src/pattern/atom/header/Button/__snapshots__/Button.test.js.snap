@@ -1,3 +1,9 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`<Button /> Snaphot must match defaultRender 1`] = `null`;
+exports[`<Button /> Snaphot must match defaultRender 1`] = `
+<div
+  className=""
+>
+  some button
+</div>
+`;

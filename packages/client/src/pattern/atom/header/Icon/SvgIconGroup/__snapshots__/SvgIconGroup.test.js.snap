@@ -2,7 +2,7 @@
 
 exports[`<SvgIcon /> Snaphot must match logoRender 1`] = `
 <svg
-  className="svgIconGroup"
+  className=""
   height="96"
   viewBox="0 0 528 96"
   width="528"
@@ -28,7 +28,7 @@ exports[`<SvgIcon /> Snaphot must match logoRender 1`] = `
 
 exports[`<SvgIcon /> Snaphot must match messagesRender 1`] = `
 <svg
-  className="svgIconGroup"
+  className=""
   height="96"
   viewBox="0 0 96 96"
   width="96"
@@ -51,7 +51,7 @@ exports[`<SvgIcon /> Snaphot must match messagesRender 1`] = `
 
 exports[`<SvgIcon /> Snaphot must match notificationGreyRender 1`] = `
 <svg
-  className="svgIconGroup"
+  className=""
   height="96"
   viewBox="0 0 96 96"
   width="96"
@@ -70,7 +70,7 @@ exports[`<SvgIcon /> Snaphot must match notificationGreyRender 1`] = `
 
 exports[`<SvgIcon /> Snaphot must match notificationRender 1`] = `
 <svg
-  className="svgIconGroup"
+  className=""
   height="96"
   viewBox="0 0 96 96"
   width="96"
@@ -89,7 +89,7 @@ exports[`<SvgIcon /> Snaphot must match notificationRender 1`] = `
 
 exports[`<SvgIcon /> Snaphot must match pinRender 1`] = `
 <svg
-  className="svgIconGroup"
+  className=""
   height="96"
   viewBox="0 0 96 96"
   width="96"
@@ -108,7 +108,7 @@ exports[`<SvgIcon /> Snaphot must match pinRender 1`] = `
 
 exports[`<SvgIcon /> Snaphot must match profileRender 1`] = `
 <svg
-  className="svgIconGroup"
+  className=""
   height="96"
   viewBox="0 0 96 96"
   width="96"

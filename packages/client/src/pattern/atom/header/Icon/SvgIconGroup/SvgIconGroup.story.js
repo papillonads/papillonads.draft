@@ -2,12 +2,12 @@ import { storiesOf } from '@storybook/react'
 import { logoRender, messagesRender, notificationRender, notificationGreyRender, profileRender, pinRender } from './SvgIconGroup.render'
 import { getInfo } from '../../../../../../../../.storybook/utility'
 
-const logoRenderInfo = getInfo('logoRender')
-const messagesRenderInfo = getInfo('messagesRender')
-const notificationRenderInfo = getInfo('notificationRender')
-const notificationGreyRenderInfo = getInfo('notificationGreyRender')
-const profileRenderInfo = getInfo('profileRender')
-const pinRenderInfo = getInfo('pinRender')
+const logoRenderInfo = getInfo('logo')
+const messagesRenderInfo = getInfo('messages')
+const notificationRenderInfo = getInfo('notification')
+const notificationGreyRenderInfo = getInfo('notificationGrey')
+const profileRenderInfo = getInfo('profile')
+const pinRenderInfo = getInfo('pin')
 
 storiesOf('Patttern/Atom/Header/Icon/SvgIconGroup', module)
   .add(logoRenderInfo.text, () => logoRender, logoRenderInfo.parameters)

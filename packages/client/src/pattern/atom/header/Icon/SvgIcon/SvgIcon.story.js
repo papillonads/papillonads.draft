@@ -13,6 +13,7 @@ import {
   userPlusRender,
   userMinusRender,
   userCheckRender,
+  ctrlRender,
 } from './SvgIcon.render'
 import { getInfo } from '../../../../../../../../.storybook/utility'
 
@@ -29,6 +30,7 @@ const usersRenderInfo = getInfo('users')
 const userPlusRenderInfo = getInfo('user-plus')
 const userMinusRenderInfo = getInfo('user-minus')
 const userCheckRenderInfo = getInfo('user-check')
+const ctrlRenderInfo = getInfo('ctrl')
 
 storiesOf('Patttern/Atom/Header/Icon/SvgIcon', module)
   .add(pushpinRenderInfo.text, () => pushpinRender, pushpinRenderInfo.parameters)
@@ -44,3 +46,4 @@ storiesOf('Patttern/Atom/Header/Icon/SvgIcon', module)
   .add(userPlusRenderInfo.text, () => userPlusRender, userPlusRenderInfo.parameters)
   .add(userMinusRenderInfo.text, () => userMinusRender, userMinusRenderInfo.parameters)
   .add(userCheckRenderInfo.text, () => userCheckRender, userCheckRenderInfo.parameters)
+  .add(ctrlRenderInfo.text, () => ctrlRender, ctrlRenderInfo.parameters)

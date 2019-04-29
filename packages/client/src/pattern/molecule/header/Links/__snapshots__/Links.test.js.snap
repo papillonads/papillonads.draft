@@ -1,3 +1,23 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`<Links /> Snaphot must match defaultRender 1`] = `null`;
+exports[`<Links /> Snaphot must match defaultRender 1`] = `
+<div
+  className="links"
+>
+  <div
+    className="link link"
+  >
+    some text
+  </div>
+  <div
+    className="link link"
+  >
+    some other text
+  </div>
+  <div
+    className="link link"
+  >
+    and another text
+  </div>
+</div>
+`;

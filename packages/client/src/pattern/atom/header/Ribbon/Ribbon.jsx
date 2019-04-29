@@ -1,12 +1,11 @@
 import React from 'react'
 import { string } from 'prop-types'
 import cn from 'classnames'
-import styles from './Ribbon.scss'
 
 const Ribbon = ({ className }) => {
-  const ribbonClassList = cn(className, styles.ribbon)
+  const ribbonClassList = cn(className)
 
-  return <div className={ribbonClassList}>Ribbon</div>
+  return <div className={ribbonClassList} />
 }
 
 Ribbon.defaultProps = {

@@ -1,0 +1,30 @@
+.searchFieldsetAdvanced {
+  display: flex;
+  padding-left: 8px;
+
+  @media (min-width: 768px) {
+    padding-left: 0;
+  }
+
+  &__group {
+    width: 45%;
+
+    &:hover {
+      background-color: #fff;
+      cursor: pointer;
+    }
+  }
+
+  &__postcode {
+    width: 20%;
+  }
+
+  &__distance {
+    width: 45%;
+
+    &:hover {
+      background-color: #fff;
+      cursor: pointer;
+    }
+  }
+}
