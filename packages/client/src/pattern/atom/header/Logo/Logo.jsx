@@ -1,11 +1,10 @@
 import React from 'react'
 import { string } from 'prop-types'
 import cn from 'classnames'
-import cs from './Logo.scss'
 import SvgIconGroup from '../Icon/SvgIconGroup'
 
 const Logo = ({ className }) => {
-  const logoClassList = cn(className, cs.logo)
+  const logoClassList = cn(className)
 
   return (
     <div className={logoClassList}>

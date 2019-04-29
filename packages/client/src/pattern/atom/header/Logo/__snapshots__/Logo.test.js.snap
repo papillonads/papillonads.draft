@@ -2,10 +2,10 @@
 
 exports[`<Logo /> Snaphot must match defaultRender 1`] = `
 <div
-  className="logo"
+  className=""
 >
   <svg
-    className="svgIconGroup"
+    className=""
     height="26"
     viewBox="0 0 528 96"
     width="143"
