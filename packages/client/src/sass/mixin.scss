@@ -17,6 +17,7 @@
 
 @mixin headerNavigationBarMenuLabelBadge {
   @include badge;
+
   padding: 8px;
   color: #116db4;
 
@@ -28,6 +29,7 @@
 
 @mixin headerNavigationBarMenuButtonBadge {
   @include badge;
+
   padding: 8px 12px 8px 8px;
   color: #fff;
   background-color: #137bcb;
