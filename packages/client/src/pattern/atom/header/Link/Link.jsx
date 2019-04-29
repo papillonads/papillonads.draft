@@ -1,10 +1,10 @@
 import React from 'react'
 import { shape, string } from 'prop-types'
 import cn from 'classnames'
-import styles from './Link.scss'
+import cs from './Link.scss'
 
 const Link = ({ className, item }) => {
-  const linkClassList = cn(className, styles.link)
+  const linkClassList = cn(className, cs.link)
 
   return <div className={linkClassList}>{item.text}</div>
 }

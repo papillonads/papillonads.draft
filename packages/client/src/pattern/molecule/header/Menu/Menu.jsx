@@ -1,11 +1,12 @@
 import React from 'react'
 import { string } from 'prop-types'
 import cn from 'classnames'
-import styles from './Menu.scss'
+import cs from './Menu.scss'
 import Badge from '../Badge'
 import { SvgIcon } from '../../../atom/header/Icon'
 import Label from '../../../atom/header/Label'
 import Dropdown from '..//Dropdown'
+import Button from '../../../atom/header/Button'
 
 const Menu = ({ className }) => {
   const dropdownItems = [
@@ -18,19 +19,23 @@ const Menu = ({ className }) => {
     { text: 'Uitloggen' },
   ]
 
-  const menuClassList = cn(className, styles.menu)
+  const menuClassList = cn(className, cs._menu)
 
   return (
     <div className={menuClassList}>
-      <Badge>
-        <SvgIcon name={'bubbles2'} width={15} height={15} />
-        <Label text="Berichten" />
+      <Badge className={cs._menu__messages}>
+        <SvgIcon className={cs._menu__messagesIcon} fill={'grey'} name={'bubbles4'} width={15} height={15} />
+        <Label className={cs._menu__messagesLabel} text="Berichten" />
       </Badge>
-      <Badge>
-        <SvgIcon name={'bell'} width={15} height={15} />
-        <Label text="Meldingen" />
+      <Badge className={cs._menu__notifications}>
+        <SvgIcon className={cs._menu__notificationsIcon} fill={'grey'} name={'bell'} width={15} height={15} />
+        <Label className={cs._menu__notificationsLabel} text="Meldingen" />
       </Badge>
       <Dropdown items={dropdownItems} />
+      <Badge className={cs._menu__placeAd}>
+        <SvgIcon className={cs._menu__placeAdIcon} fill={'white'} name={'pushpin'} width={15} height={15} />
+        <Button className={cs._menu__placeAdButton}>Plaats Advertentie</Button>
+      </Badge>
     </div>
   )
 }

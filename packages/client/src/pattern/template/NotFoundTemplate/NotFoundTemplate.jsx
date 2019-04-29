@@ -1,13 +1,12 @@
 import React from 'react'
 import { string, object } from 'prop-types'
 import cn from 'classnames'
-import styles from './NotFoundTemplate.scss'
 import { Link } from 'react-router-dom'
 import { homePagePath } from '../../../route/path'
 import NoMatch from '../../atom/info/NoMatch'
 
 const NotFoundTemplate = ({ className, page, location }) => {
-  const notFoundTemplateClassList = cn(className, styles.notFoundTemplate)
+  const notFoundTemplateClassList = cn(className)
 
   return (
     <div className={notFoundTemplateClassList}>
