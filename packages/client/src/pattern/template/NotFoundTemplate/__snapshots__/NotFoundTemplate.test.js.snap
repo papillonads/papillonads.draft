@@ -2,13 +2,13 @@
 
 exports[`<NotFoundTemplate /> Snaphot must match defaultRender 1`] = `
 <div
-  className="notFoundTemplate"
+  className=""
 >
   <h2>
     some-name
   </h2>
   <div
-    className="noMatch"
+    className=""
   >
     <h3>
       No match for 
