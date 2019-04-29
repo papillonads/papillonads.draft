@@ -19,7 +19,7 @@
 
     &SearchFieldsetStandard {
       order: 0;
-      flex: 1 0 90%;
+      flex: 1 0 85%;
 
       @media (min-width: 768px) {
         flex: 1 0 33%;
@@ -30,7 +30,7 @@
       order: 2;
       flex: 1 0 100%;
       margin-left: -8px;
-
+      line-height: 18px;
       @media (min-width: 768px) {
         order: 1;
         flex: 1 0 55%;
@@ -39,7 +39,7 @@
 
     &Button {
       order: 1;
-      flex: 1 0 10%;
+      flex: 1 0 15%;
 
       @media (min-width: 768px) {
         order: 2;
@@ -58,6 +58,8 @@
         background-color: #fff;
         cursor: pointer;
       }
+
+      line-height: 36px;
     }
 
     &SearchFormOptions {
