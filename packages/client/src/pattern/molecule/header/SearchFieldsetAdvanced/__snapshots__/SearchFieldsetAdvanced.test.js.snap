@@ -4,249 +4,215 @@ exports[`<SearchFieldsetAdvanced /> Snaphot must match defaultRender 1`] = `
 <div
   className="searchFieldsetAdvanced"
 >
-  <select
-    className="searchFieldsetAdvanced__group select"
+  <div
+    className="css-1pcexqc-container searchFieldsetAdvanced__group"
+    onKeyDown={[Function]}
   >
-    <option
-      className="select__option"
-      value="Alle groepen..."
+    <div
+      className="css-bg1rzq-control"
+      onMouseDown={[Function]}
+      onTouchEnd={[Function]}
     >
-      Alle groepen...
-    </option>
-    <option
-      value="Alle groepen…"
-    >
-      Alle groepen…
-    </option>
-    <option
-      value="Antiek en Kunst"
-    >
-      Antiek en Kunst
-    </option>
-    <option
-      value="Audio, Tv en Foto"
-    >
-      Audio, Tv en Foto
-    </option>
-    <option
-      value="Auto's"
-    >
-      Auto's
-    </option>
-    <option
-      value="Auto-onderdelen"
-    >
-      Auto-onderdelen
-    </option>
-    <option
-      value="Auto diversen"
-    >
-      Auto diversen
-    </option>
-    <option
-      value="Boeken"
-    >
-      Boeken
-    </option>
-    <option
-      value="Caravans en Kamperen"
-    >
-      Caravans en Kamperen
-    </option>
-    <option
-      value="Cd's en Dvd's"
-    >
-      Cd's en Dvd's
-    </option>
-    <option
-      value="Computers en Software"
-    >
-      Computers en Software
-    </option>
-    <option
-      value="Contacten en Berichten"
-    >
-      Contacten en Berichten
-    </option>
-    <option
-      value="Diensten en Vakmensen"
-    >
-      Diensten en Vakmensen
-    </option>
-    <option
-      value="Dieren en Toebehoren"
-    >
-      Dieren en Toebehoren
-    </option>
-    <option
-      value="Doe-het-zelf en Verbouw"
-    >
-      Doe-het-zelf en Verbouw
-    </option>
-    <option
-      value="Fietsen en Brommers"
-    >
-      Fietsen en Brommers
-    </option>
-    <option
-      value="Hobby en Vrije tijd"
-    >
-      Hobby en Vrije tijd
-    </option>
-    <option
-      value="Huis en Inrichting"
-    >
-      Huis en Inrichting
-    </option>
-    <option
-      value="Huizen en Kamers"
-    >
-      Huizen en Kamers
-    </option>
-    <option
-      value="Kinderen en Baby's"
-    >
-      Kinderen en Baby's
-    </option>
-    <option
-      value="Kleding | Dames"
-    >
-      Kleding | Dames
-    </option>
-    <option
-      value="Kleding | Heren"
-    >
-      Kleding | Heren
-    </option>
-    <option
-      value="Motoren"
-    >
-      Motoren
-    </option>
-    <option
-      value="Muziek en Instrumenten"
-    >
-      Muziek en Instrumenten
-    </option>
-    <option
-      value="Postzegels en Munten"
-    >
-      Postzegels en Munten
-    </option>
-    <option
-      value="Sieraden, Tassen en Uiterlijk"
-    >
-      Sieraden, Tassen en Uiterlijk
-    </option>
-    <option
-      value="Spelcomputers en Games"
-    >
-      Spelcomputers en Games
-    </option>
-    <option
-      value="Sport en Fitness"
-    >
-      Sport en Fitness
-    </option>
-    <option
-      value="Telecommunicatie"
-    >
-      Telecommunicatie
-    </option>
-    <option
-      value="Tickets en Kaartjes"
-    >
-      Tickets en Kaartjes
-    </option>
-    <option
-      value="Tuin en Terras"
-    >
-      Tuin en Terras
-    </option>
-    <option
-      value="Vacatures"
-    >
-      Vacatures
-    </option>
-    <option
-      value="Vakantie"
-    >
-      Vakantie
-    </option>
-    <option
-      value="Verzamelen"
-    >
-      Verzamelen
-    </option>
-    <option
-      value="Watersport en Boten"
-    >
-      Watersport en Boten
-    </option>
-    <option
-      value="Witgoed en Apparatuur"
-    >
-      Witgoed en Apparatuur
-    </option>
-    <option
-      value="Zakelijke goederen"
-    >
-      Zakelijke goederen
-    </option>
-    <option
-      value="Diversen"
-    >
-      Diversen
-    </option>
-  </select>
+      <div
+        className="css-1hwfws3"
+      >
+        <div
+          className="css-151xaom-placeholder"
+        >
+          Alle groepen...
+        </div>
+        <div
+          className="css-1g6gooi"
+        >
+          <div
+            className=""
+            style={
+              Object {
+                "display": "inline-block",
+              }
+            }
+          >
+            <input
+              aria-autocomplete="list"
+              autoCapitalize="none"
+              autoComplete="off"
+              autoCorrect="off"
+              disabled={false}
+              id="react-select-2-input"
+              onBlur={[Function]}
+              onChange={[Function]}
+              onFocus={[Function]}
+              spellCheck="false"
+              style={
+                Object {
+                  "background": 0,
+                  "border": 0,
+                  "boxSizing": "content-box",
+                  "color": "inherit",
+                  "fontSize": "inherit",
+                  "label": "input",
+                  "opacity": 1,
+                  "outline": 0,
+                  "padding": 0,
+                  "width": "1px",
+                }
+              }
+              tabIndex="0"
+              type="text"
+              value=""
+            />
+            <div
+              style={
+                Object {
+                  "height": 0,
+                  "left": 0,
+                  "overflow": "scroll",
+                  "position": "absolute",
+                  "top": 0,
+                  "visibility": "hidden",
+                  "whiteSpace": "pre",
+                }
+              }
+            >
+              
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="css-1wy0on6"
+      >
+        <span
+          className="css-bgvzuu-indicatorSeparator"
+        />
+        <div
+          aria-hidden="true"
+          className="css-16pqwjk-indicatorContainer"
+          onMouseDown={[Function]}
+          onTouchEnd={[Function]}
+        >
+          <svg
+            aria-hidden="true"
+            className="css-19bqh2r"
+            focusable="false"
+            height={20}
+            viewBox="0 0 20 20"
+            width={20}
+          >
+            <path
+              d="M4.516 7.548c0.436-0.446 1.043-0.481 1.576 0l3.908 3.747 3.908-3.747c0.533-0.481 1.141-0.446 1.574 0 0.436 0.445 0.408 1.197 0 1.615-0.406 0.418-4.695 4.502-4.695 4.502-0.217 0.223-0.502 0.335-0.787 0.335s-0.57-0.112-0.789-0.335c0 0-4.287-4.084-4.695-4.502s-0.436-1.17 0-1.615z"
+            />
+          </svg>
+        </div>
+      </div>
+    </div>
+  </div>
   <input
     className="searchFieldsetAdvanced__postcode input"
     placeholder="Postcode"
   />
-  <select
-    className="searchFieldsetAdvanced__distance select"
+  <div
+    className="css-1pcexqc-container searchFieldsetAdvanced__distance"
+    onKeyDown={[Function]}
   >
-    <option
-      className="select__option"
-      value="Alle afstanden..."
+    <div
+      className="css-bg1rzq-control"
+      onMouseDown={[Function]}
+      onTouchEnd={[Function]}
     >
-      Alle afstanden...
-    </option>
-    <option
-      value="< 3 km"
-    >
-      &lt; 3 km
-    </option>
-    <option
-      value="< 5 km"
-    >
-      &lt; 5 km
-    </option>
-    <option
-      value="< 10 km"
-    >
-      &lt; 10 km
-    </option>
-    <option
-      value="< 15 km"
-    >
-      &lt; 15 km
-    </option>
-    <option
-      value="< 25 km"
-    >
-      &lt; 25 km
-    </option>
-    <option
-      value="< 50 km"
-    >
-      &lt; 50 km
-    </option>
-    <option
-      value="< 75 km"
-    >
-      &lt; 75 km
-    </option>
-  </select>
+      <div
+        className="css-1hwfws3"
+      >
+        <div
+          className="css-151xaom-placeholder"
+        >
+          Alle afstanden...
+        </div>
+        <div
+          className="css-1g6gooi"
+        >
+          <div
+            className=""
+            style={
+              Object {
+                "display": "inline-block",
+              }
+            }
+          >
+            <input
+              aria-autocomplete="list"
+              autoCapitalize="none"
+              autoComplete="off"
+              autoCorrect="off"
+              disabled={false}
+              id="react-select-3-input"
+              onBlur={[Function]}
+              onChange={[Function]}
+              onFocus={[Function]}
+              spellCheck="false"
+              style={
+                Object {
+                  "background": 0,
+                  "border": 0,
+                  "boxSizing": "content-box",
+                  "color": "inherit",
+                  "fontSize": "inherit",
+                  "label": "input",
+                  "opacity": 1,
+                  "outline": 0,
+                  "padding": 0,
+                  "width": "1px",
+                }
+              }
+              tabIndex="0"
+              type="text"
+              value=""
+            />
+            <div
+              style={
+                Object {
+                  "height": 0,
+                  "left": 0,
+                  "overflow": "scroll",
+                  "position": "absolute",
+                  "top": 0,
+                  "visibility": "hidden",
+                  "whiteSpace": "pre",
+                }
+              }
+            >
+              
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="css-1wy0on6"
+      >
+        <span
+          className="css-bgvzuu-indicatorSeparator"
+        />
+        <div
+          aria-hidden="true"
+          className="css-16pqwjk-indicatorContainer"
+          onMouseDown={[Function]}
+          onTouchEnd={[Function]}
+        >
+          <svg
+            aria-hidden="true"
+            className="css-19bqh2r"
+            focusable="false"
+            height={20}
+            viewBox="0 0 20 20"
+            width={20}
+          >
+            <path
+              d="M4.516 7.548c0.436-0.446 1.043-0.481 1.576 0l3.908 3.747 3.908-3.747c0.533-0.481 1.141-0.446 1.574 0 0.436 0.445 0.408 1.197 0 1.615-0.406 0.418-4.695 4.502-4.695 4.502-0.217 0.223-0.502 0.335-0.787 0.335s-0.57-0.112-0.789-0.335c0 0-4.287-4.084-4.695-4.502s-0.436-1.17 0-1.615z"
+            />
+          </svg>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
 `;
