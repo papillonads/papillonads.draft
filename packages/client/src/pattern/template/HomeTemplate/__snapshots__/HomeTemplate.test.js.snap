@@ -5,7 +5,7 @@ exports[`<HomeTemplate /> Snaphot must match defaultRender 1`] = `
   className="homeTemplate"
 >
   <div
-    className="homeTemplate__ribbonTop ribbon"
+    className="homeTemplate__ribbonTop"
   />
   <div
     className="header"
@@ -20,10 +20,10 @@ exports[`<HomeTemplate /> Snaphot must match defaultRender 1`] = `
           className="navigationBar__maxWidthLeft"
         >
           <div
-            className="navigationBar__maxWidthLeftLogo logo"
+            className="navigationBar__maxWidthLeftLogo"
           >
             <svg
-              className="svgIconGroup"
+              className=""
               height="26"
               viewBox="0 0 528 96"
               width="143"
@@ -70,10 +70,10 @@ exports[`<HomeTemplate /> Snaphot must match defaultRender 1`] = `
           className="_menu"
         >
           <div
-            className="_menu__messages badge"
+            className="_menu__messages"
           >
             <div
-              className="_menu__messagesIcon svgIcon"
+              className="_menu__messagesIcon"
             >
               <svg
                 fill="grey"
@@ -87,16 +87,16 @@ exports[`<HomeTemplate /> Snaphot must match defaultRender 1`] = `
               </svg>
             </div>
             <div
-              className="_menu__messagesLabel label"
+              className="_menu__messagesLabel"
             >
               Berichten
             </div>
           </div>
           <div
-            className="_menu__notifications badge"
+            className="_menu__notifications"
           >
             <div
-              className="_menu__notificationsIcon svgIcon"
+              className="_menu__notificationsIcon"
             >
               <svg
                 fill="grey"
@@ -110,7 +110,7 @@ exports[`<HomeTemplate /> Snaphot must match defaultRender 1`] = `
               </svg>
             </div>
             <div
-              className="_menu__notificationsLabel label"
+              className="_menu__notificationsLabel"
             >
               Meldingen
             </div>
@@ -123,10 +123,10 @@ exports[`<HomeTemplate /> Snaphot must match defaultRender 1`] = `
               className="dropdown__summary"
             >
               <div
-                className="dropdown__badge badge"
+                className="dropdown__badge"
               >
                 <div
-                  className="dropdown__svgIcon1 svgIcon"
+                  className="dropdown__svgIcon1"
                 >
                   <svg
                     fill="grey"
@@ -140,12 +140,12 @@ exports[`<HomeTemplate /> Snaphot must match defaultRender 1`] = `
                   </svg>
                 </div>
                 <div
-                  className="dropdown__label label"
+                  className="dropdown__label"
                 >
                   t
                 </div>
                 <div
-                  className="dropdown__svgIcon2 svgIcon"
+                  className="dropdown__svgIcon2"
                 >
                   <svg
                     fill="grey"
@@ -165,49 +165,49 @@ exports[`<HomeTemplate /> Snaphot must match defaultRender 1`] = `
             >
               <li>
                 <div
-                  className="dropdown-item dropdown__listItem label"
+                  className="dropdown-item dropdown__listItem"
                 >
                   Mijn Advertenties
                 </div>
               </li>
               <li>
                 <div
-                  className="dropdown-item dropdown__listItem label"
+                  className="dropdown-item dropdown__listItem"
                 >
                   Mijn Favorieten
                 </div>
               </li>
               <li>
                 <div
-                  className="dropdown-item dropdown__listItem label"
+                  className="dropdown-item dropdown__listItem"
                 >
                   Mijn Zoekopdrachten
                 </div>
               </li>
               <li>
                 <div
-                  className="dropdown-item dropdown__listItem label"
+                  className="dropdown-item dropdown__listItem"
                 >
                   Mijn Verkopers
                 </div>
               </li>
               <li>
                 <div
-                  className="dropdown-item dropdown__listItem label"
+                  className="dropdown-item dropdown__listItem"
                 >
                   Mijn Profiel
                 </div>
               </li>
               <li>
                 <div
-                  className="dropdown-item dropdown__listItem label"
+                  className="dropdown-item dropdown__listItem"
                 >
                   Mijn Ervaringen
                 </div>
               </li>
               <li>
                 <div
-                  className="dropdown-item dropdown__listItem label"
+                  className="dropdown-item dropdown__listItem"
                 >
                   Uitloggen
                 </div>
@@ -215,10 +215,10 @@ exports[`<HomeTemplate /> Snaphot must match defaultRender 1`] = `
             </ul>
           </details>
           <div
-            className="_menu__placeAd badge"
+            className="_menu__placeAd"
           >
             <div
-              className="_menu__placeAdIcon svgIcon"
+              className="_menu__placeAdIcon"
             >
               <svg
                 fill="white"
@@ -232,7 +232,7 @@ exports[`<HomeTemplate /> Snaphot must match defaultRender 1`] = `
               </svg>
             </div>
             <div
-              className="_menu__placeAdButton button"
+              className="_menu__placeAdButton"
             >
               Plaats Advertentie
             </div>
@@ -250,7 +250,7 @@ exports[`<HomeTemplate /> Snaphot must match defaultRender 1`] = `
           className="searchBar__maxWidthSearchFieldsetStandard searchFieldsetStandard"
         >
           <input
-            className="searchFieldsetStandard__input input"
+            className="searchFieldsetStandard__input"
             placeholder=""
           />
         </div>
@@ -361,7 +361,7 @@ exports[`<HomeTemplate /> Snaphot must match defaultRender 1`] = `
             </div>
           </div>
           <input
-            className="searchFieldsetAdvanced__postcode input"
+            className="searchFieldsetAdvanced__postcode"
             placeholder="Postcode"
           />
           <div
@@ -469,7 +469,7 @@ exports[`<HomeTemplate /> Snaphot must match defaultRender 1`] = `
           </div>
         </div>
         <div
-          className="searchBar__maxWidthButton button"
+          className="searchBar__maxWidthButton"
         >
           Zoek
         </div>
@@ -477,7 +477,7 @@ exports[`<HomeTemplate /> Snaphot must match defaultRender 1`] = `
     </div>
   </div>
   <div
-    className="homeTemplate__ribbonBottom ribbon"
+    className="homeTemplate__ribbonBottom"
   />
 </div>
 `;
