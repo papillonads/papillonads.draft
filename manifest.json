@@ -1,11 +1,15 @@
 {
-  "app.css": "/papillonads.nl/app.f4c4.css",
-  "app.js": "/papillonads.nl/app-modern.f4c4.js",
-  "app.css.map": "/papillonads.nl/app.f4c4.css.map",
-  "app.js.map": "/papillonads.nl/app-modern.f4c4.js.map",
-  "1.f4c4.css": "/papillonads.nl/1.f4c4.css",
-  "1-modern.f4c4.js": "/papillonads.nl/1-modern.f4c4.js",
-  "1.f4c4.css.map": "/papillonads.nl/1.f4c4.css.map",
-  "1-modern.f4c4.js.map": "/papillonads.nl/1-modern.f4c4.js.map",
+  "app.js": "/papillonads.nl/app-modern.07a8.js",
+  "app.js.map": "/papillonads.nl/app-modern.07a8.js.map",
+  "1.07a8.css": "/papillonads.nl/1.07a8.css",
+  "1-modern.07a8.js": "/papillonads.nl/1-modern.07a8.js",
+  "1.07a8.css.map": "/papillonads.nl/1.07a8.css.map",
+  "1-modern.07a8.js.map": "/papillonads.nl/1-modern.07a8.js.map",
+  "2.07a8.css": "/papillonads.nl/2.07a8.css",
+  "2-modern.07a8.js": "/papillonads.nl/2-modern.07a8.js",
+  "2.07a8.css.map": "/papillonads.nl/2.07a8.css.map",
+  "2-modern.07a8.js.map": "/papillonads.nl/2-modern.07a8.js.map",
+  "3-modern.07a8.js": "/papillonads.nl/3-modern.07a8.js",
+  "3-modern.07a8.js.map": "/papillonads.nl/3-modern.07a8.js.map",
   "index.html": "/papillonads.nl/index.html"
 }
