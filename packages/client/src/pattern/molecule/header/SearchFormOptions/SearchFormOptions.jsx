@@ -1,7 +1,7 @@
 import React from 'react'
-import { string } from 'prop-types'
 import cn from 'classnames'
 import cs from './SearchFormOptions.scss'
+import { searchFormOptionsDefaultProps, searchFormOptionsPropTypes } from './SearchFormOptions.props'
 
 const SearchFormOptions = ({ className }) => {
   const searchFormOptionsClassList = cn(className, cs.searchFormOptions)
@@ -9,12 +9,8 @@ const SearchFormOptions = ({ className }) => {
   return <div className={searchFormOptionsClassList}>SearchFormOptions</div>
 }
 
-SearchFormOptions.defaultProps = {
-  className: '',
-}
+SearchFormOptions.defaultProps = searchFormOptionsDefaultProps
 
-SearchFormOptions.propTypes = {
-  className: string,
-}.isRequired
+SearchFormOptions.propTypes = searchFormOptionsPropTypes
 
 export default SearchFormOptions
