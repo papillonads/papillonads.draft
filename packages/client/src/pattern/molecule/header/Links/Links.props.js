@@ -1,5 +1,5 @@
 import { string, arrayOf } from 'prop-types'
-import { linkPropTypes } from '../../../atom/header/Link/Link.propTypes'
+import { linkPropTypes } from '../../../atom/header/Link/Link.props'
 
 export const linksDefaultProps = {
   className: '',
@@ -7,5 +7,5 @@ export const linksDefaultProps = {
 
 export const linksPropTypes = {
   className: string,
-  data: arrayOf(linkPropTypes).isRequired,
+  data: arrayOf(linkPropTypes.item).isRequired,
 }
