@@ -1,11 +1,10 @@
 import React from 'react'
-import { string } from 'prop-types'
 import cn from 'classnames'
 import cs from './NavigationBar.scss'
 import Logo from '../../../atom/header/Logo'
 import Links from '../Links'
 import Menu from '../Menu'
-import { navigationBarPropTypes } from './NavigationBar.propTypes'
+import { navigationBarDefaultProps, navigationBarPropTypes } from './NavigationBar.props'
 
 const NavigationBar = ({ className, data }) => {
   const navigationBarClassList = cn(className, cs.navigationBar)
@@ -23,13 +22,8 @@ const NavigationBar = ({ className, data }) => {
   )
 }
 
-NavigationBar.defaultProps = {
-  className: '',
-}
+NavigationBar.defaultProps = navigationBarDefaultProps
 
-NavigationBar.propTypes = {
-  className: string,
-  data: navigationBarPropTypes,
-}
+NavigationBar.propTypes = navigationBarPropTypes
 
 export default NavigationBar

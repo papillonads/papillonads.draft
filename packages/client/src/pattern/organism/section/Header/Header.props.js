@@ -1,5 +1,5 @@
 import { string, shape } from 'prop-types'
-import { navigationBarPropTypes } from '../../../molecule/header/NavigationBar/NavigationBar.propTypes'
+import { navigationBarPropTypes } from '../../../molecule/header/NavigationBar/NavigationBar.props'
 import { searchBarPropTypes } from '../../../molecule/header/SearchBar/SearchBar.propTypes'
 
 export const headerDefaultProps = {
@@ -9,7 +9,7 @@ export const headerDefaultProps = {
 export const headerPropTypes = {
   className: string,
   data: shape({
-    navigationBar: navigationBarPropTypes,
+    navigationBar: navigationBarPropTypes.data,
     searchBar: searchBarPropTypes,
   }).isRequired,
 }
