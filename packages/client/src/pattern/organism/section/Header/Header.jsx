@@ -1,9 +1,10 @@
 import React from 'react'
-import { string, object } from 'prop-types'
+import { bool } from 'prop-types'
 import cn from 'classnames'
 import cs from './Header.scss'
 import NavigationBar from '../../../molecule/header/NavigationBar'
 import SearchBar from '../../../molecule/header/SearchBar'
+import { headerShape } from './Header.shape'
 
 const Header = ({ className, data }) => {
   const headerClassList = cn(className, cs.header)
@@ -21,8 +22,8 @@ Header.defaultProps = {
 }
 
 Header.propTypes = {
-  className: string,
-  data: object.isRequired,
+  className: bool,
+  data: headerShape.isRequired,
 }.isRequired
 
 export default Header
