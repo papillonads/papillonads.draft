@@ -1,6 +1,6 @@
 import React from 'react'
 import cn from 'classnames'
-import { underConstructionDefaultProps, underConstructionPropTypes } from './Ribbon.props'
+import { underConstructionDefaultProps, underConstructionPropTypes } from './UnderConstruction.props'
 
 const UnderConstruction = ({ className }) => {
   const underConstructionClassList = cn(className)
