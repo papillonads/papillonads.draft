@@ -1,6 +1,6 @@
 import React from 'react'
-import { string } from 'prop-types'
 import cn from 'classnames'
+import { queryDefaultProps, queryPropTypes } from './Query.props'
 
 const Query = ({ className }) => {
   const queryClassList = cn(className)
@@ -8,12 +8,8 @@ const Query = ({ className }) => {
   return <div className={queryClassList}>Query</div>
 }
 
-Query.defaultProps = {
-  className: '',
-}
+Query.defaultProps = queryDefaultProps
 
-Query.propTypes = {
-  className: string,
-}
+Query.propTypes = queryPropTypes
 
 export default Query
