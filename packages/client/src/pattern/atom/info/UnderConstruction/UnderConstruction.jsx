@@ -1,6 +1,6 @@
 import React from 'react'
-import { string } from 'prop-types'
 import cn from 'classnames'
+import { underConstructionDefaultProps, underConstructionPropTypes } from './Ribbon.props'
 
 const UnderConstruction = ({ className }) => {
   const underConstructionClassList = cn(className)
@@ -15,12 +15,8 @@ const UnderConstruction = ({ className }) => {
   )
 }
 
-UnderConstruction.defaultProps = {
-  className: '',
-}
+UnderConstruction.defaultProps = underConstructionDefaultProps
 
-UnderConstruction.propTypes = {
-  className: string,
-}
+UnderConstruction.propTypes = underConstructionPropTypes
 
 export default UnderConstruction
