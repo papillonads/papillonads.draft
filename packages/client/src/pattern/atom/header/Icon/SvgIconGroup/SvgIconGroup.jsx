@@ -1,5 +1,5 @@
 import React from 'react'
-import { svgIconGroupShape } from '../SvgIcon.shape'
+import { svgIconGroupPropTypes } from '../SvgIcon.propTypes'
 import cn from 'classnames'
 import { getSvgIconGroupPaths, getFill } from '../../../../../utility/asset'
 import uuidv1 from 'uuid/v1'
@@ -27,6 +27,6 @@ SvgIconGroup.defaultProps = {
   className: '',
 }
 
-SvgIconGroup.propTypes = svgIconGroupShape.isRequired
+SvgIconGroup.propTypes = svgIconGroupPropTypes
 
 export default SvgIconGroup

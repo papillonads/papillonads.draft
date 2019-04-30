@@ -25,6 +25,6 @@ Logo.defaultProps = {
 
 Logo.propTypes = {
   className: string,
-}.isRequired
+}
 
 export default Logo

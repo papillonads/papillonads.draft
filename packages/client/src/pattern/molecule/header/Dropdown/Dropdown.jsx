@@ -43,6 +43,6 @@ Dropdown.propTypes = {
       text: string.isRequired,
     }),
   ).isRequired,
-}.isRequired
+}
 
 export default Dropdown

@@ -20,6 +20,6 @@ SearchFieldsetStandard.defaultProps = {
 
 SearchFieldsetStandard.propTypes = {
   className: string,
-}.isRequired
+}
 
 export default SearchFieldsetStandard

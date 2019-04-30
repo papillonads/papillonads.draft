@@ -16,6 +16,6 @@ Input.defaultProps = {
 Input.propTypes = {
   className: string,
   placeholder: string,
-}.isRequired
+}
 
 export default Input

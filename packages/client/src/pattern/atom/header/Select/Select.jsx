@@ -36,6 +36,6 @@ Select.propTypes = {
       text: string.isRequired,
     }),
   ).isRequired,
-}.isRequired
+}
 
 export default Select

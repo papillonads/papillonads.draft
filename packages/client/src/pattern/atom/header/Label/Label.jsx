@@ -14,6 +14,7 @@ Label.defaultProps = {
 
 Label.propTypes = {
   className: string,
-}.isRequired
+  text: string,
+}
 
 export default Label

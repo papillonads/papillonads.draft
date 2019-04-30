@@ -46,6 +46,6 @@ Menu.defaultProps = {
 
 Menu.propTypes = {
   className: string,
-}.isRequired
+}
 
 export default Menu

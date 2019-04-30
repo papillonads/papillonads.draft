@@ -21,6 +21,6 @@ UnderConstruction.defaultProps = {
 
 UnderConstruction.propTypes = {
   className: string,
-}.isRequired
+}
 
 export default UnderConstruction

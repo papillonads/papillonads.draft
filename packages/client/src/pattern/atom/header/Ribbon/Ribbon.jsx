@@ -14,6 +14,6 @@ Ribbon.defaultProps = {
 
 Ribbon.propTypes = {
   className: string,
-}.isRequired
+}
 
 export default Ribbon

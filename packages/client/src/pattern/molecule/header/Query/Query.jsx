@@ -14,6 +14,6 @@ Query.defaultProps = {
 
 Query.propTypes = {
   className: string,
-}.isRequired
+}
 
 export default Query

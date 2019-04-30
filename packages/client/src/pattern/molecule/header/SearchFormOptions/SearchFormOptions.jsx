@@ -15,6 +15,6 @@ SearchFormOptions.defaultProps = {
 
 SearchFormOptions.propTypes = {
   className: string,
-}.isRequired
+}
 
 export default SearchFormOptions

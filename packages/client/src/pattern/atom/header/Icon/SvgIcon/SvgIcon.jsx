@@ -1,5 +1,5 @@
 import React from 'react'
-import { svgIconShape } from '../SvgIcon.shape'
+import { svgIconPropTypes } from '../SvgIcon.propTypes'
 import cn from 'classnames'
 import { getSvgIconPath } from '../../../../../utility/asset'
 
@@ -20,6 +20,6 @@ SvgIcon.defaultProps = {
   fill: '',
 }
 
-SvgIcon.propTypes = svgIconShape.isRequired
+SvgIcon.propTypes = svgIconPropTypes
 
 export default SvgIcon

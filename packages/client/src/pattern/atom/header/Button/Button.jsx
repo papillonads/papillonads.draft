@@ -15,6 +15,6 @@ Button.defaultProps = {
 Button.propTypes = {
   className: string,
   children: node.isRequired,
-}.isRequired
+}
 
 export default Button
