@@ -1,5 +1,4 @@
 import React from 'react'
-import { string } from 'prop-types'
 import cn from 'classnames'
 import cs from './Menu.scss'
 import Badge from '../Badge'
@@ -7,6 +6,7 @@ import { SvgIcon } from '../../../atom/header/Icon'
 import Label from '../../../atom/header/Label'
 import Dropdown from '..//Dropdown'
 import Button from '../../../atom/header/Button'
+import { menuDefaultProps, menuPropTypes } from './Menu.props'
 
 const Menu = ({ className }) => {
   const dropdownItems = [
@@ -40,12 +40,8 @@ const Menu = ({ className }) => {
   )
 }
 
-Menu.defaultProps = {
-  className: '',
-}
+Menu.defaultProps = menuDefaultProps
 
-Menu.propTypes = {
-  className: string,
-}
+Menu.propTypes = menuPropTypes
 
 export default Menu
