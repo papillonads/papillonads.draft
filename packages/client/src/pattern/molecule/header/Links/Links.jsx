@@ -4,7 +4,7 @@ import cn from 'classnames'
 import cs from './Links.scss'
 import Link from '../../../atom/header/Link'
 import uuidv1 from 'uuid/v1'
-import { linksShape } from './Links.shape'
+import { linksPropTypes } from './Links.propTypes'
 
 const Links = ({ className, data }) => {
   const linksClassList = cn(className, cs.links)
@@ -24,7 +24,7 @@ Links.defaultProps = {
 
 Links.propTypes = {
   className: string,
-  data: linksShape.isRequired,
-}.isRequired
+  data: linksPropTypes,
+}
 
 export default Links
