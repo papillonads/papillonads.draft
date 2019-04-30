@@ -18,9 +18,9 @@ exports[`<Header /> Snaphot must match defaultRender 1`] = `
         >
           <svg
             className=""
-            height="26"
+            height={26}
             viewBox="0 0 528 96"
-            width="143"
+            width={143}
           >
             <g
               fillRule="evenodd"
