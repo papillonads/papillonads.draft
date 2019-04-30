@@ -1,10 +1,9 @@
 import React from 'react'
-import { string } from 'prop-types'
 import cn from 'classnames'
 import cs from './Header.scss'
 import NavigationBar from '../../../molecule/header/NavigationBar'
 import SearchBar from '../../../molecule/header/SearchBar'
-import { headerPropTypes } from './Header.propTypes'
+import { headerDefaultProps, headerPropTypes } from './Header.props'
 
 const Header = ({ className, data }) => {
   const headerClassList = cn(className, cs.header)
@@ -17,13 +16,8 @@ const Header = ({ className, data }) => {
   )
 }
 
-Header.defaultProps = {
-  className: '',
-}
+Header.defaultProps = headerDefaultProps
 
-Header.propTypes = {
-  className: string,
-  data: headerPropTypes,
-}
+Header.propTypes = headerPropTypes
 
 export default Header
