@@ -1,9 +1,10 @@
 import React from 'react'
-import { shape, arrayOf, string } from 'prop-types'
+import { string } from 'prop-types'
 import cn from 'classnames'
 import cs from './Links.scss'
 import Link from '../../../atom/header/Link'
 import uuidv1 from 'uuid/v1'
+import { linksShape } from './Links.shape'
 
 const Links = ({ className, data }) => {
   const linksClassList = cn(className, cs.links)
@@ -23,11 +24,7 @@ Links.defaultProps = {
 
 Links.propTypes = {
   className: string,
-  data: arrayOf(
-    shape({
-      text: string.isRequired,
-    }),
-  ).isRequired,
+  data: linksShape.isRequired,
 }.isRequired
 
 export default Links
