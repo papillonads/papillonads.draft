@@ -6,7 +6,7 @@ import SearchFieldsetStandard from '../SearchFieldsetStandard'
 import SearchFieldsetAdvanced from '../SearchFieldsetAdvanced'
 import Button from '../../../atom/header/Button'
 // import SearchFormOptions from '../SearchFormOptions'
-import { searchBarShape } from './SearchBar.shape'
+import { searchBarPropTypes } from './SearchBar.propTypes'
 
 const SearchBar = ({ className, data }) => {
   const searchBarClassList = cn(className, cs.searchBar)
@@ -29,7 +29,7 @@ SearchBar.defaultProps = {
 
 SearchBar.propTypes = {
   className: string,
-  data: searchBarShape.isRequired,
-}.isRequired
+  data: searchBarPropTypes,
+}
 
 export default SearchBar
