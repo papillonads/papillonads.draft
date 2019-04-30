@@ -1,7 +1,8 @@
 import React from 'react'
-import { shape, string } from 'prop-types'
+import { string } from 'prop-types'
 import cn from 'classnames'
 import cs from './Link.scss'
+import { linkShape } from './Link.shape'
 
 const Link = ({ className, item }) => {
   const linkClassList = cn(className, cs.link)
@@ -15,9 +16,7 @@ Link.defaultProps = {
 
 Link.propTypes = {
   className: string,
-  item: shape({
-    text: string.isRequired,
-  }),
+  item: linkShape.isRequired,
 }.isRequired
 
 export default Link
