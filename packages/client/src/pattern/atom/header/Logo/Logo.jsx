@@ -1,7 +1,7 @@
 import React from 'react'
-import { string } from 'prop-types'
 import cn from 'classnames'
 import SvgIconGroup from '../Icon/SvgIconGroup'
+import { logoDefaultProps, logoPropTypes } from './Logo.props'
 
 const Logo = ({ className }) => {
   const logoClassList = cn(className)
@@ -19,12 +19,8 @@ const Logo = ({ className }) => {
   )
 }
 
-Logo.defaultProps = {
-  className: '',
-}
+Logo.defaultProps = logoDefaultProps
 
-Logo.propTypes = {
-  className: string,
-}
+Logo.propTypes = logoPropTypes
 
 export default Logo
