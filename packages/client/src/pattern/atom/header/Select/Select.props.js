@@ -1,4 +1,4 @@
-import { bool, arrayOf, shape } from 'prop-types'
+import { string, arrayOf, shape } from 'prop-types'
 
 export const selectDefaultProps = {
   className: '',
@@ -6,11 +6,11 @@ export const selectDefaultProps = {
 }
 
 export const selectPropTypes = {
-  className: bool,
-  placeholder: bool,
+  className: string,
+  placeholder: string,
   items: arrayOf(
     shape({
-      text: bool.isRequired,
+      text: string.isRequired,
     }),
   ).isRequired,
 }
