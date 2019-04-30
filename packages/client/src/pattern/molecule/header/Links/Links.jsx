@@ -1,10 +1,9 @@
 import React from 'react'
-import { string } from 'prop-types'
 import cn from 'classnames'
 import cs from './Links.scss'
 import Link from '../../../atom/header/Link'
 import uuidv1 from 'uuid/v1'
-import { linksPropTypes } from './Links.propTypes'
+import { linksDefaultProps, linksPropTypes } from './Links.props'
 
 const Links = ({ className, data }) => {
   const linksClassList = cn(className, cs.links)
@@ -18,13 +17,8 @@ const Links = ({ className, data }) => {
   )
 }
 
-Links.defaultProps = {
-  className: '',
-}
+Links.defaultProps = linksDefaultProps
 
-Links.propTypes = {
-  className: string,
-  data: linksPropTypes,
-}
+Links.propTypes = linksPropTypes
 
 export default Links

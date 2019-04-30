@@ -1,6 +1,6 @@
 import { shape } from 'prop-types'
-import { linksPropTypes } from '../Links/Links.propTypes'
+import { linksPropTypes } from '../Links/Links.props'
 
 export const navigationBarPropTypes = shape({
-  links: linksPropTypes,
+  links: linksPropTypes.data,
 }).isRequired
