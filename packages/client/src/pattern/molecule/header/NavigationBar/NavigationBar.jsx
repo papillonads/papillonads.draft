@@ -5,7 +5,7 @@ import cs from './NavigationBar.scss'
 import Logo from '../../../atom/header/Logo'
 import Links from '../Links'
 import Menu from '../Menu'
-import { navigationBarShape } from './NavigationBar.shape'
+import { navigationBarPropTypes } from './NavigationBar.propTypes'
 
 const NavigationBar = ({ className, data }) => {
   const navigationBarClassList = cn(className, cs.navigationBar)
@@ -29,7 +29,7 @@ NavigationBar.defaultProps = {
 
 NavigationBar.propTypes = {
   className: string,
-  data: navigationBarShape.isRequired,
-}.isRequired
+  data: navigationBarPropTypes,
+}
 
 export default NavigationBar
