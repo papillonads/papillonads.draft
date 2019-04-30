@@ -1,6 +1,6 @@
 import React from 'react'
-import { string } from 'prop-types'
 import cn from 'classnames'
+import { inputDefaultProps, inputPropTypes } from './Input.props'
 
 const Input = ({ className, placeholder }) => {
   const inputClassList = cn(className)
@@ -8,14 +8,8 @@ const Input = ({ className, placeholder }) => {
   return <input className={inputClassList} placeholder={placeholder} />
 }
 
-Input.defaultProps = {
-  className: '',
-  placeholder: '',
-}
+Input.defaultProps = inputDefaultProps
 
-Input.propTypes = {
-  className: string,
-  placeholder: string,
-}.isRequired
+Input.propTypes = inputPropTypes
 
 export default Input

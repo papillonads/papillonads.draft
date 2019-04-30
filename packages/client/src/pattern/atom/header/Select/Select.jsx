@@ -1,8 +1,8 @@
 import React from 'react'
-import { shape, arrayOf, string } from 'prop-types'
 import cn from 'classnames'
 import cs from './Select.scss'
 import uuidv1 from 'uuid/v1'
+import { selectDefaultProps, selectPropTypes } from './Select.props'
 
 const Select = ({ className, placeholder, items }) => {
   const selectClassList = cn(className, cs.select)
@@ -23,19 +23,8 @@ const Select = ({ className, placeholder, items }) => {
   )
 }
 
-Select.defaultProps = {
-  className: '',
-  placeholder: '',
-}
+Select.defaultProps = selectDefaultProps
 
-Select.propTypes = {
-  className: string,
-  placeholder: string,
-  items: arrayOf(
-    shape({
-      text: string.isRequired,
-    }),
-  ).isRequired,
-}.isRequired
+Select.propTypes = selectPropTypes
 
 export default Select

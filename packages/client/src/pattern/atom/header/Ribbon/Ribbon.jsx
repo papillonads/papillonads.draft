@@ -1,6 +1,6 @@
 import React from 'react'
-import { string } from 'prop-types'
 import cn from 'classnames'
+import { ribbonDefaultProps, ribbonPropTypes } from './Ribbon.props'
 
 const Ribbon = ({ className }) => {
   const ribbonClassList = cn(className)
@@ -8,12 +8,8 @@ const Ribbon = ({ className }) => {
   return <div className={ribbonClassList} />
 }
 
-Ribbon.defaultProps = {
-  className: '',
-}
+Ribbon.defaultProps = ribbonDefaultProps
 
-Ribbon.propTypes = {
-  className: string,
-}.isRequired
+Ribbon.propTypes = ribbonPropTypes
 
 export default Ribbon

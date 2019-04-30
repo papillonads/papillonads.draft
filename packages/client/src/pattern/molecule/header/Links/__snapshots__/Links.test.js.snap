@@ -7,17 +7,17 @@ exports[`<Links /> Snaphot must match defaultRender 1`] = `
   <div
     className="link link"
   >
-    some text
+    Help en info
   </div>
   <div
     className="link link"
   >
-    some other text
+    Voorwaarden
   </div>
   <div
     className="link link"
   >
-    and another text
+    Veilig handelen
   </div>
 </div>
 `;

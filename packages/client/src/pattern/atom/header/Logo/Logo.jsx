@@ -1,7 +1,7 @@
 import React from 'react'
-import { string } from 'prop-types'
 import cn from 'classnames'
 import SvgIconGroup from '../Icon/SvgIconGroup'
+import { logoDefaultProps, logoPropTypes } from './Logo.props'
 
 const Logo = ({ className }) => {
   const logoClassList = cn(className)
@@ -10,8 +10,8 @@ const Logo = ({ className }) => {
     <div className={logoClassList}>
       <SvgIconGroup
         name="logo"
-        width="143"
-        height="26"
+        width={143}
+        height={26}
         viewBox="0 0 528 96"
         pathProps={[{ fill: '#2D3C4D' }, { fill: '#EEA566' }, { fill: '#2D3C4D' }]}
       />
@@ -19,12 +19,8 @@ const Logo = ({ className }) => {
   )
 }
 
-Logo.defaultProps = {
-  className: '',
-}
+Logo.defaultProps = logoDefaultProps
 
-Logo.propTypes = {
-  className: string,
-}.isRequired
+Logo.propTypes = logoPropTypes
 
 export default Logo

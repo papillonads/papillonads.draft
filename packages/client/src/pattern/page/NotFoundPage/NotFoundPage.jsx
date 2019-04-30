@@ -1,9 +1,9 @@
 import React from 'react'
-import { string, object } from 'prop-types'
 import cn from 'classnames'
 import { Query } from 'react-apollo'
 import { PAGES } from '../../../graphql/query'
 import NotFoundTemplate from '../../template/NotFoundTemplate'
+import { notFoundPageDefaultProps, notFoundPagePropTypes } from './NotFoundPage.props'
 
 const NotFoundPage = ({ className, location }) => {
   const notFoundPageClassList = cn(className)
@@ -21,13 +21,8 @@ const NotFoundPage = ({ className, location }) => {
   )
 }
 
-NotFoundPage.defaultProps = {
-  className: '',
-}
+NotFoundPage.defaultProps = notFoundPageDefaultProps
 
-NotFoundPage.propTypes = {
-  className: string,
-  location: object.isRequired,
-}
+NotFoundPage.propTypes = notFoundPagePropTypes
 
 export default NotFoundPage

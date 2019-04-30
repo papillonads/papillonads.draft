@@ -1,5 +1,4 @@
 import React from 'react'
-import { shape, arrayOf, string } from 'prop-types'
 import cn from 'classnames'
 import ps from '@primer/css/core/index.scss'
 import cs from './Dropdown.scss'
@@ -7,6 +6,7 @@ import Label from '../../../atom/header/Label'
 import { SvgIcon } from '../../../atom/header/Icon'
 import uuidv1 from 'uuid/v1'
 import Badge from '../Badge'
+import { dropdownDefaultProps, dropdownPropTypes } from './Dropdown.props'
 
 const Dropdown = ({ className, items }) => {
   const dropdownClassList = cn(className, ps['details-reset'], cs.dropdown)
@@ -15,9 +15,9 @@ const Dropdown = ({ className, items }) => {
     <details className={dropdownClassList}>
       <summary aria-haspopup="true" className={cs.dropdown__summary}>
         <Badge className={cs.dropdown__badge}>
-          <SvgIcon className={cs.dropdown__svgIcon1} fill={'grey'} name={'user'} width={20} height={20} />
+          <SvgIcon className={cs.dropdown__svgIcon1} fill="grey" name="user" width={20} height={20} />
           <Label className={cs.dropdown__label} text="t" />
-          <SvgIcon className={cs.dropdown__svgIcon2} fill={'grey'} name={'ctrl'} width={15} height={15} />
+          <SvgIcon className={cs.dropdown__svgIcon2} fill="grey" name="ctrl" width={15} height={15} />
         </Badge>
       </summary>
 
@@ -32,17 +32,8 @@ const Dropdown = ({ className, items }) => {
   )
 }
 
-Dropdown.defaultProps = {
-  className: '',
-}
+Dropdown.defaultProps = dropdownDefaultProps
 
-Dropdown.propTypes = {
-  className: string,
-  items: arrayOf(
-    shape({
-      text: string.isRequired,
-    }),
-  ).isRequired,
-}.isRequired
+Dropdown.propTypes = dropdownPropTypes
 
 export default Dropdown

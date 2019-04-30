@@ -12,9 +12,43 @@ const typeDefs = gql`
     pages: [Page]!
   }
 
+  type Link {
+    text: String!
+  }
+
+  type Category {
+    value: String!
+    label: String!
+  }
+
+  type Distance {
+    value: String!
+    label: String!
+  }
+
+  type NavigationBar {
+    links: [Link]!
+  }
+
+  type SearchFieldsetAdvanced {
+    categories: [Category]!
+    distances: [Distance]!
+  }
+
+  type SearchBar {
+    searchFieldsetAdvanced: SearchFieldsetAdvanced!
+  }
+
+  type Header {
+    navigationBar: NavigationBar!
+    searchBar: SearchBar!
+  }
+
   type Page {
     id: String!
     name: String!
+    header: Header
   }
 `
+
 module.exports = typeDefs
