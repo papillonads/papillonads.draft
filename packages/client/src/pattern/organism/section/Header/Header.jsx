@@ -1,16 +1,16 @@
 import React from 'react'
-import { string } from 'prop-types'
+import { string, object } from 'prop-types'
 import cn from 'classnames'
 import cs from './Header.scss'
 import NavigationBar from '../../../molecule/header/NavigationBar'
 import SearchBar from '../../../molecule/header/SearchBar'
 
-const Header = ({ className }) => {
+const Header = ({ className, data }) => {
   const headerClassList = cn(className, cs.header)
 
   return (
     <div className={headerClassList}>
-      <NavigationBar className={cs.header__navigationBar} />
+      <NavigationBar data={data.navigationBar} className={cs.header__navigationBar} />
       <SearchBar className={cs.header__searchBar} />
     </div>
   )
@@ -22,6 +22,7 @@ Header.defaultProps = {
 
 Header.propTypes = {
   className: string,
+  data: object.isRequired,
 }.isRequired
 
 export default Header

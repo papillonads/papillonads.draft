@@ -1,16 +1,16 @@
 import React from 'react'
-import { shape, arrayOf, string } from 'prop-types'
+import { shape, arrayOf, string, object } from 'prop-types'
 import cn from 'classnames'
 import cs from './Links.scss'
 import Link from '../../../atom/header/Link'
 import uuidv1 from 'uuid/v1'
 
-const Links = ({ className, items }) => {
+const Links = ({ className, data }) => {
   const linksClassList = cn(className, cs.links)
 
   return (
     <div className={linksClassList}>
-      {items.map(item => (
+      {data.map(item => (
         <Link className={cs.link} key={uuidv1()} item={item} />
       ))}
     </div>
@@ -19,11 +19,12 @@ const Links = ({ className, items }) => {
 
 Links.defaultProps = {
   className: '',
+  data: object.isRequired,
 }
 
 Links.propTypes = {
   className: string,
-  items: arrayOf(
+  data: arrayOf(
     shape({
       text: string.isRequired,
     }),
