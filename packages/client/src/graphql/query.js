@@ -7,6 +7,13 @@ export const PAGES = gql`
       pages {
         id
         name
+        header {
+          navigationBar {
+            links {
+              text
+            }
+          }
+        }
       }
     }
   }
