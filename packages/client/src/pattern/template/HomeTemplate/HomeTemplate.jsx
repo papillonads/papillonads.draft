@@ -4,7 +4,7 @@ import cn from 'classnames'
 import cs from './HomeTemplate.scss'
 import Ribbon from '../../atom/header/Ribbon'
 import Header from '../../organism/section/Header/Header'
-import { homeTemplateShape } from './HomeTemplate.shape'
+import { homeTemplatePropTypes } from './HomeTemplate.propTypes'
 
 const HomeTemplate = ({ className, data }) => {
   const homeTemplateClassList = cn(className, cs.homeTemplate)
@@ -24,7 +24,7 @@ HomeTemplate.defaultProps = {
 
 HomeTemplate.propTypes = {
   className: string,
-  data: homeTemplateShape.isRequired,
-}.isRequired
+  data: homeTemplatePropTypes,
+}
 
 export default HomeTemplate
