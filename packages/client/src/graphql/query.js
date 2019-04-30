@@ -13,6 +13,18 @@ export const PAGES = gql`
               text
             }
           }
+          searchBar {
+            searchFieldsetAdvanced {
+              categories {
+                value
+                label
+              }
+              distances {
+                value
+                label
+              }
+            }
+          }
         }
       }
     }
