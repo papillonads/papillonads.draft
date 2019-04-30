@@ -7,6 +7,7 @@ import Label from '../../../atom/header/Label'
 import { SvgIcon } from '../../../atom/header/Icon'
 import uuidv1 from 'uuid/v1'
 import Badge from '../Badge'
+import { dropdownDefaultProps, dropdownPropTypes } from './dropdown.props'
 
 const Dropdown = ({ className, items }) => {
   const dropdownClassList = cn(className, ps['details-reset'], cs.dropdown)
@@ -32,17 +33,8 @@ const Dropdown = ({ className, items }) => {
   )
 }
 
-Dropdown.defaultProps = {
-  className: '',
-}
+Dropdown.defaultProps = dropdownDefaultProps
 
-Dropdown.propTypes = {
-  className: string,
-  items: arrayOf(
-    shape({
-      text: string.isRequired,
-    }),
-  ).isRequired,
-}
+Dropdown.propTypes = dropdownPropTypes
 
 export default Dropdown
