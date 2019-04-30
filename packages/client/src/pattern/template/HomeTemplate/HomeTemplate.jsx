@@ -1,9 +1,10 @@
 import React from 'react'
-import { string, object } from 'prop-types'
+import { string } from 'prop-types'
 import cn from 'classnames'
 import cs from './HomeTemplate.scss'
 import Ribbon from '../../atom/header/Ribbon'
 import Header from '../../organism/section/Header/Header'
+import { homeTemplateShape } from './HomeTemplate.shape'
 
 const HomeTemplate = ({ className, data }) => {
   const homeTemplateClassList = cn(className, cs.homeTemplate)
@@ -23,7 +24,7 @@ HomeTemplate.defaultProps = {
 
 HomeTemplate.propTypes = {
   className: string,
-  data: object.isRequired,
-}
+  data: homeTemplateShape.isRequired,
+}.isRequired
 
 export default HomeTemplate
