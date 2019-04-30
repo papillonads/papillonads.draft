@@ -4,7 +4,7 @@ import cn from 'classnames'
 import cs from './SearchFieldsetAdvanced.scss'
 import Select from 'react-select'
 import Input from '../../../atom/header/Input'
-import { searchFieldsetAdvancedShape } from './SearchFieldsetAdvanced.shape'
+import { searchFieldsetAdvancedPropTypes } from './SearchFieldsetAdvanced.propTypes'
 
 const SearchFieldsetAdvanced = ({ className, data }) => {
   const searchFieldsetAdvancedClassList = cn(className, cs.searchFieldsetAdvanced)
@@ -45,7 +45,7 @@ SearchFieldsetAdvanced.defaultProps = {
 
 SearchFieldsetAdvanced.propTypes = {
   className: string,
-  data: searchFieldsetAdvancedShape.isRequired,
-}.isRequired
+  data: searchFieldsetAdvancedPropTypes,
+}
 
 export default SearchFieldsetAdvanced

@@ -5,7 +5,7 @@ const selectOptionShape = shape({
   value: string.isRequired,
 })
 
-export const searchFieldsetAdvancedShape = shape({
+export const searchFieldsetAdvancedPropTypes = shape({
   categories: arrayOf(selectOptionShape).isRequired,
   distances: arrayOf(selectOptionShape).isRequired,
-})
+}).isRequired
