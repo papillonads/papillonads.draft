@@ -1,6 +1,6 @@
 /* eslint class-methods-use-this: 0 */
 const { RESTDataSource } = require('apollo-datasource-rest')
-const { pages } = require('./data.json')
+const pages = require('./pages.js')
 
 class PageAPI extends RESTDataSource {
   async getAllPages() {
