@@ -2,6 +2,7 @@
 
 import React from 'react'
 import { node } from 'prop-types'
+import { errorBoundaryPropTypes } from './ErrorBoundary.props'
 
 class ErrorBoundary extends React.Component {
   constructor(props) {
@@ -24,8 +25,6 @@ class ErrorBoundary extends React.Component {
   }
 }
 
-ErrorBoundary.propTypes = {
-  children: node.isRequired,
-}
+ErrorBoundary.propTypes = errorBoundaryPropTypes
 
 export default ErrorBoundary

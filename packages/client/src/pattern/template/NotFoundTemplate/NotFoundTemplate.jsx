@@ -1,9 +1,9 @@
 import React from 'react'
-import { string, object } from 'prop-types'
 import cn from 'classnames'
 import { Link } from 'react-router-dom'
 import { homePagePath } from '../../../route/path'
 import NoMatch from '../../atom/info/NoMatch'
+import { notFoundTemplateDefaultProps, notFoundTemplatePropTypes } from './NotFoundTemplate.props'
 
 const NotFoundTemplate = ({ className, page, location }) => {
   const notFoundTemplateClassList = cn(className)
@@ -17,14 +17,8 @@ const NotFoundTemplate = ({ className, page, location }) => {
   )
 }
 
-NotFoundTemplate.defaultProps = {
-  className: '',
-}
+NotFoundTemplate.defaultProps = notFoundTemplateDefaultProps
 
-NotFoundTemplate.propTypes = {
-  className: string,
-  page: object.isRequired,
-  location: object.isRequired,
-}
+NotFoundTemplate.propTypes = notFoundTemplatePropTypes
 
 export default NotFoundTemplate

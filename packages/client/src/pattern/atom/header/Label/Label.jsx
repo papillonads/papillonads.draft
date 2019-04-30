@@ -1,6 +1,6 @@
 import React from 'react'
-import { string } from 'prop-types'
 import cn from 'classnames'
+import { labelDefaultProps, labelPropTypes } from './Label.props'
 
 const Label = ({ className, text }) => {
   const labelClassList = cn(className)
@@ -8,12 +8,8 @@ const Label = ({ className, text }) => {
   return <div className={labelClassList}>{text}</div>
 }
 
-Label.defaultProps = {
-  className: '',
-}
+Label.defaultProps = labelDefaultProps
 
-Label.propTypes = {
-  className: string,
-}.isRequired
+Label.propTypes = labelPropTypes
 
 export default Label

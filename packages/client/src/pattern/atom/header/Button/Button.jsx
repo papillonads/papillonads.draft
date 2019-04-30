@@ -1,6 +1,6 @@
 import React from 'react'
-import { string, node } from 'prop-types'
 import cn from 'classnames'
+import { buttonDefaultProps, buttonPropTypes } from './Button.props'
 
 const Button = ({ className, children }) => {
   const buttonClassList = cn(className)
@@ -8,13 +8,8 @@ const Button = ({ className, children }) => {
   return <div className={buttonClassList}>{children}</div>
 }
 
-Button.defaultProps = {
-  className: '',
-}
+Button.defaultProps = buttonDefaultProps
 
-Button.propTypes = {
-  className: string,
-  children: node.isRequired,
-}.isRequired
+Button.propTypes = buttonPropTypes
 
 export default Button

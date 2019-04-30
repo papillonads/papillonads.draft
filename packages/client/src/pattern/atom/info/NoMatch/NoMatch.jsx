@@ -1,6 +1,6 @@
 import React from 'react'
-import { string, object } from 'prop-types'
 import cn from 'classnames'
+import { noMatchDefaultProps, noMatchPropTypes } from './NoMatch.props'
 
 const NoMatch = ({ className, location }) => {
   const noMatchClassList = cn(className)
@@ -14,13 +14,8 @@ const NoMatch = ({ className, location }) => {
   )
 }
 
-NoMatch.defaultProps = {
-  className: '',
-}
+NoMatch.defaultProps = noMatchDefaultProps
 
-NoMatch.propTypes = {
-  className: string,
-  location: object.isRequired,
-}
+NoMatch.propTypes = noMatchPropTypes
 
 export default NoMatch

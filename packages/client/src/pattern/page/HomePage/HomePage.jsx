@@ -1,9 +1,9 @@
 import React from 'react'
-import { string } from 'prop-types'
 import cn from 'classnames'
 import { Query } from 'react-apollo'
 import { PAGES } from '../../../graphql/query'
 import HomeTemplate from '../../template/HomeTemplate'
+import { homePageDefaultProps, homePagePropTypes } from './HomePage.props'
 
 const HomePage = ({ className }) => {
   const homePageClassList = cn(className)
@@ -11,18 +11,14 @@ const HomePage = ({ className }) => {
   return (
     <div className={homePageClassList}>
       <Query query={PAGES}>
-        {({ data }) => (data.pages && data.pages.pages ? <HomeTemplate page={data.pages.pages.find(page => page.id === 'home')} /> : null)}
+        {({ data }) => (data.pages && data.pages.pages ? <HomeTemplate data={data.pages.pages.find(page => page.id === 'home')} /> : null)}
       </Query>
     </div>
   )
 }
 
-HomePage.defaultProps = {
-  className: '',
-}
+HomePage.defaultProps = homePageDefaultProps
 
-HomePage.propTypes = {
-  className: string,
-}
+HomePage.propTypes = homePagePropTypes
 
 export default HomePage

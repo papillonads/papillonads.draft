@@ -1,8 +1,8 @@
 import React from 'react'
-import { string } from 'prop-types'
 import cn from 'classnames'
 import cs from './SearchFieldsetStandard.scss'
 import Input from '../../../atom/header/Input'
+import { searchFieldsetStandardDefaultProps, searchFieldsetStandardPropTypes } from './SearchFieldsetStandard.props'
 
 const SearchFieldsetStandard = ({ className }) => {
   const searchFieldsetStandardClassList = cn(className, cs.searchFieldsetStandard)
@@ -14,12 +14,8 @@ const SearchFieldsetStandard = ({ className }) => {
   )
 }
 
-SearchFieldsetStandard.defaultProps = {
-  className: '',
-}
+SearchFieldsetStandard.defaultProps = searchFieldsetStandardDefaultProps
 
-SearchFieldsetStandard.propTypes = {
-  className: string,
-}.isRequired
+SearchFieldsetStandard.propTypes = searchFieldsetStandardPropTypes
 
 export default SearchFieldsetStandard
