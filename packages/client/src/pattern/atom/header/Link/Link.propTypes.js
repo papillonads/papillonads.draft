@@ -1,5 +1,5 @@
 import { string, shape } from 'prop-types'
 
-export const linkShape = shape({
+export const linkPropTypes = shape({
   text: string.isRequired,
-})
+}).isRequired
