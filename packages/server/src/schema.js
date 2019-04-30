@@ -12,9 +12,23 @@ const typeDefs = gql`
     pages: [Page]!
   }
 
+  type Link {
+    text: String!
+  }
+
+  type NavigationBar {
+    links: [Link]!
+  }
+
+  type Header {
+    navigationBar: NavigationBar!
+  }
+
   type Page {
     id: String!
     name: String!
+    header: Header
   }
 `
+
 module.exports = typeDefs
