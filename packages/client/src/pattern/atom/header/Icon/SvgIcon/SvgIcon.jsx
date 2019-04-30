@@ -1,7 +1,7 @@
 import React from 'react'
-import { svgIconPropTypes } from '../SvgIcon.propTypes'
 import cn from 'classnames'
 import { getSvgIconPath } from '../../../../../utility/asset'
+import { svgIconDefaultProps, svgIconPropTypes } from '../SvgIcon.props'
 
 const SvgIcon = ({ className, name, width, height, fill }) => {
   const svgIconClassList = cn(className)
@@ -15,10 +15,7 @@ const SvgIcon = ({ className, name, width, height, fill }) => {
   )
 }
 
-SvgIcon.defaultProps = {
-  className: '',
-  fill: '',
-}
+SvgIcon.defaultProps = svgIconDefaultProps
 
 SvgIcon.propTypes = svgIconPropTypes
 

@@ -1,14 +1,23 @@
 import { shape, arrayOf, string, number } from 'prop-types'
 
-export const svgIconPropTypes = shape({
+export const svgIconDefaultProps = {
+  className: '',
+  fill: '',
+}
+
+export const svgIconPropTypes = {
   className: string,
   name: string.isRequired,
   width: number.isRequired,
   height: number.isRequired,
   fill: string,
-}).isRequired
+}
 
-export const svgIconGroupPropTypes = shape({
+export const svgIconGroupDefaultProps = {
+  className: '',
+}
+
+export const svgIconGroupPropTypes = {
   className: string,
   name: string.isRequired,
   width: number.isRequired,
@@ -20,4 +29,4 @@ export const svgIconGroupPropTypes = shape({
       fill: string,
     }),
   ).isRequired,
-}).isRequired
+}
