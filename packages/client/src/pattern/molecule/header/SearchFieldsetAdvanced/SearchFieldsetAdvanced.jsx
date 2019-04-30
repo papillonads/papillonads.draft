@@ -1,18 +1,19 @@
 import React from 'react'
-import { string } from 'prop-types'
+import { shape, arrayOf, string } from 'prop-types'
 import cn from 'classnames'
 import cs from './SearchFieldsetAdvanced.scss'
 import Select from 'react-select'
 import Input from '../../../atom/header/Input'
-import { categories, distances } from './data'
 
-const SearchFieldsetAdvanced = ({ className }) => {
+const SearchFieldsetAdvanced = ({ className, data }) => {
   const searchFieldsetAdvancedClassList = cn(className, cs.searchFieldsetAdvanced)
 
   /* eslint-disable */
   const [category, setCategory] = React.useState('')
   const [distance, setDistance] = React.useState('')
   /* eslint-enable */
+
+  const { categories, distances } = data
 
   return (
     <div className={searchFieldsetAdvancedClassList}>
@@ -43,6 +44,20 @@ SearchFieldsetAdvanced.defaultProps = {
 
 SearchFieldsetAdvanced.propTypes = {
   className: string,
+  data: {
+    categories: arrayOf(
+      shape({
+        label: string.isRequired,
+        value: string.isRequired,
+      }),
+    ).isRequired,
+    distances: arrayOf(
+      shape({
+        label: string.isRequired,
+        value: string.isRequired,
+      }),
+    ).isRequired,
+  },
 }.isRequired
 
 export default SearchFieldsetAdvanced

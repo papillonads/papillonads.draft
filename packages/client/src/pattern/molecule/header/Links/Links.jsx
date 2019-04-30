@@ -1,5 +1,5 @@
 import React from 'react'
-import { shape, arrayOf, string, object } from 'prop-types'
+import { shape, arrayOf, string } from 'prop-types'
 import cn from 'classnames'
 import cs from './Links.scss'
 import Link from '../../../atom/header/Link'
@@ -19,7 +19,6 @@ const Links = ({ className, data }) => {
 
 Links.defaultProps = {
   className: '',
-  data: object.isRequired,
 }
 
 Links.propTypes = {

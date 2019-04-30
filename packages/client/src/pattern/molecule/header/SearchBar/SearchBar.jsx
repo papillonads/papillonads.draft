@@ -1,5 +1,5 @@
 import React from 'react'
-import { string } from 'prop-types'
+import { string, object } from 'prop-types'
 import cn from 'classnames'
 import cs from './SearchBar.scss'
 import SearchFieldsetStandard from '../SearchFieldsetStandard'
@@ -7,14 +7,14 @@ import SearchFieldsetAdvanced from '../SearchFieldsetAdvanced'
 import Button from '../../../atom/header/Button'
 // import SearchFormOptions from '../SearchFormOptions'
 
-const SearchBar = ({ className }) => {
+const SearchBar = ({ className, data }) => {
   const searchBarClassList = cn(className, cs.searchBar)
 
   return (
     <div className={searchBarClassList}>
       <div className={cn(cs.searchBar__maxWidth)}>
         <SearchFieldsetStandard className={cs.searchBar__maxWidthSearchFieldsetStandard} />
-        <SearchFieldsetAdvanced className={cs.searchBar__maxWidthSearchFieldsetAdvanced} />
+        <SearchFieldsetAdvanced data={data.searchFieldsetAdvanced} className={cs.searchBar__maxWidthSearchFieldsetAdvanced} />
         <Button className={cs.searchBar__maxWidthButton}>Zoek</Button>
         {/* <SearchFormOptions className={cs.searchBar__maxWidthSearchFormOptions} /> */}
       </div>
@@ -28,6 +28,7 @@ SearchBar.defaultProps = {
 
 SearchBar.propTypes = {
   className: string,
+  data: object.isRequired,
 }.isRequired
 
 export default SearchBar
