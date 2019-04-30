@@ -1,5 +1,5 @@
 import { string, shape } from 'prop-types'
-import { searchFieldsetAdvancedPropTypes } from '../SearchFieldsetAdvanced/SearchFieldsetAdvanced.propTypes'
+import { searchFieldsetAdvancedPropTypes } from '../SearchFieldsetAdvanced/SearchFieldsetAdvanced.props'
 
 export const searchBarDefaultProps = {
   className: '',
@@ -8,6 +8,6 @@ export const searchBarDefaultProps = {
 export const searchBarPropTypes = {
   className: string,
   data: shape({
-    searchFieldsetAdvanced: searchFieldsetAdvancedPropTypes,
+    searchFieldsetAdvanced: searchFieldsetAdvancedPropTypes.data,
   }).isRequired,
 }

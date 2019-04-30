@@ -1,10 +1,9 @@
 import React from 'react'
-import { string } from 'prop-types'
 import cn from 'classnames'
 import cs from './SearchFieldsetAdvanced.scss'
 import Select from 'react-select'
 import Input from '../../../atom/header/Input'
-import { searchFieldsetAdvancedPropTypes } from './SearchFieldsetAdvanced.propTypes'
+import { searchFieldsetAdvancedDefaultProps, searchFieldsetAdvancedPropTypes } from './SearchFieldsetAdvanced.props'
 
 const SearchFieldsetAdvanced = ({ className, data }) => {
   const searchFieldsetAdvancedClassList = cn(className, cs.searchFieldsetAdvanced)
@@ -39,13 +38,8 @@ const SearchFieldsetAdvanced = ({ className, data }) => {
   )
 }
 
-SearchFieldsetAdvanced.defaultProps = {
-  className: '',
-}
+SearchFieldsetAdvanced.defaultProps = searchFieldsetAdvancedDefaultProps
 
-SearchFieldsetAdvanced.propTypes = {
-  className: string,
-  data: searchFieldsetAdvancedPropTypes,
-}
+SearchFieldsetAdvanced.propTypes = searchFieldsetAdvancedPropTypes
 
 export default SearchFieldsetAdvanced
