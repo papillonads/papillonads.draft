@@ -1,12 +1,11 @@
 import React from 'react'
-import { string } from 'prop-types'
 import cn from 'classnames'
 import cs from './SearchBar.scss'
 import SearchFieldsetStandard from '../SearchFieldsetStandard'
 import SearchFieldsetAdvanced from '../SearchFieldsetAdvanced'
 import Button from '../../../atom/header/Button'
 // import SearchFormOptions from '../SearchFormOptions'
-import { searchBarPropTypes } from './SearchBar.propTypes'
+import { searchBarDefaultProps, searchBarPropTypes } from './SearchBar.props'
 
 const SearchBar = ({ className, data }) => {
   const searchBarClassList = cn(className, cs.searchBar)
@@ -23,13 +22,8 @@ const SearchBar = ({ className, data }) => {
   )
 }
 
-SearchBar.defaultProps = {
-  className: '',
-}
+SearchBar.defaultProps = searchBarDefaultProps
 
-SearchBar.propTypes = {
-  className: string,
-  data: searchBarPropTypes,
-}
+SearchBar.propTypes = searchBarPropTypes
 
 export default SearchBar
