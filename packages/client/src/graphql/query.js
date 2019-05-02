@@ -1,8 +1,8 @@
 /* eslint import/prefer-default-export: 0 */
 import gql from 'graphql-tag'
-import { infoFragment } from '../../../server/src/datasources/page/home/info'
-import { headerFragment } from '../../../server/src/datasources/page/home/header'
-import { contentFragment } from '../../../server/src/datasources/page/home/content'
+import { infoFragment } from '../../../server/src/datasources/page/home/info/fragment'
+import { headerFragment } from '../../../server/src/datasources/page/home/header/fragment'
+import { contentFragment } from '../../../server/src/datasources/page/home/content/fragment'
 
 export const PAGES = gql`
   query GetPages {
@@ -11,6 +11,7 @@ export const PAGES = gql`
         ...info
         ...header
         ...content
+      }
     }
   }
 
