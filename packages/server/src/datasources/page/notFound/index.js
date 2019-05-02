@@ -1,3 +1,10 @@
-const notFoundPageData = { id: 'not-found', name: 'Papillon Ads Page Not Found' }
+const info = require('./info')
+
+const notFoundPageData = {
+  info: {
+    id: info.id,
+    name: info.name,
+  },
+}
 
 module.exports = notFoundPageData
