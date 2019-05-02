@@ -13,7 +13,7 @@ const NotFoundPage = ({ className, location }) => {
       <Query query={PAGES}>
         {({ data }) =>
           data.pages && data.pages.pages ? (
-            <NotFoundTemplate page={data.pages.pages.find(page => page.id === 'not-found')} location={location} />
+            <NotFoundTemplate page={data.pages.pages.find(page => page.info.id === 'not-found')} location={location} />
           ) : null
         }
       </Query>
