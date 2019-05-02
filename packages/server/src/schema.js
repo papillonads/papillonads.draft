@@ -46,6 +46,8 @@ const typeDefs = gql`
 
   type Resource {
     url: String!
+    maxWidth: String!
+    height: String!
   }
 
   type Banner {

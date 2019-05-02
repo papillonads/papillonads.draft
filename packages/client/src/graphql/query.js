@@ -30,11 +30,15 @@ export const PAGES = gql`
           topBanner {
             resources {
               url
+              maxWidth
+              height
             }
           }
           marketingBanner {
             resources {
               url
+              maxWidth
+              height
             }
           }
         }
