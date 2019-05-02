@@ -12,6 +12,7 @@ class PageAPI extends RESTDataSource {
       id: page.id,
       name: page.name,
       header: page.header,
+      content: page.content,
     }
   }
 

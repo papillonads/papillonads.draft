@@ -1,4 +1,4 @@
-const resources = [
+const topBannerResources = [
   { url: 'https://s0.2mdn.net/8054340/1535538205200/728x90.html' },
   { url: 'https://s0.2mdn.net/4241177/1554204217310/tm_p3_970x250/index.html' },
   { url: 'https://s0.2mdn.net/4270210/1556116689187/KPN ZAKELIJKE MARKT_Z_IPHONE_728x90/KPN ZAKELIJKE MARKT_Z_IPHONE_728x90.html' },
@@ -19,4 +19,4 @@ const resources = [
   },
 ]
 
-module.exports = resources
+module.exports = topBannerResources
