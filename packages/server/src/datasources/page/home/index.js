@@ -1,9 +1,9 @@
 const header = require('./header')
 const content = require('./content')
+const info = require('./info')
 
 const homePageData = {
-  id: 'home',
-  name: 'Papillon Ads Holland',
+  ...info,
   header: {
     navigationBar: {
       links: header.links,
