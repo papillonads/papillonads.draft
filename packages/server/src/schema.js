@@ -44,10 +44,26 @@ const typeDefs = gql`
     searchBar: SearchBar!
   }
 
+  type Resource {
+    url: String!
+    maxWidth: String!
+    height: String!
+  }
+
+  type Banner {
+    resources: [Resource]!
+  }
+
+  type Content {
+    topBanner: Banner!
+    marketingBanner: Banner!
+  }
+
   type Page {
     id: String!
     name: String!
     header: Header
+    content: Content
   }
 `
 

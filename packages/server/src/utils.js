@@ -1,4 +1,5 @@
 /* eslint-disable */
+
 module.exports.paginateResults = ({ after: cursor, pageSize = 20, results, getCursor = () => null }) => {
   if (pageSize < 1) return []
 
@@ -17,4 +18,5 @@ module.exports.paginateResults = ({ after: cursor, pageSize = 20, results, getCu
 
   results.slice(cursorIndex >= 0 ? cursorIndex + 1 : 0, cursorIndex >= 0)
 }
+
 /* eslint-enable */

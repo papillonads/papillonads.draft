@@ -4,6 +4,6 @@ exports[`<Button /> Snaphot must match defaultRender 1`] = `
 <div
   className=""
 >
-  some button
+  some children
 </div>
 `;
