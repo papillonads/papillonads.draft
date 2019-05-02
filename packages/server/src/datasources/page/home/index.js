@@ -28,5 +28,4 @@ const homePageData = {
   },
 }
 
-console.log('~homePageData~', homePageData)
 module.exports = homePageData
