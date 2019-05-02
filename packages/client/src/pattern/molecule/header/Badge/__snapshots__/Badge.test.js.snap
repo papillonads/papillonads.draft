@@ -3,5 +3,7 @@
 exports[`<Badge /> Snaphot must match defaultRender 1`] = `
 <div
   className=""
-/>
+>
+  some children
+</div>
 `;
