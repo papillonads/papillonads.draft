@@ -26,6 +26,22 @@ export const PAGES = gql`
             }
           }
         }
+        content {
+          topBanner {
+            resources {
+              url
+              maxWidth
+              height
+            }
+          }
+          marketingBanner {
+            resources {
+              url
+              maxWidth
+              height
+            }
+          }
+        }
       }
     }
   }

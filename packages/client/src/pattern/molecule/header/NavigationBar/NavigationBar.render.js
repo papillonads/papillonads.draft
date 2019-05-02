@@ -1,7 +1,7 @@
 import React from 'react'
 import NavigationBar from './NavigationBar'
-import homePage from '../../../../../../server/src/datasources/page/homePage'
+import homePageData from '../../../../../../server/src/datasources/page/home'
 
-const defaultRender = <NavigationBar data={homePage.header.navigationBar} />
+const defaultRender = <NavigationBar data={homePageData.header.navigationBar} />
 
 export { defaultRender }

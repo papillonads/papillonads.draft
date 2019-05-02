@@ -479,5 +479,23 @@ exports[`<HomeTemplate /> Snaphot must match defaultRender 1`] = `
   <div
     className="homeTemplate__ribbonBottom"
   />
+  <div
+    className=""
+  >
+    <div
+      className="banner"
+      style={
+        Object {
+          "height": "10em",
+          "maxWidth": "730px",
+        }
+      }
+    >
+      <iframe
+        src="https://s0.2mdn.net/4683306/1555335725656/index.html"
+        title="banner"
+      />
+    </div>
+  </div>
 </div>
 `;

@@ -1,7 +1,7 @@
 import React from 'react'
-import Links from './Links'
+import Content from './Content'
 import homePageData from '../../../../../../server/src/datasources/page/home'
 
-const defaultRender = <Links data={homePageData.header.navigationBar.links} />
+const defaultRender = <Content data={homePageData.content} />
 
 export { defaultRender }
