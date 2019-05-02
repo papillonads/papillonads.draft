@@ -1,0 +1,6 @@
+fragment info on Page {
+  info {
+    id
+    name
+  }
+}
