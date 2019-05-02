@@ -10,6 +10,8 @@ export const bannerPropTypes = {
     resources: arrayOf(
       shape({
         url: string,
+        maxWidth: string,
+        height: string,
       }),
     ),
   }).isRequired,
