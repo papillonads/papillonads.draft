@@ -486,13 +486,13 @@ exports[`<HomeTemplate /> Snaphot must match defaultRender 1`] = `
       className="banner"
       style={
         Object {
-          "height": "21em",
-          "maxWidth": "970px",
+          "height": "10em",
+          "maxWidth": "730px",
         }
       }
     >
       <iframe
-        src="https://rdi.eu.criteo.com/delivery/r/afr.php?did=5cc9d92d7a1f33170ea6fd4c86849600&u=%7CP0mOTSrfzNS5aM%2FBd8KUEo%2BuWPip5nsI%2FpbPA5rR6GQ%3D%7C&c1=0s9CFkhJgOvdDKj0F_GVSruwR9MVQ1mBX18gzcmU642F6VvOIb_APmQCqGbv-2lC5wQpIfto8_avNJmIgNIlIyQM-I0cz-xelHxCOcuBOgM05j35OtDgeMEVTBzMviIfiXVsFpvLxSHZJ54lRawRgfTs_3GhTXn7uWABC_BX8KMCpbbP306CuM1ygS9Zz0XelR4ylHvima9HUDMyBLJHGB9uGY-lpfyJLoq0ib3wphNdTo75ZMI7TtH4Di_nLpwaHu_L9lj5GGA_qKh3oH2V5MGJdZW_8xNAmjYbIUJtM-v1l3dzh9CP1Ubo-ld0EVncDuCYWF992VdGRKg-FW6eWjt9QjRIpBuvWLBV6T5SqWg90TAOdh1usNlD1vMtKOk2PQPgI8PqzWE9ENBVzpwfDNQuLp7qeequ6P9lrD5YRvTjsVU6zjMHivzYlUNzkWB1"
+        src="https://s0.2mdn.net/4683306/1555335725656/index.html"
         title="banner"
       />
     </div>
