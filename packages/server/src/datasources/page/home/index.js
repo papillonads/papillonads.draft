@@ -1,9 +1,12 @@
+const info = require('./info')
 const header = require('./header')
 const content = require('./content')
-const info = require('./info')
 
 const homePageData = {
-  ...info,
+  info: {
+    id: info.id,
+    name: info.name,
+  },
   header: {
     navigationBar: {
       links: header.links,

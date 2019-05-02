@@ -9,8 +9,7 @@ class PageAPI extends RESTDataSource {
 
   pageReducer(page) {
     return {
-      id: page.id,
-      name: page.name,
+      info: page.info,
       header: page.header,
       content: page.content,
     }
