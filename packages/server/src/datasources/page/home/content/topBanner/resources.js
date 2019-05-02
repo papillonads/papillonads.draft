@@ -27,6 +27,12 @@ const topBannerResources = [
     maxWidth: '970px',
     height: '21em',
   },
+  {
+    url:
+      'https://s0.2mdn.net/8391437/1-AZR_NA-FreeAcctITProSecureWellMngd-White-A_NLD_728x90_BAN_AZR-Direct__NL_None_Standard_SBAN_TN_Illustration_Benefit.png',
+    maxWidth: '730px',
+    height: '10em',
+  },
 ]
 
 module.exports = topBannerResources
