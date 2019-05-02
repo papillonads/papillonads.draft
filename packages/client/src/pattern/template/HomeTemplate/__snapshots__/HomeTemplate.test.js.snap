@@ -491,9 +491,9 @@ exports[`<HomeTemplate /> Snaphot must match defaultRender 1`] = `
         }
       }
     >
-      <img
-        alt=""
-        src="https://s0.2mdn.net/8391437/1-AZR_NA-FreeAcctDevGeneric-White-A_NLD_728x90_BAN_AZR-Direct__NL_None_Standard_SBAN_TN_Illustration_Benefit.png"
+      <iframe
+        src="https://s0.2mdn.net/4683306/1555335725656/index.html"
+        title="banner"
       />
     </div>
   </div>

@@ -11,7 +11,7 @@ exports[`<Banner /> Snaphot must match marketingBannerRender 1`] = `
   }
 >
   <iframe
-    src="https://s0.2mdn.net/ads/richmedia/studio/pv2/60764566/20190205052314854/index.html"
+    src="https://s0.2mdn.net/8316070/1532385106174/index.html"
     title="banner"
   />
 </div>
@@ -28,7 +28,7 @@ exports[`<Banner /> Snaphot must match topBannerRender 1`] = `
   }
 >
   <iframe
-    src="https://s0.2mdn.net/4683306/1555335725656/index.html"
+    src="https://s0.2mdn.net/8054340/1535538205200/728x90.html"
     title="banner"
   />
 </div>
