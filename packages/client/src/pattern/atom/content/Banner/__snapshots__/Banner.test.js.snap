@@ -11,7 +11,7 @@ exports[`<Banner /> Snaphot must match marketingBannerRender 1`] = `
   }
 >
   <iframe
-    src="https://s0.2mdn.net/ads/richmedia/studio/pv2/60764566/20190205052314854/index.html"
+    src="https://s.adroll.com/a/Z3C/YCN/Z3CYCNAN3ZCSRDVO6HPZ22.jpg"
     title="banner"
   />
 </div>
@@ -27,9 +27,9 @@ exports[`<Banner /> Snaphot must match topBannerRender 1`] = `
     }
   }
 >
-  <iframe
-    src="https://s0.2mdn.net/8054340/1535538205200/728x90.html"
-    title="banner"
+  <img
+    alt=""
+    src="https://s0.2mdn.net/8391437/1-AZR_NA-FreeAcctITProSecureWellMngd-White-A_NLD_728x90_BAN_AZR-Direct__NL_None_Standard_SBAN_TN_Illustration_Benefit.png"
   />
 </div>
 `;
