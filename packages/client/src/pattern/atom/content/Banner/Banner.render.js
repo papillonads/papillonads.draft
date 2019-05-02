@@ -1,8 +1,8 @@
 import React from 'react'
 import Banner from './Banner'
-import homePageData from '../../../../../../server/src/datasources/page/homePageData'
+import homePageData from '../../../../../../server/src/datasources/page/home'
 
-const topBannerRender = <Banner data={homePageData.content.topBanner.resources[0]} />
-const marketingBannerRender = <Banner data={homePageData.content.marketingBanner.resources[0]} />
+const topBannerRender = <Banner data={homePageData.content.topBanner} />
+const marketingBannerRender = <Banner data={homePageData.content.marketingBanner} />
 
 export { topBannerRender, marketingBannerRender }

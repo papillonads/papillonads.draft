@@ -1,4 +1,4 @@
-import { topBannerRender, marketingBannerRender } from './Header.render'
+import { topBannerRender, marketingBannerRender } from './Banner.render'
 
 describe('<Banner />', () => {
   describe('Snaphot', () => {
