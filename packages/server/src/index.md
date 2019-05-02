@@ -33,6 +33,47 @@ query GetPages {
             height
           }
         }
+        leftColumn {
+          navigation {
+            highlightsLinks {
+              heading {
+                title
+              }
+              links {
+                title
+                description
+              }
+            }
+            navigationBlock {
+              heading {
+                title
+              }
+              groups {
+                name
+              }
+            }
+          }
+          usefulLinks {
+            buyersLinks {
+              heading {
+                title
+              }
+              links {
+                title
+                description
+              }
+            }
+            sellersLinks {
+              heading {
+                title
+              }
+              links {
+                title
+                description
+              }
+            }
+          }
+        }
         marketingBanner {
           resources {
             url
