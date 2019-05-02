@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Content /> Snaphot must match defaultRender 1`] = `
+<div
+  className=""
+>
+  <div
+    className="banner"
+    style={
+      Object {
+        "height": "10em",
+        "maxWidth": "730px",
+      }
+    }
+  >
+    <img
+      alt=""
+      src="https://s0.2mdn.net/8391437/1-AZR_NA-FreeAcctDevGeneric-White-A_NLD_728x90_BAN_AZR-Direct__NL_None_Standard_SBAN_TN_Illustration_Benefit.png"
+    />
+  </div>
+</div>
+`;
