@@ -1,11 +1,11 @@
 const topBannerResources = require('./topBanner/resources')
-const marketingBannerResources = require('./marketingBanner/resources')
-const handyLinks = require('./leftColumn/handyLinks')
+const links = require('./leftColumn/links')
 const navigationBlock = require('./leftColumn/navigationBlock')
+const marketingBannerResources = require('./marketingBanner/resources')
 
 module.exports = {
   topBannerResources,
-  marketingBannerResources,
-  handyLinks,
+  links,
   navigationBlock,
+  marketingBannerResources,
 }

@@ -1,4 +1,4 @@
-const handyLinks = {
+const links = {
   highlights: {
     heading: {
       title: 'Uitgelicht',
@@ -10,7 +10,7 @@ const handyLinks = {
       { title: 'Gelijk Oversteken', description: 'Extra zekerheid bij verzending' },
     ],
   },
-  buyer: {
+  buyers: {
     heading: {
       title: 'Voor de koper',
     },
@@ -20,7 +20,7 @@ const handyLinks = {
       { title: 'Diensten en Vakmensen', description: 'Vind je vakman' },
     ],
   },
-  seller: {
+  sellers: {
     heading: {
       title: 'Voor de verkoper',
     },
@@ -35,4 +35,4 @@ const handyLinks = {
   },
 }
 
-module.exports = handyLinks
+module.exports = links

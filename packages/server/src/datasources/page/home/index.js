@@ -24,13 +24,14 @@ const homePageData = {
     },
     leftColumn: {
       navigation: {
-        handyLinksHighlights: content.handyLinks.highlights,
+        highlightsLinks: content.links.highlights,
         navigationBlock: content.navigationBlock,
-        handyLinksBuyer: content.handyLinks.buyer,
-        handyLinksSeller: content.handyLinks.seller,
       },
       mapLink: {},
-      usefulLinks: {},
+      usefulLinks: {
+        buyersLinks: content.links.buyers,
+        sellersLinks: content.links.sellers,
+      },
     },
     marketingBanner: {
       resources: content.marketingBannerResources,
