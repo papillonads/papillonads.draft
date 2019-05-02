@@ -59,9 +59,13 @@ const typeDefs = gql`
     marketingBanner: Banner!
   }
 
-  type Page {
+  type Info {
     id: String!
     name: String!
+  }
+
+  type Page {
+    info: Info
     header: Header
     content: Content
   }
