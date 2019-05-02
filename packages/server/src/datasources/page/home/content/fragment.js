@@ -1,6 +1,6 @@
-const gql = require('graphql-tag')
+import gql from 'graphql-tag'
 
-const contentFragment = gql`
+export const contentFragment = gql`
   fragment content on Page {
     content {
       topBanner {
@@ -20,5 +20,3 @@ const contentFragment = gql`
     }
   }
 `
-
-module.exports = contentFragment

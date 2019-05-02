@@ -1,6 +1,6 @@
-const gql = require('graphql-tag')
+import gql from 'graphql-tag'
 
-const headerFragment = gql`
+export const headerFragment = gql`
   fragment header on Page {
     header {
       navigationBar {
@@ -23,5 +23,3 @@ const headerFragment = gql`
     }
   }
 `
-
-module.exports = headerFragment

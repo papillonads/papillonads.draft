@@ -1,10 +1,10 @@
-const gql = require('graphql-tag')
+import gql from 'graphql-tag'
 
-const infoFragment = gql`
+export const infoFragment = gql`
   fragment info on Page {
-    id
-    name
+    info {
+      id
+      name
+    }
   }
 `
-
-module.exports = infoFragment
