@@ -10,7 +10,10 @@ const Banner = ({ className, data }) => {
 
   const { resources } = data
   const resource = resources[getRandomInt(resources.length)]
-  const { maxWidth, height } = resource
+  const { url, maxWidth, height } = resource
+
+  const urlParts = url.split('.')
+  const extension = urlParts[urlParts.length - 1]
 
   const iFrameWrapperStyle = {
     maxWidth: maxWidth,
@@ -19,11 +22,27 @@ const Banner = ({ className, data }) => {
 
   const bannerClassList = cn(className, cs.banner)
 
-  return (
+  const getIFrameBanner = () => (
     <div className={bannerClassList} style={iFrameWrapperStyle}>
       <iframe title="banner" src={resource.url} />
     </div>
   )
+
+  const getImageBanner = () => (
+    <div className={bannerClassList} style={iFrameWrapperStyle}>
+      <img src={resource.url} alt="" />
+    </div>
+  )
+
+  if (extension === 'html') {
+    return getIFrameBanner()
+  }
+
+  if (extension === 'png') {
+    return getImageBanner()
+  }
+
+  return getIFrameBanner()
 }
 
 Banner.defaultProps = bannerDefaultProps
