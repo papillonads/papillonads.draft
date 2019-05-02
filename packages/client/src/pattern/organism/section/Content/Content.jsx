@@ -1,15 +1,14 @@
 import React from 'react'
 import cn from 'classnames'
-import cs from './Content.scss'
 import Banner from '../../../atom/content/Banner'
 import { contentDefaultProps, contentPropTypes } from './Content.props'
 
 const Content = ({ className, data }) => {
-  const contentClassList = cn(className, cs.content)
+  const contentClassList = cn(className)
 
   return (
     <div className={contentClassList}>
-      <Banner data={data.topBanner} className={cs.content__topBanner} />
+      <Banner data={data.topBanner} />
     </div>
   )
 }
