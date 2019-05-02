@@ -1,6 +1,6 @@
 import React from 'react'
 import SearchFieldsetAdvanced from './SearchFieldsetAdvanced'
-import homePageData from '../../../../../../server/src/datasources/page/homePageData'
+import homePageData from '../../../../../../server/src/datasources/page/home'
 
 const defaultRender = <SearchFieldsetAdvanced data={homePageData.header.searchBar.searchFieldsetAdvanced} />
 
