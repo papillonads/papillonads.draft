@@ -1,7 +1,7 @@
 import React from 'react'
 import Header from './Header'
-import homePage from '../../../../../../server/src/datasources/page/homePage'
+import homePageData from '../../../../../../server/src/datasources/page/homePageData'
 
-const defaultRender = <Header data={homePage.header} />
+const defaultRender = <Header data={homePageData.header} />
 
 export { defaultRender }

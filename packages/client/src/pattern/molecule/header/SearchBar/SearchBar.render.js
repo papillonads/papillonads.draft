@@ -1,7 +1,7 @@
 import React from 'react'
 import SearchBar from './SearchBar'
-import homePage from '../../../../../../server/src/datasources/page/homePage'
+import homePageData from '../../../../../../server/src/datasources/page/homePageData'
 
-const defaultRender = <SearchBar data={homePage.header.searchBar} />
+const defaultRender = <SearchBar data={homePageData.header.searchBar} />
 
 export { defaultRender }
