@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Banner /> Snaphot must match marketingBannerRender 1`] = `
+<div
+  className="banner"
+  style={
+    Object {
+      "height": "",
+      "maxWidth": "",
+    }
+  }
+>
+  <iframe
+    src="https://s.adroll.com/a/Z3C/YCN/Z3CYCNAN3ZCSRDVO6HPZ22.jpg"
+    title="banner"
+  />
+</div>
+`;
+
+exports[`<Banner /> Snaphot must match topBannerRender 1`] = `
+<div
+  className="banner"
+  style={
+    Object {
+      "height": "21em",
+      "maxWidth": "970px",
+    }
+  }
+>
+  <iframe
+    src="https://s0.2mdn.net/4241177/1554204217310/tm_p3_970x250/index.html"
+    title="banner"
+  />
+</div>
+`;

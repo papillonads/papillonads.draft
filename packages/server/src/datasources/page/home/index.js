@@ -1,8 +1,10 @@
 const links = require('./header/navigationBar/links')
 const categories = require('./header/searchBar/searchFieldsetAdvanced/categories')
 const distances = require('./header/searchBar/searchFieldsetAdvanced/distances')
+const topBannerResources = require('./content/topBanner/resources')
+const marketingBannerResources = require('./content/marketingBanner/resources')
 
-const homePage = {
+const homePageData = {
   id: 'home',
   name: 'Papillon Ads Holland',
   header: {
@@ -16,6 +18,14 @@ const homePage = {
       },
     },
   },
+  content: {
+    topBanner: {
+      resources: topBannerResources,
+    },
+    marketingBanner: {
+      resources: marketingBannerResources,
+    },
+  },
 }
 
-module.exports = homePage
+module.exports = homePageData

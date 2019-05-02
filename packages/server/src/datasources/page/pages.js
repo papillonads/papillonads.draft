@@ -1,8 +1,8 @@
-const homePage = require('./homePage')
-const notFoundPage = require('./notFoundPage')
+const homePageData = require('./home')
+const notFoundPageData = require('./notFound')
 
 const pages = {
-  pages: [homePage, notFoundPage],
+  pages: [homePageData, notFoundPageData],
 }
 
 module.exports = pages
