@@ -1,3 +1,5 @@
+/* stylelint-disable font-family-no-missing-generic-family-keyword */
+
 .nav {
   &Title {
     margin-bottom: 10px;
@@ -10,6 +12,7 @@
   &HighlightsLinks {
     &Link {
       display: flex;
+
       &Icon {
         width: 36px;
         height: 36px;
@@ -45,3 +48,5 @@
     }
   }
 }
+
+/* stylelint-enable font-family-no-missing-generic-family-keyword */
