@@ -24,7 +24,7 @@ const Banner = ({ className, data }) => {
 
   const getIFrameBanner = () => (
     <div className={bannerClassList} style={iFrameWrapperStyle}>
-      <iframe title="banner" src={resource.url} />
+      <iframe scrolling="no" title="banner" src={resource.url} />
     </div>
   )
 
