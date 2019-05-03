@@ -11,6 +11,7 @@ exports[`<Banner /> Snaphot must match marketingBannerRender 1`] = `
   }
 >
   <iframe
+    scrolling="no"
     src="https://s0.2mdn.net/8316070/1532385106174/index.html"
     title="banner"
   />
@@ -28,6 +29,7 @@ exports[`<Banner /> Snaphot must match topBannerRender 1`] = `
   }
 >
   <iframe
+    scrolling="no"
     src="https://s0.2mdn.net/8054340/1535538205200/728x90.html"
     title="banner"
   />
