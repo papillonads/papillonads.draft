@@ -15,6 +15,8 @@ import {
   saveGreenRender,
   saveGreyRender,
   resultsListRender,
+  shoppingCartRender,
+  logoPostNlRender,
 } from './SvgIconGroup.render'
 
 describe('<SvgIcon />', () => {
@@ -81,6 +83,14 @@ describe('<SvgIcon />', () => {
 
     test('must match resultsListRender', () => {
       expect(global.renderToJSON(resultsListRender)).toMatchSnapshot()
+    })
+
+    test('must match shoppingCartRender', () => {
+      expect(global.renderToJSON(shoppingCartRender)).toMatchSnapshot()
+    })
+
+    test('must match logoPostNlRender', () => {
+      expect(global.renderToJSON(logoPostNlRender)).toMatchSnapshot()
     })
   })
 })

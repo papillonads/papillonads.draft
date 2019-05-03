@@ -16,6 +16,8 @@ import {
   saveGreenRender,
   saveGreyRender,
   resultsListRender,
+  shoppingCartRender,
+  logoPostNlRender,
 } from './SvgIconGroup.render'
 import { getInfo } from '../../../../../../../../.storybook/utility'
 
@@ -35,6 +37,8 @@ const saveRenderInfo = getInfo('save')
 const saveGreenRenderInfo = getInfo('save-green')
 const saveGreyRenderInfo = getInfo('save-grey')
 const resultsListRenderInfo = getInfo('results-list')
+const shoppingCartRenderInfo = getInfo('shoppingcart')
+const logoPostNlRenderInfo = getInfo('logo-postnl')
 
 storiesOf('Patttern/Atom/Header/Icon/SvgIconGroup', module)
   .add(logoRenderInfo.text, () => logoRender, logoRenderInfo.parameters)
@@ -53,3 +57,5 @@ storiesOf('Patttern/Atom/Header/Icon/SvgIconGroup', module)
   .add(saveGreenRenderInfo.text, () => saveGreenRender, saveGreenRenderInfo.parameters)
   .add(saveGreyRenderInfo.text, () => saveGreyRender, saveGreyRenderInfo.parameters)
   .add(resultsListRenderInfo.text, () => resultsListRender, resultsListRenderInfo.parameters)
+  .add(shoppingCartRenderInfo.text, () => shoppingCartRender, shoppingCartRenderInfo.parameters)
+  .add(logoPostNlRenderInfo.text, () => logoPostNlRender, logoPostNlRenderInfo.parameters)

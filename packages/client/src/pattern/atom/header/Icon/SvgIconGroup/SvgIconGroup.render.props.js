@@ -148,3 +148,21 @@ export const resultsListRenderProps = {
   fill: '#2D3C4D',
   pathProps: [],
 }
+
+export const shoppingCartRenderProps = {
+  name: 'shoppingcart',
+  width: 96,
+  height: 96,
+  viewBox: '0 0 96 96',
+  fill: '#2D3C4D',
+  pathProps: [],
+}
+
+export const logoPostNlRenderProps = {
+  name: 'logo-postnl',
+  width: 96,
+  height: 96,
+  viewBox: '0 0 96 96',
+  fill: '#2D3C4D',
+  pathProps: [{ fill: '#B0B3B5' }, { fill: '#FFF' }, { fill: '#292E86' }, { fill: '#FFF' }],
+}
