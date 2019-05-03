@@ -1,13 +1,13 @@
 .nav {
-  &__title {
+  &Title {
     margin-bottom: 10px;
-    font-family: BreeSerif, sans-serif;
+    font-family: BreeSerif;
     font-weight: 300;
     font-size: 18px;
     line-height: 1.2em;
   }
 
-  &__items {
+  &HighlightsLinks {
     &Link {
       display: flex;
       &Icon {
@@ -27,11 +27,21 @@
           font-weight: 500;
           margin-bottom: 5px;
         }
+
         &Description {
           color: #2d3c4d;
           font-weight: 300;
         }
       }
+    }
+  }
+
+  &NavigationBlockLinks {
+    &Link {
+      padding: 5px;
+      color: #116db4;
+      font-size: 1em;
+      line-height: 1.2em;
     }
   }
 }
