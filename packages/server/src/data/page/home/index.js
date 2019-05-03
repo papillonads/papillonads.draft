@@ -27,7 +27,6 @@ const homePageData = {
         highlightsLinks: content.links.highlights,
         navigationBlock: content.navigationBlock,
       },
-      mapLink: {},
       usefulLinks: {
         buyersLinks: content.links.buyers,
         sellersLinks: content.links.sellers,
