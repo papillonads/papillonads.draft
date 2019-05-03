@@ -56,7 +56,7 @@ export const carsRenderProps = {
   width: 96,
   height: 96,
   viewBox: '0 0 96 96',
-  fill: '',
+  fill: '#2D3C4D',
   pathProps: [],
 }
 
@@ -65,7 +65,7 @@ export const vacantiesRenderProps = {
   width: 96,
   height: 96,
   viewBox: '0 0 96 96',
-  fill: '',
+  fill: '#2D3C4D',
   pathProps: [],
 }
 
@@ -74,6 +74,15 @@ export const offersRenderProps = {
   width: 96,
   height: 96,
   viewBox: '0 0 96 96',
-  fill: '',
+  fill: '#2D3C4D',
+  pathProps: [],
+}
+
+export const handshakeRenderProps = {
+  name: 'handshake',
+  width: 96,
+  height: 96,
+  viewBox: '0 0 96 96',
+  fill: '#2D3C4D',
   pathProps: [],
 }
