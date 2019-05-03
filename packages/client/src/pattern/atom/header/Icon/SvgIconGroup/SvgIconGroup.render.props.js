@@ -139,3 +139,12 @@ export const saveGreyRenderProps = {
   fill: '#818A95',
   pathProps: [],
 }
+
+export const resultsListRenderProps = {
+  name: 'results-list',
+  width: 96,
+  height: 96,
+  viewBox: '0 0 96 96',
+  fill: '#2D3C4D',
+  pathProps: [],
+}

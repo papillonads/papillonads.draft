@@ -14,6 +14,7 @@ import {
   saveRender,
   saveGreenRender,
   saveGreyRender,
+  resultsListRender,
 } from './SvgIconGroup.render'
 
 describe('<SvgIcon />', () => {
@@ -76,6 +77,10 @@ describe('<SvgIcon />', () => {
 
     test('must match saveGreyRender', () => {
       expect(global.renderToJSON(saveGreyRender)).toMatchSnapshot()
+    })
+
+    test('must match resultsListRender', () => {
+      expect(global.renderToJSON(resultsListRender)).toMatchSnapshot()
     })
   })
 })

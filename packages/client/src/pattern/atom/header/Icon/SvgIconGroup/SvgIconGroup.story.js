@@ -15,6 +15,7 @@ import {
   saveRender,
   saveGreenRender,
   saveGreyRender,
+  resultsListRender,
 } from './SvgIconGroup.render'
 import { getInfo } from '../../../../../../../../.storybook/utility'
 
@@ -33,6 +34,7 @@ const categoryServicesRenderInfo = getInfo('category-services')
 const saveRenderInfo = getInfo('save')
 const saveGreenRenderInfo = getInfo('save-green')
 const saveGreyRenderInfo = getInfo('save-grey')
+const resultsListRenderInfo = getInfo('results-list')
 
 storiesOf('Patttern/Atom/Header/Icon/SvgIconGroup', module)
   .add(logoRenderInfo.text, () => logoRender, logoRenderInfo.parameters)
@@ -50,3 +52,4 @@ storiesOf('Patttern/Atom/Header/Icon/SvgIconGroup', module)
   .add(saveRenderInfo.text, () => saveRender, saveRenderInfo.parameters)
   .add(saveGreenRenderInfo.text, () => saveGreenRender, saveGreenRenderInfo.parameters)
   .add(saveGreyRenderInfo.text, () => saveGreyRender, saveGreyRenderInfo.parameters)
+  .add(resultsListRenderInfo.text, () => resultsListRender, resultsListRenderInfo.parameters)

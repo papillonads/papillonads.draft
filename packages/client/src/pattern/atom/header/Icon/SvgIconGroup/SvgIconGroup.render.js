@@ -16,6 +16,7 @@ import {
   saveRenderProps,
   saveGreenRenderProps,
   saveGreyRenderProps,
+  resultsListRenderProps,
 } from './SvgIconGroup.render.props'
 
 export const logoRender = <SvgIconGroup {...logoRenderProps} />
@@ -33,3 +34,4 @@ export const categoryServicesRender = <SvgIconGroup {...categoryServicesRenderPr
 export const saveRender = <SvgIconGroup {...saveRenderProps} />
 export const saveGreenRender = <SvgIconGroup {...saveGreenRenderProps} />
 export const saveGreyRender = <SvgIconGroup {...saveGreyRenderProps} />
+export const resultsListRender = <SvgIconGroup {...resultsListRenderProps} />
