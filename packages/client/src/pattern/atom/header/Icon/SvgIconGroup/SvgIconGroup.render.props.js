@@ -95,3 +95,47 @@ export const arrowLargeRenderProps = {
   fill: '',
   pathProps: [],
 }
+
+export const categoryServicesRenderProps = {
+  name: 'category-diensten',
+  width: 96,
+  height: 96,
+  viewBox: '0 0 96 96',
+  fill: '',
+  pathProps: [
+    { fill: '' },
+    { fill: '#2D3C4D' },
+    { fill: '#2D3C4D' },
+    { fill: 'none' },
+    { fill: '#2D3C4D' },
+    { fill: '#2D3C4D' },
+    { fill: '#2D3C4D' },
+  ],
+}
+
+export const saveRenderProps = {
+  name: 'save',
+  width: 96,
+  height: 96,
+  viewBox: '0 0 96 96',
+  fill: '#2D3C4D',
+  pathProps: [],
+}
+
+export const saveGreenRenderProps = {
+  name: 'save',
+  width: 96,
+  height: 96,
+  viewBox: '0 0 96 96',
+  fill: '#43aa8b',
+  pathProps: [],
+}
+
+export const saveGreyRenderProps = {
+  name: 'save',
+  width: 96,
+  height: 96,
+  viewBox: '0 0 96 96',
+  fill: '#818A95',
+  pathProps: [],
+}

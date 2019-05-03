@@ -10,6 +10,10 @@ import {
   offersRender,
   handshakeRender,
   arrowLargeRender,
+  categoryServicesRender,
+  saveRender,
+  saveGreenRender,
+  saveGreyRender,
 } from './SvgIconGroup.render'
 
 describe('<SvgIcon />', () => {
@@ -56,6 +60,22 @@ describe('<SvgIcon />', () => {
 
     test('must match arrowLargeRender', () => {
       expect(global.renderToJSON(arrowLargeRender)).toMatchSnapshot()
+    })
+
+    test('must match categoryServicesRender', () => {
+      expect(global.renderToJSON(categoryServicesRender)).toMatchSnapshot()
+    })
+
+    test('must match saveRender', () => {
+      expect(global.renderToJSON(saveRender)).toMatchSnapshot()
+    })
+
+    test('must match saveGreenRender', () => {
+      expect(global.renderToJSON(saveGreenRender)).toMatchSnapshot()
+    })
+
+    test('must match saveGreyRender', () => {
+      expect(global.renderToJSON(saveGreyRender)).toMatchSnapshot()
     })
   })
 })

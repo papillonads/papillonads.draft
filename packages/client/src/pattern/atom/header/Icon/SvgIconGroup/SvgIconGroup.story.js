@@ -11,6 +11,10 @@ import {
   offersRender,
   handshakeRender,
   arrowLargeRender,
+  categoryServicesRender,
+  saveRender,
+  saveGreenRender,
+  saveGreyRender,
 } from './SvgIconGroup.render'
 import { getInfo } from '../../../../../../../../.storybook/utility'
 
@@ -25,6 +29,10 @@ const vacantiesRenderInfo = getInfo('vacanties')
 const offersRenderInfo = getInfo('offers')
 const handshakeRenderInfo = getInfo('handshake')
 const arrowLargeRenderInfo = getInfo('arrow-large')
+const categoryServicesRenderInfo = getInfo('category-services')
+const saveRenderInfo = getInfo('save')
+const saveGreenRenderInfo = getInfo('save-green')
+const saveGreyRenderInfo = getInfo('save-grey')
 
 storiesOf('Patttern/Atom/Header/Icon/SvgIconGroup', module)
   .add(logoRenderInfo.text, () => logoRender, logoRenderInfo.parameters)
@@ -38,3 +46,7 @@ storiesOf('Patttern/Atom/Header/Icon/SvgIconGroup', module)
   .add(offersRenderInfo.text, () => offersRender, offersRenderInfo.parameters)
   .add(handshakeRenderInfo.text, () => handshakeRender, handshakeRenderInfo.parameters)
   .add(arrowLargeRenderInfo.text, () => arrowLargeRender, arrowLargeRenderInfo.parameters)
+  .add(categoryServicesRenderInfo.text, () => categoryServicesRender, categoryServicesRenderInfo.parameters)
+  .add(saveRenderInfo.text, () => saveRender, saveRenderInfo.parameters)
+  .add(saveGreenRenderInfo.text, () => saveGreenRender, saveGreenRenderInfo.parameters)
+  .add(saveGreyRenderInfo.text, () => saveGreyRender, saveGreyRenderInfo.parameters)

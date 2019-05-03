@@ -12,6 +12,10 @@ import {
   offersRenderProps,
   handshakeRenderProps,
   arrowLargeRenderProps,
+  categoryServicesRenderProps,
+  saveRenderProps,
+  saveGreenRenderProps,
+  saveGreyRenderProps,
 } from './SvgIconGroup.render.props'
 
 export const logoRender = <SvgIconGroup {...logoRenderProps} />
@@ -25,3 +29,7 @@ export const vacantiesRender = <SvgIconGroup {...vacantiesRenderProps} />
 export const offersRender = <SvgIconGroup {...offersRenderProps} />
 export const handshakeRender = <SvgIconGroup {...handshakeRenderProps} />
 export const arrowLargeRender = <SvgIconGroup {...arrowLargeRenderProps} />
+export const categoryServicesRender = <SvgIconGroup {...categoryServicesRenderProps} />
+export const saveRender = <SvgIconGroup {...saveRenderProps} />
+export const saveGreenRender = <SvgIconGroup {...saveGreenRenderProps} />
+export const saveGreyRender = <SvgIconGroup {...saveGreyRenderProps} />
