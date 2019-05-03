@@ -1,5 +1,24 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`<SvgIcon /> Snaphot must match arrowLargeRender 1`] = `
+<svg
+  className=""
+  height={96}
+  viewBox="0 0 96 96"
+  width={96}
+>
+  <g
+    fill=""
+    fillRule="evenodd"
+  >
+    <path
+      d="M33.858 78.284a2 2 0 0 1-1.414-3.414L59.313 48l-26.87-26.87a2 2 0 1 1 2.828-2.828l28.284 28.284a2 2 0 0 1 0 2.828L35.272 77.698a1.99 1.99 0 0 1-1.414.586z"
+      fill=""
+    />
+  </g>
+</svg>
+`;
+
 exports[`<SvgIcon /> Snaphot must match carsRender 1`] = `
 <svg
   className=""

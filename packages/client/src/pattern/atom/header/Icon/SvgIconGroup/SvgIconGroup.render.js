@@ -11,6 +11,7 @@ import {
   vacantiesRenderProps,
   offersRenderProps,
   handshakeRenderProps,
+  arrowLargeRenderProps,
 } from './SvgIconGroup.render.props'
 
 export const logoRender = <SvgIconGroup {...logoRenderProps} />
@@ -23,3 +24,4 @@ export const carsRender = <SvgIconGroup {...carsRenderProps} />
 export const vacantiesRender = <SvgIconGroup {...vacantiesRenderProps} />
 export const offersRender = <SvgIconGroup {...offersRenderProps} />
 export const handshakeRender = <SvgIconGroup {...handshakeRenderProps} />
+export const arrowLargeRender = <SvgIconGroup {...arrowLargeRenderProps} />

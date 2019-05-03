@@ -86,3 +86,12 @@ export const handshakeRenderProps = {
   fill: '#2D3C4D',
   pathProps: [],
 }
+
+export const arrowLargeRenderProps = {
+  name: 'arrow-large',
+  width: 96,
+  height: 96,
+  viewBox: '0 0 96 96',
+  fill: '',
+  pathProps: [],
+}

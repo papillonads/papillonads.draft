@@ -9,6 +9,7 @@ import {
   vacantiesRender,
   offersRender,
   handshakeRender,
+  arrowLargeRender,
 } from './SvgIconGroup.render'
 
 describe('<SvgIcon />', () => {
@@ -51,6 +52,10 @@ describe('<SvgIcon />', () => {
 
     test('must match handshakeRender', () => {
       expect(global.renderToJSON(handshakeRender)).toMatchSnapshot()
+    })
+
+    test('must match arrowLargeRender', () => {
+      expect(global.renderToJSON(arrowLargeRender)).toMatchSnapshot()
     })
   })
 })

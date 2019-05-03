@@ -10,6 +10,7 @@ import {
   vacantiesRender,
   offersRender,
   handshakeRender,
+  arrowLargeRender,
 } from './SvgIconGroup.render'
 import { getInfo } from '../../../../../../../../.storybook/utility'
 
@@ -23,6 +24,7 @@ const carsRenderInfo = getInfo('cars')
 const vacantiesRenderInfo = getInfo('vacanties')
 const offersRenderInfo = getInfo('offers')
 const handshakeRenderInfo = getInfo('handshake')
+const arrowLargeRenderInfo = getInfo('arrow-large')
 
 storiesOf('Patttern/Atom/Header/Icon/SvgIconGroup', module)
   .add(logoRenderInfo.text, () => logoRender, logoRenderInfo.parameters)
@@ -35,3 +37,4 @@ storiesOf('Patttern/Atom/Header/Icon/SvgIconGroup', module)
   .add(vacantiesRenderInfo.text, () => vacantiesRender, vacantiesRenderInfo.parameters)
   .add(offersRenderInfo.text, () => offersRender, offersRenderInfo.parameters)
   .add(handshakeRenderInfo.text, () => handshakeRender, handshakeRenderInfo.parameters)
+  .add(arrowLargeRenderInfo.text, () => arrowLargeRender, arrowLargeRenderInfo.parameters)
