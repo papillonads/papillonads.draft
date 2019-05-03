@@ -1,10 +1,9 @@
 import React from 'react'
 import cn from 'classnames'
-import cs from './MapLink.scss'
 import { mapLinkDefaultProps, mapLinkPropTypes } from './MapLink.props'
 
-const MapLink = ({ className, data }) => {
-  const mapLinkClassList = cn(className, cs.mapLink)
+const MapLink = ({ className }) => {
+  const mapLinkClassList = cn(className)
 
   return <div className={mapLinkClassList} />
 }
