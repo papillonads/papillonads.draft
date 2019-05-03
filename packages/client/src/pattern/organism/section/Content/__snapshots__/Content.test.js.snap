@@ -2,7 +2,7 @@
 
 exports[`<Content /> Snaphot must match defaultRender 1`] = `
 <div
-  className=""
+  className="content"
 >
   <div
     className="banner"
@@ -16,6 +16,52 @@ exports[`<Content /> Snaphot must match defaultRender 1`] = `
     <iframe
       src="https://s0.2mdn.net/8054340/1535538205200/728x90.html"
       title="banner"
+    />
+  </div>
+  <div
+    className="leftColumn"
+  >
+    <div
+      className="leftColumn__navigation navigation"
+    >
+      <h3>
+        Uitgelicht
+      </h3>
+      <div>
+        <div>
+          Auto's
+        </div>
+        <div>
+          &gt;7500 nieuwe occasions per dag
+        </div>
+      </div>
+      <div>
+        <div>
+          Vacatures
+        </div>
+        <div>
+          Vind de beste baan in je buurt
+        </div>
+      </div>
+      <div>
+        <div>
+          Aanbiedingen
+        </div>
+        <div>
+          Scherpe prijzen, direct kopen
+        </div>
+      </div>
+      <div>
+        <div>
+          Gelijk Oversteken
+        </div>
+        <div>
+          Extra zekerheid bij verzending
+        </div>
+      </div>
+    </div>
+    <div
+      className="leftColumn__usefulLinks usefulLinks"
     />
   </div>
 </div>
