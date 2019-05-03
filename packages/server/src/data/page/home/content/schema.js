@@ -27,6 +27,7 @@ const contentTypeDef = gql`
   type HandyLink {
     title: String!
     description: String!
+    icon: String!
   }
 
   type HandyLinks {

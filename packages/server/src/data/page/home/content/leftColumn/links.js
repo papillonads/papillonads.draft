@@ -4,10 +4,10 @@ const links = {
       title: 'Uitgelicht',
     },
     links: [
-      { title: "Auto's", description: '>7500 nieuwe occasions per dag' },
-      { title: 'Vacatures', description: 'Vind de beste baan in je buurt' },
-      { title: 'Aanbiedingen', description: 'Scherpe prijzen, direct kopen' },
-      { title: 'Gelijk Oversteken', description: 'Extra zekerheid bij verzending' },
+      { title: "Auto's", description: '>7500 nieuwe occasions per dag', icon: 'autos' },
+      { title: 'Vacatures', description: 'Vind de beste baan in je buurt', icon: 'vacatures' },
+      { title: 'Aanbiedingen', description: 'Scherpe prijzen, direct kopen', icon: 'aanbiedingen' },
+      { title: 'Gelijk Oversteken', description: 'Extra zekerheid bij verzending', icon: 'handshake' },
     ],
   },
   buyers: {

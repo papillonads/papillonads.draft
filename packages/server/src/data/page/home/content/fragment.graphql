@@ -16,6 +16,7 @@ fragment content on Page {
           links {
             title
             description
+            icon
           }
         }
         navigationBlock {

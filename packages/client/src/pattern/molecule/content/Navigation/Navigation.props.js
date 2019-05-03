@@ -15,6 +15,7 @@ export const navigationPropTypes = {
         shape({
           title: string,
           description: string,
+          icon: string,
         }),
       ),
     }),
