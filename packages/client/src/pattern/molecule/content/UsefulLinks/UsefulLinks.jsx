@@ -1,6 +1,6 @@
 import React from 'react'
 import cn from 'classnames'
-import cs from './LeftColumn.scss'
+import cs from './UsefulLinks.scss'
 import { usefulLinksDefaultProps, usefulLinksPropTypes } from './UsefulLinks.props'
 
 const UsefulLinks = ({ className, data }) => {
