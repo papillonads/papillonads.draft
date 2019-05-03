@@ -50,3 +50,30 @@ export const pinRenderProps = {
   fill: '#2D3C4D',
   pathProps: [],
 }
+
+export const carsRenderProps = {
+  name: 'autos',
+  width: 96,
+  height: 96,
+  viewBox: '0 0 96 96',
+  fill: '',
+  pathProps: [],
+}
+
+export const vacantiesRenderProps = {
+  name: 'vacatures',
+  width: 96,
+  height: 96,
+  viewBox: '0 0 96 96',
+  fill: '',
+  pathProps: [],
+}
+
+export const offersRenderProps = {
+  name: 'aanbiedingen',
+  width: 96,
+  height: 96,
+  viewBox: '0 0 96 96',
+  fill: '',
+  pathProps: [],
+}

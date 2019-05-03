@@ -1,4 +1,14 @@
-import { logoRender, messagesRender, notificationRender, notificationGreyRender, profileRender, pinRender } from './SvgIconGroup.render'
+import {
+  logoRender,
+  messagesRender,
+  notificationRender,
+  notificationGreyRender,
+  profileRender,
+  pinRender,
+  carsRender,
+  vacantiesRender,
+  offersRender,
+} from './SvgIconGroup.render'
 
 describe('<SvgIcon />', () => {
   describe('Snaphot', () => {
@@ -24,6 +34,18 @@ describe('<SvgIcon />', () => {
 
     test('must match pinRender', () => {
       expect(global.renderToJSON(pinRender)).toMatchSnapshot()
+    })
+
+    test('must match carsRender', () => {
+      expect(global.renderToJSON(carsRender)).toMatchSnapshot()
+    })
+
+    test('must vacantiesh carsRender', () => {
+      expect(global.renderToJSON(vacantiesRender)).toMatchSnapshot()
+    })
+
+    test('must match offersRender', () => {
+      expect(global.renderToJSON(offersRender)).toMatchSnapshot()
     })
   })
 })
