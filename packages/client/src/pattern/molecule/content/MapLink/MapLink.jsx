@@ -1,6 +1,6 @@
 import React from 'react'
 import cn from 'classnames'
-import cs from './LeftColumn.scss'
+import cs from './MapLink.scss'
 import { mapLinkDefaultProps, mapLinkPropTypes } from './MapLink.props'
 
 const MapLink = ({ className, data }) => {

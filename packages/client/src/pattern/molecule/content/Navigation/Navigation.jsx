@@ -1,6 +1,6 @@
 import React from 'react'
 import cn from 'classnames'
-import cs from './LeftColumn.scss'
+import cs from './Navigation.scss'
 import { navigationDefaultProps, navigationPropTypes } from './Navigation.props'
 
 const Navigation = ({ className, data }) => {
