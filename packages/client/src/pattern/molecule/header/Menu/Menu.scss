@@ -10,8 +10,8 @@
     padding: 0;
   }
 
-  &__messages,
-  &__notifications {
+  &Messages,
+  &Notifications {
     @include headerNavigationBarMenuLabelBadge;
 
     &Icon {
@@ -23,7 +23,7 @@
     }
   }
 
-  &__placeAd {
+  &PlaceAd {
     @include headerNavigationBarMenuButtonBadge;
 
     &Icon {
@@ -44,9 +44,9 @@
     }
   }
 
-  &__messagesLabel,
-  &__notificationsLabel,
-  &__placeAdButton {
+  &MessagesLabel,
+  &NotificationsLabel,
+  &PlaceAdButton {
     display: none;
 
     @media (min-width: 992px) {
