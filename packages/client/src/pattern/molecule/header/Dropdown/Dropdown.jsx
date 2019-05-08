@@ -13,18 +13,18 @@ const Dropdown = ({ className, items }) => {
 
   return (
     <details className={dropdownClassList}>
-      <summary aria-haspopup="true" className={cs.dropdown__summary}>
-        <Badge className={cs.dropdown__badge}>
-          <SvgIcon className={cs.dropdown__svgIcon1} fill="grey" name="user" width={20} height={20} />
-          <Label className={cs.dropdown__label} text="t" />
-          <SvgIcon className={cs.dropdown__svgIcon2} fill="grey" name="ctrl" width={15} height={15} />
+      <summary aria-haspopup="true" className={cs.dropdownSummary}>
+        <Badge className={cs.dropdownBadge}>
+          <SvgIcon className={cs.dropdownSvgIcon1} fill="grey" name="user" width={20} height={20} />
+          <Label className={cs.dropdownLabel} text="t" />
+          <SvgIcon className={cs.dropdownSvgIcon2} fill="grey" name="ctrl" width={15} height={15} />
         </Badge>
       </summary>
 
-      <ul className={cn(ps['dropdown-menu'], cs.dropdown__list)}>
+      <ul className={cn(ps['dropdown-menu'], cs.dropdownList)}>
         {items.map(item => (
           <li key={uuidv1()}>
-            <Label className={cn(ps['dropdown-item'], cs.dropdown__listItem)} key={uuidv1()} text={item.text} />
+            <Label className={cn(ps['dropdown-item'], cs.dropdownListItem)} key={uuidv1()} text={item.text} />
           </li>
         ))}
       </ul>
