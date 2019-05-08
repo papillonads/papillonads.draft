@@ -9,7 +9,7 @@ const SearchFieldsetStandard = ({ className }) => {
 
   return (
     <div className={searchFieldsetStandardClassList}>
-      <Input className={cs.searchFieldsetStandard__input} />
+      <Input className={cs.searchFieldsetStandardInput} />
     </div>
   )
 }
