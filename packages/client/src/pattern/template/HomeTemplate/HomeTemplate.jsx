@@ -11,9 +11,9 @@ const HomeTemplate = ({ className, data }) => {
 
   return (
     <div className={homeTemplateClassList}>
-      <Ribbon className={cs.homeTemplate__ribbonTop} />
+      <Ribbon className={cs.homeTemplateRibbonTop} />
       <Header data={data.header} />
-      <Ribbon className={cs.homeTemplate__ribbonBottom} />
+      <Ribbon className={cs.homeTemplateRibbonBottom} />
       <Content data={data.content} />
     </div>
   )
