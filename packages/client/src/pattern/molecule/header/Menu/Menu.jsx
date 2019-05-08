@@ -19,22 +19,22 @@ const Menu = ({ className }) => {
     { text: 'Uitloggen' },
   ]
 
-  const menuClassList = cn(className, cs._menu)
+  const menuClassList = cn(className, cs._)
 
   return (
     <div className={menuClassList}>
-      <Badge className={cs._menuMessages}>
-        <SvgIcon className={cs._menuMessagesIcon} fill="grey" name="bubbles4" width={15} height={15} />
-        <Label className={cs._menuMessagesLabel} text="Berichten" />
+      <Badge className={cs._Messages}>
+        <SvgIcon className={cs._MessagesIcon} fill="grey" name="bubbles4" width={15} height={15} />
+        <Label className={cs._MessagesLabel} text="Berichten" />
       </Badge>
-      <Badge className={cs._menuNotifications}>
-        <SvgIcon className={cs._menuNotificationsIcon} fill="grey" name="bell" width={15} height={15} />
-        <Label className={cs._menuNotificationsLabel} text="Meldingen" />
+      <Badge className={cs._Notifications}>
+        <SvgIcon className={cs._NotificationsIcon} fill="grey" name="bell" width={15} height={15} />
+        <Label className={cs._NotificationsLabel} text="Meldingen" />
       </Badge>
       <Dropdown items={dropdownItems} />
-      <Badge className={cs._menuPlaceAd}>
-        <SvgIcon className={cs._menuPlaceAdIcon} fill="white" name="pushpin" width={15} height={15} />
-        <Button className={cs._menuPlaceAdButton}>Plaats Advertentie</Button>
+      <Badge className={cs._PlaceAd}>
+        <SvgIcon className={cs._PlaceAdIcon} fill="white" name="pushpin" width={15} height={15} />
+        <Button className={cs._PlaceAdButton}>Plaats Advertentie</Button>
       </Badge>
     </div>
   )
