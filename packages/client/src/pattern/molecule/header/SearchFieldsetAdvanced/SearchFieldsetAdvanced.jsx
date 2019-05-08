@@ -18,16 +18,16 @@ const SearchFieldsetAdvanced = ({ className, data }) => {
   return (
     <div className={searchFieldsetAdvancedClassList}>
       <Select
-        className={cs.searchFieldsetAdvanced__group}
+        className={cs.searchFieldsetAdvancedGroup}
         options={categories}
         onChange={selectedOption => {
           setCategory(selectedOption.value)
         }}
         placeholder="Alle groepen..."
       />
-      <Input className={cs.searchFieldsetAdvanced__postcode} placeholder="Postcode" />
+      <Input className={cs.searchFieldsetAdvancedPostcode} placeholder="Postcode" />
       <Select
-        className={cs.searchFieldsetAdvanced__distance}
+        className={cs.searchFieldsetAdvancedDistance}
         options={distances}
         onChange={selectedOption => {
           setDistance(selectedOption.value)

@@ -6,7 +6,7 @@
     padding-left: 0;
   }
 
-  &__group {
+  &Group {
     width: 45%;
 
     &:hover {
@@ -15,11 +15,11 @@
     }
   }
 
-  &__postcode {
+  &Postcode {
     width: 20%;
   }
 
-  &__distance {
+  &Distance {
     width: 45%;
 
     &:hover {
