@@ -12,11 +12,11 @@ const SearchBar = ({ className, data }) => {
 
   return (
     <div className={searchBarClassList}>
-      <div className={cn(cs.searchBar__maxWidth)}>
-        <SearchFieldsetStandard className={cs.searchBar__maxWidthSearchFieldsetStandard} />
-        <SearchFieldsetAdvanced data={data.searchFieldsetAdvanced} className={cs.searchBar__maxWidthSearchFieldsetAdvanced} />
-        <Button className={cs.searchBar__maxWidthButton}>Zoek</Button>
-        {/* <SearchFormOptions className={cs.searchBar__maxWidthSearchFormOptions} /> */}
+      <div className={cn(cs.searchBarMaxWidth)}>
+        <SearchFieldsetStandard className={cs.searchBarMaxWidthSearchFieldsetStandard} />
+        <SearchFieldsetAdvanced data={data.searchFieldsetAdvanced} className={cs.searchBarMaxWidthSearchFieldsetAdvanced} />
+        <Button className={cs.searchBarMaxWidthButton}>Zoek</Button>
+        {/* <SearchFormOptions className={cs.searchBarMaxWidthSearchFormOptions} /> */}
       </div>
     </div>
   )
