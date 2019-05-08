@@ -10,9 +10,9 @@ const Content = ({ className, data }) => {
 
   return (
     <div className={contentClassList}>
-      <div className={cn(cs.content__maxWidth)}>
-        <Banner className={cs.content__topBanner} data={data.topBanner} />
-        <LeftColumn className={cs.content__leftColumn} data={data.leftColumn} />
+      <div className={cn(cs.contentMaxWidth)}>
+        <Banner className={cs.contentTopBanner} data={data.topBanner} />
+        <LeftColumn className={cs.contentLeftColumn} data={data.leftColumn} />
       </div>
     </div>
   )

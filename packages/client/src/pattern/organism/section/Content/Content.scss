@@ -1,5 +1,5 @@
 .content {
-  &__maxWidth {
+  &MaxWidth {
     display: flex;
     justify-content: space-between;
     flex-direction: column;
@@ -14,7 +14,7 @@
     min-width: 288px;
   }
 
-  &__leftColumn {
+  &LeftColumn {
     min-width: 192.8px;
     width: 19.28%;
     margin-top: 20px;
@@ -24,7 +24,7 @@
     }
   }
 
-  &__topBanner {
+  &TopBanner {
     width: 100%;
     padding-left: 24px;
 
