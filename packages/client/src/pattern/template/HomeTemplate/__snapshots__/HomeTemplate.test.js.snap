@@ -849,7 +849,7 @@ exports[`<HomeTemplate /> Snaphot must match defaultRender 1`] = `
           </div>
         </div>
         <div
-          className="leftColumn__usefulLinks usefulLinks"
+          className="leftColumn__usefulLinks"
         />
       </div>
     </div>
