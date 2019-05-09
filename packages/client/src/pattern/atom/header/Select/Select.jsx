@@ -10,7 +10,7 @@ const Select = ({ className, placeholder, items }) => {
   return (
     <React.Fragment>
       <select className={selectClassList}>
-        <option className={cs.selectOption} key={uuidv1()} value={placeholder}>
+        <option key={uuidv1()} value={placeholder}>
           {placeholder}
         </option>
         {items.map(item => (
