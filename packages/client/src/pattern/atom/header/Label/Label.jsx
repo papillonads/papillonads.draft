@@ -1,12 +1,7 @@
 import React from 'react'
-import cn from 'classnames'
 import { labelDefaultProps, labelPropTypes } from './Label.props'
 
-const Label = ({ className, text }) => {
-  const labelClassList = cn(className)
-
-  return <div className={labelClassList}>{text}</div>
-}
+const Label = ({ className, text }) => <div className={className}>{text}</div>
 
 Label.defaultProps = labelDefaultProps
 
