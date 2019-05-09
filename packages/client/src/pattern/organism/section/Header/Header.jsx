@@ -10,8 +10,8 @@ const Header = ({ className, data }) => {
 
   return (
     <div className={headerClassList}>
-      <NavigationBar data={data.navigationBar} className={cs.header__navigationBar} />
-      <SearchBar data={data.searchBar} className={cs.header__searchBar} />
+      <NavigationBar data={data.navigationBar} className={cs.headerNavigationBar} />
+      <SearchBar data={data.searchBar} className={cs.headerSearchBar} />
     </div>
   )
 }
