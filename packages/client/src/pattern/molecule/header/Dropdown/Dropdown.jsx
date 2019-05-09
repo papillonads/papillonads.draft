@@ -8,29 +8,25 @@ import uuidv1 from 'uuid/v1'
 import Badge from '../Badge'
 import { dropdownDefaultProps, dropdownPropTypes } from './Dropdown.props'
 
-const Dropdown = ({ className, items }) => {
-  const dropdownClassList = cn(className, ps['details-reset'], cs.dropdown)
+const Dropdown = ({ className, items }) => (
+  <details className={cn(className, ps['details-reset'], cs.dropdown)}>
+    <summary aria-haspopup="true" className={cs.summary}>
+      <Badge className={cs.badge}>
+        <SvgIcon className={cs.svgIcon1} fill="grey" name="user" width={20} height={20} />
+        <Label className={cs.label} text="t" />
+        <SvgIcon className={cs.svgIcon2} fill="grey" name="ctrl" width={15} height={15} />
+      </Badge>
+    </summary>
 
-  return (
-    <details className={dropdownClassList}>
-      <summary aria-haspopup="true" className={cs.summary}>
-        <Badge className={cs.badge}>
-          <SvgIcon className={cs.svgIcon1} fill="grey" name="user" width={20} height={20} />
-          <Label className={cs.label} text="t" />
-          <SvgIcon className={cs.svgIcon2} fill="grey" name="ctrl" width={15} height={15} />
-        </Badge>
-      </summary>
-
-      <ul className={cn(ps['dropdown-menu'], cs.list)}>
-        {items.map(item => (
-          <li key={uuidv1()}>
-            <Label className={cn(ps['dropdown-item'], cs.listItem)} key={uuidv1()} text={item.text} />
-          </li>
-        ))}
-      </ul>
-    </details>
-  )
-}
+    <ul className={cn(ps['dropdown-menu'], cs.list)}>
+      {items.map(item => (
+        <li key={uuidv1()}>
+          <Label className={cn(ps['dropdown-item'], cs.listItem)} key={uuidv1()} text={item.text} />
+        </li>
+      ))}
+    </ul>
+  </details>
+)
 
 Dropdown.defaultProps = dropdownDefaultProps
 
