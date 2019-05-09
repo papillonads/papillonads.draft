@@ -3,11 +3,7 @@ import cn from 'classnames'
 import cs from './SearchFormOptions.scss'
 import { searchFormOptionsDefaultProps, searchFormOptionsPropTypes } from './SearchFormOptions.props'
 
-const SearchFormOptions = ({ className }) => {
-  const searchFormOptionsClassList = cn(className, cs.searchFormOptions)
-
-  return <div className={searchFormOptionsClassList}>SearchFormOptions</div>
-}
+const SearchFormOptions = ({ className }) => <div className={cn(className, cs.searchFormOptions)}>SearchFormOptions</div>
 
 SearchFormOptions.defaultProps = searchFormOptionsDefaultProps
 
