@@ -4,6 +4,9 @@ fragment header on Page {
       links {
         text
       }
+      dropdown {
+        text
+      }
     }
     searchBar {
       searchFieldsetAdvanced {

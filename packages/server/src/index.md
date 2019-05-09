@@ -11,6 +11,9 @@ query GetPages {
           links {
             text
           }
+          dropdown {
+            text
+          }
         }
         searchBar {
           searchFieldsetAdvanced {

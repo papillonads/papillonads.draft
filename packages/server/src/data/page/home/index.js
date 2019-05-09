@@ -10,6 +10,7 @@ const homePageData = {
   header: {
     navigationBar: {
       links: header.links,
+      dropdown: header.dropdown,
     },
     searchBar: {
       searchFieldsetAdvanced: {

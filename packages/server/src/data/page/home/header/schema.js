@@ -17,6 +17,7 @@ const headerTypeDef = gql`
 
   type NavigationBar {
     links: [Link]!
+    dropdown: [Link]!
   }
 
   type SearchFieldsetAdvanced {
