@@ -3,11 +3,7 @@ import cn from 'classnames'
 import cs from './Link.scss'
 import { linkDefaultProps, linkPropTypes } from './Link.props'
 
-const Link = ({ className, item }) => {
-  const linkClassList = cn(className, cs.link)
-
-  return <div className={linkClassList}>{item.text}</div>
-}
+const Link = ({ className, item }) => <div className={cn(className, cs.link)}>{item.text}</div>
 
 Link.defaultProps = linkDefaultProps
 
