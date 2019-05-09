@@ -13,7 +13,7 @@ const NavigationBar = ({ className, data }) => (
         <Logo className={cs.maxWidthLeftLogo} />
         <Links className={cs.maxWidthLeftLinks} data={data.links} />
       </div>
-      <Menu />
+      <Menu data={data.dropdown} />
     </div>
   </div>
 )
