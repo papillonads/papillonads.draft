@@ -6,8 +6,6 @@ import Input from '../../../atom/header/Input'
 import { searchFieldsetAdvancedDefaultProps, searchFieldsetAdvancedPropTypes } from './SearchFieldsetAdvanced.props'
 
 const SearchFieldsetAdvanced = ({ className, data }) => {
-  const searchFieldsetAdvancedClassList = cn(className, cs.searchFieldsetAdvanced)
-
   /* eslint-disable */
   const [category, setCategory] = React.useState('')
   const [distance, setDistance] = React.useState('')
@@ -16,7 +14,7 @@ const SearchFieldsetAdvanced = ({ className, data }) => {
   const { categories, distances } = data
 
   return (
-    <div className={searchFieldsetAdvancedClassList}>
+    <div className={cn(className, cs.searchFieldsetAdvanced)}>
       <Select
         className={cs.group}
         options={categories}
