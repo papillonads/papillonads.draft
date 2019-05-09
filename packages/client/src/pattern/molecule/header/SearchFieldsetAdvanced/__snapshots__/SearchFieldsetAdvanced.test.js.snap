@@ -5,7 +5,7 @@ exports[`<SearchFieldsetAdvanced /> Snaphot must match defaultRender 1`] = `
   className="searchFieldsetAdvanced"
 >
   <div
-    className="css-1pcexqc-container searchFieldsetAdvanced__group"
+    className="css-1pcexqc-container group"
     onKeyDown={[Function]}
   >
     <div
@@ -108,11 +108,11 @@ exports[`<SearchFieldsetAdvanced /> Snaphot must match defaultRender 1`] = `
     </div>
   </div>
   <input
-    className="searchFieldsetAdvanced__postcode"
+    className="postcode"
     placeholder="Postcode"
   />
   <div
-    className="css-1pcexqc-container searchFieldsetAdvanced__distance"
+    className="css-1pcexqc-container distance"
     onKeyDown={[Function]}
   >
     <div

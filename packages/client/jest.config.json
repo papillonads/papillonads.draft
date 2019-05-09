@@ -2,7 +2,8 @@
   "testRegex": ".test\\.js$",
   "roots": ["<rootDir>"],
   "transform": {
-    "^.+\\.jsx?$": "babel-jest"
+    "^.+\\.jsx?$": "babel-jest",
+    "\\.(gql|graphql)$": "jest-transform-graphql"
   },
   "collectCoverageFrom": ["packages/**/*.js", "packages/**/*.jsx"],
   "coveragePathIgnorePatterns": [

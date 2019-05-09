@@ -1,6 +1,6 @@
 import React from 'react'
 import HomeTemplate from './HomeTemplate'
-import homePageData from '../../../../../server/src/datasources/page/home'
+import homePageData from '../../../../../server/src/data/page/home'
 
 const defaultRender = <HomeTemplate data={homePageData} />
 

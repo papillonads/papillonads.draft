@@ -1,8 +1,7 @@
 import React from 'react'
 import Dropdown from './Dropdown'
+import homePageData from '../../../../../../server/src/data/page/home'
 
-export const items = [{ text: 'item 1' }, { text: 'item 2' }, { text: 'item 3' }]
-
-const defaultRender = <Dropdown items={items} />
+const defaultRender = <Dropdown data={homePageData.header.navigationBar.dropdown} />
 
 export { defaultRender }

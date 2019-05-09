@@ -5,7 +5,7 @@ exports[`<SearchFieldsetStandard /> Snaphot must match defaultRender 1`] = `
   className="searchFieldsetStandard"
 >
   <input
-    className="searchFieldsetStandard__input"
+    className="input"
     placeholder=""
   />
 </div>
