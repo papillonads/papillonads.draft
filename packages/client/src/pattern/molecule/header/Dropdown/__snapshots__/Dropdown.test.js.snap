@@ -6,13 +6,13 @@ exports[`<Dropdown /> Snaphot must match defaultRender 1`] = `
 >
   <summary
     aria-haspopup="true"
-    className="dropdown__summary"
+    className="dropdownSummary"
   >
     <div
-      className="dropdown__badge"
+      className="dropdownBadge"
     >
       <div
-        className="dropdown__svgIcon1"
+        className="dropdownSvgIcon1"
       >
         <svg
           fill="grey"
@@ -26,12 +26,12 @@ exports[`<Dropdown /> Snaphot must match defaultRender 1`] = `
         </svg>
       </div>
       <div
-        className="dropdown__label"
+        className="dropdownLabel"
       >
         t
       </div>
       <div
-        className="dropdown__svgIcon2"
+        className="dropdownSvgIcon2"
       >
         <svg
           fill="grey"
@@ -47,25 +47,25 @@ exports[`<Dropdown /> Snaphot must match defaultRender 1`] = `
     </div>
   </summary>
   <ul
-    className="dropdown-menu dropdown__list"
+    className="dropdown-menu dropdownList"
   >
     <li>
       <div
-        className="dropdown-item dropdown__listItem"
+        className="dropdown-item dropdownListItem"
       >
         item 1
       </div>
     </li>
     <li>
       <div
-        className="dropdown-item dropdown__listItem"
+        className="dropdown-item dropdownListItem"
       >
         item 2
       </div>
     </li>
     <li>
       <div
-        className="dropdown-item dropdown__listItem"
+        className="dropdown-item dropdownListItem"
       >
         item 3
       </div>

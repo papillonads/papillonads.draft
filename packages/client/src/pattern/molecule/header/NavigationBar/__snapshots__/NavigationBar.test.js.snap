@@ -5,13 +5,13 @@ exports[`<NavigationBar /> Snaphot must match defaultRender 1`] = `
   className="navigationBar"
 >
   <div
-    className="navigationBar__maxWidth"
+    className="navigationBarMaxWidth"
   >
     <div
-      className="navigationBar__maxWidthLeft"
+      className="navigationBarMaxWidthLeft"
     >
       <div
-        className="navigationBar__maxWidthLeftLogo"
+        className="navigationBarMaxWidthLeftLogo"
       >
         <svg
           className=""
@@ -38,7 +38,7 @@ exports[`<NavigationBar /> Snaphot must match defaultRender 1`] = `
         </svg>
       </div>
       <div
-        className="navigationBar__maxWidthLeftLinks links"
+        className="navigationBarMaxWidthLeftLinks links"
       >
         <div
           className="link link"
@@ -58,13 +58,13 @@ exports[`<NavigationBar /> Snaphot must match defaultRender 1`] = `
       </div>
     </div>
     <div
-      className="_menu"
+      className="_"
     >
       <div
-        className="_menu__messages"
+        className="_Messages"
       >
         <div
-          className="_menu__messagesIcon"
+          className="_MessagesIcon"
         >
           <svg
             fill="grey"
@@ -78,16 +78,16 @@ exports[`<NavigationBar /> Snaphot must match defaultRender 1`] = `
           </svg>
         </div>
         <div
-          className="_menu__messagesLabel"
+          className="_MessagesLabel"
         >
           Berichten
         </div>
       </div>
       <div
-        className="_menu__notifications"
+        className="_Notifications"
       >
         <div
-          className="_menu__notificationsIcon"
+          className="_NotificationsIcon"
         >
           <svg
             fill="grey"
@@ -101,7 +101,7 @@ exports[`<NavigationBar /> Snaphot must match defaultRender 1`] = `
           </svg>
         </div>
         <div
-          className="_menu__notificationsLabel"
+          className="_NotificationsLabel"
         >
           Meldingen
         </div>
@@ -111,13 +111,13 @@ exports[`<NavigationBar /> Snaphot must match defaultRender 1`] = `
       >
         <summary
           aria-haspopup="true"
-          className="dropdown__summary"
+          className="dropdownSummary"
         >
           <div
-            className="dropdown__badge"
+            className="dropdownBadge"
           >
             <div
-              className="dropdown__svgIcon1"
+              className="dropdownSvgIcon1"
             >
               <svg
                 fill="grey"
@@ -131,12 +131,12 @@ exports[`<NavigationBar /> Snaphot must match defaultRender 1`] = `
               </svg>
             </div>
             <div
-              className="dropdown__label"
+              className="dropdownLabel"
             >
               t
             </div>
             <div
-              className="dropdown__svgIcon2"
+              className="dropdownSvgIcon2"
             >
               <svg
                 fill="grey"
@@ -152,53 +152,53 @@ exports[`<NavigationBar /> Snaphot must match defaultRender 1`] = `
           </div>
         </summary>
         <ul
-          className="dropdown-menu dropdown__list"
+          className="dropdown-menu dropdownList"
         >
           <li>
             <div
-              className="dropdown-item dropdown__listItem"
+              className="dropdown-item dropdownListItem"
             >
               Mijn Advertenties
             </div>
           </li>
           <li>
             <div
-              className="dropdown-item dropdown__listItem"
+              className="dropdown-item dropdownListItem"
             >
               Mijn Favorieten
             </div>
           </li>
           <li>
             <div
-              className="dropdown-item dropdown__listItem"
+              className="dropdown-item dropdownListItem"
             >
               Mijn Zoekopdrachten
             </div>
           </li>
           <li>
             <div
-              className="dropdown-item dropdown__listItem"
+              className="dropdown-item dropdownListItem"
             >
               Mijn Verkopers
             </div>
           </li>
           <li>
             <div
-              className="dropdown-item dropdown__listItem"
+              className="dropdown-item dropdownListItem"
             >
               Mijn Profiel
             </div>
           </li>
           <li>
             <div
-              className="dropdown-item dropdown__listItem"
+              className="dropdown-item dropdownListItem"
             >
               Mijn Ervaringen
             </div>
           </li>
           <li>
             <div
-              className="dropdown-item dropdown__listItem"
+              className="dropdown-item dropdownListItem"
             >
               Uitloggen
             </div>
@@ -206,10 +206,10 @@ exports[`<NavigationBar /> Snaphot must match defaultRender 1`] = `
         </ul>
       </details>
       <div
-        className="_menu__placeAd"
+        className="_PlaceAd"
       >
         <div
-          className="_menu__placeAdIcon"
+          className="_PlaceAdIcon"
         >
           <svg
             fill="white"
@@ -223,7 +223,7 @@ exports[`<NavigationBar /> Snaphot must match defaultRender 1`] = `
           </svg>
         </div>
         <div
-          className="_menu__placeAdButton"
+          className="_PlaceAdButton"
         >
           Plaats Advertentie
         </div>

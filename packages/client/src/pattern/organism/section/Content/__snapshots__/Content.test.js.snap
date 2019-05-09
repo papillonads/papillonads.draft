@@ -5,10 +5,10 @@ exports[`<Content /> Snaphot must match defaultRender 1`] = `
   className="content"
 >
   <div
-    className="content__maxWidth"
+    className="contentMaxWidth"
   >
     <div
-      className="content__topBanner banner"
+      className="contentTopBanner banner"
       style={
         Object {
           "height": "10em",
@@ -23,7 +23,7 @@ exports[`<Content /> Snaphot must match defaultRender 1`] = `
       />
     </div>
     <div
-      className="content__leftColumn leftColumn"
+      className="contentLeftColumn leftColumn"
     >
       <div
         className="leftColumn__navigation navigation"
