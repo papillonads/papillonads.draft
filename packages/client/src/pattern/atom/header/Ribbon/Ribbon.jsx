@@ -1,12 +1,7 @@
 import React from 'react'
-import cn from 'classnames'
 import { ribbonDefaultProps, ribbonPropTypes } from './Ribbon.props'
 
-const Ribbon = ({ className }) => {
-  const ribbonClassList = cn(className)
-
-  return <div className={ribbonClassList} />
-}
+const Ribbon = ({ className }) => <div className={className} />
 
 Ribbon.defaultProps = ribbonDefaultProps
 
