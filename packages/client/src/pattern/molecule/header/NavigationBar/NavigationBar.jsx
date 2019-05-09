@@ -11,10 +11,10 @@ const NavigationBar = ({ className, data }) => {
 
   return (
     <div className={navigationBarClassList}>
-      <div className={cn(cs.navigationBarMaxWidth)}>
-        <div className={cn(cs.navigationBarMaxWidthLeft)}>
-          <Logo className={cn(cs.navigationBarMaxWidthLeftLogo)} />
-          <Links className={cn(cs.navigationBarMaxWidthLeftLinks)} data={data.links} />
+      <div className={cs.maxWidth}>
+        <div className={cs.maxWidthLeft}>
+          <Logo className={cs.maxWidthLeftLogo} />
+          <Links className={cs.maxWidthLeftLinks} data={data.links} />
         </div>
         <Menu />
       </div>
