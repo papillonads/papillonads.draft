@@ -19,10 +19,8 @@ const Menu = ({ className }) => {
     { text: 'Uitloggen' },
   ]
 
-  const menuClassList = cn(className, cs._menu)
-
   return (
-    <div className={menuClassList}>
+    <div className={cn(className, cs._menu)}>
       <Badge className={cs.messages}>
         <SvgIcon className={cs.messagesIcon} fill="grey" name="bubbles4" width={15} height={15} />
         <Label className={cs.messagesLabel} text="Berichten" />
