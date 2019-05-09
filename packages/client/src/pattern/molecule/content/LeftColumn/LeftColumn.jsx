@@ -10,8 +10,8 @@ const LeftColumn = ({ className, data }) => {
 
   return (
     <div className={leftColumnClassList}>
-      <Navigation data={data.navigation} className={cs.leftColumnNavigation} />
-      <UsefulLinks data={data.usefulLinks} className={cs.leftColumnUsefulLinks} />
+      <Navigation data={data.navigation} />
+      <UsefulLinks data={data.usefulLinks} />
     </div>
   )
 }
