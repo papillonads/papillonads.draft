@@ -1,35 +1,33 @@
-.content {
-  &MaxWidth {
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
+.maxWidth {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
 
-    @media (min-width: 950px) {
-      flex-direction: row-reverse;
-    }
-
-    padding: 20px 0;
-    margin: 0 auto;
-    max-width: 1010px;
-    min-width: 288px;
+  @media (min-width: 950px) {
+    flex-direction: row-reverse;
   }
 
-  &LeftColumn {
-    min-width: 192.8px;
-    width: 19.28%;
-    margin-top: 20px;
+  padding: 20px 0;
+  margin: 0 auto;
+  max-width: 1010px;
+  min-width: 288px;
+}
 
-    @media (min-width: 950px) {
-      margin-top: 0;
-    }
+.topBanner {
+  width: 100%;
+  padding-left: 24px;
+
+  @media (min-width: 950px) {
+    width: 81.7%;
   }
+}
 
-  &TopBanner {
-    width: 100%;
-    padding-left: 24px;
+.leftColumn {
+  min-width: 192.8px;
+  width: 19.28%;
+  margin-top: 20px;
 
-    @media (min-width: 950px) {
-      width: 81.7%;
-    }
+  @media (min-width: 950px) {
+    margin-top: 0;
   }
 }

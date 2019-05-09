@@ -6,13 +6,13 @@ import LeftColumn from '../../../molecule/content/LeftColumn'
 import { contentDefaultProps, contentPropTypes } from './Content.props'
 
 const Content = ({ className, data }) => {
-  const contentClassList = cn(className, cs.content)
+  const contentClassList = cn(className)
 
   return (
     <div className={contentClassList}>
-      <div className={cn(cs.contentMaxWidth)}>
-        <Banner className={cs.contentTopBanner} data={data.topBanner} />
-        <LeftColumn className={cs.contentLeftColumn} data={data.leftColumn} />
+      <div className={cs.maxWidth}>
+        <Banner className={cs.topBanner} data={data.topBanner} />
+        <LeftColumn className={cs.leftColumn} data={data.leftColumn} />
       </div>
     </div>
   )
