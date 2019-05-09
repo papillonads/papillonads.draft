@@ -1,12 +1,7 @@
 import React from 'react'
-import cn from 'classnames'
 import { usefulLinksDefaultProps, usefulLinksPropTypes } from './UsefulLinks.props'
 
-const UsefulLinks = ({ className }) => {
-  const usefulLinksClassList = cn(className)
-
-  return <div className={usefulLinksClassList} />
-}
+const UsefulLinks = ({ className }) => <div className={className} />
 
 UsefulLinks.defaultProps = usefulLinksDefaultProps
 
