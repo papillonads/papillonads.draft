@@ -5,7 +5,7 @@ exports[`<Select /> Snaphot must match defaultRender 1`] = `
   className="select"
 >
   <option
-    className="select__option"
+    className="selectOption"
     value=""
   >
     

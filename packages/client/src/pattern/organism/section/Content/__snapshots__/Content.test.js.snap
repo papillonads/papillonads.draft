@@ -26,7 +26,7 @@ exports[`<Content /> Snaphot must match defaultRender 1`] = `
       className="contentLeftColumn leftColumn"
     >
       <div
-        className="leftColumn__navigation navigation"
+        className="leftColumnNavigation navigation"
       >
         <div
           className="navHighlightsLinks"
@@ -371,7 +371,7 @@ exports[`<Content /> Snaphot must match defaultRender 1`] = `
         </div>
       </div>
       <div
-        className="leftColumn__usefulLinks"
+        className="leftColumnUsefulLinks"
       />
     </div>
   </div>

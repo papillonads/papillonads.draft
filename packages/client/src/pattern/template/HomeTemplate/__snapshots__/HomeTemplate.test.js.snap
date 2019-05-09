@@ -11,7 +11,7 @@ exports[`<HomeTemplate /> Snaphot must match defaultRender 1`] = `
     className="header"
   >
     <div
-      className="header__navigationBar navigationBar"
+      className="headerNavigationBar navigationBar"
     >
       <div
         className="navigationBarMaxWidth"
@@ -241,7 +241,7 @@ exports[`<HomeTemplate /> Snaphot must match defaultRender 1`] = `
       </div>
     </div>
     <div
-      className="header__searchBar searchBar"
+      className="headerSearchBar searchBar"
     >
       <div
         className="searchBarMaxWidth"
@@ -504,7 +504,7 @@ exports[`<HomeTemplate /> Snaphot must match defaultRender 1`] = `
         className="contentLeftColumn leftColumn"
       >
         <div
-          className="leftColumn__navigation navigation"
+          className="leftColumnNavigation navigation"
         >
           <div
             className="navHighlightsLinks"
@@ -849,7 +849,7 @@ exports[`<HomeTemplate /> Snaphot must match defaultRender 1`] = `
           </div>
         </div>
         <div
-          className="leftColumn__usefulLinks"
+          className="leftColumnUsefulLinks"
         />
       </div>
     </div>
