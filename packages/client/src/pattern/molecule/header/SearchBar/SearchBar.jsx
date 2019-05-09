@@ -7,20 +7,16 @@ import Button from '../../../atom/header/Button'
 // import SearchFormOptions from '../SearchFormOptions'
 import { searchBarDefaultProps, searchBarPropTypes } from './SearchBar.props'
 
-const SearchBar = ({ className, data }) => {
-  const searchBarClassList = cn(className, cs.searchBar)
-
-  return (
-    <div className={searchBarClassList}>
-      <div className={cn(cs.searchBar__maxWidth)}>
-        <SearchFieldsetStandard className={cs.searchBar__maxWidthSearchFieldsetStandard} />
-        <SearchFieldsetAdvanced data={data.searchFieldsetAdvanced} className={cs.searchBar__maxWidthSearchFieldsetAdvanced} />
-        <Button className={cs.searchBar__maxWidthButton}>Zoek</Button>
-        {/* <SearchFormOptions className={cs.searchBar__maxWidthSearchFormOptions} /> */}
-      </div>
+const SearchBar = ({ className, data }) => (
+  <div className={cn(className, cs.searchBar)}>
+    <div className={cn(cs.maxWidth)}>
+      <SearchFieldsetStandard className={cs.maxWidthSearchFieldsetStandard} />
+      <SearchFieldsetAdvanced data={data.searchFieldsetAdvanced} className={cs.maxWidthSearchFieldsetAdvanced} />
+      <Button className={cs.maxWidthButton}>Zoek</Button>
+      {/* <SearchFormOptions className={cs.maxWidthSearchFormOptions} /> */}
     </div>
-  )
-}
+  </div>
+)
 
 SearchBar.defaultProps = searchBarDefaultProps
 

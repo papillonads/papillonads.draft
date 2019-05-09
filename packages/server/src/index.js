@@ -1,12 +1,19 @@
 /* eslint no-console: 0 */
-const { ApolloServer } = require('apollo-server')
-const typeDefs = require('./schema')
-const PageAPI = require('./datasources/page')
+const { ApolloServer, makeExecutableSchema } = require('apollo-server')
+const PageAPI = require('./data/page')
+const infoTypeDef = require('./data/page/home/info/schema')
+const headerTypeDef = require('./data/page/home/header/schema')
+const contentTypeDef = require('./data/page/home/content/schema')
+const { queryTypeDef, pageConnectionTypeDef, pageTypeDef } = require('./schema')
 const resolvers = require('./resolvers')
 
-const server = new ApolloServer({
-  typeDefs,
+const schema = makeExecutableSchema({
+  typeDefs: [queryTypeDef, pageTypeDef, pageConnectionTypeDef, infoTypeDef, headerTypeDef, contentTypeDef],
   resolvers,
+})
+
+const server = new ApolloServer({
+  schema,
   dataSources: () => ({
     pageAPI: new PageAPI(),
   }),

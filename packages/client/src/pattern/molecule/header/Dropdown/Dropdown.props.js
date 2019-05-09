@@ -1,4 +1,5 @@
-import { shape, arrayOf, string } from 'prop-types'
+import { string, arrayOf } from 'prop-types'
+import { linkPropTypes } from '../../../atom/header/Link/Link.props'
 
 export const dropdownDefaultProps = {
   className: '',
@@ -6,9 +7,5 @@ export const dropdownDefaultProps = {
 
 export const dropdownPropTypes = {
   className: string,
-  items: arrayOf(
-    shape({
-      text: string.isRequired,
-    }),
-  ).isRequired,
+  data: arrayOf(linkPropTypes.item).isRequired,
 }

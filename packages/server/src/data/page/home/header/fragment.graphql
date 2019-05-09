@@ -1,0 +1,24 @@
+fragment header on Page {
+  header {
+    navigationBar {
+      links {
+        text
+      }
+      dropdown {
+        text
+      }
+    }
+    searchBar {
+      searchFieldsetAdvanced {
+        categories {
+          value
+          label
+        }
+        distances {
+          value
+          label
+        }
+      }
+    }
+  }
+}

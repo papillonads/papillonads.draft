@@ -6,18 +6,14 @@ import Header from '../../organism/section/Header'
 import Content from '../../organism/section/Content'
 import { homeTemplateDefaultProps, homeTemplatePropTypes } from './HomeTemplate.props'
 
-const HomeTemplate = ({ className, data }) => {
-  const homeTemplateClassList = cn(className, cs.homeTemplate)
-
-  return (
-    <div className={homeTemplateClassList}>
-      <Ribbon className={cs.homeTemplate__ribbonTop} />
-      <Header data={data.header} />
-      <Ribbon className={cs.homeTemplate__ribbonBottom} />
-      <Content data={data.content} />
-    </div>
-  )
-}
+const HomeTemplate = ({ className, data }) => (
+  <div className={cn(className, cs.homeTemplate)}>
+    <Ribbon className={cs.ribbonTop} />
+    <Header data={data.header} />
+    <Ribbon className={cs.ribbonBottom} />
+    <Content data={data.content} />
+  </div>
+)
 
 HomeTemplate.defaultProps = homeTemplateDefaultProps
 
