@@ -1,11 +1,10 @@
 import React from 'react'
 import cn from 'classnames'
-import cs from './Select.scss'
 import uuidv1 from 'uuid/v1'
 import { selectDefaultProps, selectPropTypes } from './Select.props'
 
 const Select = ({ className, placeholder, items }) => {
-  const selectClassList = cn(className, cs.select)
+  const selectClassList = cn(className)
 
   return (
     <React.Fragment>
