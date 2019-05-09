@@ -2,13 +2,13 @@
 
 exports[`<Menu /> Snaphot must match defaultRender 1`] = `
 <div
-  className="_"
+  className="_menu"
 >
   <div
-    className="_Messages"
+    className="messages"
   >
     <div
-      className="_MessagesIcon"
+      className="messagesIcon"
     >
       <svg
         fill="grey"
@@ -22,16 +22,16 @@ exports[`<Menu /> Snaphot must match defaultRender 1`] = `
       </svg>
     </div>
     <div
-      className="_MessagesLabel"
+      className="messagesLabel"
     >
       Berichten
     </div>
   </div>
   <div
-    className="_Notifications"
+    className="notifications"
   >
     <div
-      className="_NotificationsIcon"
+      className="notificationsIcon"
     >
       <svg
         fill="grey"
@@ -45,7 +45,7 @@ exports[`<Menu /> Snaphot must match defaultRender 1`] = `
       </svg>
     </div>
     <div
-      className="_NotificationsLabel"
+      className="notificationsLabel"
     >
       Meldingen
     </div>
@@ -55,13 +55,13 @@ exports[`<Menu /> Snaphot must match defaultRender 1`] = `
   >
     <summary
       aria-haspopup="true"
-      className="dropdownSummary"
+      className="summary"
     >
       <div
-        className="dropdownBadge"
+        className="badge"
       >
         <div
-          className="dropdownSvgIcon1"
+          className="svgIcon1"
         >
           <svg
             fill="grey"
@@ -75,12 +75,12 @@ exports[`<Menu /> Snaphot must match defaultRender 1`] = `
           </svg>
         </div>
         <div
-          className="dropdownLabel"
+          className="label"
         >
           t
         </div>
         <div
-          className="dropdownSvgIcon2"
+          className="svgIcon2"
         >
           <svg
             fill="grey"
@@ -96,53 +96,53 @@ exports[`<Menu /> Snaphot must match defaultRender 1`] = `
       </div>
     </summary>
     <ul
-      className="dropdown-menu dropdownList"
+      className="dropdown-menu list"
     >
       <li>
         <div
-          className="dropdown-item dropdownListItem"
+          className="dropdown-item listItem"
         >
           Mijn Advertenties
         </div>
       </li>
       <li>
         <div
-          className="dropdown-item dropdownListItem"
+          className="dropdown-item listItem"
         >
           Mijn Favorieten
         </div>
       </li>
       <li>
         <div
-          className="dropdown-item dropdownListItem"
+          className="dropdown-item listItem"
         >
           Mijn Zoekopdrachten
         </div>
       </li>
       <li>
         <div
-          className="dropdown-item dropdownListItem"
+          className="dropdown-item listItem"
         >
           Mijn Verkopers
         </div>
       </li>
       <li>
         <div
-          className="dropdown-item dropdownListItem"
+          className="dropdown-item listItem"
         >
           Mijn Profiel
         </div>
       </li>
       <li>
         <div
-          className="dropdown-item dropdownListItem"
+          className="dropdown-item listItem"
         >
           Mijn Ervaringen
         </div>
       </li>
       <li>
         <div
-          className="dropdown-item dropdownListItem"
+          className="dropdown-item listItem"
         >
           Uitloggen
         </div>
@@ -150,10 +150,10 @@ exports[`<Menu /> Snaphot must match defaultRender 1`] = `
     </ul>
   </details>
   <div
-    className="_PlaceAd"
+    className="placeAd"
   >
     <div
-      className="_PlaceAdIcon"
+      className="placeAdIcon"
     >
       <svg
         fill="white"
@@ -167,7 +167,7 @@ exports[`<Menu /> Snaphot must match defaultRender 1`] = `
       </svg>
     </div>
     <div
-      className="_PlaceAdButton"
+      className="placeAdButton"
     >
       Plaats Advertentie
     </div>

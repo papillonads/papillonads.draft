@@ -5,22 +5,22 @@ exports[`<HomeTemplate /> Snaphot must match defaultRender 1`] = `
   className="homeTemplate"
 >
   <div
-    className="homeTemplateRibbonTop"
+    className="ribbonTop"
   />
   <div
     className="header"
   >
     <div
-      className="headerNavigationBar navigationBar"
+      className="navigationBar"
     >
       <div
-        className="navigationBarMaxWidth"
+        className="maxWidth"
       >
         <div
-          className="navigationBarMaxWidthLeft"
+          className="maxWidthLeft"
         >
           <div
-            className="navigationBarMaxWidthLeftLogo"
+            className="maxWidthLeftLogo"
           >
             <svg
               className=""
@@ -47,7 +47,7 @@ exports[`<HomeTemplate /> Snaphot must match defaultRender 1`] = `
             </svg>
           </div>
           <div
-            className="navigationBarMaxWidthLeftLinks links"
+            className="maxWidthLeftLinks links"
           >
             <div
               className="link link"
@@ -67,13 +67,13 @@ exports[`<HomeTemplate /> Snaphot must match defaultRender 1`] = `
           </div>
         </div>
         <div
-          className="_"
+          className="_menu"
         >
           <div
-            className="_Messages"
+            className="messages"
           >
             <div
-              className="_MessagesIcon"
+              className="messagesIcon"
             >
               <svg
                 fill="grey"
@@ -87,16 +87,16 @@ exports[`<HomeTemplate /> Snaphot must match defaultRender 1`] = `
               </svg>
             </div>
             <div
-              className="_MessagesLabel"
+              className="messagesLabel"
             >
               Berichten
             </div>
           </div>
           <div
-            className="_Notifications"
+            className="notifications"
           >
             <div
-              className="_NotificationsIcon"
+              className="notificationsIcon"
             >
               <svg
                 fill="grey"
@@ -110,7 +110,7 @@ exports[`<HomeTemplate /> Snaphot must match defaultRender 1`] = `
               </svg>
             </div>
             <div
-              className="_NotificationsLabel"
+              className="notificationsLabel"
             >
               Meldingen
             </div>
@@ -120,13 +120,13 @@ exports[`<HomeTemplate /> Snaphot must match defaultRender 1`] = `
           >
             <summary
               aria-haspopup="true"
-              className="dropdownSummary"
+              className="summary"
             >
               <div
-                className="dropdownBadge"
+                className="badge"
               >
                 <div
-                  className="dropdownSvgIcon1"
+                  className="svgIcon1"
                 >
                   <svg
                     fill="grey"
@@ -140,12 +140,12 @@ exports[`<HomeTemplate /> Snaphot must match defaultRender 1`] = `
                   </svg>
                 </div>
                 <div
-                  className="dropdownLabel"
+                  className="label"
                 >
                   t
                 </div>
                 <div
-                  className="dropdownSvgIcon2"
+                  className="svgIcon2"
                 >
                   <svg
                     fill="grey"
@@ -161,53 +161,53 @@ exports[`<HomeTemplate /> Snaphot must match defaultRender 1`] = `
               </div>
             </summary>
             <ul
-              className="dropdown-menu dropdownList"
+              className="dropdown-menu list"
             >
               <li>
                 <div
-                  className="dropdown-item dropdownListItem"
+                  className="dropdown-item listItem"
                 >
                   Mijn Advertenties
                 </div>
               </li>
               <li>
                 <div
-                  className="dropdown-item dropdownListItem"
+                  className="dropdown-item listItem"
                 >
                   Mijn Favorieten
                 </div>
               </li>
               <li>
                 <div
-                  className="dropdown-item dropdownListItem"
+                  className="dropdown-item listItem"
                 >
                   Mijn Zoekopdrachten
                 </div>
               </li>
               <li>
                 <div
-                  className="dropdown-item dropdownListItem"
+                  className="dropdown-item listItem"
                 >
                   Mijn Verkopers
                 </div>
               </li>
               <li>
                 <div
-                  className="dropdown-item dropdownListItem"
+                  className="dropdown-item listItem"
                 >
                   Mijn Profiel
                 </div>
               </li>
               <li>
                 <div
-                  className="dropdown-item dropdownListItem"
+                  className="dropdown-item listItem"
                 >
                   Mijn Ervaringen
                 </div>
               </li>
               <li>
                 <div
-                  className="dropdown-item dropdownListItem"
+                  className="dropdown-item listItem"
                 >
                   Uitloggen
                 </div>
@@ -215,10 +215,10 @@ exports[`<HomeTemplate /> Snaphot must match defaultRender 1`] = `
             </ul>
           </details>
           <div
-            className="_PlaceAd"
+            className="placeAd"
           >
             <div
-              className="_PlaceAdIcon"
+              className="placeAdIcon"
             >
               <svg
                 fill="white"
@@ -232,7 +232,7 @@ exports[`<HomeTemplate /> Snaphot must match defaultRender 1`] = `
               </svg>
             </div>
             <div
-              className="_PlaceAdButton"
+              className="placeAdButton"
             >
               Plaats Advertentie
             </div>
@@ -241,24 +241,24 @@ exports[`<HomeTemplate /> Snaphot must match defaultRender 1`] = `
       </div>
     </div>
     <div
-      className="headerSearchBar searchBar"
+      className="searchBar"
     >
       <div
-        className="searchBarMaxWidth"
+        className="maxWidth"
       >
         <div
-          className="searchBarMaxWidthSearchFieldsetStandard searchFieldsetStandard"
+          className="maxWidthSearchFieldsetStandard searchFieldsetStandard"
         >
           <input
-            className="searchFieldsetStandardInput"
+            className="input"
             placeholder=""
           />
         </div>
         <div
-          className="searchBarMaxWidthSearchFieldsetAdvanced searchFieldsetAdvanced"
+          className="maxWidthSearchFieldsetAdvanced searchFieldsetAdvanced"
         >
           <div
-            className="css-1pcexqc-container searchFieldsetAdvancedGroup"
+            className="css-1pcexqc-container group"
             onKeyDown={[Function]}
           >
             <div
@@ -361,11 +361,11 @@ exports[`<HomeTemplate /> Snaphot must match defaultRender 1`] = `
             </div>
           </div>
           <input
-            className="searchFieldsetAdvancedPostcode"
+            className="postcode"
             placeholder="Postcode"
           />
           <div
-            className="css-1pcexqc-container searchFieldsetAdvancedDistance"
+            className="css-1pcexqc-container distance"
             onKeyDown={[Function]}
           >
             <div
@@ -469,7 +469,7 @@ exports[`<HomeTemplate /> Snaphot must match defaultRender 1`] = `
           </div>
         </div>
         <div
-          className="searchBarMaxWidthButton"
+          className="maxWidthButton"
         >
           Zoek
         </div>
@@ -477,16 +477,16 @@ exports[`<HomeTemplate /> Snaphot must match defaultRender 1`] = `
     </div>
   </div>
   <div
-    className="homeTemplateRibbonBottom"
+    className="ribbonBottom"
   />
   <div
-    className="content"
+    className=""
   >
     <div
-      className="contentMaxWidth"
+      className="maxWidth"
     >
       <div
-        className="contentTopBanner banner"
+        className="topBanner banner"
         style={
           Object {
             "height": "10em",
@@ -501,24 +501,24 @@ exports[`<HomeTemplate /> Snaphot must match defaultRender 1`] = `
         />
       </div>
       <div
-        className="contentLeftColumn leftColumn"
+        className="leftColumn leftColumn"
       >
         <div
-          className="leftColumnNavigation navigation"
+          className=""
         >
           <div
-            className="navHighlightsLinks"
+            className="highlightsLinks"
           >
             <div
-              className="navTitle"
+              className="title"
             >
               Uitgelicht
             </div>
             <div
-              className="navHighlightsLinksLink"
+              className="highlightsLinksLink"
             >
               <div
-                className="navHighlightsLinksLinkIcon"
+                className="highlightsLinksLinkIcon"
               >
                 <svg
                   className=""
@@ -537,25 +537,25 @@ exports[`<HomeTemplate /> Snaphot must match defaultRender 1`] = `
                 </svg>
               </div>
               <div
-                className="navHighlightsLinksLinkText"
+                className="highlightsLinksLinkText"
               >
                 <div
-                  className="navHighlightsLinksLinkTextTitle"
+                  className="highlightsLinksLinkTextTitle"
                 >
                   Auto's
                 </div>
                 <div
-                  className="navHighlightsLinksLinkTextDescription"
+                  className="highlightsLinksLinkTextDescription"
                 >
                   &gt;7500 nieuwe occasions per dag
                 </div>
               </div>
             </div>
             <div
-              className="navHighlightsLinksLink"
+              className="highlightsLinksLink"
             >
               <div
-                className="navHighlightsLinksLinkIcon"
+                className="highlightsLinksLinkIcon"
               >
                 <svg
                   className=""
@@ -574,25 +574,25 @@ exports[`<HomeTemplate /> Snaphot must match defaultRender 1`] = `
                 </svg>
               </div>
               <div
-                className="navHighlightsLinksLinkText"
+                className="highlightsLinksLinkText"
               >
                 <div
-                  className="navHighlightsLinksLinkTextTitle"
+                  className="highlightsLinksLinkTextTitle"
                 >
                   Vacatures
                 </div>
                 <div
-                  className="navHighlightsLinksLinkTextDescription"
+                  className="highlightsLinksLinkTextDescription"
                 >
                   Vind de beste baan in je buurt
                 </div>
               </div>
             </div>
             <div
-              className="navHighlightsLinksLink"
+              className="highlightsLinksLink"
             >
               <div
-                className="navHighlightsLinksLinkIcon"
+                className="highlightsLinksLinkIcon"
               >
                 <svg
                   className=""
@@ -611,25 +611,25 @@ exports[`<HomeTemplate /> Snaphot must match defaultRender 1`] = `
                 </svg>
               </div>
               <div
-                className="navHighlightsLinksLinkText"
+                className="highlightsLinksLinkText"
               >
                 <div
-                  className="navHighlightsLinksLinkTextTitle"
+                  className="highlightsLinksLinkTextTitle"
                 >
                   Aanbiedingen
                 </div>
                 <div
-                  className="navHighlightsLinksLinkTextDescription"
+                  className="highlightsLinksLinkTextDescription"
                 >
                   Scherpe prijzen, direct kopen
                 </div>
               </div>
             </div>
             <div
-              className="navHighlightsLinksLink"
+              className="highlightsLinksLink"
             >
               <div
-                className="navHighlightsLinksLinkIcon"
+                className="highlightsLinksLinkIcon"
               >
                 <svg
                   className=""
@@ -648,15 +648,15 @@ exports[`<HomeTemplate /> Snaphot must match defaultRender 1`] = `
                 </svg>
               </div>
               <div
-                className="navHighlightsLinksLinkText"
+                className="highlightsLinksLinkText"
               >
                 <div
-                  className="navHighlightsLinksLinkTextTitle"
+                  className="highlightsLinksLinkTextTitle"
                 >
                   Gelijk Oversteken
                 </div>
                 <div
-                  className="navHighlightsLinksLinkTextDescription"
+                  className="highlightsLinksLinkTextDescription"
                 >
                   Extra zekerheid bij verzending
                 </div>
@@ -664,192 +664,192 @@ exports[`<HomeTemplate /> Snaphot must match defaultRender 1`] = `
             </div>
           </div>
           <div
-            className="navNavigationBlockLinks"
+            className="navigationBlockLinks"
           >
             <div
-              className="navTitle"
+              className="title"
             >
               Groepen
             </div>
             <div
-              className="navNavigationBlockLinksLink"
+              className="navigationBlockLinksLink"
             >
               Antiek en Kunst
             </div>
             <div
-              className="navNavigationBlockLinksLink"
+              className="navigationBlockLinksLink"
             >
               Audio, Tv en Foto
             </div>
             <div
-              className="navNavigationBlockLinksLink"
+              className="navigationBlockLinksLink"
             >
               Auto's
             </div>
             <div
-              className="navNavigationBlockLinksLink"
+              className="navigationBlockLinksLink"
             >
               Auto-onderdelen
             </div>
             <div
-              className="navNavigationBlockLinksLink"
+              className="navigationBlockLinksLink"
             >
               Auto diversen
             </div>
             <div
-              className="navNavigationBlockLinksLink"
+              className="navigationBlockLinksLink"
             >
               Boeken
             </div>
             <div
-              className="navNavigationBlockLinksLink"
+              className="navigationBlockLinksLink"
             >
               Caravans en Kamperen
             </div>
             <div
-              className="navNavigationBlockLinksLink"
+              className="navigationBlockLinksLink"
             >
               Cd's en Dvd's
             </div>
             <div
-              className="navNavigationBlockLinksLink"
+              className="navigationBlockLinksLink"
             >
               Computers en Software
             </div>
             <div
-              className="navNavigationBlockLinksLink"
+              className="navigationBlockLinksLink"
             >
               Contacten en Berichten
             </div>
             <div
-              className="navNavigationBlockLinksLink"
+              className="navigationBlockLinksLink"
             >
               Diensten en Vakmensen
             </div>
             <div
-              className="navNavigationBlockLinksLink"
+              className="navigationBlockLinksLink"
             >
               Dieren en Toebehoren
             </div>
             <div
-              className="navNavigationBlockLinksLink"
+              className="navigationBlockLinksLink"
             >
               Doe-het-zelf en Verbouw
             </div>
             <div
-              className="navNavigationBlockLinksLink"
+              className="navigationBlockLinksLink"
             >
               Fietsen en Brommers
             </div>
             <div
-              className="navNavigationBlockLinksLink"
+              className="navigationBlockLinksLink"
             >
               Hobby en Vrije tijd
             </div>
             <div
-              className="navNavigationBlockLinksLink"
+              className="navigationBlockLinksLink"
             >
               Huis en Inrichting
             </div>
             <div
-              className="navNavigationBlockLinksLink"
+              className="navigationBlockLinksLink"
             >
               Huizen en Kamers
             </div>
             <div
-              className="navNavigationBlockLinksLink"
+              className="navigationBlockLinksLink"
             >
               Kleding | Dames
             </div>
             <div
-              className="navNavigationBlockLinksLink"
+              className="navigationBlockLinksLink"
             >
               Kleding | Heren
             </div>
             <div
-              className="navNavigationBlockLinksLink"
+              className="navigationBlockLinksLink"
             >
               Motoren
             </div>
             <div
-              className="navNavigationBlockLinksLink"
+              className="navigationBlockLinksLink"
             >
               Muziek en Instrumenten
             </div>
             <div
-              className="navNavigationBlockLinksLink"
+              className="navigationBlockLinksLink"
             >
               Postzegels en Munten
             </div>
             <div
-              className="navNavigationBlockLinksLink"
+              className="navigationBlockLinksLink"
             >
               Sieraden en Tassen
             </div>
             <div
-              className="navNavigationBlockLinksLink"
+              className="navigationBlockLinksLink"
             >
               Spelcomputers, Games
             </div>
             <div
-              className="navNavigationBlockLinksLink"
+              className="navigationBlockLinksLink"
             >
               Sport en Fitness
             </div>
             <div
-              className="navNavigationBlockLinksLink"
+              className="navigationBlockLinksLink"
             >
               Telecommunicatie
             </div>
             <div
-              className="navNavigationBlockLinksLink"
+              className="navigationBlockLinksLink"
             >
               Tickets en Kaartjes
             </div>
             <div
-              className="navNavigationBlockLinksLink"
+              className="navigationBlockLinksLink"
             >
               Tuin en Terras
             </div>
             <div
-              className="navNavigationBlockLinksLink"
+              className="navigationBlockLinksLink"
             >
               Vacatures
             </div>
             <div
-              className="navNavigationBlockLinksLink"
+              className="navigationBlockLinksLink"
             >
               Vakantie
             </div>
             <div
-              className="navNavigationBlockLinksLink"
+              className="navigationBlockLinksLink"
             >
               Verzamelen
             </div>
             <div
-              className="navNavigationBlockLinksLink"
+              className="navigationBlockLinksLink"
             >
               Watersport en Boten
             </div>
             <div
-              className="navNavigationBlockLinksLink"
+              className="navigationBlockLinksLink"
             >
               Witgoed en Apparatuur
             </div>
             <div
-              className="navNavigationBlockLinksLink"
+              className="navigationBlockLinksLink"
             >
               Zakelijke goederen
             </div>
             <div
-              className="navNavigationBlockLinksLink"
+              className="navigationBlockLinksLink"
             >
               Diversen
             </div>
           </div>
         </div>
         <div
-          className="leftColumnUsefulLinks"
+          className=""
         />
       </div>
     </div>

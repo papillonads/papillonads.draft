@@ -6,13 +6,13 @@ exports[`<Dropdown /> Snaphot must match defaultRender 1`] = `
 >
   <summary
     aria-haspopup="true"
-    className="dropdownSummary"
+    className="summary"
   >
     <div
-      className="dropdownBadge"
+      className="badge"
     >
       <div
-        className="dropdownSvgIcon1"
+        className="svgIcon1"
       >
         <svg
           fill="grey"
@@ -26,12 +26,12 @@ exports[`<Dropdown /> Snaphot must match defaultRender 1`] = `
         </svg>
       </div>
       <div
-        className="dropdownLabel"
+        className="label"
       >
         t
       </div>
       <div
-        className="dropdownSvgIcon2"
+        className="svgIcon2"
       >
         <svg
           fill="grey"
@@ -47,27 +47,55 @@ exports[`<Dropdown /> Snaphot must match defaultRender 1`] = `
     </div>
   </summary>
   <ul
-    className="dropdown-menu dropdownList"
+    className="dropdown-menu list"
   >
     <li>
       <div
-        className="dropdown-item dropdownListItem"
+        className="dropdown-item listItem"
       >
-        item 1
+        Mijn Advertenties
       </div>
     </li>
     <li>
       <div
-        className="dropdown-item dropdownListItem"
+        className="dropdown-item listItem"
       >
-        item 2
+        Mijn Favorieten
       </div>
     </li>
     <li>
       <div
-        className="dropdown-item dropdownListItem"
+        className="dropdown-item listItem"
       >
-        item 3
+        Mijn Zoekopdrachten
+      </div>
+    </li>
+    <li>
+      <div
+        className="dropdown-item listItem"
+      >
+        Mijn Verkopers
+      </div>
+    </li>
+    <li>
+      <div
+        className="dropdown-item listItem"
+      >
+        Mijn Profiel
+      </div>
+    </li>
+    <li>
+      <div
+        className="dropdown-item listItem"
+      >
+        Mijn Ervaringen
+      </div>
+    </li>
+    <li>
+      <div
+        className="dropdown-item listItem"
+      >
+        Uitloggen
       </div>
     </li>
   </ul>

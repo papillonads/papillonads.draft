@@ -5,21 +5,21 @@ exports[`<SearchBar /> Snaphot must match defaultRender 1`] = `
   className="searchBar"
 >
   <div
-    className="searchBarMaxWidth"
+    className="maxWidth"
   >
     <div
-      className="searchBarMaxWidthSearchFieldsetStandard searchFieldsetStandard"
+      className="maxWidthSearchFieldsetStandard searchFieldsetStandard"
     >
       <input
-        className="searchFieldsetStandardInput"
+        className="input"
         placeholder=""
       />
     </div>
     <div
-      className="searchBarMaxWidthSearchFieldsetAdvanced searchFieldsetAdvanced"
+      className="maxWidthSearchFieldsetAdvanced searchFieldsetAdvanced"
     >
       <div
-        className="css-1pcexqc-container searchFieldsetAdvancedGroup"
+        className="css-1pcexqc-container group"
         onKeyDown={[Function]}
       >
         <div
@@ -122,11 +122,11 @@ exports[`<SearchBar /> Snaphot must match defaultRender 1`] = `
         </div>
       </div>
       <input
-        className="searchFieldsetAdvancedPostcode"
+        className="postcode"
         placeholder="Postcode"
       />
       <div
-        className="css-1pcexqc-container searchFieldsetAdvancedDistance"
+        className="css-1pcexqc-container distance"
         onKeyDown={[Function]}
       >
         <div
@@ -230,7 +230,7 @@ exports[`<SearchBar /> Snaphot must match defaultRender 1`] = `
       </div>
     </div>
     <div
-      className="searchBarMaxWidthButton"
+      className="maxWidthButton"
     >
       Zoek
     </div>
