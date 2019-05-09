@@ -8,7 +8,7 @@ import uuidv1 from 'uuid/v1'
 import Badge from '../Badge'
 import { dropdownDefaultProps, dropdownPropTypes } from './Dropdown.props'
 
-const Dropdown = ({ className, items }) => (
+const Dropdown = ({ className, data }) => (
   <details className={cn(className, ps['details-reset'], cs.dropdown)}>
     <summary aria-haspopup="true" className={cs.summary}>
       <Badge className={cs.badge}>
@@ -19,7 +19,7 @@ const Dropdown = ({ className, items }) => (
     </summary>
 
     <ul className={cn(ps['dropdown-menu'], cs.list)}>
-      {items.map(item => (
+      {data.map(item => (
         <li key={uuidv1()}>
           <Label className={cn(ps['dropdown-item'], cs.listItem)} key={uuidv1()} text={item.text} />
         </li>
