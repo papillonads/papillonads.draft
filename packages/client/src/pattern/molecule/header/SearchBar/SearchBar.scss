@@ -1,70 +1,70 @@
 .searchBar {
   background-color: #f7f7f6;
+}
 
-  &__maxWidth {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    line-height: 32px;
-    padding: 16px 8px;
+.maxWidth {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  line-height: 32px;
+  padding: 16px 8px;
 
-    @media (min-width: 992px) {
-      padding: 16px 0;
+  @media (min-width: 992px) {
+    padding: 16px 0;
+  }
+
+  margin: 0 auto;
+  max-width: 980px;
+  min-width: 288px;
+
+  &SearchFieldsetStandard {
+    order: 0;
+    flex: 1 0 85%;
+
+    @media (min-width: 768px) {
+      flex: 1 0 33%;
     }
+  }
 
-    margin: 0 auto;
-    max-width: 980px;
-    min-width: 288px;
+  &SearchFieldsetAdvanced {
+    order: 2;
+    flex: 1 0 100%;
+    margin-left: -8px;
+    line-height: 18px;
 
-    &SearchFieldsetStandard {
-      order: 0;
-      flex: 1 0 85%;
-
-      @media (min-width: 768px) {
-        flex: 1 0 33%;
-      }
-    }
-
-    &SearchFieldsetAdvanced {
-      order: 2;
-      flex: 1 0 100%;
-      margin-left: -8px;
-      line-height: 18px;
-
-      @media (min-width: 768px) {
-        order: 1;
-        flex: 1 0 55%;
-      }
-    }
-
-    &Button {
+    @media (min-width: 768px) {
       order: 1;
-      flex: 1 0 15%;
+      flex: 1 0 55%;
+    }
+  }
 
-      @media (min-width: 768px) {
-        order: 2;
-        flex: 1 0 12%;
-      }
+  &Button {
+    order: 1;
+    flex: 1 0 15%;
 
-      border-style: solid;
-      border-radius: 3px;
-      border-width: 1px;
-      border-color: #e6e4e1;
-      text-align: center;
-      background-color: #f7f7f6;
-      color: #116db4;
-
-      &:hover {
-        background-color: #fff;
-        cursor: pointer;
-      }
-
-      line-height: 36px;
+    @media (min-width: 768px) {
+      order: 2;
+      flex: 1 0 12%;
     }
 
-    &SearchFormOptions {
-      order: 3;
-      flex: 1 0 100%;
+    border-style: solid;
+    border-radius: 3px;
+    border-width: 1px;
+    border-color: #e6e4e1;
+    text-align: center;
+    background-color: #f7f7f6;
+    color: #116db4;
+
+    &:hover {
+      background-color: #fff;
+      cursor: pointer;
     }
+
+    line-height: 36px;
+  }
+
+  &SearchFormOptions {
+    order: 3;
+    flex: 1 0 100%;
   }
 }

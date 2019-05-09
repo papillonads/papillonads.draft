@@ -1,0 +1,60 @@
+fragment content on Page {
+  content {
+    topBanner {
+      resources {
+        url
+        maxWidth
+        height
+      }
+    }
+    leftColumn {
+      navigation {
+        highlightsLinks {
+          heading {
+            title
+          }
+          links {
+            title
+            description
+            icon
+          }
+        }
+        navigationBlock {
+          heading {
+            title
+          }
+          groups {
+            name
+          }
+        }
+      }
+      usefulLinks {
+        buyersLinks {
+          heading {
+            title
+          }
+          links {
+            title
+            description
+          }
+        }
+        sellersLinks {
+          heading {
+            title
+          }
+          links {
+            title
+            description
+          }
+        }
+      }
+    }
+    marketingBanner {
+      resources {
+        url
+        maxWidth
+        height
+      }
+    }
+  }
+}

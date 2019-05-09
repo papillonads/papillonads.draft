@@ -5,26 +5,26 @@
   @media (min-width: 768px) {
     padding-left: 0;
   }
+}
 
-  &__group {
-    width: 45%;
+.group {
+  width: 45%;
 
-    &:hover {
-      background-color: #fff;
-      cursor: pointer;
-    }
+  &:hover {
+    background-color: #fff;
+    cursor: pointer;
   }
+}
 
-  &__postcode {
-    width: 20%;
-  }
+.postcode {
+  width: 20%;
+}
 
-  &__distance {
-    width: 45%;
+.distance {
+  width: 45%;
 
-    &:hover {
-      background-color: #fff;
-      cursor: pointer;
-    }
+  &:hover {
+    background-color: #fff;
+    cursor: pointer;
   }
 }

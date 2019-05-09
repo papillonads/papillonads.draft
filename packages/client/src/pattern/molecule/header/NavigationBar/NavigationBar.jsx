@@ -6,21 +6,17 @@ import Links from '../Links'
 import Menu from '../Menu'
 import { navigationBarDefaultProps, navigationBarPropTypes } from './NavigationBar.props'
 
-const NavigationBar = ({ className, data }) => {
-  const navigationBarClassList = cn(className, cs.navigationBar)
-
-  return (
-    <div className={navigationBarClassList}>
-      <div className={cn(cs.navigationBar__maxWidth)}>
-        <div className={cn(cs.navigationBar__maxWidthLeft)}>
-          <Logo className={cn(cs.navigationBar__maxWidthLeftLogo)} />
-          <Links className={cn(cs.navigationBar__maxWidthLeftLinks)} data={data.links} />
-        </div>
-        <Menu />
+const NavigationBar = ({ className, data }) => (
+  <div className={cn(className, cs.navigationBar)}>
+    <div className={cs.maxWidth}>
+      <div className={cs.maxWidthLeft}>
+        <Logo className={cs.maxWidthLeftLogo} />
+        <Links className={cs.maxWidthLeftLinks} data={data.links} />
       </div>
+      <Menu data={data.dropdown} />
     </div>
-  )
-}
+  </div>
+)
 
 NavigationBar.defaultProps = navigationBarDefaultProps
 
