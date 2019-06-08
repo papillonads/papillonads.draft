@@ -1,4 +1,6 @@
 .DS_Store
+npm-debug.log
+.npmrc
 .storybook-static
 papillonads.nl.sublime-project
 papillonads.nl.sublime-workspace
