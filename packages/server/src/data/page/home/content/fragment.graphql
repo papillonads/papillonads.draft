@@ -36,6 +36,7 @@ fragment content on Page {
           links {
             title
             description
+            icon
           }
         }
         sellersLinks {
@@ -45,6 +46,7 @@ fragment content on Page {
           links {
             title
             description
+            icon
           }
         }
       }
