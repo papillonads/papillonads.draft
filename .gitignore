@@ -3,6 +3,7 @@
 papillonads.nl.sublime-project
 papillonads.nl.sublime-workspace
 node_modules
+.npmrc
 
 packages/client/.DS_Store
 packages/client/npm-debug.log
