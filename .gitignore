@@ -1,7 +1,5 @@
 .DS_Store
 .storybook-static
-papillonads.nl.sublime-project
-papillonads.nl.sublime-workspace
 node_modules
 .npmrc
 
