@@ -167,39 +167,6 @@
 	},
 	"buffers":
 	[
-		{
-			"contents": "{\n\t\"auto_complete\":\n\t{\n\t\t\"selected_items\":\n\t\t[\n\t\t\t[\n\t\t\t\t\"Logo\",\n\t\t\t\t\"packages/client/src/pattern/atom/header/Logo/Logo.js\"\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"back\",\n\t\t\t\t\"background-color\\tproperty\"\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"route\",\n\t\t\t\t\"routeShape\\talias\"\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"naviga\",\n\t\t\t\t\"navigationPagePath\\talias\"\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"bread\",\n\t\t\t\t\"breadcrumbPagePath\\tconst\"\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"asyncla\",\n\t\t\t\t\"AsyncLayoutPage\\talias\"\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"Side\",\n\t\t\t\t\"SideBarComponentsLinks\"\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"page\",\n\t\t\t\t\"pagesize\"\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"Error\",\n\t\t\t\t\"ErrorMessage\"\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"Reac\",\n\t\t\t\t\"ReactDOM\"\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"reac\",\n\t\t\t\t\"reactDOM\"\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"pad\",\n\t\t\t\t\"padStart\"\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"view\",\n\t\t\t\t\"viewerSubscriptions\"\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"update\",\n\t\t\t\t\"updateWatch\"\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"papillon-e\",\n\t\t\t\t\"papillon-explorer-client\"\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"Bro\",\n\t\t\t\t\"BrowserRouter〔variable〕\"\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"root\",\n\t\t\t\t\"rootDir\"\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"React\",\n\t\t\t\t\"React.Suspense\"\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"npm\",\n\t\t\t\t\"npm-run-all\"\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"exten\",\n\t\t\t\t\"extensions\"\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"with\",\n\t\t\t\t\"withShouldUpdate\\tconst\"\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"sta\",\n\t\t\t\t\"storybook-static\"\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"Flash\",\n\t\t\t\t\"FlashAlert\"\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"Fla\",\n\t\t\t\t\"FlashAlert\"\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"class\",\n\t\t\t\t\"className\"\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"Heading\",\n\t\t\t\t\"src/components/Common/Heading/Heading.scss\"\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"config\",\n\t\t\t\t\"src/theming/config.scss\"\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"obec\",\n\t\t\t\t\"Object\\tconst\"\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"month\",\n\t\t\t\t\"monthOfYear\"\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"all\",\n\t\t\t\t\"allIndexedDays\"\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"date\",\n\t\t\t\t\"dateOfTheMonth\"\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"year\",\n\t\t\t\t\"yearStart〔variable〕\"\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"value\",\n\t\t\t\t\"valueSeed\"\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"replace\",\n\t\t\t\t\"replaceFrom〔variable〕\"\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"adjsute\",\n\t\t\t\t\"adjustedText\"\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"co\",\n\t\t\t\t\"combinedData\"\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"ad\",\n\t\t\t\t\"adjustedData\"\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"new\",\n\t\t\t\t\"newTexts〔variable〕\"\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"case\",\n\t\t\t\t\"caseSensitiveValue〔variable〕\"\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"clas\",\n\t\t\t\t\"className\"\n\t\t\t]\n\t\t]\n\t},\n\t\"buffers\":\n\t[\n\t],\n\t\"build_system\": \"\",\n\t\"build_system_choices\":\n\t[\n\t],\n\t\"build_varint\": \"\",\n\t\"command_palette\":\n\t{\n\t\t\"height\": 0.0,\n\t\t\"last_filter\": \"\",\n\t\t\"selected_items\":\n\t\t[\n\t\t\t[\n\t\t\t\t\"validate\",\n\t\t\t\t\"Pretty JSON: Validate\"\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"valiadte\",\n\t\t\t\t\"Pretty JSON: Validate\"\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"set syn\",\n\t\t\t\t\"Set Syntax: JSON\"\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"set syntax json\",\n\t\t\t\t\"Set Syntax: JSON\"\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"instal\",\n\t\t\t\t\"Package Control: Install Package\"\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"remove\",\n\t\t\t\t\"Package Control: Remove Package\"\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"List\",\n\t\t\t\t\"Package Control: List Packages\"\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"list\",\n\t\t\t\t\"Package Control: List Packages\"\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"insta\",\n\t\t\t\t\"Package Control: Install Package\"\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"val\",\n\t\t\t\t\"Pretty JSON: Validate\"\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"valida\",\n\t\t\t\t\"Pretty JSON: Validate\"\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"valdiate\",\n\t\t\t\t\"Pretty JSON: Validate\"\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"valdia\",\n\t\t\t\t\"Pretty JSON: Validate\"\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"install\",\n\t\t\t\t\"Package Control: Install Package\"\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"vali\",\n\t\t\t\t\"A File Icon: Revert to a Freshly Installed State\"\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"html\",\n\t\t\t\t\"HTMLPrettify\"\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"beauti\",\n\t\t\t\t\"HTMLBeautify\"\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"format\",\n\t\t\t\t\"JsPrettier: Format Code\"\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"pret\",\n\t\t\t\t\"JsPrettier: Format Code\"\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"beaut\",\n\t\t\t\t\"HTMLBeautify\"\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"dis\",\n\t\t\t\t\"Package Control: Disable Package\"\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"eanbl\",\n\t\t\t\t\"Package Control: Enable Package\"\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"enalbe\",\n\t\t\t\t\"Package Control: Enable Package\"\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"va\",\n\t\t\t\t\"Pretty JSON: Validate\"\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"vli\",\n\t\t\t\t\"Pretty JSON: Validate\"\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"syntax js\",\n\t\t\t\t\"Set Syntax: JavaScript\"\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"isntal\",\n\t\t\t\t\"Package Control: Install Package\"\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"color\",\n\t\t\t\t\"UI: Select Color Scheme\"\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"theme\",\n\t\t\t\t\"UI: Select Theme\"\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"terminal\",\n\t\t\t\t\"Terminal: Open\"\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"termina\",\n\t\t\t\t\"Terminal View: Open Bash Terminal\"\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"v\",\n\t\t\t\t\"Pretty JSON: Validate\"\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"vlida\",\n\t\t\t\t\"Pretty JSON: Validate\"\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"ut\",\n\t\t\t\t\"UI: Select Theme\"\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"\",\n\t\t\t\t\"A File Icon: Changelog\"\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"syn javasc\",\n\t\t\t\t\"Set Syntax: JavaScript\"\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"ui\",\n\t\t\t\t\"UI: Select Color Scheme\"\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"intall pacl\",\n\t\t\t\t\"Package Control: Install Package\"\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"prefer\",\n\t\t\t\t\"Preferences: Settings\"\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"uit\",\n\t\t\t\t\"UI: Select Theme\"\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"json\",\n\t\t\t\t\"Pretty JSON: Format and Sort JSON\"\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"j\",\n\t\t\t\t\"Pretty JSON: Format and Sort JSON\"\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"vlda\",\n\t\t\t\t\"Pretty JSON: Validate\"\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"format css\",\n\t\t\t\t\"Format CSS: Expanded (Break Selectors)\"\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"valia\",\n\t\t\t\t\"Pretty JSON: Validate\"\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"syntax: html\",\n\t\t\t\t\"Set Syntax: HTML\"\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"remove pakcage\",\n\t\t\t\t\"Package Control: Remove Package\"\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"remove package\",\n\t\t\t\t\"Package Control: Remove Package\"\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"syntax json\",\n\t\t\t\t\"Set Syntax: JSON\"\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"syntax java\",\n\t\t\t\t\"Set Syntax: JavaScript\"\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"intal\",\n\t\t\t\t\"Indentation: Reindent Lines\"\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"sort\",\n\t\t\t\t\"Pretty JSON: Format and Sort JSON\"\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"javasc\",\n\t\t\t\t\"Set Syntax: JavaScript (Babel)\"\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"prettf\",\n\t\t\t\t\"JsPrettier: Format Code\"\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"syntax javasc\",\n\t\t\t\t\"Set Syntax: JavaScript\"\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"prettier\",\n\t\t\t\t\"JsPrettier: Format Code\"\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"eslint\",\n\t\t\t\t\"ESLint Formatter: Format this file\"\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"jspre\",\n\t\t\t\t\"JsPrettier: Format Code\"\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"isnta\",\n\t\t\t\t\"Package Control: Install Package\"\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"isntall\",\n\t\t\t\t\"Package Control: Install Package\"\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"ins\",\n\t\t\t\t\"Indexing Status\"\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"pack\",\n\t\t\t\t\"Install Package Control\"\n\t\t\t]\n\t\t],\n\t\t\"width\": 0.0\n\t},\n\t\"console\":\n\t{\n\t\t\"height\": 343.0,\n\t\t\"history\":\n\t\t[\n\t\t]\n\t},\n\t\"distraction_free\":\n\t{\n\t\t\"menu_visible\": true,\n\t\t\"show_minimap\": false,\n\t\t\"show_open_files\": false,\n\t\t\"show_tabs\": false,\n\t\t\"side_bar_visible\": false,\n\t\t\"status_bar_visible\": false\n\t},\n\t\"expanded_folders\":\n\t[\n\t\t\"/Users/mts/PapHub/papillonads.nl\",\n\t\t\"/Users/mts/PapHub/papillonads.nl/packages\",\n\t\t\"/Users/mts/PapHub/papillonads.nl/packages/client\",\n\t\t\"/Users/mts/PapHub/papillonads.nl/packages/client/src\",\n\t\t\"/Users/mts/PapHub/papillonads.nl/packages/client/src/pattern\",\n\t\t\"/Users/mts/PapHub/papillonads.nl/packages/client/src/pattern/organism\",\n\t\t\"/Users/mts/PapHub/papillonads.nl/packages/client/src/pattern/organism/section\",\n\t\t\"/Users/mts/PapHub/papillonads.nl/packages/client/src/pattern/organism/section/Header\"\n\t],\n\t\"file_history\":\n\t[\n\t\t\"/Users/mts/PapHub/papillonads.nl/papillonads.nl.sublime-project\",\n\t\t\"/Users/mts/PapHub/papillonads.nl/papillonads.nl.sublime-workspace\",\n\t\t\"/Users/mts/PapHub/papillonads.nl/packages/client/src/pattern/organism/section/Header/Header.jsx\",\n\t\t\"/Users/mts/PapHub/papillonads.nl/packages/client/src/pattern/molecule/content/UsefulLinks/UsefulLinks.jsx\",\n\t\t\"/Users/mts/PapHub/papillonads.nl/packages/server/src/data/page/home/content/leftColumn/navigationBlock.js\",\n\t\t\"/Users/mts/PapHub/papillonads.nl/packages/client/src/pattern/organism/section/Content/Content.jsx\",\n\t\t\"/Users/mts/PapHub/papillonads.nl/packages/client/src/pattern/template/HomeTemplate/HomeTemplate.jsx\",\n\t\t\"/Users/mts/PapHub/papillonads.nl/packages/server/src/data/page/index.js\",\n\t\t\"/Users/mts/PapHub/papillonads.nl/packages/server/src/data/page/home/index.js\",\n\t\t\"/Users/mts/PapHub/papillonads.nl/packages/client/src/pattern/molecule/content/Navigation/Navigation.props.js\",\n\t\t\"/Users/mts/PapHub/papillonads.nl/packages/client/src/pattern/molecule/content/Navigation/Navigation.scss\",\n\t\t\"/Users/mts/PapHub/papillonads.nl/packages/server/src/index.md\",\n\t\t\"/Users/mts/PapHub/papillonads.nl/packages/client/src/pattern/molecule/content/UsefulLinks/UsefulLinks.render.js\",\n\t\t\"/Users/mts/PapHub/papillonads.nl/packages/server/src/data/page/home/content/leftColumn/links.js\",\n\t\t\"/Users/mts/PapHub/papillonads.nl/.gitignore\",\n\t\t\"/Users/mts/PapHub/papillonads.nl/.npmrc\",\n\t\t\"/Users/mts/PapHub/papillonads.nl/packages/client/.npmrc\",\n\t\t\"/Users/mts/PapHub/papillonads.nl/packages/server/.npmrc\",\n\t\t\"/Users/mts/PapHub/papillonads.nl/packages/server/.env\",\n\t\t\"/Users/mts/PapHub/papillonads.nl/packages/client/.env.develop\",\n\t\t\"/Users/mts/PapHub/papillonads.nl/packages/client/.env.release\",\n\t\t\"/Users/mts/MtsHub/notes-anwb/ci-cd.md\",\n\t\t\"/Users/mts/MtsHub/notes-anwb/search.md\",\n\t\t\"/Users/mts/ANWB-GitLab/mijn-anwb/mijn-anwb.sublime-workspace\",\n\t\t\"/Users/mts/ANWB-GitLab/mijn-anwb/mijn-anwb.sublime-project\",\n\t\t\"/Users/mts/Desktop/mijn-anwb-app-id-numbers.json\",\n\t\t\"/Users/mts/ANWB-GitLab/mijn-anwb/.storybook/webpack.config.js\",\n\t\t\"/Users/mts/ANWB-GitLab/mijn-anwb/node_modules/@storybook/addon-info/dist/components/PropTable/style.css\",\n\t\t\"/Users/mts/ANWB-GitLab/mijn-anwb/.storybook/config.js\",\n\t\t\"/Users/mts/ANWB-GitLab/mijn-anwb/.storybook/welcomeStory.js\",\n\t\t\"/Users/mts/ANWB-GitLab/mijn-anwb/.storybook/.babelrc\",\n\t\t\"/Users/mts/ANWB-GitLab/mijn-anwb/package.json\",\n\t\t\"/Users/mts/.gitconfig\",\n\t\t\"/Users/mts/ANWB/mijn-anwb/.babelrc\",\n\t\t\"/Users/mts/ANWB/mijn-anwb/gulpfile.js\",\n\t\t\"/Users/mts/ANWB/mijn-anwb/node_modules/less/test/css/3rd-party/bootstrap4.css\",\n\t\t\"/Users/mts/ANWB/mijn-anwb/src/js/components/fileSaver.js\",\n\t\t\"/Users/mts/ANWB/mijn-anwb/src/js/applications/aanmelden-tanken-met-ledenvoordeel.js\",\n\t\t\"/Users/mts/ANWB/mijn-anwb/dist/applications/aanmelden-tanken-met-ledenvoordeel.js\",\n\t\t\"/Users/mts/MtsHub/notes-anwb/application.md\",\n\t\t\"/Users/mts/MtsHub/notes-anwb/account.md\",\n\t\t\"/Users/mts/MtsHub/notes-anwb/to-do.md\",\n\t\t\"/Users/mts/MtsHub/notes-anwb/onboarding.md\",\n\t\t\"/Users/mts/ANWB/notes-anwb/.gitignore\",\n\t\t\"/Users/mts/Desktop/to-do.md\",\n\t\t\"/Users/mts/Desktop/account.md\",\n\t\t\"/Users/mts/ANWB/notes-anwb/to-do.md\",\n\t\t\"/Users/mts/ANWB/notes-anwb/account.md\",\n\t\t\"/Users/mts/ANWB/notes-anwb/default.md\",\n\t\t\"/Users/mts/PapHub/papillonads.nl/packages/client/src/pattern/molecule/header/Menu/Menu.jsx\",\n\t\t\"/Users/mts/PapHub/papillonads.nl/packages/client/src/pattern/molecule/header/Menu/Menu.scss\",\n\t\t\"/Users/mts/PapHub/papillonads.nl/packages/client/node_modules/@primer/css/navigation/menu.scss\",\n\t\t\"/Users/mts/PapHub/papillonads.nl/packages/client/src/pattern/molecule/header/NavigationBar/NavigationBar.props.js\",\n\t\t\"/Users/mts/PapHub/papillonads.nl/packages/client/src/pattern/molecule/header/NavigationBar/NavigationBar.jsx\",\n\t\t\"/Users/mts/PapHub/papillonads.nl/packages/client/src/pattern/molecule/header/Menu/Menu.props.js\",\n\t\t\"/Users/mts/PapHub/papillonads.nl/packages/client/src/pattern/atom/content/Banner/Banner.scss\",\n\t\t\"/Users/mts/PapHub/papillonads.nl/packages/client/src/pattern/molecule/content/LeftColumn/LeftColumn.jsx\",\n\t\t\"/Users/mts/PapHub/papillonads.nl/packages/client/src/pattern/molecule/content/LeftColumn/LeftColumn.scss\",\n\t\t\"/Users/mts/PapHub/papillonads.nl/packages/client/src/pattern/molecule/content/Navigation/Navigation.jsx\",\n\t\t\"/Users/mts/PapHub/papillonads.nl/packages/client/src/pattern/molecule/header/Menu/Menu.render.js\",\n\t\t\"/Users/mts/PapHub/papillonads.nl/packages/client/src/pattern/molecule/header/Links/Links.render.js\",\n\t\t\"/Users/mts/PapHub/papillonads.nl/packages/client/src/pattern/molecule/header/Dropdown/Dropdown.render.js\",\n\t\t\"/Users/mts/PapHub/papillonads.nl/packages/client/src/pattern/molecule/header/Dropdown/Dropdown.jsx\",\n\t\t\"/Users/mts/PapHub/papillonads.nl/packages/client/src/pattern/molecule/header/Menu/Menu.test.js\",\n\t\t\"/Users/mts/PapHub/papillonads.nl/packages/client/src/pattern/molecule/header/Links/Links.test.js\",\n\t\t\"/Users/mts/PapHub/papillonads.nl/packages/client/src/pattern/molecule/header/Links/Links.props.js\",\n\t\t\"/Users/mts/PapHub/papillonads.nl/packages/client/src/pattern/organism/section/Header/Header.props.js\",\n\t\t\"/Users/mts/PapHub/papillonads.nl/packages/client/src/pattern/molecule/header/Dropdown/Dropdown.props.js\",\n\t\t\"/Users/mts/PapHub/papillonads.nl/packages/client/src/pattern/molecule/header/Links/Links.jsx\",\n\t\t\"/Users/mts/PapHub/papillonads.nl/packages/client/src/pattern/atom/header/Link/Link.props.js\",\n\t\t\"/Users/mts/PapHub/papillonads.nl/packages/client/src/pattern/template/NotFoundTemplate/NotFoundTemplate.jsx\",\n\t\t\"/Users/mts/PapHub/papillonads.nl/packages/client/src/pattern/template/HomeTemplate/HomeTemplate.scss\",\n\t\t\"/Users/mts/PapHub/papillonads.nl/packages/client/src/pattern/page/NotFoundPage/NotFoundPage.jsx\",\n\t\t\"/Users/mts/PapHub/papillonads.nl/packages/client/src/pattern/page/HomePage/HomePage.jsx\",\n\t\t\"/Users/mts/PapHub/papillonads.nl/packages/client/src/pattern/molecule/header/SearchFormOptions/SearchFormOptions.jsx\",\n\t\t\"/Users/mts/PapHub/papillonads.nl/packages/client/src/pattern/molecule/header/SearchFieldsetStandard/SearchFieldsetStandard.jsx\",\n\t\t\"/Users/mts/PapHub/papillonads.nl/packages/client/src/pattern/molecule/header/SearchFieldsetAdvanced/SearchFieldsetAdvanced.scss\",\n\t\t\"/Users/mts/PapHub/papillonads.nl/packages/client/src/pattern/molecule/header/SearchFieldsetAdvanced/SearchFieldsetAdvanced.jsx\",\n\t\t\"/Users/mts/PapHub/papillonads.nl/packages/client/src/pattern/molecule/header/SearchBar/SearchBar.jsx\",\n\t\t\"/Users/mts/PapHub/papillonads.nl/packages/client/src/pattern/molecule/header/NavigationBar/NavigationBar.scss\",\n\t\t\"/Users/mts/PapHub/papillonads.nl/packages/client/src/pattern/molecule/content/MapLink/MapLink.jsx\",\n\t\t\"/Users/mts/PapHub/papillonads.nl/packages/client/src/pattern/atom/info/UnderConstruction/UnderConstruction.jsx\",\n\t\t\"/Users/mts/PapHub/papillonads.nl/packages/client/src/pattern/atom/info/NoMatch/NoMatch.jsx\",\n\t\t\"/Users/mts/PapHub/papillonads.nl/packages/client/src/pattern/atom/header/Select/Select.jsx\",\n\t\t\"/Users/mts/PapHub/papillonads.nl/packages/client/src/pattern/atom/header/Ribbon/Ribbon.jsx\",\n\t\t\"/Users/mts/PapHub/papillonads.nl/packages/client/src/pattern/atom/header/Logo/Logo.jsx\",\n\t\t\"/Users/mts/PapHub/papillonads.nl/packages/client/src/pattern/atom/header/Link/Link.jsx\",\n\t\t\"/Users/mts/PapHub/papillonads.nl/packages/client/src/pattern/atom/header/Label/Label.jsx\",\n\t\t\"/Users/mts/PapHub/papillonads.nl/packages/client/src/pattern/atom/header/Input/Input.jsx\",\n\t\t\"/Users/mts/PapHub/papillonads.nl/packages/client/src/pattern/atom/header/Icon/SvgIconGroup/SvgIconGroup.jsx\",\n\t\t\"/Users/mts/PapHub/papillonads.nl/packages/client/src/pattern/atom/header/Icon/SvgIcon/SvgIcon.jsx\",\n\t\t\"/Users/mts/PapHub/papillonads.nl/packages/client/src/pattern/atom/header/Button/Button.jsx\",\n\t\t\"/Users/mts/PapHub/papillonads.nl/packages/client/src/pattern/atom/error/ErrorBoundary/ErrorBoundary.jsx\",\n\t\t\"/Users/mts/PapHub/papillonads.nl/packages/client/src/pattern/atom/content/Banner/Banner.jsx\",\n\t\t\"/Users/mts/PapHub/papillonads.nl/packages/client/src/pattern/organism/section/Header/Header.scss\",\n\t\t\"/Users/mts/PapHub/papillonads.nl/packages/client/src/pattern/organism/section/Content/Content.scss\",\n\t\t\"/Users/mts/PapHub/papillonads.nl/packages/client/src/pattern/molecule/header/SearchFieldsetStandard/SearchFieldsetStandard.scss\",\n\t\t\"/Users/mts/PapHub/papillonads.nl/packages/client/src/pattern/molecule/header/SearchBar/SearchBar.scss\",\n\t\t\"/Users/mts/PapHub/papillonads.nl/packages/client/src/pattern/molecule/header/Links/Links.scss\",\n\t\t\"/Users/mts/PapHub/papillonads.nl/packages/client/src/pattern/molecule/header/Dropdown/Dropdown.scss\",\n\t\t\"/Users/mts/PapHub/papillonads.nl/packages/client/src/pattern/atom/header/Select/Select.scss\",\n\t\t\"/Users/mts/PapHub/papillonads.nl/packages/client/src/pattern/atom/content/Banner/Banner.props.js\",\n\t\t\"/Users/mts/MtsHub/notes-mts/,\",\n\t\t\"/Users/mts/MtsHub/notes-mts/search/papillon-explorer.md\",\n\t\t\"/Users/mts/MtsHub/notes-mts/search/roadrunner.md\",\n\t\t\"/Users/mts/MtsHub/notes-mts/search/papillonads.md\",\n\t\t\"/Users/mts/MtsHub/papillon-explorer/packages/client/src/pattern/template/LabelsTemplate/RegularLabels.jsx\",\n\t\t\"/Users/mts/MtsHub/papillon-explorer/packages/client/src/utility/startup.js\",\n\t\t\"/Users/mts/MtsHub/papillon-explorer/packages/client/src/pattern/template/NotFoundTemplate/NotFoundTemplate.jsx\",\n\t\t\"/Users/mts/MtsHub/papillon-explorer/packages/client/src/pattern/template/StartTemplate/StartTemplate.jsx\",\n\t\t\"/Users/mts/MtsHub/papillon-explorer/packages/client/src/pattern/page/NotFoundPage/NotFoundPage.jsx\",\n\t\t\"/Users/mts/MtsHub/papillon-explorer/packages/client/src/pattern/page/StartPage/StartPage.jsx\",\n\t\t\"/Users/mts/MtsHub/papillon-explorer/.stylelintrc\",\n\t\t\"/Users/mts/PapHub/papillonads.nl/packages/client/src/pattern/atom/header/Icon/SvgIconGroup/SvgIconGroup.scss\",\n\t\t\"/Users/mts/PapHub/papillonads.nl/packages/client/src/pattern/atom/header/Icon/SvgIcon/SvgIcon.scss\",\n\t\t\"/Users/mts/PapHub/papillonads.nl/packages/client/src/pattern/page/HomePage/HomePage.scss\",\n\t\t\"/Users/mts/PapHub/papillonads.nl/packages/client/src/sass/mixin.scss\",\n\t\t\"/Users/mts/PapHub/papillonads.nl/packages/client/src/pattern/molecule/header/Query/Query.scss\",\n\t\t\"/Users/mts/PapHub/papillonads.nl/packages/client/src/pattern/molecule/header/Query/Query.jsx\",\n\t\t\"/Users/mts/PapHub/papillonads.nl/packages/client/src/pattern/molecule/header/Badge/Badge.scss\",\n\t\t\"/Users/mts/PapHub/papillonads.nl/packages/client/src/pattern/molecule/header/Badge/Badge.jsx\",\n\t\t\"/Users/mts/PapHub/papillonads.nl/packages/client/src/pattern/atom/info/UnderConstruction/UnderConstruction.scss\",\n\t\t\"/Users/mts/PapHub/papillonads.nl/packages/client/src/pattern/atom/info/NoMatch/NoMatch.scss\",\n\t\t\"/Users/mts/PapHub/papillonads.nl/packages/client/src/pattern/atom/header/Ribbon/Ribbon.scss\",\n\t\t\"/Users/mts/PapHub/papillonads.nl/packages/client/src/pattern/atom/header/Logo/Logo.scss\",\n\t\t\"/Users/mts/PapHub/papillonads.nl/packages/client/src/pattern/atom/header/Label/Label.scss\",\n\t\t\"/Users/mts/PapHub/papillonads.nl/packages/client/src/pattern/atom/header/Input/Input.scss\",\n\t\t\"/Users/mts/PapHub/papillonads.nl/packages/client/src/pattern/template/NotFoundTemplate/NotFoundTemplate.scss\"\n\t],\n\t\"find\":\n\t{\n\t\t\"height\": 23.0\n\t},\n\t\"find_in_files\":\n\t{\n\t\t\"height\": 106.0,\n\t\t\"where_history\":\n\t\t[\n\t\t]\n\t},\n\t\"find_state\":\n\t{\n\t\t\"case_sensitive\": false,\n\t\t\"find_history\":\n\t\t[\n\t\t],\n\t\t\"highlight\": true,\n\t\t\"in_selection\": false,\n\t\t\"preserve_case\": false,\n\t\t\"regex\": false,\n\t\t\"replace_history\":\n\t\t[\n\t\t],\n\t\t\"reverse\": false,\n\t\t\"show_context\": true,\n\t\t\"use_buffer2\": true,\n\t\t\"whole_word\": false,\n\t\t\"wrap\": true\n\t},\n\t\"groups\":\n\t[\n\t\t{\n\t\t\t\"sheets\":\n\t\t\t[\n\t\t\t]\n\t\t}\n\t],\n\t\"incremental_find\":\n\t{\n\t\t\"height\": 23.0\n\t},\n\t\"input\":\n\t{\n\t\t\"height\": 37.0\n\t},\n\t\"layout\":\n\t{\n\t\t\"cells\":\n\t\t[\n\t\t\t[\n\t\t\t\t0,\n\t\t\t\t0,\n\t\t\t\t1,\n\t\t\t\t1\n\t\t\t]\n\t\t],\n\t\t\"cols\":\n\t\t[\n\t\t\t0.0,\n\t\t\t1.0\n\t\t],\n\t\t\"rows\":\n\t\t[\n\t\t\t0.0,\n\t\t\t1.0\n\t\t]\n\t},\n\t\"menu_visible\": true,\n\t\"output.SublimeLinter\":\n\t{\n\t\t\"height\": 90.0\n\t},\n\t\"output.SublimeLinter Messages\":\n\t{\n\t\t\"height\": 98.0\n\t},\n\t\"output.doc\":\n\t{\n\t\t\"height\": 109.0\n\t},\n\t\"output.exec\":\n\t{\n\t\t\"height\": 98.0\n\t},\n\t\"output.find_results\":\n\t{\n\t\t\"height\": 0.0\n\t},\n\t\"output.git\":\n\t{\n\t\t\"height\": 109.0\n\t},\n\t\"output.mdpopups\":\n\t{\n\t\t\"height\": 0.0\n\t},\n\t\"pinned_build_system\": \"\",\n\t\"project\": \"papillonads.nl.sublime-project\",\n\t\"replace\":\n\t{\n\t\t\"height\": 42.0\n\t},\n\t\"save_all_on_build\": true,\n\t\"select_file\":\n\t{\n\t\t\"height\": 0.0,\n\t\t\"last_filter\": \"\",\n\t\t\"selected_items\":\n\t\t[\n\t\t\t[\n\t\t\t\t\"header.jsx\",\n\t\t\t\t\"packages/client/src/pattern/organism/section/Header/Header.jsx\"\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"usefulli\",\n\t\t\t\t\"packages/client/src/pattern/molecule/content/UsefulLinks/UsefulLinks.jsx\"\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"server/src/data/page/home/index.js\",\n\t\t\t\t\"packages/server/src/data/page/home/index.js\"\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"packages/server/src/index.md\",\n\t\t\t\t\"packages/server/src/index.md\"\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"UsefulLinks\",\n\t\t\t\t\"packages/client/src/pattern/molecule/content/UsefulLinks/UsefulLinks.jsx\"\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"Navigation.jsx\",\n\t\t\t\t\"packages/client/src/pattern/molecule/content/Navigation/Navigation.jsx\"\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"LeftColumn.jsx\",\n\t\t\t\t\"packages/client/src/pattern/molecule/content/LeftColumn/LeftColumn.jsx\"\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"Content.jsx\",\n\t\t\t\t\"packages/client/src/pattern/organism/section/Content/Content.jsx\"\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"HomeTemplate\",\n\t\t\t\t\"packages/client/src/pattern/template/HomeTemplate/HomeTemplate.jsx\"\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"addon-info/dist/components/PropTable/style.css\",\n\t\t\t\t\"node_modules/@storybook/addon-info/dist/components/PropTable/style.css\"\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"3rdparty/\",\n\t\t\t\t\"node_modules/less/test/css/3rd-party/bootstrap4.css\"\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"Banner.jsx\",\n\t\t\t\t\"packages/client/src/pattern/atom/content/Banner/Banner.jsx\"\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"content.jsx\",\n\t\t\t\t\"packages/client/src/pattern/organism/section/Content/Content.jsx\"\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"hometemplate\",\n\t\t\t\t\"packages/client/src/pattern/template/HomeTemplate/HomeTemplate.jsx\"\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"homepage\",\n\t\t\t\t\"packages/client/src/pattern/page/HomePage/HomePage.jsx\"\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"menu.jsx\",\n\t\t\t\t\"src/pattern/molecule/header/Menu/Menu.jsx\"\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"menu.css\",\n\t\t\t\t\"node_modules/@primer/css/navigation/menu.scss\"\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"menu.scss\",\n\t\t\t\t\"packages/client/node_modules/@primer/css/navigation/menu.scss\"\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"navigationbar.props\",\n\t\t\t\t\"packages/client/src/pattern/molecule/header/NavigationBar/NavigationBar.props.js\"\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"navigationbar\",\n\t\t\t\t\"packages/client/src/pattern/molecule/header/NavigationBar/NavigationBar.jsx\"\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"menu.props\",\n\t\t\t\t\"packages/client/src/pattern/molecule/header/Menu/Menu.props.js\"\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"leftcolumn\",\n\t\t\t\t\"packages/client/src/pattern/molecule/content/LeftColumn/LeftColumn.jsx\"\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"leftcolu\",\n\t\t\t\t\"packages/client/src/pattern/molecule/content/LeftColumn/LeftColumn.jsx\"\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"dropdown.jsx\",\n\t\t\t\t\"packages/client/src/pattern/molecule/header/Dropdown/Dropdown.jsx\"\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"dropdown.render\",\n\t\t\t\t\"packages/client/src/pattern/molecule/header/Dropdown/Dropdown.render.js\"\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"menu.render\",\n\t\t\t\t\"packages/client/src/pattern/molecule/header/Menu/Menu.render.js\"\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"links.render\",\n\t\t\t\t\"packages/client/src/pattern/molecule/header/Links/Links.render.js\"\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"links.tes\",\n\t\t\t\t\"packages/client/src/pattern/molecule/header/Links/Links.test.js\"\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"enu.test.js\",\n\t\t\t\t\"packages/client/src/pattern/molecule/header/Menu/Menu.test.js\"\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"Links/Links.props\",\n\t\t\t\t\"packages/client/src/pattern/molecule/header/Links/Links.props.js\"\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"Dropdown/Dropdown.props\",\n\t\t\t\t\"packages/client/src/pattern/molecule/header/Dropdown/Dropdown.props.js\"\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"links.props\",\n\t\t\t\t\"packages/client/src/pattern/molecule/header/Links/Links.props.js\"\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"dropdown\",\n\t\t\t\t\"packages/client/src/pattern/molecule/header/Dropdown/Dropdown.jsx\"\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"link.props\",\n\t\t\t\t\"packages/client/src/pattern/atom/header/Link/Link.props.js\"\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"Link.props\",\n\t\t\t\t\"packages/client/src/pattern/atom/header/Link/Link.props.js\"\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"dropdown.props\",\n\t\t\t\t\"packages/client/src/pattern/molecule/header/Dropdown/Dropdown.props.js\"\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"links.jsx\",\n\t\t\t\t\"packages/client/src/pattern/molecule/header/Links/Links.jsx\"\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"NavigationBar\",\n\t\t\t\t\"packages/client/src/pattern/molecule/header/NavigationBar/NavigationBar.jsx\"\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"banner.jsx\",\n\t\t\t\t\"packages/client/src/pattern/atom/content/Banner/Banner.jsx\"\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"homtempl\",\n\t\t\t\t\"packages/client/src/pattern/template/HomeTemplate/HomeTemplate.jsx\"\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"ribbon.jsx\",\n\t\t\t\t\"packages/client/src/pattern/atom/header/Ribbon/Ribbon.jsx\"\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"RegularLabels\",\n\t\t\t\t\"packages/client/src/pattern/template/LabelsTemplate/RegularLabels.jsx\"\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"LabelsTemplate\",\n\t\t\t\t\"packages/client/src/pattern/template/LabelsTemplate/LabelsTemplate.jsx\"\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"utility/startup\",\n\t\t\t\t\"packages/client/src/utility/startup.js\"\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"notfoundtempl\",\n\t\t\t\t\"packages/client/src/pattern/template/NotFoundTemplate/NotFoundTemplate.jsx\"\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"notfound\",\n\t\t\t\t\"packages/client/src/pattern/page/NotFoundPage/NotFoundPage.jsx\"\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"starttemplate\",\n\t\t\t\t\"packages/client/src/pattern/template/StartTemplate/StartTemplate.jsx\"\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"startpage\",\n\t\t\t\t\"packages/client/src/pattern/page/StartPage/StartPage.jsx\"\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"hometempl\",\n\t\t\t\t\"packages/client/src/pattern/template/HomeTemplate/HomeTemplate.jsx\"\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"SvgIconGroup.scss\",\n\t\t\t\t\"packages/client/src/pattern/atom/header/Icon/SvgIconGroup/SvgIconGroup.scss\"\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"on/SvgIcon.scs\",\n\t\t\t\t\"packages/client/src/pattern/atom/header/Icon/SvgIcon/SvgIcon.scss\"\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"rc/pattern/page/HomePage/HomePage.scss\",\n\t\t\t\t\"packages/client/src/pattern/page/HomePage/HomePage.scss\"\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"section/Header/Header.scss\",\n\t\t\t\t\"packages/client/src/pattern/organism/section/Header/Header.scss\"\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"r/Header.scss\",\n\t\t\t\t\"packages/client/src/pattern/organism/section/Header/Header.scss\"\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"Query.scss\",\n\t\t\t\t\"packages/client/src/pattern/molecule/header/Query/Query.scss\"\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"own/Dropdown.scss\",\n\t\t\t\t\"packages/client/src/pattern/molecule/header/Dropdown/Dropdown.scss\"\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"adge.scss\",\n\t\t\t\t\"packages/client/src/pattern/molecule/header/Badge/Badge.scss\"\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"UnderConstruction.scss\",\n\t\t\t\t\"packages/client/src/pattern/atom/info/UnderConstruction/UnderConstruction.scss\"\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"ch/NoMatch.scss\",\n\t\t\t\t\"packages/client/src/pattern/atom/info/NoMatch/NoMatch.scss\"\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"bbon/Ribbon.scss\",\n\t\t\t\t\"packages/client/src/pattern/atom/header/Ribbon/Ribbon.scss\"\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"go/Logo.scss\",\n\t\t\t\t\"packages/client/src/pattern/atom/header/Logo/Logo.scss\"\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"abel/Label.scss\",\n\t\t\t\t\"packages/client/src/pattern/atom/header/Label/Label.scss\"\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"put/Input.scss\",\n\t\t\t\t\"packages/client/src/pattern/atom/header/Input/Input.scss\"\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"on/Button.scss\",\n\t\t\t\t\"packages/client/src/pattern/atom/header/Button/Button.scss\"\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"FoundTemplate.scss\",\n\t\t\t\t\"packages/client/src/pattern/template/NotFoundTemplate/NotFoundTemplate.scss\"\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"/NotFoundPage.scss\",\n\t\t\t\t\"packages/client/src/pattern/page/NotFoundPage/NotFoundPage.scss\"\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"ge/HomePage.scss\",\n\t\t\t\t\"packages/client/src/pattern/page/HomePage/HomePage.scss\"\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"bon/Ribbon.scss\",\n\t\t\t\t\"packages/client/src/pattern/atom/header/Ribbon/Ribbon.scss\"\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"ader/Menu/Menu.scss\",\n\t\t\t\t\"packages/client/src/pattern/molecule/header/Menu/Menu.scss\"\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"IconGroup.scss\",\n\t\t\t\t\"packages/client/src/pattern/atom/header/Icon/SvgIconGroup/SvgIconGroup.scss\"\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"vgIcon/SvgIcon.scs\",\n\t\t\t\t\"packages/client/src/pattern/atom/header/Icon/SvgIcon/SvgIcon.scss\"\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"on/Header/Header.scss\",\n\t\t\t\t\"packages/client/src/pattern/organism/section/Header/Header.scss\"\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"Query/Query.scss\",\n\t\t\t\t\"packages/client/src/pattern/molecule/header/Query/Query.scss\"\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"pdown/Dropdown.scss\",\n\t\t\t\t\"packages/client/src/pattern/molecule/header/Dropdown/Dropdown.scss\"\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"molecule/header/Badge/Badge.scss\",\n\t\t\t\t\"packages/client/src/pattern/molecule/header/Badge/Badge.scss\"\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"erConstruction.scss\",\n\t\t\t\t\"packages/client/src/pattern/atom/info/UnderConstruction/UnderConstruction.scss\"\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"tch/NoMatch.scss\",\n\t\t\t\t\"packages/client/src/pattern/atom/info/NoMatch/NoMatch.scss\"\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"om/header/Ribbon/Ribbon.scs\",\n\t\t\t\t\"packages/client/src/pattern/atom/header/Ribbon/Ribbon.scss\"\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"n/atom/header/Logo/Logo.scss\",\n\t\t\t\t\"packages/client/src/pattern/atom/header/Logo/Logo.scss\"\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"Label/Label.scs\",\n\t\t\t\t\"packages/client/src/pattern/atom/header/Label/Label.scss\"\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"tom/header/Input/Input.scss\",\n\t\t\t\t\"packages/client/src/pattern/atom/header/Input/Input.scss\"\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"/Button/Button.scss\",\n\t\t\t\t\"packages/client/src/pattern/atom/header/Button/Button.scss\"\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"ate/NotFoundTemplate.scs\",\n\t\t\t\t\"packages/client/src/pattern/template/NotFoundTemplate/NotFoundTemplate.scss\"\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"undPage/NotFoundPage.scss\",\n\t\t\t\t\"packages/client/src/pattern/page/NotFoundPage/NotFoundPage.scss\"\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"ePage/HomePage.scss\",\n\t\t\t\t\"packages/client/src/pattern/page/HomePage/HomePage.scss\"\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"ass/mixin.scss\",\n\t\t\t\t\"packages/client/src/sass/mixin.scss\"\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"/header/Label/Label.scss\",\n\t\t\t\t\"packages/client/src/pattern/atom/header/Label/Label.scss\"\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"SearchFieldsetAdvanced\",\n\t\t\t\t\"packages/client/src/pattern/molecule/header/SearchFieldsetAdvanced/SearchFieldsetAdvanced.jsx\"\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"index.scss\",\n\t\t\t\t\"packages/client/src/index.scss\"\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"SearchFieldsetStandard\",\n\t\t\t\t\"packages/client/src/pattern/molecule/header/SearchFieldsetStandard/SearchFieldsetStandard.jsx\"\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"sarchbar\",\n\t\t\t\t\"packages/client/src/pattern/molecule/header/SearchBar/SearchBar.jsx\"\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"searchfieldsetstada\",\n\t\t\t\t\"src/pattern/molecule/header/SearchFieldsetStandard/SearchFieldsetStandard.jsx\"\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"searchbar\",\n\t\t\t\t\"src/pattern/molecule/header/SearchBar/SearchBar.jsx\"\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"searchbar.jsx\",\n\t\t\t\t\"packages/client/src/pattern/molecule/header/SearchBar/SearchBar.jsx\"\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"data.json\",\n\t\t\t\t\"packages/client/node_modules/core-js-compat/data.json\"\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"select.jsx\",\n\t\t\t\t\"packages/client/src/pattern/atom/header/Select/Select.jsx\"\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"select.test\",\n\t\t\t\t\"node_modules/react-select/src/__tests__/Select.test.js\"\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"hometem\",\n\t\t\t\t\"packages/client/src/pattern/template/HomeTemplate/HomeTemplate.jsx\"\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"breakpoint\",\n\t\t\t\t\"node_modules/primer-support/docs/breakpoints.md\"\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"padding.scss\",\n\t\t\t\t\"src/utilities/padding.scss\"\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"Header.jsx\",\n\t\t\t\t\"packages/client/src/pattern/organism/section/Header/Header.jsx\"\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"HomePage\",\n\t\t\t\t\"packages/client/src/pattern/page/HomePage/HomePage.jsx\"\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"input.jsx\",\n\t\t\t\t\"packages/client/src/pattern/atom/header/Input/Input.jsx\"\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"button.test\",\n\t\t\t\t\"src/js/components/react-base-components/__tests__/button.test.js\"\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"/1-02. Absolute/page.scss\",\n\t\t\t\t\"src/#1 Design Patterns/1-02. Absolute/page.scss\"\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"Floated Box/site.scss\",\n\t\t\t\t\"src/#4 Box Models/4-08. Floated Box/site.scss\"\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"ional Stylesheet/ie6.css\",\n\t\t\t\t\"src/#2 HTML Design Patterns/2-05. Conditional Stylesheet/ie6.css\"\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"about.tsx\",\n\t\t\t\t\"src/components/Pages/About/About.tsx\"\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"ResponsiveImage.jsx\",\n\t\t\t\t\"src/ResponsiveImage/ResponsiveImage.jsx\"\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"links.\",\n\t\t\t\t\"05-apollo-boost/00-links.md\"\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"links.md\",\n\t\t\t\t\"03-graphql-pagination/00-links.md\"\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"pattern/page/StartPage\",\n\t\t\t\t\"packages/client/src/pattern/page/StartPage/StartPage.jsx\"\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"startpage.jsx\",\n\t\t\t\t\"packages/client/src/pattern/page/StartPage/StartPage.jsx\"\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"jest.setup.j\",\n\t\t\t\t\"jest.setup.js\"\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"link.jsx\",\n\t\t\t\t\"packages/client/src/pattern/atom/header/Link/Link.jsx\"\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"label.jsx\",\n\t\t\t\t\"packages/client/src/pattern/atom/header/Label/Label.jsx\"\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"starttemplate.test\",\n\t\t\t\t\"packages/client/src/pattern/template/StartTemplate/StartTemplate.test.js\"\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"graphql/query\",\n\t\t\t\t\"packages/client/src/graphql/query.js\"\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"startpage.js\",\n\t\t\t\t\"packages/client/src/pattern/page/StartPage/StartPage.jsx\"\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"graphql/client\",\n\t\t\t\t\"packages/client/src/graphql/client.js\"\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"startpage.render\",\n\t\t\t\t\"packages/client/src/pattern/page/StartPage/StartPage.render.js\"\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"startpage.\",\n\t\t\t\t\"packages/client/src/pattern/page/StartPage/StartPage.test.js\"\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"link.render\",\n\t\t\t\t\"packages/client/src/pattern/atom/header/Link/Link.render.js\"\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"links.re\",\n\t\t\t\t\"packages/client/src/pattern/molecule/header/Links/Links.render.js\"\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"startpage.test\",\n\t\t\t\t\"packages/client/src/pattern/page/StartPage/StartPage.test.js\"\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"jest.con\",\n\t\t\t\t\"packages/client/jest.config.js\"\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"header.scss\",\n\t\t\t\t\"packages/client/src/pattern/organism/section/Header/Header.scss\"\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"om/info/NoMatch/NoMatch.js\",\n\t\t\t\t\"packages/client/src/pattern/atom/info/NoMatch/NoMatch.js\"\n\t\t\t]\n\t\t],\n\t\t\"width\": 0.0\n\t},\n\t\"select_project\":\n\t{\n\t\t\"height\": 0.0,\n\t\t\"last_filter\": \"\",\n\t\t\"selected_items\":\n\t\t[\n\t\t],\n\t\t\"width\": 0.0\n\t},\n\t\"select_symbol\":\n\t{\n\t\t\"height\": 0.0,\n\t\t\"last_filter\": \"\",\n\t\t\"selected_items\":\n\t\t[\n\t\t],\n\t\t\"width\": 0.0\n\t},\n\t\"selected_group\": 0,\n\t\"settings\":\n\t{\n\t},\n\t\"show_minimap\": false,\n\t\"show_open_files\": false,\n\t\"show_tabs\": true,\n\t\"side_bar_visible\": true,\n\t\"side_bar_width\": 317.0,\n\t\"status_bar_visible\": true,\n\t\"template_settings\":\n\t{\n\t}\n}\n",
-			"file": "papillonads.nl.sublime-workspace",
-			"file_size": 32227,
-			"file_write_time": 132065400446957755,
-			"settings":
-			{
-				"buffer_size": 32207,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "packages/client/src/pattern/atom/header/Icon/SvgIcon/SvgIcon.jsx",
-			"settings":
-			{
-				"buffer_size": 500,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"contents": "{\n    \"folders\": [\n        {\n            \"path\": \".\"\n        }\n    ],\n    \"settings\": {\n        \"js_prettier\": {\n            \"debug\": false,\n            \"prettier_cli_path\": \"\",\n            \"node_path\": \"\",\n            \"auto_format_on_save\": true,\n            \"auto_format_on_save_excludes\": [],\n            \"auto_format_on_save_requires_prettier_config\": false,\n            \"allow_inline_formatting\": false,\n            \"custom_file_extensions\": [],\n            \"max_file_size_limit\": -1,\n            \"additional_cli_args\": {},\n            \"prettier_options\": {\n                \"printWidth\": 80,\n                \"singleQuote\": false,\n                \"trailingComma\": \"none\",\n                \"bracketSpacing\": true,\n                \"jsxBracketSameLine\": false,\n                \"parser\": \"babylon\",\n                \"semi\": true,\n                \"requirePragma\": false,\n                \"proseWrap\": \"preserve\",\n                \"arrowParens\": \"avoid\",\n                \"htmlWhitespaceSensitivity\": \"css\"\n            }\n        }\n    }\n}\n",
-			"file": "papillonads.nl.sublime-project",
-			"file_size": 1032,
-			"file_write_time": 132065400434927790,
-			"settings":
-			{
-				"buffer_size": 1032,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -486,6 +453,7 @@
 	"expanded_folders":
 	[
 		"/Users/mts/PapHub/papillonads.nl",
+		"/Users/mts/PapHub/papillonads.nl/.storybook",
 		"/Users/mts/PapHub/papillonads.nl/packages",
 		"/Users/mts/PapHub/papillonads.nl/packages/client",
 		"/Users/mts/PapHub/papillonads.nl/packages/client/src",
@@ -493,12 +461,34 @@
 		"/Users/mts/PapHub/papillonads.nl/packages/client/src/pattern/atom",
 		"/Users/mts/PapHub/papillonads.nl/packages/client/src/pattern/atom/header",
 		"/Users/mts/PapHub/papillonads.nl/packages/client/src/pattern/atom/header/Icon",
-		"/Users/mts/PapHub/papillonads.nl/packages/client/src/pattern/atom/header/Icon/SvgIcon"
+		"/Users/mts/PapHub/papillonads.nl/packages/client/src/pattern/atom/header/Icon/SvgIcon",
+		"/Users/mts/PapHub/papillonads.nl/packages/client/src/pattern/molecule",
+		"/Users/mts/PapHub/papillonads.nl/packages/client/src/pattern/molecule/content",
+		"/Users/mts/PapHub/papillonads.nl/packages/client/src/pattern/molecule/content/LeftColumn",
+		"/Users/mts/PapHub/papillonads.nl/packages/client/src/pattern/molecule/content/Navigation",
+		"/Users/mts/PapHub/papillonads.nl/packages/client/src/pattern/molecule/content/UsefulLinks",
+		"/Users/mts/PapHub/papillonads.nl/packages/client/src/pattern/molecule/header",
+		"/Users/mts/PapHub/papillonads.nl/packages/client/src/pattern/molecule/header/NavigationBar",
+		"/Users/mts/PapHub/papillonads.nl/packages/client/src/pattern/organism",
+		"/Users/mts/PapHub/papillonads.nl/packages/client/src/pattern/organism/section",
+		"/Users/mts/PapHub/papillonads.nl/packages/client/src/pattern/organism/section/Content",
+		"/Users/mts/PapHub/papillonads.nl/packages/client/src/pattern/template",
+		"/Users/mts/PapHub/papillonads.nl/packages/client/src/pattern/template/HomeTemplate"
 	],
 	"file_history":
 	[
+		"/Users/mts/PapHub/papillonads.nl/packages/client/src/pattern/molecule/content/UsefulLinks/UsefulLinks.scss",
+		"/Users/mts/PapHub/papillonads.nl/packages/client/src/pattern/molecule/content/UsefulLinks/UsefulLinks.jsx",
+		"/Users/mts/PapHub/papillonads.nl/packages/client/src/pattern/molecule/content/Navigation/Navigation.scss",
+		"/Users/mts/PapHub/papillonads.nl/packages/client/src/pattern/molecule/content/LeftColumn/LeftColumn.jsx",
+		"/Users/mts/PapHub/papillonads.nl/packages/client/src/pattern/molecule/content/Navigation/Navigation.jsx",
+		"/Users/mts/PapHub/papillonads.nl/packages/client/src/pattern/molecule/content/UsefulLinks/UsefulLinks.test.js",
+		"/Users/mts/PapHub/papillonads.nl/packages/client/src/pattern/molecule/content/UsefulLinks/UsefulLinks.render.js",
+		"/Users/mts/PapHub/papillonads.nl/packages/client/src/pattern/template/HomeTemplate/HomeTemplate.jsx",
+		"/Users/mts/PapHub/papillonads.nl/packages/client/src/pattern/organism/section/Content/Content.jsx",
 		"/Users/mts/PapHub/papillonads.nl/packages/client/src/pattern/atom/header/Icon/SvgIcon/SvgIcon.jsx",
 		"/Users/mts/PapHub/papillonads.nl/papillonads.nl.sublime-project",
+		"/Users/mts/PapHub/papillonads.nl/papillonads.nl.sublime-workspace",
 		"/Users/mts/PapHub/papillonads.nl/.gitignore",
 		"/Users/mts/MtsHub/notes-anwb/npm.md",
 		"/Users/mts/MtsHub/notes-anwb/temp.json",
@@ -614,21 +604,11 @@
 		"/Users/mts/MtsHub/anwb.nl/packages/contact-form-client/.npmrc",
 		"/Users/mts/MtsHub/anwb.nl/packages/contact-form-server/.npmrc",
 		"/Users/mts/MtsHub/anwb.nl/anwb.nl.sublime-workspace",
-		"/Users/mts/MtsHub/anwb.nl/anwb.nl.sublime-project",
-		"/Users/mts/MtsHub/anwb.nl/packages/contact-form-server/.env",
-		"/Users/mts/MtsHub/anwb.nl/packages/contact-form-client/.env.release",
-		"/Users/mts/MtsHub/anwb.nl/packages/contact-form-client/.env.develop",
-		"/Users/mts/MtsHub/notes-mts/search/anwb.nl.md",
-		"/Users/mts/ANWB-GitLab/mijn-anwb/dist/blocks/persoonsgegevens.js",
-		"/Users/mts/ANWB-GitLab/mijn-anwb/.babelrc",
-		"/Users/mts/ANWB-GitLab/mijn-anwb/dist/applications/aanmelden-tanken-met-ledenvoordeel.js",
-		"/Users/mts/ANWB-GitLab/mijn-anwb/.storybook/webpack.config.js",
-		"/Users/mts/ANWB-GitLab/mijn-anwb/package.json",
-		"/Users/mts/ANWB-GitLab/mijn-anwb/.editorconfig"
+		"/Users/mts/MtsHub/anwb.nl/anwb.nl.sublime-project"
 	],
 	"find":
 	{
-		"height": 23.0
+		"height": 40.0
 	},
 	"find_in_files":
 	{
@@ -661,602 +641,8 @@
 	"groups":
 	[
 		{
-			"selected": 2,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "papillonads.nl.sublime-workspace",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 32207,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"bracket_highlighter.busy": false,
-							"bracket_highlighter.clone": -1,
-							"bracket_highlighter.clone_locations":
-							{
-								"close":
-								{
-								},
-								"icon":
-								{
-								},
-								"open":
-								{
-								},
-								"unmatched":
-								{
-									"1":
-									[
-										0,
-										1
-									]
-								}
-							},
-							"bracket_highlighter.clone_regions":
-							[
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content"
-							],
-							"bracket_highlighter.locations":
-							{
-								"close":
-								{
-								},
-								"icon":
-								{
-								},
-								"open":
-								{
-								},
-								"unmatched":
-								{
-									"1":
-									[
-										0,
-										1
-									]
-								}
-							},
-							"bracket_highlighter.regions":
-							[
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content"
-							],
-							"editorconfig": true,
-							"ensure_newline_at_eof_on_save": true,
-							"syntax": "Packages/zzz A File Icon zzz/aliases/JSON (Sublime).sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true,
-							"trim_trailing_white_space_on_save": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "packages/client/src/pattern/atom/header/Icon/SvgIcon/SvgIcon.jsx",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 500,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"SL.115.region_keys":
-							[
-							],
-							"bracket_highlighter.busy": false,
-							"bracket_highlighter.clone": -1,
-							"bracket_highlighter.clone_locations":
-							{
-								"close":
-								{
-								},
-								"icon":
-								{
-								},
-								"open":
-								{
-								},
-								"unmatched":
-								{
-								}
-							},
-							"bracket_highlighter.clone_regions":
-							[
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content"
-							],
-							"bracket_highlighter.locations":
-							{
-								"close":
-								{
-								},
-								"icon":
-								{
-								},
-								"open":
-								{
-								},
-								"unmatched":
-								{
-								}
-							},
-							"bracket_highlighter.regions":
-							[
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content"
-							],
-							"editorconfig": true,
-							"ensure_newline_at_eof_on_save": true,
-							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true,
-							"trim_trailing_white_space_on_save": true,
-							"typescript_plugin_format_options":
-							{
-								"convertTabsToSpaces": true,
-								"indentSize": 2,
-								"tabSize": 2
-							},
-							"use_tab_stops": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "papillonads.nl.sublime-project",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1032,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								87,
-								87
-							]
-						],
-						"settings":
-						{
-							"bracket_highlighter.busy": false,
-							"bracket_highlighter.clone": -1,
-							"bracket_highlighter.clone_locations":
-							{
-								"close":
-								{
-									"1":
-									[
-										1030,
-										1031
-									]
-								},
-								"icon":
-								{
-									"1":
-									[
-										"Packages/BracketHighlighter/icons/curly_bracket.png",
-										"region.purplish"
-									]
-								},
-								"open":
-								{
-									"1":
-									[
-										0,
-										1
-									]
-								},
-								"unmatched":
-								{
-								}
-							},
-							"bracket_highlighter.clone_regions":
-							[
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content"
-							],
-							"bracket_highlighter.locations":
-							{
-								"close":
-								{
-									"1":
-									[
-										1028,
-										1029
-									]
-								},
-								"icon":
-								{
-									"1":
-									[
-										"Packages/BracketHighlighter/icons/curly_bracket.png",
-										"region.purplish"
-									]
-								},
-								"open":
-								{
-									"1":
-									[
-										86,
-										87
-									]
-								},
-								"unmatched":
-								{
-								}
-							},
-							"bracket_highlighter.regions":
-							[
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content"
-							],
-							"editorconfig": true,
-							"ensure_newline_at_eof_on_save": true,
-							"syntax": "Packages/zzz A File Icon zzz/aliases/JSON (Sublime).sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true,
-							"trim_trailing_white_space_on_save": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -1333,6 +719,26 @@
 		"selected_items":
 		[
 			[
+				"Navigation.jsx",
+				"packages/client/src/pattern/molecule/content/Navigation/Navigation.jsx"
+			],
+			[
+				"hometemplate",
+				"packages/client/src/pattern/template/HomeTemplate/HomeTemplate.jsx"
+			],
+			[
+				"content.jsx",
+				"packages/client/src/pattern/organism/section/Content/Content.jsx"
+			],
+			[
+				"leftcolumn.jsx",
+				"packages/client/src/pattern/molecule/content/LeftColumn/LeftColumn.jsx"
+			],
+			[
+				"usefullinks",
+				"packages/client/src/pattern/molecule/content/UsefulLinks/UsefulLinks.jsx"
+			],
+			[
 				"applicationimports",
 				"src/js/helpers/applicationImports.js"
 			],
@@ -1365,10 +771,6 @@
 				"packages/client/src/pattern/molecule/content/UsefulLinks/UsefulLinks.jsx"
 			],
 			[
-				"Navigation.jsx",
-				"packages/client/src/pattern/molecule/content/Navigation/Navigation.jsx"
-			],
-			[
 				"LeftColumn.jsx",
 				"packages/client/src/pattern/molecule/content/LeftColumn/LeftColumn.jsx"
 			],
@@ -1391,14 +793,6 @@
 			[
 				"Banner.jsx",
 				"packages/client/src/pattern/atom/content/Banner/Banner.jsx"
-			],
-			[
-				"content.jsx",
-				"packages/client/src/pattern/organism/section/Content/Content.jsx"
-			],
-			[
-				"hometemplate",
-				"packages/client/src/pattern/template/HomeTemplate/HomeTemplate.jsx"
 			],
 			[
 				"homepage",
@@ -1835,14 +1229,6 @@
 			[
 				"link.render",
 				"packages/client/src/pattern/atom/header/Link/Link.render.js"
-			],
-			[
-				"links.re",
-				"packages/client/src/pattern/molecule/header/Links/Links.render.js"
-			],
-			[
-				"startpage.test",
-				"packages/client/src/pattern/page/StartPage/StartPage.test.js"
 			]
 		],
 		"width": 0.0
@@ -1873,7 +1259,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 272.0,
+	"side_bar_width": 336.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
