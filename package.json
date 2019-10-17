@@ -55,6 +55,8 @@
     "@storybook/react": "^5.2.4",
     "@storybook/theming": "^5.2.4",
     "apollo-client": "^2.6.4",
+    "apollo-datasource-rest": "^0.6.5",
+    "apollo-server": "^2.9.6",
     "babel-core": "^7.0.0-bridge.0",
     "babel-eslint": "^10.0.3",
     "babel-jest": "^24.9.0",
