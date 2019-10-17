@@ -4,6 +4,7 @@ import { withInfo } from '@storybook/addon-info'
 import { withNotes } from '@storybook/addon-notes'
 import { create } from '@storybook/theming'
 import { version } from '../lerna.json'
+import logo from './logo.png'
 import { BrowserRouter } from 'react-router-dom'
 import { ApolloProvider } from 'react-apollo'
 import client from '../packages/client/src/graphql/client'
@@ -17,6 +18,7 @@ const setup = () => {
         base: 'light',
         brandTitle: `Papillon Ads v${version}`,
         brandUrl: 'https://github.com/papillonads/papillonads.nl',
+        brandImage: logo,
       }),
       isFullscreen: false,
       showNav: true,
@@ -24,8 +26,6 @@ const setup = () => {
       sidebarAnimations: false,
     },
   })
-
-  addDecorator(story => <div className="p-4">{story()}</div>)
 
   addDecorator(story => (
     <BrowserRouter>
@@ -49,5 +49,3 @@ const setup = () => {
 }
 
 setup()
-
-export default setup
