@@ -1,5 +1,5 @@
 import React from 'react'
-import { getSvgIconGroupPaths, getFill } from '../../../../../utility/asset'
+import { getSvgIconGroupPaths, getFill } from '../../../../../library/asset'
 import uuidv1 from 'uuid/v1'
 import { svgIconGroupDefaultProps, svgIconGroupPropTypes } from '../SvgIcon.props'
 

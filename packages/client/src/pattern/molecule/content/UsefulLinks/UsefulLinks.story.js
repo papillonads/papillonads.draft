@@ -1,6 +1,6 @@
 import { storiesOf } from '@storybook/react'
 import { defaultRender } from './UsefulLinks.render'
-import { getInfo } from '../../../../../../../.storybook/utility'
+import { getInfo } from '../../../../../../../.storybook/library'
 
 const defaultRenderInfo = getInfo('default')
 

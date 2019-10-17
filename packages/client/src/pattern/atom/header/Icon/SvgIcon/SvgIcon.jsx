@@ -1,5 +1,5 @@
 import React from 'react'
-import { getSvgIconPath } from '../../../../../utility/asset'
+import { getSvgIconPath } from '../../../../../library/asset'
 import { svgIconDefaultProps, svgIconPropTypes } from '../SvgIcon.props'
 
 const SvgIcon = ({ className, name, width, height, fill }) => (

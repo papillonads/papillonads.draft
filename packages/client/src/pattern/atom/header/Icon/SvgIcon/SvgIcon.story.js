@@ -15,7 +15,7 @@ import {
   userCheckRender,
   ctrlRender,
 } from './SvgIcon.render'
-import { getInfo } from '../../../../../../../../.storybook/utility'
+import { getInfo } from '../../../../../../../../.storybook/library'
 
 const pushpinRenderInfo = getInfo('pushpin')
 const bellRenderInfo = getInfo('bell')

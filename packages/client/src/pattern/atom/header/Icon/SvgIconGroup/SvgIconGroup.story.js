@@ -19,7 +19,7 @@ import {
   shoppingCartRender,
   logoPostNlRender,
 } from './SvgIconGroup.render'
-import { getInfo } from '../../../../../../../../.storybook/utility'
+import { getInfo } from '../../../../../../../../.storybook/library'
 
 const logoRenderInfo = getInfo('logo')
 const messagesRenderInfo = getInfo('messages')
