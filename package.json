@@ -1,27 +1,12 @@
 {
   "name": "papillonads",
   "description": "Papillon Ads",
-  "repository": "https://github.com/papillonads/papillonads.nl",
-  "license": "MIT",
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
-  },
-  "lint-staged": {
-    "packages/src/**/*.{js,jsx,json}": [
-      "eslint --ext .js --ext .jsx packages/src/ --fix",
-      "prettier --write \"packages/src/**/*.{js,jsx}\"",
-      "git add"
-    ],
-    "packages/src/**/*.{css,scss}": [
-      "stylelint \"packages/src/**/*.{css,scss}\" --syntax=scss --fix",
-      "prettier --write \"packages/src/**/*.{css,scss}\"",
-      "git add"
-    ]
+  "homepage": "https://github.com/papillonads/papillonads/#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/papillonads/papillonads.git"
   },
   "scripts": {
-    "build": "lerna run build --stream",
     "release": "lerna publish",
     "uninstall-packages": "lerna run uninstall-packages --stream",
     "install-packages": "lerna run install-packages --stream",
@@ -30,14 +15,22 @@
     "heroku-prebuild": "echo This runs before Heroku installs your dependencies",
     "start": "lerna run serve --stream",
     "heroku-postbuild": "npm run install-packages",
-    "deploy-client": "gh-pages -d packages/client/build",
-    "deploy": "npm-run-all build deploy-client",
     "start-storybook": "NODE_ENV=develop start-storybook -p 3003 -c .storybook",
     "build-storybook": "NODE_ENV=develop build-storybook -c .storybook -o .storybook-static",
-    "test": "lerna exec --concurrency 1 -- npm run test",
-    "test:coverage": "lerna exec --concurrency 1 -- npm run test:coverage",
-    "lint:format": "lerna run --stream lint:format",
-    "ci": "lerna run ci --stream"
+    "deploy-client": "gh-pages -d packages/client/build",
+    "deploy": "npm-run-all build deploy-client",
+    "bootstrap": "npm-run-all build lint:format test report-coverage",
+    "lint:format": "npm-run-all lint format",
+    "lint": "npm-run-all lint:js:jsx lint:scss",
+    "lint:js:jsx": "eslint --ext .js --ext .jsx packages/**/src/**/**/*.{js,jsx} --fix",
+    "lint:scss": "stylelint \"packages/**/src/**/**/*.{css,scss}\" --syntax=scss --fix",
+    "format": "npm-run-all format:js:jsx format:scss",
+    "format:js:jsx": "prettier --write \"packages/**/src/**/**/*.{js,jsx}\"",
+    "format:scss": "prettier --write \"packages/**/src/**/**/*.{css,scss}\"",
+    "test": "jest -u --no-cache --silent --runInBand --coverage",
+    "test:coverage": "jest --coverage --silent",
+    "report-coverage": "codecov",
+    "build": "lerna run build --stream"
   },
   "dependencies": {
     "@babel/core": "^7.6.4",
