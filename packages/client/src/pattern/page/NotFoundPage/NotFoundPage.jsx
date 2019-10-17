@@ -15,7 +15,7 @@ const NotFoundPage = ({ className, location }) => {
     )
   }
 
-  return null
+  return <div>test</div>
 }
 
 NotFoundPage.defaultProps = notFoundPageDefaultProps
