@@ -1,4 +1,3 @@
-/* eslint-disable react/jsx-props-no-spreading */
 import React from 'react'
 import SvgIconGroup from './SvgIconGroup'
 import {
@@ -40,4 +39,3 @@ export const saveGreyRender = <SvgIconGroup {...saveGreyRenderProps} />
 export const resultsListRender = <SvgIconGroup {...resultsListRenderProps} />
 export const shoppingCartRender = <SvgIconGroup {...shoppingCartRenderProps} />
 export const logoPostNlRender = <SvgIconGroup {...logoPostNlRenderProps} />
-/* eslint-enable react/jsx-props-no-spreading */
