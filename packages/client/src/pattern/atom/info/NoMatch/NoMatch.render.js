@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-props-no-spreading */
 import React from 'react'
 import NoMatch from './NoMatch'
 
@@ -10,3 +11,4 @@ const props = {
 const defaultRender = <NoMatch {...props} />
 
 export { defaultRender }
+/* eslint-enable react/jsx-props-no-spreading */

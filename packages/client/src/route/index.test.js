@@ -1,3 +1,4 @@
+/* eslint-disable import/no-dynamic-require, global-require */
 import React from 'react'
 
 const mockRequireHomePage = () => {
@@ -47,15 +48,16 @@ describe('index', () => {
 
   describe('homePageRoute', () => {
     test('must return home page route object', () => {
-      const homePageRoute = requireIndex().homePageRoute
+      const { homePageRoute } = requireIndex()
       expect(homePageRoute).toEqual(expectedHomePageRoute)
     })
   })
 
   describe('notFoundPageRoute', () => {
     test('must return not found page route object', () => {
-      const notFoundPageRoute = requireIndex().notFoundPageRoute
+      const { notFoundPageRoute } = requireIndex()
       expect(notFoundPageRoute).toEqual(expectedNotFoundPageRoute)
     })
   })
 })
+/* eslint-enable import/no-dynamic-require, global-require */

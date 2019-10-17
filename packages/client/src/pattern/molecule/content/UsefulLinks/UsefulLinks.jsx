@@ -1,7 +1,7 @@
 import React from 'react'
+import uuidv1 from 'uuid/v1'
 import cs from './UsefulLinks.scss'
 import SvgIconGroup from '../../../atom/header/Icon/SvgIconGroup'
-import uuidv1 from 'uuid/v1'
 import { usefulLinksDefaultProps, usefulLinksPropTypes } from './UsefulLinks.props'
 
 const UsefulLinks = ({ className, data }) => (

@@ -1,10 +1,10 @@
 import React from 'react'
 import cn from 'classnames'
 import ps from '@primer/css/core/index.scss'
+import uuidv1 from 'uuid/v1'
 import cs from './Dropdown.scss'
 import Label from '../../../atom/header/Label'
 import { SvgIcon } from '../../../atom/header/Icon'
-import uuidv1 from 'uuid/v1'
 import Badge from '../Badge'
 import { dropdownDefaultProps, dropdownPropTypes } from './Dropdown.props'
 

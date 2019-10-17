@@ -15,7 +15,7 @@ export const usefulLinksPropTypes = {
         shape({
           title: string,
           description: string,
-          icon: string
+          icon: string,
         }),
       ),
     }),
@@ -27,7 +27,7 @@ export const usefulLinksPropTypes = {
         shape({
           title: string,
           description: string,
-          icon: string
+          icon: string,
         }),
       ),
     }),

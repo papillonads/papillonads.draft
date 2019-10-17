@@ -3,7 +3,7 @@ import uuidv1 from 'uuid/v1'
 import { selectDefaultProps, selectPropTypes } from './Select.props'
 
 const Select = ({ className, placeholder, items }) => (
-  <React.Fragment>
+  <>
     <select className={className}>
       <option key={uuidv1()} value={placeholder}>
         {placeholder}
@@ -14,7 +14,7 @@ const Select = ({ className, placeholder, items }) => (
         </option>
       ))}
     </select>
-  </React.Fragment>
+  </>
 )
 
 Select.defaultProps = selectDefaultProps

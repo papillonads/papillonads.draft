@@ -1,5 +1,4 @@
-import { string } from 'prop-types'
-import { shape, bool, node, arrayOf } from 'prop-types'
+import { string, shape, bool, node, arrayOf } from 'prop-types'
 
 export const routeWithSubRoutesPropTypes = {
   route: shape({

@@ -1,6 +1,6 @@
 import React from 'react'
-import { getSvgIconGroupPaths, getFill } from '../../../../../library/asset'
 import uuidv1 from 'uuid/v1'
+import { getSvgIconGroupPaths, getFill } from '../../../../../library/asset'
 import { svgIconGroupDefaultProps, svgIconGroupPropTypes } from '../SvgIcon.props'
 
 const SvgIconGroup = ({ className, name, width, height, viewBox, fill, pathProps }) => {

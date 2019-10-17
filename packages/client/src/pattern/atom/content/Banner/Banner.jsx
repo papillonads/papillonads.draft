@@ -16,8 +16,8 @@ const Banner = ({ className, data }) => {
   const extension = urlParts[urlParts.length - 1]
 
   const iFrameWrapperStyle = {
-    maxWidth: maxWidth,
-    height: height,
+    maxWidth,
+    height,
   }
 
   const bannerClassList = cn(className, cs.banner)

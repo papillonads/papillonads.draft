@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<HomePage /> Snaphot must match asyncRender 1`] = `null`;
+
+exports[`<HomePage /> Snaphot must match homePageNull 1`] = `null`;

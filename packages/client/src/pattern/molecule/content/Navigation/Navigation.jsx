@@ -1,7 +1,7 @@
 import React from 'react'
+import uuidv1 from 'uuid/v1'
 import cs from './Navigation.scss'
 import SvgIconGroup from '../../../atom/header/Icon/SvgIconGroup'
-import uuidv1 from 'uuid/v1'
 import { navigationDefaultProps, navigationPropTypes } from './Navigation.props'
 
 const Navigation = ({ className, data }) => (

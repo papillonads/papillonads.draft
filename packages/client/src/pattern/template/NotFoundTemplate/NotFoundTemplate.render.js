@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-props-no-spreading */
 import React from 'react'
 import NotFoundTemplate from './NotFoundTemplate'
 
@@ -14,3 +15,4 @@ const props = {
 const defaultRender = <NotFoundTemplate {...props} />
 
 export { defaultRender }
+/* eslint-enable react/jsx-props-no-spreading */
