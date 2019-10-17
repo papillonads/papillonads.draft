@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import cn from 'classnames'
 import Select from 'react-select'
 import cs from './SearchFieldsetAdvanced.scss'
@@ -7,8 +7,8 @@ import { searchFieldsetAdvancedDefaultProps, searchFieldsetAdvancedPropTypes } f
 
 const SearchFieldsetAdvanced = ({ className, data }) => {
   /* eslint-disable */
-  const [category, setCategory] = React.useState('')
-  const [distance, setDistance] = React.useState('')
+  const [category, setCategory] = useState('')
+  const [distance, setDistance] = useState('')
   /* eslint-enable */
 
   const { categories, distances } = data
