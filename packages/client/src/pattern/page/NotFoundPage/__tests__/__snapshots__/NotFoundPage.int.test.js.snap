@@ -2,4 +2,35 @@
 
 exports[`<NotFoundPage /> Snaphot must match asyncRender 1`] = `null`;
 
-exports[`<NotFoundPage /> Snaphot must match notFoundPageNull 1`] = `null`;
+exports[`<NotFoundPage /> Snaphot must match defaultRender 1`] = `
+<div
+  className=""
+>
+  <div
+    className=""
+  >
+    <h2>
+      Papillon Ads Page Not Found
+    </h2>
+    <div
+      className=""
+    >
+      <h3>
+        No match for 
+        <code>
+          some-path-name
+        </code>
+      </h3>
+    </div>
+    <div>
+      some link
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<NotFoundPage /> Snaphot must match notFoundPageNull 1`] = `
+<div>
+  test
+</div>
+`;
