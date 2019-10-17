@@ -39,3 +39,5 @@ export const saveGreyRender = <SvgIconGroup {...saveGreyRenderProps} />
 export const resultsListRender = <SvgIconGroup {...resultsListRenderProps} />
 export const shoppingCartRender = <SvgIconGroup {...shoppingCartRenderProps} />
 export const logoPostNlRender = <SvgIconGroup {...logoPostNlRenderProps} />
+
+
