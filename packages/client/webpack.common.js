@@ -12,7 +12,7 @@ const merge = require('webpack-merge')
 // webpack plugins
 const ManifestPlugin = require('webpack-manifest-plugin')
 
-const CleanWebpackPlugin = require('clean-webpack-plugin')
+const CleanWebpackPlugin = require('clean-webpack-plugin').CleanWebpackPlugin
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 
 // config files
