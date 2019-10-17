@@ -7,7 +7,7 @@ import { version } from '../lerna.json'
 import logo from './logo.png'
 import { BrowserRouter } from 'react-router-dom'
 import { ApolloProvider } from 'react-apollo'
-import client from '../packages/client/src/graphql/client'
+import { client } from '../packages/client/src/graphql/client'
 
 const setup = () => {
   addDecorator(withInfo)
