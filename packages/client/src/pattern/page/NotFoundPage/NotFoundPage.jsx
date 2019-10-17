@@ -10,7 +10,7 @@ const NotFoundPage = ({ className, location }) => {
   if (data?.pages?.pages) {
     return (
       <div className={className}>
-        <NotFoundTemplate page={data.pages.pages.find(page => page.info.id === 'not-found')} location={location} />
+        <NotFoundTemplate data={data.pages.pages.find(page => page.info.id === 'not-found')} location={location} />
       </div>
     )
   }

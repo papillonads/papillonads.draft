@@ -10,7 +10,7 @@ describe('<HomePage />', () => {
   const pagesDataObject = {
     data: {
       pages: {
-        pages: [{ id: 'home', name: 'some-name' }],
+        pages: [{ info: { id: 'home', name: 'some-name' } }],
       },
     },
   }
@@ -24,6 +24,7 @@ describe('<HomePage />', () => {
     })
 
     test('must match defaultRender', () => {
+      jest.spyOn(apolloReactHooksMockObject, 'useQuery').mockReturnValue(pagesDataObject)
       expect(global.renderToJSON(defaultRender)).toMatchSnapshot()
     })
 

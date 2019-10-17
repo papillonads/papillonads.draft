@@ -10,7 +10,7 @@ describe('<NotFoundPage />', () => {
   const pagesDataObject = {
     data: {
       pages: {
-        pages: [{ id: 'not-found', name: 'some-name' }],
+        pages: [{ info: { id: 'not-found', name: 'some-name' } }],
       },
     },
   }
@@ -24,6 +24,7 @@ describe('<NotFoundPage />', () => {
     })
 
     test('must match defaultRender', () => {
+      jest.spyOn(apolloReactHooksMockObject, 'useQuery').mockReturnValue(pagesDataObject)
       expect(global.renderToJSON(defaultRender)).toMatchSnapshot()
     })
 

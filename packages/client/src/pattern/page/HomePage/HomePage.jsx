@@ -10,7 +10,7 @@ const HomePage = ({ className }) => {
   if (data?.pages?.pages) {
     return (
       <div className={className}>
-        <HomeTemplate page={data.pages.pages.find(page => page.info.id === 'home')} />
+        <HomeTemplate data={data.pages.pages.find(page => page.info.id === 'home')} />
       </div>
     )
   }
