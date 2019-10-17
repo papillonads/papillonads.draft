@@ -2,6 +2,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 import { ApolloProvider } from 'react-apollo'
+import { withRouter } from 'react-router'
 import { BrowserRouter, Route, Switch } from 'react-router-dom'
 import { homePageRoute, notFoundPageRoute } from './route'
 import client from './graphql/client'
@@ -13,7 +14,7 @@ const App = () => (
     <ApolloProvider client={client}>
       <Switch>
         <Route exact={homePageRoute.exact} path={homePageRoute.path} component={homePageRoute.component} />
-        <Route component={notFoundPageRoute.component} />
+        <Route component={withRouter(notFoundPageRoute.component)} />
       </Switch>
     </ApolloProvider>
   </BrowserRouter>
