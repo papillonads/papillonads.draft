@@ -108,31 +108,5 @@
     "webpack-manifest-plugin": "^2.0.4",
     "webpack-merge": "^4.2.1"
   },
-  "dependencies": {
-    "@babel/polyfill": "^7.4.4",
-    "@babel/runtime": "^7.4.4",
-    "@primer/css": "^12.4.1",
-    "apollo-cache-inmemory": "^1.5.1",
-    "apollo-client": "^2.6.3",
-    "apollo-link-http": "^1.5.14",
-    "classnames": "^2.2.6",
-    "graphql": "^14.4.1",
-    "graphql-tag": "^2.10.1",
-    "papillon-alerts": "^1.0.48",
-    "papillon-avatars": "^1.0.48",
-    "papillon-blankslate": "^1.0.48",
-    "papillon-breadcrumb": "^1.0.48",
-    "papillon-buttons": "^1.0.48",
-    "papillon-labels": "^1.0.48",
-    "papillon-layout": "^1.0.48",
-    "papillon-navigation": "^1.0.48",
-    "prop-types": "^15.7.2",
-    "react": "^16.8.6",
-    "react-apollo": "^2.5.8",
-    "react-autocomplete": "^1.8.1",
-    "react-dom": "^16.8.6",
-    "react-router-dom": "^5.0.0",
-    "react-select": "^2.4.3",
-    "uuid": "^3.3.2"
-  }
+  "dependencies": {}
 }
