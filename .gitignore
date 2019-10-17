@@ -1,20 +1,32 @@
+# MacOS
 .DS_Store
-.storybook-static
-node_modules
-.npmrc
 
-packages/client/.DS_Store
-packages/client/npm-debug.log
-packages/client/.npmrc
-packages/client/.env.develop
-packages/client/.env.release
+# Sublime Text
+app.sublime-project
+app.sublime-workspace
+
+# Storybook
+.storybook-static
+
+# Test
+coverage
+
+# NPM Papillon Ads NL
+.npmrc
+npm-debug.log
+lerna-debug.log
+package-lock.json
+node_modules
+
+# NPM Papillon Ads NL Client Package
+packages/client/package-lock.json
 packages/client/build
 packages/client/node_modules
-packages/client/coverage
+packages/client/.env.develop
+packages/client/.env.release
 
-packages/server/.DS_Store
-packages/server/npm-debug.log
-packages/server/.npmrc
-packages/server/.env
+# NPM Papillon Ads NL Server Package
+packages/server/package-lock.json
 packages/server/build
 packages/server/node_modules
+packages/server/.env
