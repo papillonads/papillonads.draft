@@ -33,7 +33,7 @@ const configureBabelLoader = browserList => {
             {
               modules: false,
               useBuiltIns: 'entry',
-              corejs: 3,
+              corejs: '3.3.2',
               targets: {
                 browsers: browserList,
               },
@@ -43,9 +43,15 @@ const configureBabelLoader = browserList => {
         ],
         plugins: [
           '@babel/plugin-proposal-class-properties',
+          '@babel/plugin-proposal-object-rest-spread',
+          '@babel/plugin-proposal-optional-catch-binding',
+          '@babel/plugin-proposal-optional-chaining',
           '@babel/plugin-syntax-dynamic-import',
+          '@babel/plugin-transform-classes',
           '@babel/plugin-transform-runtime',
           '@babel/plugin-transform-spread',
+          'import-graphql',
+          'syntax-async-functions',
         ],
       },
     },
