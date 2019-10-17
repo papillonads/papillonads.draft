@@ -18,10 +18,11 @@ module.exports = ({ config, mode }) => {
       {
         loader: 'css-loader',
         options: {
-          importLoaders: 1,
-          modules: true,
+          importLoaders: 2,
           sourceMap: true,
-          localIdentName: '[name]_[local]_[hash:base64:5]',
+          modules: {
+            localIdentName: '[name]_[local]_[hash:base64:5]',
+          },
         },
       },
       {
