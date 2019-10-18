@@ -1,7 +1,7 @@
 import React from 'react'
 import { useQuery } from '@apollo/react-hooks'
 import { PAGES } from '../../../graphql/query'
-import NotFoundTemplate from '../../template/NotFoundTemplate'
+import { NotFoundTemplate } from '../../template/NotFoundTemplate'
 import { notFoundPageDefaultProps, notFoundPagePropTypes } from './NotFoundPage.props'
 
 export const NotFoundPage = ({ className, location }) => {

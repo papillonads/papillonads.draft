@@ -7,7 +7,7 @@ import { BrowserRouter, Route, Switch } from 'react-router-dom'
 import { homePageRoute, notFoundPageRoute } from './route'
 import { client } from './graphql/client'
 import { addDivWithIdToBody, checkAccessibilityIssues } from './library/startup'
-import ErrorBoundary from './pattern/atom/error/ErrorBoundary'
+import { ErrorBoundary } from './pattern/atom/error/ErrorBoundary'
 
 const App = () => (
   <BrowserRouter>

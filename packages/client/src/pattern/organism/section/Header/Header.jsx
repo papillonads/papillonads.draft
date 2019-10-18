@@ -1,8 +1,8 @@
 import React from 'react'
 import cn from 'classnames'
 import cs from './Header.scss'
-import NavigationBar from '../../../molecule/header/NavigationBar'
-import SearchBar from '../../../molecule/header/SearchBar'
+import { NavigationBar } from '../../../molecule/header/NavigationBar'
+import { SearchBar } from '../../../molecule/header/SearchBar'
 import { headerDefaultProps, headerPropTypes } from './Header.props'
 
 export const Header = ({ className, data }) => (

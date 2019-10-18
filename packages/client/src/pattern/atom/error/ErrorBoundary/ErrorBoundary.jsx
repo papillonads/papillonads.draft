@@ -1,7 +1,5 @@
-/* eslint no-unused-vars : 0 */
-
+/* eslint-disable no-unused-vars */
 import React from 'react'
-import { node } from 'prop-types'
 import { errorBoundaryPropTypes } from './ErrorBoundary.props'
 
 export class ErrorBoundary extends React.Component {
@@ -29,3 +27,4 @@ export class ErrorBoundary extends React.Component {
 }
 
 ErrorBoundary.propTypes = errorBoundaryPropTypes
+/* eslint-enable no-unused-vars */

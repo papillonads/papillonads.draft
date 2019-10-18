@@ -1,7 +1,7 @@
 import React from 'react'
 import { useQuery } from '@apollo/react-hooks'
 import { PAGES } from '../../../graphql/query'
-import HomeTemplate from '../../template/HomeTemplate'
+import { HomeTemplate } from '../../template/HomeTemplate'
 import { homePageDefaultProps, homePagePropTypes } from './HomePage.props'
 
 export const HomePage = ({ className }) => {

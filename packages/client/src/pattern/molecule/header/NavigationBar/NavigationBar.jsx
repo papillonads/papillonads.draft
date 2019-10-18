@@ -1,9 +1,9 @@
 import React from 'react'
 import cn from 'classnames'
 import cs from './NavigationBar.scss'
-import Logo from '../../../atom/header/Logo'
-import Links from '../Links'
-import Menu from '../Menu'
+import { Logo } from '../../../atom/header/Logo'
+import { Links } from '../Links'
+import { Menu } from '../Menu'
 import { navigationBarDefaultProps, navigationBarPropTypes } from './NavigationBar.props'
 
 export const NavigationBar = ({ className, data }) => (

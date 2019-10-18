@@ -1,9 +1,9 @@
 import React from 'react'
 import cn from 'classnames'
 import cs from './HomeTemplate.scss'
-import Ribbon from '../../atom/header/Ribbon'
-import Header from '../../organism/section/Header'
-import Content from '../../organism/section/Content'
+import { Ribbon } from '../../atom/header/Ribbon'
+import { Header } from '../../organism/section/Header'
+import { Content } from '../../organism/section/Content'
 import { homeTemplateDefaultProps, homeTemplatePropTypes } from './HomeTemplate.props'
 
 export const HomeTemplate = ({ className, data }) => (

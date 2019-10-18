@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import cn from 'classnames'
 import Select from 'react-select'
 import cs from './SearchFieldsetAdvanced.scss'
-import Input from '../../../atom/header/Input'
+import { Input } from '../../../atom/header/Input'
 import { searchFieldsetAdvancedDefaultProps, searchFieldsetAdvancedPropTypes } from './SearchFieldsetAdvanced.props'
 
 export const SearchFieldsetAdvanced = ({ className, data }) => {
