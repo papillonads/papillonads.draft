@@ -1,5 +1,5 @@
 import React from 'react'
-import RouteWithSubRoutes from './RouteWithSubRoutes'
+import { RouteWithSubRoutes } from '../RouteWithSubRoutes'
 
 const SomeComponent = <div />
 const SomeOtherComponentOne = <div />
@@ -23,6 +23,4 @@ const route = {
   ],
 }
 
-const defaultRender = <RouteWithSubRoutes route={route} />
-
-export { defaultRender }
+export const defaultRender = <RouteWithSubRoutes route={route} />
