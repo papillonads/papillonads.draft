@@ -1,9 +1,9 @@
 import React from 'react'
-import cn from 'classnames'
+import cx from 'classnames'
 import { badgeDefaultProps, badgePropTypes } from './Badge.props'
 
 export const Badge = ({ className, children }) => {
-  const badgeClassList = cn(className)
+  const badgeClassList = cx(className)
 
   return <div className={badgeClassList}>{children}</div>
 }
