@@ -4,7 +4,7 @@ import { homePagePath } from '../../../route/path'
 import NoMatch from '../../atom/info/NoMatch'
 import { notFoundTemplateDefaultProps, notFoundTemplatePropTypes } from './NotFoundTemplate.props'
 
-const NotFoundTemplate = ({ className, data, location }) => (
+export const NotFoundTemplate = ({ className, data, location }) => (
   <div className={className}>
     <h2>{data.info.name}</h2>
     <NoMatch location={location} />
@@ -15,5 +15,3 @@ const NotFoundTemplate = ({ className, data, location }) => (
 NotFoundTemplate.defaultProps = notFoundTemplateDefaultProps
 
 NotFoundTemplate.propTypes = notFoundTemplatePropTypes
-
-export default NotFoundTemplate

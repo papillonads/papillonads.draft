@@ -1,7 +1,7 @@
 /* eslint-disable react/jsx-props-no-spreading */
 import React from 'react'
-import NotFoundTemplate from './NotFoundTemplate'
-import notFoundPageData from '../../../../../server/src/data/page/notFound/index'
+import { NotFoundTemplate } from '../NotFoundTemplate'
+import notFoundPageData from '../../../../../../server/src/data/page/notFound/index'
 
 const props = {
   data: notFoundPageData,
@@ -10,7 +10,5 @@ const props = {
   },
 }
 
-const defaultRender = <NotFoundTemplate {...props} />
-
-export { defaultRender }
+export const defaultRender = <NotFoundTemplate {...props} />
 /* eslint-enable react/jsx-props-no-spreading */

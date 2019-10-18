@@ -1,6 +1,6 @@
 import { storiesOf } from '@storybook/react'
-import { defaultRender } from './NotFoundTemplate.render'
-import { getInfo } from '../../../../../../.storybook/library'
+import { defaultRender } from './NotFoundTemplate.int.render'
+import { getInfo } from '../../../../../../../.storybook/library'
 
 const defaultRenderInfo = getInfo('default')
 
