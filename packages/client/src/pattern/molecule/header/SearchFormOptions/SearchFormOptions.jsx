@@ -1,9 +1,9 @@
 import React from 'react'
-import cn from 'classnames'
-import cs from './SearchFormOptions.scss'
+import cx from 'classnames'
+import { searchFormOptions } from './SearchFormOptions.scss'
 import { searchFormOptionsDefaultProps, searchFormOptionsPropTypes } from './SearchFormOptions.props'
 
-export const SearchFormOptions = ({ className }) => <div className={cn(className, cs.searchFormOptions)}>SearchFormOptions</div>
+export const SearchFormOptions = ({ className }) => <div className={cx(className, searchFormOptions)}>SearchFormOptions</div>
 
 SearchFormOptions.defaultProps = searchFormOptionsDefaultProps
 
