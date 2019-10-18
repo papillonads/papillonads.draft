@@ -1,6 +1,6 @@
 /* eslint-disable react/jsx-props-no-spreading */
 import React from 'react'
-import NoMatch from './NoMatch'
+import { NoMatch } from '../NoMatch'
 
 const props = {
   location: {
@@ -8,7 +8,5 @@ const props = {
   },
 }
 
-const defaultRender = <NoMatch {...props} />
-
-export { defaultRender }
+export const defaultRender = <NoMatch {...props} />
 /* eslint-enable react/jsx-props-no-spreading */
