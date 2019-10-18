@@ -1,17 +1,17 @@
 import React from 'react'
-import cn from 'classnames'
-import cs from './NavigationBar.scss'
+import cx from 'classnames'
+import { navigationBar, maxWidth, maxWidthLeft, maxWidthLeftLogo, maxWidthLeftLinks } from './NavigationBar.scss'
 import { Logo } from '../../../atom/header/Logo'
 import { Links } from '../Links'
 import { Menu } from '../Menu'
 import { navigationBarDefaultProps, navigationBarPropTypes } from './NavigationBar.props'
 
 export const NavigationBar = ({ className, data }) => (
-  <div className={cn(className, cs.navigationBar)}>
-    <div className={cs.maxWidth}>
-      <div className={cs.maxWidthLeft}>
-        <Logo className={cs.maxWidthLeftLogo} />
-        <Links className={cs.maxWidthLeftLinks} data={data.links} />
+  <div className={cx(className, navigationBar)}>
+    <div className={maxWidth}>
+      <div className={maxWidthLeft}>
+        <Logo className={maxWidthLeftLogo} />
+        <Links className={maxWidthLeftLinks} data={data.links} />
       </div>
       <Menu data={data.dropdown} />
     </div>
