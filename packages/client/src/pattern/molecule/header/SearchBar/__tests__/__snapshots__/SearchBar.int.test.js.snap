@@ -126,7 +126,7 @@ exports[`<SearchBar /> Snaphot must match defaultRender 1`] = `
         placeholder="Postcode"
       />
       <div
-        className="distance css-2b097c-container"
+        className="_distance css-2b097c-container"
         onKeyDown={[Function]}
       >
         <div
