@@ -2,7 +2,7 @@ import React from 'react'
 import SvgIconGroup from '../Icon/SvgIconGroup'
 import { logoDefaultProps, logoPropTypes } from './Logo.props'
 
-const Logo = ({ className }) => (
+export const Logo = ({ className }) => (
   <div className={className}>
     <SvgIconGroup
       name="logo"
@@ -17,5 +17,3 @@ const Logo = ({ className }) => (
 Logo.defaultProps = logoDefaultProps
 
 Logo.propTypes = logoPropTypes
-
-export default Logo

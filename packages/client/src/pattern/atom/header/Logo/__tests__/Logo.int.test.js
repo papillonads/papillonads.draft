@@ -1,4 +1,4 @@
-import { defaultRender } from './Logo.render'
+import { defaultRender } from './Logo.int.render'
 
 describe('<Logo />', () => {
   describe('Snaphot', () => {
