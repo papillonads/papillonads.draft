@@ -1,4 +1,4 @@
-import { defaultRender } from './Content.render'
+import { defaultRender } from './Content.int.render'
 
 describe('<Content />', () => {
   let mathFloorSpy

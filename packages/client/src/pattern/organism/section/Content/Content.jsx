@@ -5,7 +5,7 @@ import cs from './Content.scss'
 import LeftColumn from '../../../molecule/content/LeftColumn'
 import { contentDefaultProps, contentPropTypes } from './Content.props'
 
-const Content = ({ className, data }) => (
+export const Content = ({ className, data }) => (
   <div className={cn(className, cs.maxWidth)}>
     {/* <Banner className={cs.topBanner} data={data.topBanner} /> */}
     <LeftColumn className={cs.leftColumn} data={data.leftColumn} />
@@ -15,5 +15,3 @@ const Content = ({ className, data }) => (
 Content.defaultProps = contentDefaultProps
 
 Content.propTypes = contentPropTypes
-
-export default Content
