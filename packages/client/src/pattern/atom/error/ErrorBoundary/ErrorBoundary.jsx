@@ -1,10 +1,8 @@
-/* eslint no-unused-vars : 0 */
-
+/* eslint-disable no-unused-vars */
 import React from 'react'
-import { node } from 'prop-types'
 import { errorBoundaryPropTypes } from './ErrorBoundary.props'
 
-class ErrorBoundary extends React.Component {
+export class ErrorBoundary extends React.Component {
   constructor(props) {
     super(props)
     this.state = { hasError: false }
@@ -16,15 +14,17 @@ class ErrorBoundary extends React.Component {
   }
 
   render() {
-    if (this.state.hasError) {
+    const { hasError } = this.state
+    const { children } = this.props
+
+    if (hasError) {
       // You can render any custom fallback UI
       return <h1>Something went wrong.</h1>
     }
 
-    return this.props.children
+    return children
   }
 }
 
 ErrorBoundary.propTypes = errorBoundaryPropTypes
-
-export default ErrorBoundary
+/* eslint-enable no-unused-vars */

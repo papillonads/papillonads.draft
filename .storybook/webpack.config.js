@@ -10,7 +10,7 @@ module.exports = ({ config, mode }) => {
   const plugins = config.plugins
 
   rules.push({
-    test: /\.(scss|css)$/,
+    test: /\.scss$/,
     use: [
       {
         loader: 'style-loader',
@@ -18,10 +18,11 @@ module.exports = ({ config, mode }) => {
       {
         loader: 'css-loader',
         options: {
-          importLoaders: 1,
-          modules: true,
+          importLoaders: 2,
           sourceMap: true,
-          localIdentName: '[name]_[local]_[hash:base64:5]',
+          modules: {
+            localIdentName: '[name]_[local]_[hash:base64:5]',
+          },
         },
       },
       {
@@ -34,7 +35,7 @@ module.exports = ({ config, mode }) => {
         loader: 'postcss-loader',
         options: {
           sourceMap: true,
-          plugins: () => [require('postcss-cssnext')()],
+          plugins: () => [require('postcss-cssnext')(), require('postcss-preset-env')()],
           parser: 'postcss-scss',
         },
       },

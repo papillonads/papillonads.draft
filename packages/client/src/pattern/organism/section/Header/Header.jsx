@@ -1,12 +1,12 @@
 import React from 'react'
-import cn from 'classnames'
-import cs from './Header.scss'
-import NavigationBar from '../../../molecule/header/NavigationBar'
-import SearchBar from '../../../molecule/header/SearchBar'
+import cx from 'classnames'
+import { header } from './Header.scss'
+import { NavigationBar } from '../../../molecule/header/NavigationBar'
+import { SearchBar } from '../../../molecule/header/SearchBar'
 import { headerDefaultProps, headerPropTypes } from './Header.props'
 
-const Header = ({ className, data }) => (
-  <div className={cn(className, cs.header)}>
+export const Header = ({ className, data }) => (
+  <div className={cx(className, header)}>
     <NavigationBar data={data.navigationBar} />
     <SearchBar data={data.searchBar} />
   </div>
@@ -15,5 +15,3 @@ const Header = ({ className, data }) => (
 Header.defaultProps = headerDefaultProps
 
 Header.propTypes = headerPropTypes
-
-export default Header

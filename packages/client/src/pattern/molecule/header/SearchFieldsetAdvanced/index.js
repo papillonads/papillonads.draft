@@ -1,3 +1,1 @@
-import SearchFieldsetAdvanced from './SearchFieldsetAdvanced'
-
-export default SearchFieldsetAdvanced
+export { SearchFieldsetAdvanced } from './SearchFieldsetAdvanced'

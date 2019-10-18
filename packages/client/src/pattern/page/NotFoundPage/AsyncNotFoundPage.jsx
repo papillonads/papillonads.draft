@@ -1,11 +1,14 @@
 import React from 'react'
+import { notFoundPageDefaultProps, notFoundPagePropTypes } from './NotFoundPage.props'
 
 const LazyNotFoundPage = React.lazy(() => import('./NotFoundPage'))
 
-const AsyncNotFoundPage = () => (
+export const AsyncNotFoundPage = ({ location }) => (
   <React.Suspense fallback={null}>
-    <LazyNotFoundPage />
+    <LazyNotFoundPage location={location} />
   </React.Suspense>
 )
 
-export default AsyncNotFoundPage
+AsyncNotFoundPage.defaultProps = notFoundPageDefaultProps
+
+AsyncNotFoundPage.propTypes = notFoundPagePropTypes

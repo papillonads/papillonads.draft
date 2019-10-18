@@ -1,3 +1,1 @@
-import UsefulLinks from './UsefulLinks'
-
-export default UsefulLinks
+export { UsefulLinks } from './UsefulLinks'
