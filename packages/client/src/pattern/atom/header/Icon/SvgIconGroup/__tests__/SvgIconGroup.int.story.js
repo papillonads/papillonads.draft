@@ -18,8 +18,8 @@ import {
   resultsListRender,
   shoppingCartRender,
   logoPostNlRender,
-} from './SvgIconGroup.render'
-import { getInfo } from '../../../../../../../../.storybook/library'
+} from './SvgIconGroup.int.render'
+import { getInfo } from '../../../../../../../../../.storybook/library'
 
 const logoRenderInfo = getInfo('logo')
 const messagesRenderInfo = getInfo('messages')

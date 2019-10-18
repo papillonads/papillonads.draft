@@ -17,7 +17,7 @@ import {
   resultsListRender,
   shoppingCartRender,
   logoPostNlRender,
-} from './SvgIconGroup.render'
+} from './SvgIconGroup.int.render'
 
 describe('<SvgIcon />', () => {
   describe('Snaphot', () => {

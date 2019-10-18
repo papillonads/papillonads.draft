@@ -1,6 +1,6 @@
 /* eslint-disable react/jsx-props-no-spreading */
 import React from 'react'
-import SvgIconGroup from './SvgIconGroup'
+import { SvgIconGroup } from '../SvgIconGroup'
 import {
   logoRenderProps,
   messagesRenderProps,
@@ -20,7 +20,7 @@ import {
   resultsListRenderProps,
   shoppingCartRenderProps,
   logoPostNlRenderProps,
-} from './SvgIconGroup.render.props'
+} from './SvgIconGroup.int.props'
 
 export const logoRender = <SvgIconGroup {...logoRenderProps} />
 export const messagesRender = <SvgIconGroup {...messagesRenderProps} />
