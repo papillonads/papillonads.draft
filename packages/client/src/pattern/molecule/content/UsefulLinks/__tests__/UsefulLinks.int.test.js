@@ -1,4 +1,4 @@
-import { defaultRender } from './UsefulLinks.render'
+import { defaultRender } from './UsefulLinks.int.render'
 
 describe('<UsefulLinks />', () => {
   describe('Snaphot', () => {

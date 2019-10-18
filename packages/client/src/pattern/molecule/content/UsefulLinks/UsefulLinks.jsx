@@ -1,10 +1,10 @@
 import React from 'react'
 import uuidv1 from 'uuid/v1'
 import cs from './UsefulLinks.scss'
-import SvgIconGroup from '../../../atom/header/Icon/SvgIconGroup'
+import { SvgIconGroup } from '../../../atom/header/Icon/SvgIconGroup'
 import { usefulLinksDefaultProps, usefulLinksPropTypes } from './UsefulLinks.props'
 
-const UsefulLinks = ({ className, data }) => (
+export const UsefulLinks = ({ className, data }) => (
   <div className={className}>
     <div className={cs.buyersLinks}>
       <div className={cs.title}>{data.buyersLinks.heading.title}</div>
@@ -40,5 +40,3 @@ const UsefulLinks = ({ className, data }) => (
 UsefulLinks.defaultProps = usefulLinksDefaultProps
 
 UsefulLinks.propTypes = usefulLinksPropTypes
-
-export default UsefulLinks
