@@ -5,7 +5,7 @@ import cs from './SearchFieldsetAdvanced.scss'
 import Input from '../../../atom/header/Input'
 import { searchFieldsetAdvancedDefaultProps, searchFieldsetAdvancedPropTypes } from './SearchFieldsetAdvanced.props'
 
-const SearchFieldsetAdvanced = ({ className, data }) => {
+export const SearchFieldsetAdvanced = ({ className, data }) => {
   /* eslint-disable */
   const [category, setCategory] = useState('')
   const [distance, setDistance] = useState('')
@@ -39,5 +39,3 @@ const SearchFieldsetAdvanced = ({ className, data }) => {
 SearchFieldsetAdvanced.defaultProps = searchFieldsetAdvancedDefaultProps
 
 SearchFieldsetAdvanced.propTypes = searchFieldsetAdvancedPropTypes
-
-export default SearchFieldsetAdvanced
