@@ -1,3 +1,1 @@
-import SearchFieldsetStandard from './SearchFieldsetStandard'
-
-export default SearchFieldsetStandard
+export { SearchFieldsetStandard } from './SearchFieldsetStandard'

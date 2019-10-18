@@ -4,7 +4,7 @@ import cs from './SearchFieldsetStandard.scss'
 import Input from '../../../atom/header/Input'
 import { searchFieldsetStandardDefaultProps, searchFieldsetStandardPropTypes } from './SearchFieldsetStandard.props'
 
-const SearchFieldsetStandard = ({ className }) => (
+export const SearchFieldsetStandard = ({ className }) => (
   <div className={cn(className, cs.searchFieldsetStandard)}>
     <Input className={cs.input} />
   </div>
@@ -13,5 +13,3 @@ const SearchFieldsetStandard = ({ className }) => (
 SearchFieldsetStandard.defaultProps = searchFieldsetStandardDefaultProps
 
 SearchFieldsetStandard.propTypes = searchFieldsetStandardPropTypes
-
-export default SearchFieldsetStandard

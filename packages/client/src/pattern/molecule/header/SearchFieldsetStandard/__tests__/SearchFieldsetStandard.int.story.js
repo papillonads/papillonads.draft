@@ -1,6 +1,6 @@
 import { storiesOf } from '@storybook/react'
-import { defaultRender } from './SearchFieldsetStandard.render'
-import { getInfo } from '../../../../../../../.storybook/library'
+import { defaultRender } from './SearchFieldsetStandard.int.render'
+import { getInfo } from '../../../../../../../../.storybook/library'
 
 const defaultRenderInfo = getInfo('default')
 
