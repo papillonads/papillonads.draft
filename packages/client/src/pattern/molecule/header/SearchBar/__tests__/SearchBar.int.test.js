@@ -1,4 +1,4 @@
-import { defaultRender } from './SearchBar.render'
+import { defaultRender } from './SearchBar.int.render'
 
 describe('<SearchBar />', () => {
   describe('Snaphot', () => {
