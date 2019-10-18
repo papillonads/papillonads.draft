@@ -9,5 +9,4 @@ const props = {
 }
 
 export const asyncRender = <AsyncNotFoundPage location={props.location} />
-
 export const defaultRender = <NotFoundPage location={props.location} />

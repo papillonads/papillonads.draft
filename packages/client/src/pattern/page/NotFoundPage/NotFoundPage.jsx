@@ -21,3 +21,6 @@ export const NotFoundPage = ({ className, location }) => {
 NotFoundPage.defaultProps = notFoundPageDefaultProps
 
 NotFoundPage.propTypes = notFoundPagePropTypes
+
+// Default export is required to use with React.lazy()
+export default NotFoundPage
