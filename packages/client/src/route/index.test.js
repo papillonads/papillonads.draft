@@ -6,7 +6,7 @@ const mockRequireHomePage = () => {
   jest.mock(homePagePath, () => {
     return <div>HomePage</div>
   })
-  return require(homePagePath).default
+  return require(homePagePath).AsyncHomePage
 }
 
 const mockRequireNotFoundPage = () => {
@@ -14,7 +14,7 @@ const mockRequireNotFoundPage = () => {
   jest.mock(notFoundPagePath, () => {
     return <div>NotFoundPage</div>
   })
-  return require(notFoundPagePath).default
+  return require(notFoundPagePath).AsyncNotFoundPage
 }
 
 const mockRequirePath = () => {
