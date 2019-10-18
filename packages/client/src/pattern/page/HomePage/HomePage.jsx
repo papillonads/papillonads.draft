@@ -4,7 +4,7 @@ import { PAGES } from '../../../graphql/query'
 import HomeTemplate from '../../template/HomeTemplate'
 import { homePageDefaultProps, homePagePropTypes } from './HomePage.props'
 
-const HomePage = ({ className }) => {
+export const HomePage = ({ className }) => {
   const { data } = useQuery(PAGES)
 
   if (data?.pages?.pages) {
@@ -21,5 +21,3 @@ const HomePage = ({ className }) => {
 HomePage.defaultProps = homePageDefaultProps
 
 HomePage.propTypes = homePagePropTypes
-
-export default HomePage
