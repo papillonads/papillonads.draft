@@ -1,3 +1,1 @@
-import SearchFormOptions from './SearchFormOptions'
-
-export default SearchFormOptions
+export { SearchFormOptions } from './SearchFormOptions'

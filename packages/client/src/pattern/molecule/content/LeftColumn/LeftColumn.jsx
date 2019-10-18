@@ -1,12 +1,12 @@
 import React from 'react'
-import cn from 'classnames'
-import cs from './LeftColumn.scss'
-import Navigation from '../Navigation'
-import UsefulLinks from '../UsefulLinks'
+import cx from 'classnames'
+import { leftColumn } from './LeftColumn.scss'
+import { Navigation } from '../Navigation'
+import { UsefulLinks } from '../UsefulLinks'
 import { leftColumnDefaultProps, leftColumnPropTypes } from './LeftColumn.props'
 
-const LeftColumn = ({ className, data }) => (
-  <div className={cn(className, cs.leftColumn)}>
+export const LeftColumn = ({ className, data }) => (
+  <div className={cx(className, leftColumn)}>
     <Navigation data={data.navigation} />
     <UsefulLinks data={data.usefulLinks} />
   </div>
@@ -15,5 +15,3 @@ const LeftColumn = ({ className, data }) => (
 LeftColumn.defaultProps = leftColumnDefaultProps
 
 LeftColumn.propTypes = leftColumnPropTypes
-
-export default LeftColumn

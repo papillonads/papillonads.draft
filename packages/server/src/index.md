@@ -45,6 +45,7 @@ query GetPages {
               links {
                 title
                 description
+                icon
               }
             }
             navigationBlock {
@@ -64,6 +65,7 @@ query GetPages {
               links {
                 title
                 description
+                icon
               }
             }
             sellersLinks {
@@ -73,6 +75,7 @@ query GetPages {
               links {
                 title
                 description
+                icon
               }
             }
           }

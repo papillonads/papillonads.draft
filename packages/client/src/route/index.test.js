@@ -1,3 +1,4 @@
+/* eslint-disable import/no-dynamic-require, global-require */
 import React from 'react'
 
 const mockRequireHomePage = () => {
@@ -5,7 +6,7 @@ const mockRequireHomePage = () => {
   jest.mock(homePagePath, () => {
     return <div>HomePage</div>
   })
-  return require(homePagePath).default
+  return require(homePagePath).AsyncHomePage
 }
 
 const mockRequireNotFoundPage = () => {
@@ -13,7 +14,7 @@ const mockRequireNotFoundPage = () => {
   jest.mock(notFoundPagePath, () => {
     return <div>NotFoundPage</div>
   })
-  return require(notFoundPagePath).default
+  return require(notFoundPagePath).AsyncNotFoundPage
 }
 
 const mockRequirePath = () => {
@@ -47,15 +48,16 @@ describe('index', () => {
 
   describe('homePageRoute', () => {
     test('must return home page route object', () => {
-      const homePageRoute = requireIndex().homePageRoute
+      const { homePageRoute } = requireIndex()
       expect(homePageRoute).toEqual(expectedHomePageRoute)
     })
   })
 
   describe('notFoundPageRoute', () => {
     test('must return not found page route object', () => {
-      const notFoundPageRoute = requireIndex().notFoundPageRoute
+      const { notFoundPageRoute } = requireIndex()
       expect(notFoundPageRoute).toEqual(expectedNotFoundPageRoute)
     })
   })
 })
+/* eslint-enable import/no-dynamic-require, global-require */

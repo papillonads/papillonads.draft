@@ -1,3 +1,1 @@
-import AsyncHomePage from './AsyncHomePage'
-
-export default AsyncHomePage
+export { AsyncHomePage } from './AsyncHomePage'

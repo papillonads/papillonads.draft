@@ -1,7 +1,7 @@
 import React from 'react'
 import { underConstructionDefaultProps, underConstructionPropTypes } from './UnderConstruction.props'
 
-const UnderConstruction = ({ className }) => (
+export const UnderConstruction = ({ className }) => (
   <div className={className}>
     Under construction{' '}
     <span role="img" aria-label="emoji">
@@ -13,5 +13,3 @@ const UnderConstruction = ({ className }) => (
 UnderConstruction.defaultProps = underConstructionDefaultProps
 
 UnderConstruction.propTypes = underConstructionPropTypes
-
-export default UnderConstruction

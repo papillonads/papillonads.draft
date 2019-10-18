@@ -1,4 +1,2 @@
-import SvgIcon from './SvgIcon'
-import SvgIconGroup from './SvgIconGroup'
-
-export { SvgIcon, SvgIconGroup }
+export { SvgIcon } from './SvgIcon'
+export { SvgIconGroup } from './SvgIconGroup'

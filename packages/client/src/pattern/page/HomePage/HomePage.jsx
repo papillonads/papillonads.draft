@@ -1,21 +1,26 @@
 import React from 'react'
-import { Query } from 'react-apollo'
+import { useQuery } from '@apollo/react-hooks'
 import { PAGES } from '../../../graphql/query'
-import HomeTemplate from '../../template/HomeTemplate'
+import { HomeTemplate } from '../../template/HomeTemplate'
 import { homePageDefaultProps, homePagePropTypes } from './HomePage.props'
 
-const HomePage = ({ className }) => (
-  <div className={className}>
-    <Query query={PAGES}>
-      {({ data }) =>
-        data.pages && data.pages.pages ? <HomeTemplate data={data.pages.pages.find(page => page.info.id === 'home')} /> : null
-      }
-    </Query>
-  </div>
-)
+export const HomePage = ({ className }) => {
+  const { data } = useQuery(PAGES)
+
+  if (data?.pages?.pages) {
+    return (
+      <div className={className}>
+        <HomeTemplate data={data.pages.pages.find(page => page.info.id === 'home')} />
+      </div>
+    )
+  }
+
+  return null
+}
 
 HomePage.defaultProps = homePageDefaultProps
 
 HomePage.propTypes = homePagePropTypes
 
+// Default export is required to use with React.lazy()
 export default HomePage
