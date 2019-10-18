@@ -9,7 +9,7 @@ import Dropdown from '../Dropdown'
 import Button from '../../../atom/header/Button'
 import { menuDefaultProps, menuPropTypes } from './Menu.props'
 
-const Menu = ({ className, data }) => (
+export const Menu = ({ className, data }) => (
   <div className={cn(className, cs._menu)}>
     <Badge className={cs.messages}>
       <SvgIcon className={cs.messagesIcon} fill="grey" name="bubbles4" width={15} height={15} />
@@ -30,6 +30,4 @@ const Menu = ({ className, data }) => (
 Menu.defaultProps = menuDefaultProps
 
 Menu.propTypes = menuPropTypes
-
-export default Menu
 /* eslint-enable no-underscore-dangle */

@@ -1,6 +1,6 @@
 import { storiesOf } from '@storybook/react'
-import { defaultRender } from './Menu.render'
-import { getInfo } from '../../../../../../../.storybook/library'
+import { defaultRender } from './Menu.int.render'
+import { getInfo } from '../../../../../../../../.storybook/library'
 
 const defaultRenderInfo = getInfo('default')
 
