@@ -1,4 +1,4 @@
-import { defaultRender } from './Link.render'
+import { defaultRender } from './Link.int.render'
 
 describe('<Link />', () => {
   describe('Snaphot', () => {
