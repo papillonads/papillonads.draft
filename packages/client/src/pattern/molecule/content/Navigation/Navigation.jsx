@@ -4,7 +4,7 @@ import cs from './Navigation.scss'
 import SvgIconGroup from '../../../atom/header/Icon/SvgIconGroup'
 import { navigationDefaultProps, navigationPropTypes } from './Navigation.props'
 
-const Navigation = ({ className, data }) => (
+export const Navigation = ({ className, data }) => (
   <div className={className}>
     <div className={cs.highlightsLinks}>
       <div className={cs.title}>{data.highlightsLinks.heading.title}</div>
@@ -34,5 +34,3 @@ const Navigation = ({ className, data }) => (
 Navigation.defaultProps = navigationDefaultProps
 
 Navigation.propTypes = navigationPropTypes
-
-export default Navigation

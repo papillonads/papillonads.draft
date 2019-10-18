@@ -1,4 +1,4 @@
-import { defaultRender } from './Navigation.render'
+import { defaultRender } from './Navigation.int.render'
 
 describe('<Navigation />', () => {
   describe('Snaphot', () => {
