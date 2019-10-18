@@ -1,3 +1,1 @@
-import MapLink from './MapLink'
-
-export default MapLink
+export { MapLink } from './MapLink'

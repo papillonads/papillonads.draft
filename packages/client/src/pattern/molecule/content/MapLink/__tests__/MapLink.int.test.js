@@ -1,4 +1,4 @@
-import { defaultRender } from './MapLink.render'
+import { defaultRender } from './MapLink.int.render'
 
 describe('<MapLink />', () => {
   describe('Snaphot', () => {
