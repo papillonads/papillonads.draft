@@ -1,3 +1,1 @@
-import LeftColumn from './LeftColumn'
-
-export default LeftColumn
+export { LeftColumn } from './LeftColumn'

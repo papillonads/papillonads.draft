@@ -1,4 +1,4 @@
-import { defaultRender } from './LeftColumn.render'
+import { defaultRender } from './LeftColumn.int.render'
 
 describe('<LeftColumn />', () => {
   describe('Snaphot', () => {
