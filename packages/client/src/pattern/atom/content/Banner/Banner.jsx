@@ -1,9 +1,9 @@
 import React from 'react'
-import cn from 'classnames'
-import cs from './Banner.scss'
+import cx from 'classnames'
+import { banner } from './Banner.scss'
 import { bannerDefaultProps, bannerPropTypes } from './Banner.props'
 
-const Banner = ({ className, data }) => {
+export const Banner = ({ className, data }) => {
   function getRandomInt(max) {
     return Math.floor(Math.random() * Math.floor(max))
   }
@@ -16,11 +16,11 @@ const Banner = ({ className, data }) => {
   const extension = urlParts[urlParts.length - 1]
 
   const iFrameWrapperStyle = {
-    maxWidth: maxWidth,
-    height: height,
+    maxWidth,
+    height,
   }
 
-  const bannerClassList = cn(className, cs.banner)
+  const bannerClassList = cx(className, banner)
 
   const getIFrameBanner = () => (
     <div className={bannerClassList} style={iFrameWrapperStyle}>
@@ -48,5 +48,3 @@ const Banner = ({ className, data }) => {
 Banner.defaultProps = bannerDefaultProps
 
 Banner.propTypes = bannerPropTypes
-
-export default Banner

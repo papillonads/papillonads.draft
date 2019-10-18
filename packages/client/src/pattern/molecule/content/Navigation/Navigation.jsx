@@ -1,29 +1,39 @@
 import React from 'react'
-import cs from './Navigation.scss'
-import SvgIconGroup from '../../../atom/header/Icon/SvgIconGroup'
 import uuidv1 from 'uuid/v1'
+import {
+  highlightsLinks,
+  title,
+  highlightsLinksLink,
+  highlightsLinksLinkIcon,
+  highlightsLinksLinkText,
+  highlightsLinksLinkTextTitle,
+  highlightsLinksLinkTextDescription,
+  navigationBlockLinks,
+  navigationBlockLinksLink,
+} from './Navigation.scss'
+import { SvgIconGroup } from '../../../atom/header/Icon/SvgIconGroup'
 import { navigationDefaultProps, navigationPropTypes } from './Navigation.props'
 
-const Navigation = ({ className, data }) => (
+export const Navigation = ({ className, data }) => (
   <div className={className}>
-    <div className={cs.highlightsLinks}>
-      <div className={cs.title}>{data.highlightsLinks.heading.title}</div>
+    <div className={highlightsLinks}>
+      <div className={title}>{data.highlightsLinks.heading.title}</div>
       {data.highlightsLinks.links.map(link => (
-        <div className={cs.highlightsLinksLink} key={uuidv1()}>
-          <div className={cs.highlightsLinksLinkIcon}>
+        <div className={highlightsLinksLink} key={uuidv1()}>
+          <div className={highlightsLinksLinkIcon}>
             <SvgIconGroup name={link.icon} width={36} height={36} viewBox="0 0 96 96" pathProps={[]} />
           </div>
-          <div className={cs.highlightsLinksLinkText}>
-            <div className={cs.highlightsLinksLinkTextTitle}>{link.title}</div>
-            <div className={cs.highlightsLinksLinkTextDescription}>{link.description}</div>
+          <div className={highlightsLinksLinkText}>
+            <div className={highlightsLinksLinkTextTitle}>{link.title}</div>
+            <div className={highlightsLinksLinkTextDescription}>{link.description}</div>
           </div>
         </div>
       ))}
     </div>
-    <div className={cs.navigationBlockLinks}>
-      <div className={cs.title}>{data.navigationBlock.heading.title}</div>
+    <div className={navigationBlockLinks}>
+      <div className={title}>{data.navigationBlock.heading.title}</div>
       {data.navigationBlock.groups.map(link => (
-        <div className={cs.navigationBlockLinksLink} key={uuidv1()}>
+        <div className={navigationBlockLinksLink} key={uuidv1()}>
           {link.name}
         </div>
       ))}
@@ -34,5 +44,3 @@ const Navigation = ({ className, data }) => (
 Navigation.defaultProps = navigationDefaultProps
 
 Navigation.propTypes = navigationPropTypes
-
-export default Navigation

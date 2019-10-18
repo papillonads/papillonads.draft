@@ -15,9 +15,9 @@ const links = {
       title: 'Voor de koper',
     },
     links: [
-      { title: 'Marktplaats Aanbieding', description: 'Elke dag nieuwe producten en uitjes met korting' },
-      { title: 'Zakelijke goederen', description: 'Een goede deal voor ondernemers' },
-      { title: 'Diensten en Vakmensen', description: 'Vind je vakman' },
+      { title: 'Marktplaats Aanbieding', description: 'Elke dag nieuwe producten en uitjes met korting', icon: 'autos' },
+      { title: 'Zakelijke goederen', description: 'Een goede deal voor ondernemers', icon: 'autos' },
+      { title: 'Diensten en Vakmensen', description: 'Vind je vakman', icon: 'autos' },
     ],
   },
   sellers: {
@@ -25,12 +25,12 @@ const links = {
       title: 'Voor de verkoper',
     },
     links: [
-      { title: 'Marktplaats Opvallen', description: 'Laat je advertentie opvallen' },
-      { title: 'Marktplaats Extra', description: 'Laat meerdere advertenties opvallen' },
-      { title: 'Diensten en Vakmensen', description: 'Jouw dienst aanbieden' },
-      { title: 'Admarkt (zakelijk)', description: 'Professioneel producten verkopen' },
-      { title: 'Marktplaats Aanbieding', description: 'Zonder verkoop geen kosten; bereik verzekerd' },
-      { title: 'PostNL', description: 'Online je verzending regelen' },
+      { title: 'Marktplaats Opvallen', description: 'Laat je advertentie opvallen', icon: 'autos' },
+      { title: 'Marktplaats Extra', description: 'Laat meerdere advertenties opvallen', icon: 'autos' },
+      { title: 'Diensten en Vakmensen', description: 'Jouw dienst aanbieden', icon: 'autos' },
+      { title: 'Admarkt (zakelijk)', description: 'Professioneel producten verkopen', icon: 'autos' },
+      { title: 'Marktplaats Aanbieding', description: 'Zonder verkoop geen kosten; bereik verzekerd', icon: 'autos' },
+      { title: 'PostNL', description: 'Online je verzending regelen', icon: 'autos' },
     ],
   },
 }

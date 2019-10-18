@@ -1,11 +1,14 @@
 import React from 'react'
+import { homePageDefaultProps, homePagePropTypes } from './HomePage.props'
 
 const LazyHomePage = React.lazy(() => import('./HomePage'))
 
-const AsyncHomePage = () => (
+export const AsyncHomePage = () => (
   <React.Suspense fallback={null}>
     <LazyHomePage />
   </React.Suspense>
 )
 
-export default AsyncHomePage
+AsyncHomePage.defaultProps = homePageDefaultProps
+
+AsyncHomePage.propTypes = homePagePropTypes

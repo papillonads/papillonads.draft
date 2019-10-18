@@ -1,31 +1,31 @@
-import React from 'react'
-import cn from 'classnames'
-import cs from './SearchFieldsetAdvanced.scss'
+import React, { useState } from 'react'
+import cx from 'classnames'
 import Select from 'react-select'
-import Input from '../../../atom/header/Input'
+import { searchFieldsetAdvanced, group, postcode, _distance } from './SearchFieldsetAdvanced.scss'
+import { Input } from '../../../atom/header/Input'
 import { searchFieldsetAdvancedDefaultProps, searchFieldsetAdvancedPropTypes } from './SearchFieldsetAdvanced.props'
 
-const SearchFieldsetAdvanced = ({ className, data }) => {
+export const SearchFieldsetAdvanced = ({ className, data }) => {
   /* eslint-disable */
-  const [category, setCategory] = React.useState('')
-  const [distance, setDistance] = React.useState('')
+  const [category, setCategory] = useState('')
+  const [distance, setDistance] = useState('')
   /* eslint-enable */
 
   const { categories, distances } = data
 
   return (
-    <div className={cn(className, cs.searchFieldsetAdvanced)}>
+    <div className={cx(className, searchFieldsetAdvanced)}>
       <Select
-        className={cs.group}
+        className={group}
         options={categories}
         onChange={selectedOption => {
           setCategory(selectedOption.value)
         }}
         placeholder="Alle groepen..."
       />
-      <Input className={cs.postcode} placeholder="Postcode" />
+      <Input className={postcode} placeholder="Postcode" />
       <Select
-        className={cs.distance}
+        className={_distance}
         options={distances}
         onChange={selectedOption => {
           setDistance(selectedOption.value)
@@ -39,5 +39,3 @@ const SearchFieldsetAdvanced = ({ className, data }) => {
 SearchFieldsetAdvanced.defaultProps = searchFieldsetAdvancedDefaultProps
 
 SearchFieldsetAdvanced.propTypes = searchFieldsetAdvancedPropTypes
-
-export default SearchFieldsetAdvanced
