@@ -1,6 +1,6 @@
 import React from 'react'
-import cn from 'classnames'
-import cs from './Banner.scss'
+import cx from 'classnames'
+import { banner } from './Banner.scss'
 import { bannerDefaultProps, bannerPropTypes } from './Banner.props'
 
 export const Banner = ({ className, data }) => {
@@ -20,7 +20,7 @@ export const Banner = ({ className, data }) => {
     height,
   }
 
-  const bannerClassList = cn(className, cs.banner)
+  const bannerClassList = cx(className, banner)
 
   const getIFrameBanner = () => (
     <div className={bannerClassList} style={iFrameWrapperStyle}>
