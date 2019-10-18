@@ -1,4 +1,4 @@
-import { defaultRender } from './Label.render'
+import { defaultRender } from './Label.int.render'
 
 describe('<Label />', () => {
   describe('Snaphot', () => {
