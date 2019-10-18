@@ -6,7 +6,7 @@ import Links from '../Links'
 import Menu from '../Menu'
 import { navigationBarDefaultProps, navigationBarPropTypes } from './NavigationBar.props'
 
-const NavigationBar = ({ className, data }) => (
+export const NavigationBar = ({ className, data }) => (
   <div className={cn(className, cs.navigationBar)}>
     <div className={cs.maxWidth}>
       <div className={cs.maxWidthLeft}>
@@ -21,5 +21,3 @@ const NavigationBar = ({ className, data }) => (
 NavigationBar.defaultProps = navigationBarDefaultProps
 
 NavigationBar.propTypes = navigationBarPropTypes
-
-export default NavigationBar
