@@ -2,7 +2,7 @@ import React from 'react'
 import cn from 'classnames'
 import { badgeDefaultProps, badgePropTypes } from './Badge.props'
 
-const Badge = ({ className, children }) => {
+export const Badge = ({ className, children }) => {
   const badgeClassList = cn(className)
 
   return <div className={badgeClassList}>{children}</div>
@@ -11,5 +11,3 @@ const Badge = ({ className, children }) => {
 Badge.defaultProps = badgeDefaultProps
 
 Badge.propTypes = badgePropTypes
-
-export default Badge
