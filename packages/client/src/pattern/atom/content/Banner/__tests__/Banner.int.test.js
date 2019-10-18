@@ -1,4 +1,4 @@
-import { topBannerRender, marketingBannerRender } from './Banner.render'
+import { topBannerRender, marketingBannerRender } from './Banner.int.render'
 
 describe('<Banner />', () => {
   let mathFloorSpy

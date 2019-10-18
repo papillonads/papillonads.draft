@@ -3,7 +3,7 @@ import cn from 'classnames'
 import cs from './Banner.scss'
 import { bannerDefaultProps, bannerPropTypes } from './Banner.props'
 
-const Banner = ({ className, data }) => {
+export const Banner = ({ className, data }) => {
   function getRandomInt(max) {
     return Math.floor(Math.random() * Math.floor(max))
   }
@@ -48,5 +48,3 @@ const Banner = ({ className, data }) => {
 Banner.defaultProps = bannerDefaultProps
 
 Banner.propTypes = bannerPropTypes
-
-export default Banner
