@@ -14,8 +14,8 @@ import {
   userMinusRender,
   userCheckRender,
   ctrlRender,
-} from './SvgIcon.render'
-import { getInfo } from '../../../../../../../../.storybook/library'
+} from './SvgIcon.int.render'
+import { getInfo } from '../../../../../../../../../.storybook/library'
 
 const pushpinRenderInfo = getInfo('pushpin')
 const bellRenderInfo = getInfo('bell')

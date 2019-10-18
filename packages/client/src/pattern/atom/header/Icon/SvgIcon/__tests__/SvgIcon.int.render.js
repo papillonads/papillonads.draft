@@ -1,5 +1,5 @@
 import React from 'react'
-import SvgIcon from './SvgIcon'
+import { SvgIcon } from '../SvgIcon'
 
 export const pushpinRender = <SvgIcon name="pushpin" width={25} height={25} />
 export const bellRender = <SvgIcon name="bell" width={25} height={25} />

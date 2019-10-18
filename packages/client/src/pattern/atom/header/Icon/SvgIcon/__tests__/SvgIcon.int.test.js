@@ -12,7 +12,7 @@ import {
   userPlusRender,
   userMinusRender,
   userCheckRender,
-} from './SvgIcon.render'
+} from './SvgIcon.int.render'
 
 describe('<SvgIcon />', () => {
   describe('Snaphot', () => {
