@@ -21,3 +21,6 @@ export const HomePage = ({ className }) => {
 HomePage.defaultProps = homePageDefaultProps
 
 HomePage.propTypes = homePagePropTypes
+
+// Default export is required to use with React.lazy()
+export default HomePage
