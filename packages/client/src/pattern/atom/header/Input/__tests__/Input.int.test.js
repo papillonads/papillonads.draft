@@ -1,4 +1,4 @@
-import { defaultRender } from './Input.render'
+import { defaultRender } from './Input.int.render'
 
 describe('<Input />', () => {
   describe('Snaphot', () => {
