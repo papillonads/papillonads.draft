@@ -1,4 +1,4 @@
-import { defaultRender } from './Dropdown.render'
+import { defaultRender } from './Dropdown.int.render'
 
 describe('<Dropdown />', () => {
   describe('Snaphot', () => {

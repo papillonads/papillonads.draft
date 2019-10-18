@@ -5,10 +5,10 @@ import uuidv1 from 'uuid/v1'
 import cs from './Dropdown.scss'
 import Label from '../../../atom/header/Label'
 import { SvgIcon } from '../../../atom/header/Icon'
-import Badge from '../Badge'
+import { Badge } from '../Badge'
 import { dropdownDefaultProps, dropdownPropTypes } from './Dropdown.props'
 
-const Dropdown = ({ className, data }) => (
+export const Dropdown = ({ className, data }) => (
   <details className={cn(className, ps['details-reset'], cs.dropdown)}>
     <summary aria-haspopup="true" className={cs.summary}>
       <Badge className={cs.badge}>
@@ -31,5 +31,3 @@ const Dropdown = ({ className, data }) => (
 Dropdown.defaultProps = dropdownDefaultProps
 
 Dropdown.propTypes = dropdownPropTypes
-
-export default Dropdown
