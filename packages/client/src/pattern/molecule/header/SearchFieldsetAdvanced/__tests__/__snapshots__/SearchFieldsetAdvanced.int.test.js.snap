@@ -22,7 +22,7 @@ exports[`<SearchFieldsetAdvanced /> Snaphot must match defaultRender 1`] = `
           Alle groepen...
         </div>
         <div
-          className="css-w8afj7-Input"
+          className="css-b8ldur-Input"
         >
           <div
             className=""
@@ -80,7 +80,7 @@ exports[`<SearchFieldsetAdvanced /> Snaphot must match defaultRender 1`] = `
         </div>
       </div>
       <div
-        className=" css-1g48xl4-IndicatorsContainer"
+        className=" css-1hb7zxy-IndicatorsContainer"
       >
         <span
           className=" css-1okebmr-indicatorSeparator"
@@ -93,7 +93,7 @@ exports[`<SearchFieldsetAdvanced /> Snaphot must match defaultRender 1`] = `
         >
           <svg
             aria-hidden="true"
-            className="css-tj5bde-Svg"
+            className="css-6q0nyr-Svg"
             focusable="false"
             height={20}
             viewBox="0 0 20 20"
@@ -129,7 +129,7 @@ exports[`<SearchFieldsetAdvanced /> Snaphot must match defaultRender 1`] = `
           Alle afstanden...
         </div>
         <div
-          className="css-w8afj7-Input"
+          className="css-b8ldur-Input"
         >
           <div
             className=""
@@ -187,7 +187,7 @@ exports[`<SearchFieldsetAdvanced /> Snaphot must match defaultRender 1`] = `
         </div>
       </div>
       <div
-        className=" css-1g48xl4-IndicatorsContainer"
+        className=" css-1hb7zxy-IndicatorsContainer"
       >
         <span
           className=" css-1okebmr-indicatorSeparator"
@@ -200,7 +200,7 @@ exports[`<SearchFieldsetAdvanced /> Snaphot must match defaultRender 1`] = `
         >
           <svg
             aria-hidden="true"
-            className="css-tj5bde-Svg"
+            className="css-6q0nyr-Svg"
             focusable="false"
             height={20}
             viewBox="0 0 20 20"
