@@ -3,10 +3,8 @@ import { UnderConstruction } from '../UnderConstruction'
 
 const SomeComponent = () => <div />
 
-const defaultRender = (
+export const defaultRender = (
   <UnderConstruction>
     <SomeComponent />
   </UnderConstruction>
 )
-
-export { defaultRender }
