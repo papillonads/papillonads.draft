@@ -6,6 +6,19 @@ query GetPages {
         id
         name
       }
+    }
+  }
+}
+```
+
+```graphql
+query GetPages {
+  pages(pageSize: 10) {
+    list {
+      info {
+        id
+        name
+      }
       header {
         navigationBar {
           links {
