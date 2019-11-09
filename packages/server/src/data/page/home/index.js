@@ -1,8 +1,6 @@
 const { infoData } = require('./info')
-const {
-  headerData: { linksData, dropdownData, categoriesData, distancesData },
-} = require('./header')
-const content = require('./content')
+const { headerData } = require('./header')
+const { contentData } = require('./content')
 
 module.exports.homePageData = {
   info: {
@@ -11,32 +9,32 @@ module.exports.homePageData = {
   },
   header: {
     navigationBar: {
-      links: linksData,
-      dropdown: dropdownData,
+      links: headerData.linksData,
+      dropdown: headerData.dropdownData,
     },
     searchBar: {
       searchFieldsetAdvanced: {
-        categories: categoriesData,
-        distances: distancesData,
+        categories: headerData.categoriesData,
+        distances: headerData.distancesData,
       },
     },
   },
   content: {
     topBanner: {
-      resources: content.topBannerResources,
+      resources: contentData.topBannerResourcesData,
     },
     leftColumn: {
       navigation: {
-        highlightsLinks: content.links.highlights,
-        navigationBlock: content.navigationBlock,
+        highlightsLinks: contentData.linksData.highlights,
+        navigationBlock: contentData.navigationBlockData,
       },
       usefulLinks: {
-        buyersLinks: content.links.buyers,
-        sellersLinks: content.links.sellers,
+        buyersLinks: contentData.linksData.buyers,
+        sellersLinks: contentData.linksData.sellers,
       },
     },
     marketingBanner: {
-      resources: content.marketingBannerResources,
+      resources: contentData.marketingBannerResourcesData,
     },
   },
 }

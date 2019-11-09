@@ -1,4 +1,4 @@
-const navigationBlock = {
+module.exports.navigationBlockData = {
   heading: {
     title: 'Groepen',
   },
@@ -40,5 +40,3 @@ const navigationBlock = {
     { name: 'Diversen' },
   ],
 }
-
-module.exports = navigationBlock
