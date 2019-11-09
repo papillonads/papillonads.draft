@@ -1,4 +1,4 @@
-const dropdown = [
+module.exports.dropdownData = [
   { text: 'Mijn Advertenties' },
   { text: 'Mijn Favorieten' },
   { text: 'Mijn Zoekopdrachten' },
@@ -7,5 +7,3 @@ const dropdown = [
   { text: 'Mijn Ervaringen' },
   { text: 'Uitloggen' },
 ]
-
-module.exports = dropdown

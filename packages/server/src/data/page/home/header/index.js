@@ -1,11 +1,11 @@
-const links = require('./navigationBar/links')
-const dropdown = require('./navigationBar/dropdown')
-const categories = require('./searchBar/searchFieldsetAdvanced/categories')
-const distances = require('./searchBar/searchFieldsetAdvanced/distances')
+const { linksData } = require('./navigationBar/links')
+const { dropdownData } = require('./navigationBar/dropdown')
+const { categoriesData } = require('./searchBar/searchFieldsetAdvanced/categories')
+const { distancesData } = require('./searchBar/searchFieldsetAdvanced/distances')
 
-module.exports = {
-  links,
-  dropdown,
-  categories,
-  distances,
+module.exports.headerData = {
+  linksData,
+  dropdownData,
+  categoriesData,
+  distancesData,
 }

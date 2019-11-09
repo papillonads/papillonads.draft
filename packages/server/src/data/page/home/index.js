@@ -1,5 +1,7 @@
 const { infoData } = require('./info')
-const header = require('./header')
+const {
+  headerData: { linksData, dropdownData, categoriesData, distancesData },
+} = require('./header')
 const content = require('./content')
 
 module.exports.homePageData = {
@@ -9,13 +11,13 @@ module.exports.homePageData = {
   },
   header: {
     navigationBar: {
-      links: header.links,
-      dropdown: header.dropdown,
+      links: linksData,
+      dropdown: dropdownData,
     },
     searchBar: {
       searchFieldsetAdvanced: {
-        categories: header.categories,
-        distances: header.distances,
+        categories: categoriesData,
+        distances: distancesData,
       },
     },
   },
