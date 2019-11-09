@@ -1,9 +1,9 @@
 /*!
  * @project        Papillon Ads Holland
- * @name           app-modern.1da2.js
+ * @name           app-modern.3eb5.js
  * @author         MTS
- * @build          Fri, Oct 18, 2019 8:33 PM ET
- * @release        756982c15519ea7ac3773e84adce6a6bfcec468a [master]
+ * @build          Sat, Nov 9, 2019 2:34 PM ET
+ * @release        ca21b6d14efc148a9c7529348ac45cd5d5eb09ac [master]
  * @copyright      Copyright (c) 2019 MTS
  *
  */
@@ -23,7 +23,7 @@ See the Apache Version 2.0 License for specific language governing permissions
 and limitations under the License.
 ***************************************************************************** */
 
-/*! axe v3.3.2
+/*! axe v3.4.0
  * Copyright (c) 2019 Deque Systems, Inc.
  *
  * Your use of this Source Code Form is subject to the terms of the Mozilla Public
@@ -35,7 +35,7 @@ and limitations under the License.
  * code.
  */
 
-/** @license React v16.10.2
+/** @license React v16.11.0
  * react-is.production.min.js
  *
  * Copyright (c) Facebook, Inc. and its affiliates.
