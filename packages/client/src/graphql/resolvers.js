@@ -10,7 +10,7 @@ export const typeDefs = gql`
   extend type PageConnection {
     cursor: String!
     hasMore: Boolean!
-    pages: [Page]!
+    list: [Page]!
   }
 
   extend type Page {

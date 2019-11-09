@@ -1,10 +1,8 @@
-const info = require('./info')
+const { infoData } = require('./info')
 
-const notFoundPageData = {
+module.exports.notFoundPageData = {
   info: {
-    id: info.id,
-    name: info.name,
+    id: infoData.id,
+    name: infoData.name,
   },
 }
-
-module.exports = notFoundPageData

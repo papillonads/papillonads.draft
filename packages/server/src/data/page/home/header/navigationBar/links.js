@@ -1,3 +1,1 @@
-const links = [{ text: 'Help en info' }, { text: 'Voorwaarden' }, { text: 'Veilig handelen' }]
-
-module.exports = links
+module.exports.linksData = [{ text: 'Help en info' }, { text: 'Voorwaarden' }, { text: 'Veilig handelen' }]

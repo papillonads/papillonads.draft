@@ -7,10 +7,10 @@ import { notFoundPageDefaultProps, notFoundPagePropTypes } from './NotFoundPage.
 export const NotFoundPage = ({ className, location }) => {
   const { data } = useQuery(PAGES)
 
-  if (data?.pages?.pages) {
+  if (data?.pages?.list) {
     return (
       <div className={className}>
-        <NotFoundTemplate data={data.pages.pages.find(page => page.info.id === 'not-found')} location={location} />
+        <NotFoundTemplate data={data.pages.list.find(page => page.info.id === 'not-found')} location={location} />
       </div>
     )
   }

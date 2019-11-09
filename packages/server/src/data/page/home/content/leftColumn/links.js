@@ -1,4 +1,4 @@
-const links = {
+module.exports.linksData = {
   highlights: {
     heading: {
       title: 'Uitgelicht',
@@ -34,5 +34,3 @@ const links = {
     ],
   },
 }
-
-module.exports = links

@@ -1,6 +1,6 @@
 const { gql } = require('apollo-server')
 
-const headerTypeDef = gql`
+module.exports.headerTypeDef = gql`
   type Link {
     text: String!
   }
@@ -34,5 +34,3 @@ const headerTypeDef = gql`
     searchBar: SearchBar!
   }
 `
-
-module.exports = headerTypeDef
