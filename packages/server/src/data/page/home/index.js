@@ -1,11 +1,11 @@
-const info = require('./info')
+const { infoData } = require('./info')
 const header = require('./header')
 const content = require('./content')
 
 module.exports.homePageData = {
   info: {
-    id: info.id,
-    name: info.name,
+    id: infoData.id,
+    name: infoData.name,
   },
   header: {
     navigationBar: {
