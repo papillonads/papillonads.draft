@@ -2,7 +2,7 @@ const info = require('./info')
 const header = require('./header')
 const content = require('./content')
 
-const homePageData = {
+module.exports.homePageData = {
   info: {
     id: info.id,
     name: info.name,
@@ -38,5 +38,3 @@ const homePageData = {
     },
   },
 }
-
-module.exports = homePageData
