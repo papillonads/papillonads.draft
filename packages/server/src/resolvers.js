@@ -1,6 +1,6 @@
 const { paginateResults } = require('./utils')
 
-module.exports = {
+module.exports.resolvers = {
   Query: {
     pages: async (_, { pageSize = 20, after }, { dataSources }) => {
       const allPages = await dataSources.pageAPI.getAllPages()

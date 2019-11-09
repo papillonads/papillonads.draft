@@ -5,7 +5,7 @@ const infoTypeDef = require('./data/page/home/info/schema')
 const headerTypeDef = require('./data/page/home/header/schema')
 const contentTypeDef = require('./data/page/home/content/schema')
 const { queryTypeDef, pageConnectionTypeDef, pageTypeDef } = require('./schema')
-const resolvers = require('./resolvers')
+const { resolvers } = require('./resolvers')
 
 const schema = makeExecutableSchema({
   typeDefs: [queryTypeDef, pageTypeDef, pageConnectionTypeDef, infoTypeDef, headerTypeDef, contentTypeDef],
