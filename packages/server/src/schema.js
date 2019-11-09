@@ -19,6 +19,6 @@ module.exports.pageConnectionTypeDef = gql`
   type PageConnection {
     cursor: String!
     hasMore: Boolean!
-    pages: [Page]!
+    list: [Page]!
   }
 `

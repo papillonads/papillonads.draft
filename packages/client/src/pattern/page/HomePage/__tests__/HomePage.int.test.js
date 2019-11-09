@@ -1,6 +1,6 @@
 import React from 'react'
 import { asyncRender, defaultRender } from './HomePage.int.render'
-import pages from '../../../../../../server/src/data/page/pages'
+import { list } from '../../../../../../server/src/data/page/pages'
 
 jest.mock('@apollo/react-hooks', () => ({ useQuery: () => {} }))
 jest.mock('react-router-dom', () => ({ Link: () => <div>some link</div> }))
@@ -10,7 +10,9 @@ const apolloReactHooksMockObject = require('@apollo/react-hooks')
 describe('<HomePage />', () => {
   const pagesDataObject = {
     data: {
-      pages,
+      pages: {
+        list,
+      },
     },
   }
 

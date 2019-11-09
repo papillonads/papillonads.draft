@@ -1,7 +1,7 @@
 ```graphql
 query GetPages {
   pages(pageSize: 10) {
-    pages {
+    list {
       info {
         id
         name

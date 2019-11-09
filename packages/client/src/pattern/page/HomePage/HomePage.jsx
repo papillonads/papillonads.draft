@@ -7,10 +7,10 @@ import { homePageDefaultProps, homePagePropTypes } from './HomePage.props'
 export const HomePage = ({ className }) => {
   const { data } = useQuery(PAGES)
 
-  if (data?.pages?.pages) {
+  if (data?.pages?.list) {
     return (
       <div className={className}>
-        <HomeTemplate data={data.pages.pages.find(page => page.info.id === 'home')} />
+        <HomeTemplate data={data.pages.list.find(page => page.info.id === 'home')} />
       </div>
     )
   }
