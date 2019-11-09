@@ -1,6 +1,6 @@
 const { gql } = require('apollo-server')
 
-const contentTypeDef = gql`
+module.exports.contentTypeDef = gql`
   type Resource {
     url: String!
     maxWidth: String!
@@ -56,5 +56,3 @@ const contentTypeDef = gql`
     marketingBanner: Banner!
   }
 `
-
-module.exports = contentTypeDef

@@ -1,42 +1,40 @@
-const info = require('./info')
-const header = require('./header')
-const content = require('./content')
+const { infoData } = require('./info')
+const { headerData } = require('./header')
+const { contentData } = require('./content')
 
-const homePageData = {
+module.exports.homePageData = {
   info: {
-    id: info.id,
-    name: info.name,
+    id: infoData.id,
+    name: infoData.name,
   },
   header: {
     navigationBar: {
-      links: header.links,
-      dropdown: header.dropdown,
+      links: headerData.linksData,
+      dropdown: headerData.dropdownData,
     },
     searchBar: {
       searchFieldsetAdvanced: {
-        categories: header.categories,
-        distances: header.distances,
+        categories: headerData.categoriesData,
+        distances: headerData.distancesData,
       },
     },
   },
   content: {
     topBanner: {
-      resources: content.topBannerResources,
+      resources: contentData.topBannerResourcesData,
     },
     leftColumn: {
       navigation: {
-        highlightsLinks: content.links.highlights,
-        navigationBlock: content.navigationBlock,
+        highlightsLinks: contentData.linksData.highlights,
+        navigationBlock: contentData.navigationBlockData,
       },
       usefulLinks: {
-        buyersLinks: content.links.buyers,
-        sellersLinks: content.links.sellers,
+        buyersLinks: contentData.linksData.buyers,
+        sellersLinks: contentData.linksData.sellers,
       },
     },
     marketingBanner: {
-      resources: content.marketingBannerResources,
+      resources: contentData.marketingBannerResourcesData,
     },
   },
 }
-
-module.exports = homePageData

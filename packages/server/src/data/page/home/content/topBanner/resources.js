@@ -1,4 +1,4 @@
-const topBannerResources = [
+module.exports.topBannerResourcesData = [
   { url: 'https://s0.2mdn.net/8054340/1535538205200/728x90.html', maxWidth: '730px', height: '10em' },
   { url: 'https://s0.2mdn.net/4241177/1554204217310/tm_p3_970x250/index.html', maxWidth: '970px', height: '21em' },
   {
@@ -34,5 +34,3 @@ const topBannerResources = [
     height: '10em',
   },
 ]
-
-module.exports = topBannerResources

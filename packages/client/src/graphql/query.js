@@ -6,7 +6,7 @@ import { contentFragment } from '../../../server/src/data/page/home/content/frag
 export const PAGES = gql`
   query GetPages {
     pages(pageSize: 10) {
-      pages {
+      list {
         ...info
         ...header
         ...content

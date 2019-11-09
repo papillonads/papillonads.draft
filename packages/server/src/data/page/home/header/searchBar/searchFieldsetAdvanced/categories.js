@@ -1,4 +1,4 @@
-const categories = [
+module.exports.categoriesData = [
   { value: 'Alle groepen…', label: 'Alle groepen…' },
   { value: 'Antiek en Kunst', label: 'Antiek en Kunst' },
   { value: 'Audio, Tv en Foto', label: 'Audio, Tv en Foto' },
@@ -37,5 +37,3 @@ const categories = [
   { value: 'Zakelijke goederen', label: 'Zakelijke goederen' },
   { value: 'Diversen', label: 'Diversen' },
 ]
-
-module.exports = categories
