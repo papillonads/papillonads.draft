@@ -1,12 +1,12 @@
 import axe from 'react-axe'
 
-export const addDivWithIdToBody = divId => {
+export function addDivWithIdToBody(divId) {
   const appElement = document.createElement('div')
   appElement.id = divId
   document.body.appendChild(appElement)
 }
 
-export const checkAccessibilityIssues = (react, reactDOM, delay) => {
+export function checkAccessibilityIssues(react, reactDOM, delay) {
   if (process.env.NODE_ENV !== 'production') {
     axe(react, reactDOM, delay)
   }
