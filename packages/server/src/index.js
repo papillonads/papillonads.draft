@@ -1,6 +1,6 @@
 /* eslint no-console: 0 */
 const { ApolloServer, makeExecutableSchema } = require('apollo-server')
-const PageAPI = require('./data/page')
+const { PageAPI } = require('./data/page')
 const infoTypeDef = require('./data/page/home/info/schema')
 const headerTypeDef = require('./data/page/home/header/schema')
 const contentTypeDef = require('./data/page/home/content/schema')

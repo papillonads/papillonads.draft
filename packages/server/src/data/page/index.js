@@ -2,7 +2,7 @@
 const { RESTDataSource } = require('apollo-datasource-rest')
 const { list } = require('./pages')
 
-class PageAPI extends RESTDataSource {
+module.exports.PageAPI = class PageAPI extends RESTDataSource {
   async getAllPages() {
     return list && list.length ? list.map(l => this.pageReducer(l)) : []
   }
@@ -24,5 +24,3 @@ class PageAPI extends RESTDataSource {
     return Promise.all(pageIds.map(pageId => this.getPageById({ pageId })))
   }
 }
-
-module.exports = PageAPI
