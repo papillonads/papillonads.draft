@@ -1,10 +1,6 @@
 # MacOS
 .DS_Store
 
-# Sublime Text
-app.sublime-project
-app.sublime-workspace
-
 # Storybook
 .storybook-static
 
