@@ -5,12 +5,14 @@ import { maxWidth, leftColumn } from './Content.scss'
 import { LeftColumn } from '../../../molecule/content/LeftColumn'
 import { contentDefaultProps, contentPropTypes } from './Content.props'
 
-export const Content = ({ className, data }) => (
-  <div className={cx(className, maxWidth)}>
-    {/* <Banner className={topBanner} data={data.topBanner} /> */}
-    <LeftColumn className={leftColumn} data={data.leftColumn} />
-  </div>
-)
+export function Content({ className, data }) {
+  return (
+    <div className={cx(className, maxWidth)}>
+      {/* <Banner className={topBanner} data={data.topBanner} /> */}
+      <LeftColumn className={leftColumn} data={data.leftColumn} />
+    </div>
+  )
+}
 
 Content.defaultProps = contentDefaultProps
 
