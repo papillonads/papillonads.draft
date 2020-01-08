@@ -15,7 +15,7 @@ import {
   sellersLinksLinkTextTitle,
   sellersLinksLinkTextDescription,
 } from './UsefulLinks.scss'
-import { SvgIconGroup } from '../../../atom/header/Icon/SvgIconGroup'
+import { SvgIconGroup } from '../../../atom/header/Icon'
 import { usefulLinksDefaultProps, usefulLinksPropTypes } from './UsefulLinks.props'
 
 export function UsefulLinks({ className, data }) {
