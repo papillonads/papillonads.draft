@@ -17,3 +17,29 @@
   - deployed to https://dashboard.heroku.com/apps/papillonads-nl-server
   - running at https://papillonads-nl-server.herokuapp.com/
   - Apollo Engine registers service at https://engine.apollographql.com/service/papillonads-nl-server/
+
+## Patterns
+
+- HomePage
+  - HomeTemplate
+    - organism/section
+      - Header
+        - molecule/header
+          - NavigationBar
+            - atom/header
+              - Logo
+            - molecule/header
+              - Links
+              - Menu
+          - SearchBar
+            - atom/header
+              - Button
+            - molecule/header
+              - SearchFieldsetStandard
+              - SearchFieldsetAdvanced
+      - Content
+        - molecule/content
+          - LeftColumn
+            - molecule/content
+              - Navigation
+              - UsefulLinks
