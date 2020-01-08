@@ -11,7 +11,7 @@ import {
   navigationBlockLinks,
   navigationBlockLinksLink,
 } from './Navigation.scss'
-import { SvgIconGroup } from '../../../atom/header/Icon/SvgIconGroup'
+import { SvgIconGroup } from '../../../atom/header/Icon'
 import { navigationDefaultProps, navigationPropTypes } from './Navigation.props'
 
 export function Navigation({ className, data }) {
