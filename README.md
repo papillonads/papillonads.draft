@@ -26,31 +26,29 @@
 - HomePage
   - HomeTemplate
     - organism/section/Header
-      - molecule/header
-        - NavigationBar
-          - atom/header/Logo
-            - atom/header/Icon/SvgIconGroup
-          - molecule/header/Links
-            - atom/header/Link
-          - molecule/header/Menu
-            - atom/header/Icon
-            - atom/header/Label
-            - atom/header/Button
-            - molecule/header/Badge
-            - molecule/header/Dropdown
-              - atom/header/Label
-              - atom/header/Icon
-              - molecule/header/Badge
-        - SearchBar
+      - molecule/header/NavigationBar
+        - atom/header/Logo
+          - atom/header/Icon/SvgIconGroup
+        - molecule/header/Links
+          - atom/header/Link
+        - molecule/header/Menu
+          - atom/header/Icon
+          - atom/header/Label
           - atom/header/Button
-          - molecule/header/SearchFieldsetStandard
-            - atom/header/Input
-          - molecule/header/SearchFieldsetAdvanced
-            - atom/header/Input
+          - molecule/header/Badge
+          - molecule/header/Dropdown
+            - atom/header/Label
+            - atom/header/Icon
+            - molecule/header/Badge
+      - molecule/header/SearchBar
+        - atom/header/Button
+        - molecule/header/SearchFieldsetStandard
+          - atom/header/Input
+        - molecule/header/SearchFieldsetAdvanced
+          - atom/header/Input
     - organism/section/Content
       - molecule/content/LeftColumn
-        - molecule/content
-          - molecule/content/Navigation
-            - atom/header/Icon/SvgIconGroup
-          - molecule/content/UsefulLinks
-            - atom/header/Icon/SvgIconGroup
+        - molecule/content/Navigation
+          - atom/header/Icon/SvgIconGroup
+        - molecule/content/UsefulLinks
+          - atom/header/Icon/SvgIconGroup
