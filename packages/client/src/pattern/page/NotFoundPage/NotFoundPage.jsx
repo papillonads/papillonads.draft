@@ -4,7 +4,7 @@ import { PAGES } from '../../../graphql/query'
 import { NotFoundTemplate } from '../../template/NotFoundTemplate'
 import { notFoundPageDefaultProps, notFoundPagePropTypes } from './NotFoundPage.props'
 
-export const NotFoundPage = ({ className, location }) => {
+export function NotFoundPage({ className, location }) {
   const { data } = useQuery(PAGES)
 
   if (data?.pages?.list) {

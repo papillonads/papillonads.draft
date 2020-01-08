@@ -5,12 +5,14 @@ import { NavigationBar } from '../../../molecule/header/NavigationBar'
 import { SearchBar } from '../../../molecule/header/SearchBar'
 import { headerDefaultProps, headerPropTypes } from './Header.props'
 
-export const Header = ({ className, data }) => (
-  <div className={cx(className, header)}>
-    <NavigationBar data={data.navigationBar} />
-    <SearchBar data={data.searchBar} />
-  </div>
-)
+export function Header({ className, data }) {
+  return (
+    <div className={cx(className, header)}>
+      <NavigationBar data={data.navigationBar} />
+      <SearchBar data={data.searchBar} />
+    </div>
+  )
+}
 
 Header.defaultProps = headerDefaultProps
 

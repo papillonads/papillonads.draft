@@ -1,7 +1,9 @@
 import React from 'react'
 import { mapLinkDefaultProps, mapLinkPropTypes } from './MapLink.props'
 
-export const MapLink = ({ className }) => <div className={className} />
+export function MapLink({ className }) {
+  return <div className={className} />
+}
 
 MapLink.defaultProps = mapLinkDefaultProps
 

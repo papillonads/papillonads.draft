@@ -6,13 +6,15 @@ import { links, link } from './Links.scss'
 import { Link } from '../../../atom/header/Link'
 import { linksDefaultProps, linksPropTypes } from './Links.props'
 
-export const Links = ({ className, data }) => (
-  <div className={cx(className, links)}>
-    {data.map(item => (
-      <Link className={link} key={uuidv1()} item={item} />
-    ))}
-  </div>
-)
+export function Links({ className, data }) {
+  return (
+    <div className={cx(className, links)}>
+      {data.map(item => (
+        <Link className={link} key={uuidv1()} item={item} />
+      ))}
+    </div>
+  )
+}
 
 Links.defaultProps = linksDefaultProps
 

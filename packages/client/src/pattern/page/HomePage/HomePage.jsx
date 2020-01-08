@@ -4,7 +4,7 @@ import { PAGES } from '../../../graphql/query'
 import { HomeTemplate } from '../../template/HomeTemplate'
 import { homePageDefaultProps, homePagePropTypes } from './HomePage.props'
 
-export const HomePage = ({ className }) => {
+export function HomePage({ className }) {
   const { data } = useQuery(PAGES)
 
   if (data?.pages?.list) {
