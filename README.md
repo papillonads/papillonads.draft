@@ -20,11 +20,11 @@
 
 ## Patterns
 
-- NotFoundPage
-  - NotFoundTemplate
+- page/NotFoundPage
+  - template/NotFoundTemplate
     - atom/info/NoMatch
-- HomePage
-  - HomeTemplate
+- page/HomePage
+  - template/HomeTemplate
     - organism/section/Header
       - molecule/header/NavigationBar
         - atom/header/Logo
