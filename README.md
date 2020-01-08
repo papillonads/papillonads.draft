@@ -48,8 +48,9 @@
           - molecule/header/SearchFieldsetAdvanced
             - atom/header/Input
     - organism/section/Content
-      - molecule/content
-        - LeftColumn
-          - molecule/content
-            - Navigation
-            - UsefulLinks
+      - molecule/content/LeftColumn
+        - molecule/content
+          - molecule/content/Navigation
+            - atom/header/Icon/SvgIconGroup
+          - molecule/content/UsefulLinks
+            - atom/header/Icon/SvgIconGroup
