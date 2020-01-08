@@ -20,6 +20,10 @@
 
 ## Patterns
 
+- NotFoundPage
+  - NotFoundTemplate
+    - atom/info
+      - NoMatch
 - HomePage
   - HomeTemplate
     - organism/section
