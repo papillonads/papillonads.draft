@@ -43,11 +43,11 @@
                 - atom/header/Icon
                 - molecule/header/Badge
           - SearchBar
-            - atom/header
-              - Button
-            - molecule/header
-              - SearchFieldsetStandard
-              - SearchFieldsetAdvanced
+            - atom/header/Button
+            - molecule/header/SearchFieldsetStandard
+              - atom/header/Input
+            - molecule/header/SearchFieldsetAdvanced
+              - atom/header/Input
       - Content
         - molecule/content
           - LeftColumn
