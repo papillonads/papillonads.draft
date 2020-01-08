@@ -1,5 +1,5 @@
 import React from 'react'
-import { SvgIconGroup } from '../Icon/SvgIconGroup'
+import { SvgIconGroup } from '../Icon'
 import { logoDefaultProps, logoPropTypes } from './Logo.props'
 
 export function Logo({ className }) {
