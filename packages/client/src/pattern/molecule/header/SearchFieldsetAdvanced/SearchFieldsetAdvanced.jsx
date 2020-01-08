@@ -5,7 +5,7 @@ import { searchFieldsetAdvanced, group, postcode, _distance } from './SearchFiel
 import { Input } from '../../../atom/header/Input'
 import { searchFieldsetAdvancedDefaultProps, searchFieldsetAdvancedPropTypes } from './SearchFieldsetAdvanced.props'
 
-export const SearchFieldsetAdvanced = ({ className, data }) => {
+export function SearchFieldsetAdvanced({ className, data }) {
   /* eslint-disable */
   const [category, setCategory] = useState('')
   const [distance, setDistance] = useState('')

@@ -1,7 +1,9 @@
 import React from 'react'
 import { ribbonDefaultProps, ribbonPropTypes } from './Ribbon.props'
 
-export const Ribbon = ({ className }) => <div className={className} />
+export function Ribbon({ className }) {
+  return <div className={className} />
+}
 
 Ribbon.defaultProps = ribbonDefaultProps
 

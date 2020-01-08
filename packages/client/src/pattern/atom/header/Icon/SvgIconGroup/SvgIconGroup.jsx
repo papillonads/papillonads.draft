@@ -3,7 +3,7 @@ import uuidv1 from 'uuid/v1'
 import { getSvgIconGroupPaths, getFill } from '../../../../../library/asset'
 import { svgIconGroupDefaultProps, svgIconGroupPropTypes } from '../SvgIcon.props'
 
-export const SvgIconGroup = ({ className, name, width, height, viewBox, fill, pathProps }) => {
+export function SvgIconGroup({ className, name, width, height, viewBox, fill, pathProps }) {
   const paths = getSvgIconGroupPaths(name)
 
   if (!(paths && paths.length > 0)) {

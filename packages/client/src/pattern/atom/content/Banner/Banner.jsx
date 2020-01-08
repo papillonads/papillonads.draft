@@ -3,7 +3,7 @@ import cx from 'classnames'
 import { banner } from './Banner.scss'
 import { bannerDefaultProps, bannerPropTypes } from './Banner.props'
 
-export const Banner = ({ className, data }) => {
+export function Banner({ className, data }) {
   function getRandomInt(max) {
     return Math.floor(Math.random() * Math.floor(max))
   }

@@ -2,7 +2,7 @@
 import iconPathsIcoMoon from '../../../../asset/icomoon-svg/selection-icomoon.json'
 import iconPathsMarktplaats from '../../../../asset/icomoon-svg/selection-marktplaats.json'
 
-export const getSvgIconPath = name => {
+export function getSvgIconPath(name) {
   const icoMoonIcon = iconPathsIcoMoon.icons.find(icon => icon.properties.name === name)
   if (icoMoonIcon) {
     return icoMoonIcon.icon.paths.join(' ')
@@ -11,7 +11,7 @@ export const getSvgIconPath = name => {
   return ''
 }
 
-export const getSvgIconGroupPaths = name => {
+export function getSvgIconGroupPaths(name) {
   const icoMoonIconMarktplaats = iconPathsMarktplaats.icons.find(icon => icon.properties.name === name)
   if (icoMoonIconMarktplaats) {
     return icoMoonIconMarktplaats.icon.paths
@@ -20,6 +20,6 @@ export const getSvgIconGroupPaths = name => {
   return ''
 }
 
-export const getFill = pathProps => {
+export function getFill(pathProps) {
   return pathProps ? pathProps.fill : ''
 }
