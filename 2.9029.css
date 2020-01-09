@@ -1,9 +1,9 @@
 /*!
  * @project        Papillon Ads Holland
- * @name           2.0015.css
+ * @name           2.9029.css
  * @author         MTS
- * @build          Wed, Jan 8, 2020 8:12 PM ET
- * @release        12d4725438b17056d828fdaf3ba4f8bbed2a6481 [master]
+ * @build          Thu, Jan 9, 2020 9:44 PM ET
+ * @release        f326546619111e8e9f7510f64fd9dfc2de38b5ef [master]
  * @copyright      Copyright (c) 2020 MTS
  *
  */
@@ -33,13 +33,15 @@
 
 .SearchFieldsetAdvanced_searchFieldsetAdvanced_2ChCq{display:-webkit-box;display:-ms-flexbox;display:flex;padding-left:8px}@media (min-width: 768px){.SearchFieldsetAdvanced_searchFieldsetAdvanced_2ChCq{padding-left:0}}.SearchFieldsetAdvanced_group_1N4d7{width:45%}.SearchFieldsetAdvanced_group_1N4d7:hover{background-color:#fff;cursor:pointer}.SearchFieldsetAdvanced_postcode_mKSA9{width:20%}.SearchFieldsetAdvanced__distance_2tFWv{width:45%}.SearchFieldsetAdvanced__distance_2tFWv:hover{background-color:#fff;cursor:pointer}
 
-.Content_maxWidth_1dKjV{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;padding:20px 0;margin:0 auto;max-width:1010px;min-width:288px}.Content_topBanner_PCGk6{width:100%;padding-left:24px}@media (min-width: 950px){.Content_topBanner_PCGk6{width:81.7%}}.Content_leftColumn_YkoXU{min-width:192.8px;width:19.28%;margin-top:20px}@media (min-width: 950px){.Content_leftColumn_YkoXU{margin-top:0}}
+.Content_maxWidth_1dKjV{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;padding:20px 0;margin:0 auto;max-width:1010px;min-width:288px}.Content_topBanner_PCGk6{width:100%;padding-left:24px}@media (min-width: 950px){.Content_topBanner_PCGk6{width:81.7%}}.Content_leftColumn_YkoXU{background-color:#f0efed;min-width:192.8px;width:19.28%}@media (min-width: 950px){.Content_leftColumn_YkoXU{margin-top:0}}
 
-.LeftColumn_leftColumn_XC2k1{background-color:#fffbe3;padding:12px;font-family:Roboto, sans-serif;font-style:normal;-webkit-box-shadow:0 1px 2px 0 rgba(0,0,0,0.14);box-shadow:0 1px 2px 0 rgba(0,0,0,0.14)}
+.LeftColumn_leftColumn_XC2k1{font-family:Roboto, sans-serif;font-style:normal;-webkit-box-shadow:0 1px 2px 0 rgba(0,0,0,0.14);box-shadow:0 1px 2px 0 rgba(0,0,0,0.14);margin-left:8px}.LeftColumn_leftColumnNavigation_32FHS{background-color:#fffbe3;padding:12px}.LeftColumn_leftColumnUsefulLinks_35Skj{background-color:#f0efed;padding:12px}
 
-.Navigation_title_1QCsh{margin-bottom:10px;font-family:BreeSerif;font-weight:300;font-size:18px;line-height:1.2em}.Navigation_highlightsLinksLink_1_can{display:-webkit-box;display:-ms-flexbox;display:flex}.Navigation_highlightsLinksLinkIcon_8OKxS{width:36px;height:36px;margin-bottom:20px;-ms-flex-item-align:center;align-self:center}.Navigation_highlightsLinksLinkText_KNlgy{margin-bottom:16px;line-height:1.2em;cursor:pointer}.Navigation_highlightsLinksLinkTextTitle_1aQx4{color:#116db4;font-weight:500;margin-bottom:5px}.Navigation_highlightsLinksLinkTextDescription_2RyBg{color:#2d3c4d;font-weight:300}.Navigation_navigationBlockLinksLink_1uQc6{padding:5px;color:#116db4;font-size:1em;line-height:1.2em}
+.Navigation_title_1QCsh{margin-bottom:10px;font-family:BreeSerif;font-weight:300;font-size:18px;line-height:1.2em}.Navigation_highlightsLinksLink_1_can{display:flex}.Navigation_highlightsLinksLinkIcon_8OKxS{width:36px;height:36px;margin-bottom:20px;align-self:center}.Navigation_highlightsLinksLinkText_KNlgy{margin-bottom:16px;line-height:1.2em;cursor:pointer}.Navigation_highlightsLinksLinkTextTitle_1aQx4{color:#116db4;font-weight:500;margin-bottom:5px}.Navigation_highlightsLinksLinkTextDescription_2RyBg{color:#2d3c4d;font-weight:300}.Navigation_navigationBlockLinksLink_1uQc6{padding:5px;color:#116db4;font-size:1em;line-height:1.2em}
 
-.UsefulLinks_title_2Y7tJ{background-color:transparent}.UsefulLinks_buyersLinks_5OWmY{background-color:transparent}.UsefulLinks_sellersLinks_N816Y{background-color:transparent}
+.MapLink_mapLinkHeadingAnchor_22RSd{color:#2d3c4d;margin-bottom:10px;font-family:BreeSerif;font-weight:300;font-size:18px;line-height:1.2em}.MapLink_mapLinkImage_155YR{border-radius:33px;-webkit-box-shadow:0 1px 1px 0 rgba(0,0,0,0.14);box-shadow:0 1px 1px 0 rgba(0,0,0,0.14);cursor:pointer;width:100%;max-width:190px}
+
+.UsefulLinks_title_2Y7tJ{margin-bottom:10px;font-family:BreeSerif;font-weight:300;font-size:18px;line-height:1.2em}.UsefulLinks_buyersLinksLink_1C4a_{display:flex}.UsefulLinks_buyersLinksLinkIcon_3Q-YM{width:36px;height:36px;margin-bottom:20px;align-self:center}.UsefulLinks_buyersLinksLinkText_3cRJ0{margin-bottom:16px;line-height:1.2em;cursor:pointer}.UsefulLinks_buyersLinksLinkTextTitle_Ubl_-{color:#116db4;font-weight:500;margin-bottom:5px}.UsefulLinks_buyersLinksLinkTextDescription_1oppE{color:#2d3c4d;font-weight:300}.UsefulLinks_sellersLinksLink_1JTwh{display:flex}.UsefulLinks_sellersLinksLinkIcon_1Ij9A{width:36px;height:36px;margin-bottom:20px;align-self:center}.UsefulLinks_sellersLinksLinkText_egh0C{margin-bottom:16px;line-height:1.2em;cursor:pointer}.UsefulLinks_sellersLinksLinkTextTitle_3ZJfw{color:#116db4;font-weight:500;margin-bottom:5px}.UsefulLinks_sellersLinksLinkTextDescription_aVNuM{color:#2d3c4d;font-weight:300}
 
 
-/*# sourceMappingURL=2.0015.css.map*/
+/*# sourceMappingURL=2.9029.css.map*/
