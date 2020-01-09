@@ -1,41 +1,11 @@
-/* stylelint-disable font-family-no-missing-generic-family-keyword */
+@import '../../../../sass/mixin';
 
 .title {
-  margin-bottom: 10px;
-  font-family: BreeSerif;
-  font-weight: 300;
-  font-size: 18px;
-  line-height: 1.2em;
+  @include leftColumnTitle;
 }
 
 .highlightsLinks {
-  &Link {
-    display: flex;
-
-    &Icon {
-      width: 36px;
-      height: 36px;
-      margin-bottom: 20px;
-      align-self: center;
-    }
-
-    &Text {
-      margin-bottom: 16px;
-      line-height: 1.2em;
-      cursor: pointer;
-
-      &Title {
-        color: #116db4;
-        font-weight: 500;
-        margin-bottom: 5px;
-      }
-
-      &Description {
-        color: #2d3c4d;
-        font-weight: 300;
-      }
-    }
-  }
+  @include leftColumnLinks;
 }
 
 .navigationBlockLinks {
@@ -46,5 +16,3 @@
     line-height: 1.2em;
   }
 }
-
-/* stylelint-enable font-family-no-missing-generic-family-keyword */

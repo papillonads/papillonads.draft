@@ -1,4 +1,4 @@
-import { string, shape } from 'prop-types'
+import { string } from 'prop-types'
 
 export const mapLinkDefaultProps = {
   className: '',
@@ -6,5 +6,4 @@ export const mapLinkDefaultProps = {
 
 export const mapLinkPropTypes = {
   className: string,
-  data: shape({}).isRequired,
 }

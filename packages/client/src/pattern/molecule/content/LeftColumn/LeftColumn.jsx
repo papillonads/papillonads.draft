@@ -1,15 +1,17 @@
 import React from 'react'
 import cx from 'classnames'
-import { leftColumn } from './LeftColumn.scss'
+import { leftColumn, leftColumnNavigation, leftColumnUsefulLinks } from './LeftColumn.scss'
 import { Navigation } from '../Navigation'
+import { MapLink } from '../../../atom/content/MapLink'
 import { UsefulLinks } from '../UsefulLinks'
 import { leftColumnDefaultProps, leftColumnPropTypes } from './LeftColumn.props'
 
 export function LeftColumn({ className, data }) {
   return (
     <div className={cx(className, leftColumn)}>
-      <Navigation data={data.navigation} />
-      <UsefulLinks data={data.usefulLinks} />
+      <Navigation className={leftColumnNavigation} data={data.navigation} />
+      <MapLink />
+      <UsefulLinks className={leftColumnUsefulLinks} data={data.usefulLinks} />
     </div>
   )
 }
