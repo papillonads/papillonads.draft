@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<MapLink /> Snaphot must match defaultRender 1`] = `
+<div
+  className="mapLink"
+>
+  <h3
+    className="mapLinkHeading"
+  >
+    <a
+      href="kijkinuwwijk.html"
+    >
+      Kijk in je Wijk
+    </a>
+  </h3>
+  <a
+    className="mapLinkImage"
+    href="kijkinuwwijk.html"
+  >
+    <img
+      alt=""
+      src="https://s.marktplaats.com/z/res/images/map_link.png?break"
+    />
+  </a>
+</div>
+`;
