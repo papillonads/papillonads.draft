@@ -1,13 +1,7 @@
 @import '../../../../sass/mixin';
 
-/* stylelint-disable font-family-no-missing-generic-family-keyword */
-
 .title {
-  margin-bottom: 10px;
-  font-family: BreeSerif;
-  font-weight: 300;
-  font-size: 18px;
-  line-height: 1.2em;
+  @include leftColumnTitle;
 }
 
 .buyersLinks {
@@ -17,5 +11,3 @@
 .sellersLinks {
   @include leftColumnLinks;
 }
-
-/* stylelint-enable font-family-no-missing-generic-family-keyword */
