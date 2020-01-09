@@ -1,3 +1,5 @@
+@import '../../../../sass/mixin';
+
 /* stylelint-disable font-family-no-missing-generic-family-keyword */
 
 .title {
@@ -9,33 +11,7 @@
 }
 
 .highlightsLinks {
-  &Link {
-    display: flex;
-
-    &Icon {
-      width: 36px;
-      height: 36px;
-      margin-bottom: 20px;
-      align-self: center;
-    }
-
-    &Text {
-      margin-bottom: 16px;
-      line-height: 1.2em;
-      cursor: pointer;
-
-      &Title {
-        color: #116db4;
-        font-weight: 500;
-        margin-bottom: 5px;
-      }
-
-      &Description {
-        color: #2d3c4d;
-        font-weight: 300;
-      }
-    }
-  }
+  @include leftColumnLinks;
 }
 
 .navigationBlockLinks {
