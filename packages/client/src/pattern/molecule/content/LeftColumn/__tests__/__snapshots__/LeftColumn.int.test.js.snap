@@ -352,10 +352,9 @@ exports[`<LeftColumn /> Snaphot must match defaultRender 1`] = `
   <div
     className="mapLink"
   >
-    <h3
-      className="mapLinkHeading"
-    >
+    <h3>
       <a
+        className="mapLinkHeadingAnchor"
         href="kijkinuwwijk.html"
       >
         Kijk in je Wijk
