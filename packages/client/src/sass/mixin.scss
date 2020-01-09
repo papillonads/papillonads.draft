@@ -1,3 +1,5 @@
+/* stylelint-disable font-family-no-missing-generic-family-keyword */
+
 @mixin badge {
   display: flex;
   font-size: 12px;
@@ -70,3 +72,13 @@
     }
   }
 }
+
+@mixin leftColumnTitle {
+  margin-bottom: 10px;
+  font-family: BreeSerif;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 1.2em;
+}
+
+/* stylelint-enable font-family-no-missing-generic-family-keyword */
