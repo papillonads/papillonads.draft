@@ -1,11 +1,13 @@
+@import '../../../../sass/mixin';
+
 .title {
-  background-color: transparent;
+  @include leftColumnTitle;
 }
 
 .buyersLinks {
-  background-color: transparent;
+  @include leftColumnLinks;
 }
 
 .sellersLinks {
-  background-color: transparent;
+  @include leftColumnLinks;
 }

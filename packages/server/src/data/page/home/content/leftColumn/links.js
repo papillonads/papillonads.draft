@@ -15,9 +15,9 @@ module.exports.linksData = {
       title: 'Voor de koper',
     },
     links: [
-      { title: 'Marktplaats Aanbieding', description: 'Elke dag nieuwe producten en uitjes met korting', icon: 'autos' },
-      { title: 'Zakelijke goederen', description: 'Een goede deal voor ondernemers', icon: 'autos' },
-      { title: 'Diensten en Vakmensen', description: 'Vind je vakman', icon: 'autos' },
+      { title: 'Marktplaats Aanbieding', description: 'Elke dag nieuwe producten en uitjes met korting', icon: 'aanbiedingen' },
+      { title: 'Zakelijke goederen', description: 'Een goede deal voor ondernemers', icon: 'zakelijke-goederen' },
+      { title: 'Diensten en Vakmensen', description: 'Vind je vakman', icon: 'diensten-en-vakmensen' },
     ],
   },
   sellers: {
@@ -25,12 +25,12 @@ module.exports.linksData = {
       title: 'Voor de verkoper',
     },
     links: [
-      { title: 'Marktplaats Opvallen', description: 'Laat je advertentie opvallen', icon: 'autos' },
-      { title: 'Marktplaats Extra', description: 'Laat meerdere advertenties opvallen', icon: 'autos' },
-      { title: 'Diensten en Vakmensen', description: 'Jouw dienst aanbieden', icon: 'autos' },
-      { title: 'Admarkt (zakelijk)', description: 'Professioneel producten verkopen', icon: 'autos' },
-      { title: 'Marktplaats Aanbieding', description: 'Zonder verkoop geen kosten; bereik verzekerd', icon: 'autos' },
-      { title: 'PostNL', description: 'Online je verzending regelen', icon: 'autos' },
+      { title: 'Marktplaats Opvallen', description: 'Laat je advertentie opvallen', icon: 'marktplaats-opvallen' },
+      { title: 'Marktplaats Extra', description: 'Laat meerdere advertenties opvallen', icon: 'marktplaats-extra' },
+      { title: 'Diensten en Vakmensen', description: 'Jouw dienst aanbieden', icon: 'diensten-en-vakmensen' },
+      { title: 'Admarkt (zakelijk)', description: 'Professioneel producten verkopen', icon: 'ad-markt-zakelijk' },
+      { title: 'Betaalverzoeken', description: 'Betaald worden was nog nooit zo makkelijk', icon: 'betaalverzoeken' },
+      { title: 'PostNL', description: 'Online je verzending regelen', icon: 'logo-postnl' },
     ],
   },
 }

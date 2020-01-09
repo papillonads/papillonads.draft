@@ -1,7 +1,16 @@
 .leftColumn {
-  background-color: #fffbe3;
-  padding: 12px;
   font-family: Roboto, sans-serif;
   font-style: normal;
   box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.14);
+  margin-left: 8px;
+
+  &Navigation {
+    background-color: #fffbe3;
+    padding: 12px;
+  }
+
+  &UsefulLinks {
+    background-color: #f0efed;
+    padding: 12px;
+  }
 }
