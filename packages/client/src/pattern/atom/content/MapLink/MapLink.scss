@@ -1,9 +1,19 @@
+@import '../../../../sass/mixin';
+
 .mapLink {
   &Heading {
-    background: transparent;
+    &Anchor {
+      color: #2d3c4d;
+
+      @include leftColumnTitle;
+    }
   }
 
   &Image {
-    background: transparent;
+    border-radius: 33px;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14);
+    cursor: pointer;
+    width: 100%;
+    max-width: 190px;
   }
 }
