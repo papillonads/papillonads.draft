@@ -14,8 +14,6 @@ export function NotFoundPage({ className, location }) {
       </div>
     )
   }
-
-  return <div>test</div>
 }
 
 NotFoundPage.defaultProps = notFoundPageDefaultProps
