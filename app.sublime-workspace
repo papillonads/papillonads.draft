@@ -326,10 +326,7 @@
 	"find_state":
 	{
 		"case_sensitive": false,
-		"find_history":
-		[
-			"autotrack"
-		],
+    "find_history": [],
 		"highlight": true,
 		"in_selection": false,
 		"preserve_case": false,
