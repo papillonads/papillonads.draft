@@ -5,7 +5,7 @@ require('dotenv').config()
 
 // Webpack settings exports
 module.exports = {
-  name: 'Papillon Ads Holland',
+  name: 'Papillon Ads Draft',
   copyright: 'MTS',
   paths: {
     src: {
@@ -17,7 +17,7 @@ module.exports = {
     },
   },
   urls: {
-    publicPath: '/papillonads.nl/',
+    publicPath: '/papillonads.draft/',
   },
   vars: {
     cssName: 'styles',
