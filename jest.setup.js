@@ -1,4 +1,3 @@
-// https://github.com/FormidableLabs/enzyme-matchers/tree/master/packages
 import 'jest-enzyme'
 
 import renderer from 'react-test-renderer'
