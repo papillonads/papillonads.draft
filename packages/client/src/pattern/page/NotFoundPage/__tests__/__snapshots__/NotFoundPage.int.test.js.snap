@@ -29,8 +29,4 @@ exports[`<NotFoundPage /> Snaphot must match defaultRender 1`] = `
 </div>
 `;
 
-exports[`<NotFoundPage /> Snaphot must match notFoundPageNull 1`] = `
-<div>
-  test
-</div>
-`;
+exports[`<NotFoundPage /> Snaphot must match notFoundPageNull 1`] = `null`;

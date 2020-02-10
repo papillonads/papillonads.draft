@@ -1,11 +1,11 @@
 {
-  "name": "papillonads.nl-client",
-  "description": "Papillon Ads Holland Client",
-  "homepage": "https://github.com/papillonads/papillonads.nl/#readme",
-  "license": "UNLICENSED",
+  "name": "papillonads.draft-client",
+  "description": "Papillon Ads Draft Client",
+  "homepage": "https://github.com/papillonads/papillonads.draft/#readme",
+  "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/papillonads/papillonads.nl.git",
+    "url": "https://github.com/papillonads/papillonads.draft.git",
     "directory": "packages/client"
   },
   "version": "0.0.0",
@@ -14,7 +14,7 @@
     "build"
   ],
   "keywords": [
-    "papillon ads holland client"
+    "papillon ads draft client"
   ],
   "author": {
     "name": "MTS",

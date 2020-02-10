@@ -107,7 +107,7 @@ const configureCleanWebpack = () => {
 // Configure Html webpack
 const configureHtml = () => {
   return {
-    title: 'Papillon Ads Holland Client',
+    title: 'Papillon Ads Draft Client',
   }
 }
 
