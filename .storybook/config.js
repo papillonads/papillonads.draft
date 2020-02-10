@@ -17,7 +17,7 @@ const setup = () => {
       theme: create({
         base: 'light',
         brandTitle: `Papillon Ads v${version}`,
-        brandUrl: 'https://github.com/papillonads/papillonads.nl',
+        brandUrl: 'https://github.com/papillonads/papillonads.draft',
         brandImage: logo,
       }),
       isFullscreen: false,

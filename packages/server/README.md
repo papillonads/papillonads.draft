@@ -1,6 +1,6 @@
-# papillonads.nl Server
+# papillonads.draft Server
 
-> papillonads.nl Server implements an Apollo GraphQL Server
+> papillonads.draft Server implements an Apollo GraphQL Server
 
 ## Scripts
 
