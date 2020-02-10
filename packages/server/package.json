@@ -1,11 +1,11 @@
 {
-  "name": "papillonads.nl-server",
-  "description": "Papillon Ads Holland Server",
-  "homepage": "https://github.com/papillonads/papillonads.nl/#readme",
-  "license": "UNLICENSED",
+  "name": "papillonads.draft-server",
+  "description": "Papillon Ads Draft Server",
+  "homepage": "https://github.com/papillonads/papillonads.draft/#readme",
+  "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/papillonads/papillonads.nl.git",
+    "url": "https://github.com/papillonads/papillonads.draft.git",
     "directory": "packages/server"
   },
   "version": "0.0.0",
@@ -14,7 +14,7 @@
     "build"
   ],
   "keywords": [
-    "papillon ads holland server"
+    "papillon ads draft server"
   ],
   "author": {
     "name": "MTS",

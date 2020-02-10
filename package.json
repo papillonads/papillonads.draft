@@ -1,10 +1,10 @@
 {
   "name": "papillonads",
   "description": "Papillon Ads",
-  "homepage": "https://github.com/papillonads/papillonads.nl/#readme",
+  "homepage": "https://github.com/papillonads/papillonads.draft/#readme",
   "repository": {
     "type": "git",
-    "url": "https://github.com/papillonads/papillonads.git"
+    "url": "https://github.com/papillonads/papillonads.draft.git"
   },
   "scripts": {
     "release": "lerna publish",

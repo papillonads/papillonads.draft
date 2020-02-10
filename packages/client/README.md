@@ -1,6 +1,6 @@
-# papillonads.nl Client
+# papillonads.draft Client
 
-> papillonads.nl Client implements an Apollo GraphQL Client
+> papillonads.draft Client implements an Apollo GraphQL Client
 
 ## Scripts
 
