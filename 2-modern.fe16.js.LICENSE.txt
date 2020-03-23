@@ -1,0 +1,9 @@
+/*!
+ * @project        Papillon Ads Draft
+ * @name           2-modern.fe16.js
+ * @author         MTS
+ * @build          Mon, Mar 23, 2020 10:39 AM ET
+ * @release        0178fc57e89e1088c7cb24ea0eda797b7277dd73 [master]
+ * @copyright      Copyright (c) 2020 MTS
+ *
+ */

@@ -1,0 +1,15 @@
+/*!
+  Copyright (c) 2017 Jed Watson.
+  Licensed under the MIT License (MIT), see
+  http://jedwatson.github.io/classnames
+*/
+
+/*!
+ * @project        Papillon Ads Draft
+ * @name           3-modern.fe16.js
+ * @author         MTS
+ * @build          Mon, Mar 23, 2020 10:39 AM ET
+ * @release        0178fc57e89e1088c7cb24ea0eda797b7277dd73 [master]
+ * @copyright      Copyright (c) 2020 MTS
+ *
+ */
